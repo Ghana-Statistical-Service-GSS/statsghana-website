@@ -27,7 +27,6 @@ export default function GovMessage() {
             </div>
             <div className="flex items-center justify-between text-slate-300">
               <Quote className="h-8 w-8" />
-              <Quote className="h-8 w-8 scale-x-[-1]" />
             </div>
             <p className="mt-6 text-sm text-gray-500 sm:text-base">
               Welcome to the official website of the Ghana Statistical Service —
@@ -41,6 +40,9 @@ export default function GovMessage() {
               a data-driven Ghana, where every statistic counts and every
               decision is guided by evidence.
             </p>
+            <div className="flex items-center justify-end pr-2 text-slate-300">
+              <Quote className="h-8 w-8 scale-x" />
+            </div>
             <p className="mt-6 text-sm font-semibold text-slate-900">
               Dr Alhassan Iddrisu - Government Statistician
             </p>
