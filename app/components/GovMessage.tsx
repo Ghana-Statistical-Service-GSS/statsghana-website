@@ -9,18 +9,18 @@ export default function GovMessage() {
     <section className="bg-white py-12 sm:py-16">
       <Container>
         <SectionTitle title="Message from the Government Statistician" />
-        <div className="mt-16">
+        <div className="mt-27">
           <Card className="relative mx-auto max-w-3xl px-6 pb-10 pt-20 text-center sm:px-12">
             <div className="absolute left-1/2 top-0 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center">
-              <div className="relative h-32 w-32 sm:h-36 sm:w-36">
-                <div className="absolute inset-0 translate-x-4 rounded-full bg-purple-900" />
-                <div className="absolute inset-0 overflow-hidden rounded-full border-[5px] border-white">
+              <div className="relative h-48 w-48 sm:h-56 sm:w-56">
+                <div className="absolute inset-0 translate-x-6 rounded-full bg-purple-900" />
+                <div className="absolute inset-0 overflow-hidden rounded-full border-[6px] border-white">
                   <Image
                     src="/images/gs.jpg"
                     alt="Government Statistician"
                     fill
                     className="object-cover"
-                    sizes="216px"
+                    sizes="(min-width: 640px) 224px, 192px"
                   />
                 </div>
               </div>
