@@ -10,8 +10,8 @@ type Series = {
 
 export const indicatorSeries: Record<Indicator, Series> = {
   CPI: {
-    label: "CPI (Index)",
-    unit: "Index",
+    label: "CPI",
+    unit: "%",
     data: [
       { period: "Jan", value: 118 },
       { period: "Feb", value: 121 },
@@ -28,7 +28,7 @@ export const indicatorSeries: Record<Indicator, Series> = {
     ],
   },
   MIEG: {
-    label: "MIEG (%)",
+    label: "MIEG",
     unit: "%",
     data: [
       { period: "Jan", value: 3.2 },
@@ -46,8 +46,8 @@ export const indicatorSeries: Record<Indicator, Series> = {
     ],
   },
   PPI: {
-    label: "PPI (Index)",
-    unit: "Index",
+    label: "PPI",
+    unit: "%",
     data: [
       { period: "Jan", value: 142 },
       { period: "Feb", value: 140 },
@@ -64,8 +64,8 @@ export const indicatorSeries: Record<Indicator, Series> = {
     ],
   },
   IIP: {
-    label: "IIP (Index)",
-    unit: "Index",
+    label: "IIP",
+    unit: "%",
     data: [
       { period: "Jan", value: 98 },
       { period: "Feb", value: 101 },
@@ -81,7 +81,7 @@ export const indicatorSeries: Record<Indicator, Series> = {
       { period: "Dec", value: 113 },
     ],
   },
-  "Population (2021)": {
+  POP2021: {
     label: "Population (2021)",
     unit: "Millions",
     data: [
@@ -99,9 +99,9 @@ export const indicatorSeries: Record<Indicator, Series> = {
       { period: "Dec", value: 32.3 },
     ],
   },
-  "Business Population (IBES)": {
+  IBES: {
     label: "Business Population (IBES)",
-    unit: "Thousands",
+    unit: "Count",
     data: [
       { period: "Jan", value: 540 },
       { period: "Feb", value: 548 },

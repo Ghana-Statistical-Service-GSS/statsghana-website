@@ -6,13 +6,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "./Container";
 import TabPills from "./TabPills";
 import GhanaMap from "./GhanaMap";
-import { INDICATORS, Indicator } from "../lib/indicators";
+import { INDICATORS, INDICATOR_LABELS, Indicator } from "../lib/indicators";
 
 export default function Hero() {
   const [indicator, setIndicator] = useState<Indicator>("CPI");
   const [mode, setMode] = useState<"regions" | "districts">("regions");
   const heroBg = "/images/hero-population.png";
   const HERO_HEIGHT = "lg:h-[420px]";
+
+  const indicatorLabels = INDICATORS.map((id) => INDICATOR_LABELS[id]);
+  const labelToId = Object.fromEntries(
+    INDICATORS.map((id) => [INDICATOR_LABELS[id], id])
+  ) as Record<string, Indicator>;
 
   return (
     <section className="relative overflow-visible bg-white py-12 sm:py-16">
@@ -66,7 +71,7 @@ export default function Hero() {
                 Ghana at a Glance
               </h3>
               <span className="text-xs font-semibold text-slate-400">
-                {indicator}
+                {INDICATOR_LABELS[indicator]}
               </span>
             </div>
             <div className="h-full">
@@ -74,9 +79,14 @@ export default function Hero() {
             </div>
             <div className="no-scrollbar mt-4 w-full overflow-x-auto">
               <TabPills
-                tabs={INDICATORS as unknown as string[]}
-                active={indicator}
-                onChange={(value) => setIndicator(value as Indicator)}
+                tabs={indicatorLabels}
+                active={INDICATOR_LABELS[indicator]}
+                onChange={(value) => {
+                  const next = labelToId[value];
+                  if (next) {
+                    setIndicator(next);
+                  }
+                }}
                 className="min-w-max"
               />
             </div>

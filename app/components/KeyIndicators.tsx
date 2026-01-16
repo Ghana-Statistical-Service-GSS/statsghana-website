@@ -69,7 +69,7 @@ export default function KeyIndicators() {
                     : "text-slate-600 hover:text-slate-800"
                 }`}
               >
-                {tab}
+                {indicatorSeries[tab].label}
               </button>
             ))}
           </div>
@@ -79,7 +79,7 @@ export default function KeyIndicators() {
             <div>
               <p className="text-sm font-semibold text-slate-900">{series.label}</p>
               <div className="mt-1 inline-flex items-center gap-1 text-xs text-slate-400">
-                Time Series Data <ChevronDown className="h-3 w-3" />
+                Daily View <ChevronDown className="h-3 w-3" />
               </div>
             </div>
             <div className="text-xs font-semibold text-slate-400">2025</div>

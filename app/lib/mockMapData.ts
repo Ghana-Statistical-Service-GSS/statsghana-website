@@ -73,8 +73,8 @@ export const mockIndicatorData: Record<Indicator, Record<string, number>> = {
     "Bono East": 4.3,
     Ahafo: 4.0,
   },
-  "Population (2021)": {},
-  "Business Population (IBES)": {},
+  POP2021: {},
+  IBES: {},
 };
 
 export function getStableValue(name: string, indicator: Indicator) {
