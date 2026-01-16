@@ -7,6 +7,7 @@ import {
   createProjector,
   FeatureCollection,
   getFeatureName,
+  isValidGeometry,
 } from "../lib/geojsonToSvg";
 import { Indicator } from "../lib/indicators";
 import { getStableValue, mockIndicatorData } from "../lib/mockMapData";
@@ -72,7 +73,8 @@ export default function GhanaMap({
 
   const activeFeatures = useMemo(() => {
     const source = mode === "districts" ? districtsData : regionsData;
-    return source?.features ?? [];
+    const features = source?.features ?? [];
+    return features.filter((feature) => isValidGeometry(feature.geometry));
   }, [mode, regionsData, districtsData]);
 
   const paths = useMemo(() => {
@@ -80,14 +82,28 @@ export default function GhanaMap({
     const bounds = computeBounds(activeFeatures);
     const projector = createProjector(bounds, VIEW_WIDTH, VIEW_HEIGHT, 18);
 
-    return activeFeatures.map((feature) => {
-      const name = getFeatureName(feature.properties);
-      return {
-        name,
-        d: buildPathD(feature.geometry, projector),
-      };
-    });
-  }, [activeFeatures]);
+    const mapped = activeFeatures
+      .map((feature) => {
+        if (!isValidGeometry(feature.geometry)) return null;
+        const name = getFeatureName(feature.properties ?? undefined);
+        const d = buildPathD(feature.geometry, projector);
+        return { name, d };
+      })
+      .filter((item): item is { name: string; d: string } => Boolean(item));
+
+    if (process.env.NODE_ENV !== "production") {
+      const skipped = (mode === "districts" ? districtsData : regionsData)?.features.filter(
+        (feature) => !isValidGeometry(feature.geometry)
+      ).length;
+      if (skipped) {
+        console.warn(
+          `[GhanaMap] Skipped ${skipped} features with null/invalid geometry`
+        );
+      }
+    }
+
+    return mapped;
+  }, [activeFeatures, mode, districtsData, regionsData]);
 
   const { valueByName, minValue, maxValue } = useMemo(() => {
     const map = new Map<string, number>();

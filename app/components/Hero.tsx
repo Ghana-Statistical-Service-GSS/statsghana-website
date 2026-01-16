@@ -51,7 +51,7 @@ export default function Hero() {
             <div className="absolute left-6 bottom-20 z-20">
               <div className="inline-flex items-center rounded-md bg-indigo-600/55 px-4 py-2 backdrop-blur-sm">
                 <span className="text-sm font-semibold text-white sm:text-base whitespace-nowrap">
-                  Data for Development. Insight for Ghana
+                  Inflation Rate stands at 5.4% in December 2024
                 </span>
               </div>
             </div>

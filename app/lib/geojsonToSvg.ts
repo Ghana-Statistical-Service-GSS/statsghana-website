@@ -8,8 +8,8 @@ export type Geometry =
 
 export type Feature = {
   type: "Feature";
-  geometry: Geometry;
-  properties?: Record<string, unknown>;
+  geometry: Geometry | null;
+  properties?: Record<string, unknown> | null;
 };
 
 export type FeatureCollection = {
@@ -29,7 +29,15 @@ const NAME_KEYS = [
   "LABEL",
 ];
 
-export function getFeatureName(properties?: Record<string, unknown>): string {
+export function isValidGeometry(geometry: unknown): geometry is Geometry {
+  if (!geometry || typeof geometry !== "object") return false;
+  const geom = geometry as Geometry;
+  if (geom.type === "Polygon" && Array.isArray(geom.coordinates)) return true;
+  if (geom.type === "MultiPolygon" && Array.isArray(geom.coordinates)) return true;
+  return false;
+}
+
+export function getFeatureName(properties?: Record<string, unknown> | null): string {
   if (!properties) return "Unknown";
   for (const key of NAME_KEYS) {
     const value = properties[key];
@@ -52,16 +60,23 @@ export function computeBounds(features: Feature[]) {
   let maxLon = -Infinity;
   let minLat = Infinity;
   let maxLat = -Infinity;
+  let found = false;
 
   features.forEach((feature) => {
+    if (!isValidGeometry(feature.geometry)) return;
     const points = extractPositions(feature.geometry);
     points.forEach(([lon, lat]) => {
+      found = true;
       minLon = Math.min(minLon, lon);
       maxLon = Math.max(maxLon, lon);
       minLat = Math.min(minLat, lat);
       maxLat = Math.max(maxLat, lat);
     });
   });
+
+  if (!found) {
+    return { minLon: 0, maxLon: 1, minLat: 0, maxLat: 1 };
+  }
 
   return { minLon, maxLon, minLat, maxLat };
 }
