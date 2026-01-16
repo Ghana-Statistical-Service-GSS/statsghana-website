@@ -1,6 +1,7 @@
 import {
   BarChart3,
   Briefcase,
+  Factory,
   Flame,
   LineChart,
   Users,
@@ -8,36 +9,48 @@ import {
 import Card from "./Card";
 import Container from "./Container";
 
-const stats = [
+const kpis = [
   {
-    label: "Projected Population",
-    value: "32.3M",
-    note: "Updated: 14 Jan 2026",
-    icon: Users,
-  },
-  {
-    label: "Unemployment Rate",
-    value: "12.8%",
-    note: "",
-    icon: Briefcase,
-  },
-  {
-    label: "Inflation - January",
+    key: "CPI",
+    title: "CPI (Inflation)",
     value: "5.4%",
-    note: "",
+    sub: "Inflation - January",
     icon: Flame,
   },
   {
-    label: "MIEG",
+    key: "GDP",
+    title: "GDP",
+    value: "5.5",
+    sub: "GDP - Quarter on Quarter",
+    icon: BarChart3,
+  },
+  {
+    key: "PPI",
+    title: "PPI",
+    value: "3.1%",
+    sub: "Producer Price Index",
+    icon: Factory,
+  },
+  {
+    key: "MIEG",
+    title: "MIEG",
     value: "3.8%",
-    note: "",
+    sub: "",
     icon: LineChart,
   },
   {
-    label: "GDP - Quarter on Quarter",
-    value: "5.5",
-    note: "",
-    icon: BarChart3,
+    key: "UNEMP",
+    title: "Unemployment",
+    value: "12.8%",
+    sub: "Unemployment Rate",
+    icon: Briefcase,
+  },
+  {
+    key: "POP",
+    title: "Projected Population",
+    value: "32.3M",
+    sub: "Updated: 14 Jan 2026",
+    icon: Users,
   },
 ];
 
@@ -45,18 +58,16 @@ export default function StatCards() {
   return (
     <section className="bg-white py-6 sm:py-8">
       <Container>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          {stats.map(({ label, value, note, icon: Icon }) => (
-            <Card key={label} className="flex items-center gap-3 p-4">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-6">
+          {kpis.map(({ key, title, value, sub, icon: Icon }) => (
+            <Card key={key} className="flex items-center gap-3 p-4">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-700/10 text-purple-700">
                 <Icon className="h-5 w-5" />
               </div>
               <div>
-                <p className="text-xs font-semibold text-slate-500">{label}</p>
+                <p className="text-xs font-semibold text-slate-500">{title}</p>
                 <p className="text-lg font-bold text-slate-900">{value}</p>
-                {note ? (
-                  <p className="text-[10px] text-slate-400">{note}</p>
-                ) : null}
+                {sub ? <p className="text-[10px] text-slate-400">{sub}</p> : null}
               </div>
             </Card>
           ))}

@@ -12,15 +12,15 @@ export default function GovMessage() {
         <div className="mt-16">
           <Card className="relative mx-auto max-w-3xl px-6 pb-10 pt-20 text-center sm:px-12">
             <div className="absolute left-1/2 top-0 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center">
-              <div className="relative h-28 w-28 sm:h-32 sm:w-32">
+              <div className="relative h-32 w-32 sm:h-36 sm:w-36">
                 <div className="absolute inset-0 translate-x-4 rounded-full bg-purple-900" />
-                <div className="absolute inset-0 overflow-hidden rounded-full border-4 border-white">
+                <div className="absolute inset-0 overflow-hidden rounded-full border-[5px] border-white">
                   <Image
-                    src="/images/gov-statistician.jpg"
+                    src="/images/gs.jpg"
                     alt="Government Statistician"
                     fill
                     className="object-cover"
-                    sizes="128px"
+                    sizes="216px"
                   />
                 </div>
               </div>

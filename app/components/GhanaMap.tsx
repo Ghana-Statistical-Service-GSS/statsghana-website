@@ -15,6 +15,23 @@ import { getStableValue, mockIndicatorData } from "../lib/mockMapData";
 const VIEW_WIDTH = 420;
 const VIEW_HEIGHT = 520;
 const COLOR_BUCKETS = ["#EAE6F9", "#D2CAF3", "#B1A2E8", "#7E6AD8", "#3C2FA3"];
+const NATIONAL_VALUES: Record<Indicator, { value: string }> = {
+  CPI: { value: "5.4%" },
+  MIEG: { value: "3.8%" },
+  PPI: { value: "3.1%" },
+  IIP: { value: "2.6%" },
+  POP2021: { value: "30.8M" },
+  IBES: { value: "1.2M" },
+};
+
+const STATSBANK_LINKS: Record<Indicator, string> = {
+  CPI: "https://statsbank.statsghana.gov.gh/",
+  MIEG: "https://statsbank.statsghana.gov.gh/",
+  PPI: "https://statsbank.statsghana.gov.gh/",
+  IIP: "https://statsbank.statsghana.gov.gh/",
+  POP2021: "https://statsbank.statsghana.gov.gh/",
+  IBES: "https://statsbank.statsghana.gov.gh/",
+};
 
 interface GhanaMapProps {
   indicator: Indicator;
@@ -161,7 +178,15 @@ export default function GhanaMap({
       onMouseMove={handleMouseMove}
       onMouseLeave={() => setHovered(null)}
     >
-      <div className="h-[300px] w-full sm:h-[340px]">
+      <div className="relative h-[300px] w-full sm:h-[340px]">
+        <div className="absolute left-4 top-4 z-20 flex h-20 w-20 flex-col items-center justify-center rounded-full border border-white/40 bg-white/35 text-center shadow-sm backdrop-blur-md">
+          <div className="text-lg font-extrabold leading-none text-slate-800">
+            {NATIONAL_VALUES[indicator].value}
+          </div>
+          <div className="mt-1 text-[10px] font-semibold leading-tight text-slate-600">
+            National
+          </div>
+        </div>
         {paths.length ? (
           <svg
             viewBox={`0 0 ${VIEW_WIDTH} ${VIEW_HEIGHT}`}
@@ -231,6 +256,7 @@ export default function GhanaMap({
           </div>
         </div>
       </div>
+
 
       {hovered ? (
         <div
