@@ -1,9 +1,9 @@
-import { Facebook, Instagram, Linkedin, Music2, Twitter, Youtube } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Music2, X, Youtube } from "lucide-react";
 import Container from "./Container";
 
 const followIcons = [
   { label: "facebook", icon: Facebook },
-  { label: "twitter", icon: Twitter },
+  { label: "x", icon: X },
   { label: "tiktok", icon: Music2 },
   { label: "youtube", icon: Youtube },
   { label: "instagram", icon: Instagram },

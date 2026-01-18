@@ -82,7 +82,7 @@ export const indicatorSeries: Record<Indicator, Series> = {
     ],
   },
   POP2021: {
-    label: "Population (2021)",
+    label: "PHC",
     unit: "Millions",
     data: [
       { period: "Jan", value: 31.2 },
@@ -100,7 +100,7 @@ export const indicatorSeries: Record<Indicator, Series> = {
     ],
   },
   IBES: {
-    label: "Business Population (IBES)",
+    label: "IBES",
     unit: "Count",
     data: [
       { period: "Jan", value: 540 },

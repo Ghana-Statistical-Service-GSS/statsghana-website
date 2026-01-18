@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { ManagementPerson } from "../lib/management";
+import { getPersonSlug } from "../lib/management";
 
 const placeholder = "/images/placeholder-person.png";
 
@@ -35,8 +36,12 @@ export default function ManagementCard({
     : "relative aspect-square w-full";
 
   return (
-    <Link href={`/about/management/${person.slug}`} className={wrapperClasses}>
-      <div className={imageClasses}>
+    <div className={`${wrapperClasses} group`}>
+      <Link
+        href={`/about/management/${encodeURIComponent(getPersonSlug(person))}`}
+        aria-label={`View ${person.name} profile`}
+        className={`${imageClasses} block`}
+      >
         <Image
           src={src}
           alt={person.name}
@@ -45,14 +50,19 @@ export default function ManagementCard({
           sizes={isFeatured ? "360px" : "400px"}
           onError={() => setSrc(placeholder)}
         />
-      </div>
-      <div className="flex flex-1 flex-col gap-2 p-5">
-        <h3 className="text-lg font-semibold text-slate-900">{person.name}</h3>
+      </Link>
+      <Link
+        href={`/about/management/${encodeURIComponent(getPersonSlug(person))}`}
+        className="flex flex-1 flex-col gap-2 p-5"
+      >
+        <h3 className="text-lg font-semibold text-slate-900 group-hover:text-[#241B5A]">
+          {person.name}
+        </h3>
         <p className="text-sm font-medium text-slate-600">{person.position}</p>
         {person.directorate ? (
           <p className="text-sm text-slate-500">{person.directorate}</p>
         ) : null}
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }

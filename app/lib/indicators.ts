@@ -14,6 +14,15 @@ export const INDICATOR_LABELS: Record<Indicator, string> = {
   MIEG: "MIEG",
   PPI: "PPI",
   IIP: "IIP",
-  POP2021: "Population (2021)",
-  IBES: "Business Population (IBES)",
+  POP2021: "PHC",
+  IBES: "IBES",
+};
+
+export const INDICATOR_TOOLTIPS: Record<Indicator, string> = {
+  CPI: "Consumer Price Index tracks changes in the cost of a standard basket of goods and services to monitor inflation in Ghana.",
+  MIEG: "Monthly Index of Economic Growth measures short-term movements in economic activity using key sector indicators in Ghana.",
+  PPI: "Producer Price Index measures average changes in prices received by producers, reflecting factory gate inflation in Ghana.",
+  IIP: "Index of Industrial Production tracks output changes across major industries to gauge Ghana's industrial performance.",
+  POP2021: "PHC refers to the Population and Housing Census, providing Ghana's most comprehensive demographic baseline.",
+  IBES: "IBES summarizes Ghana's business population from enterprise surveys, indicating the size and structure of businesses.",
 };

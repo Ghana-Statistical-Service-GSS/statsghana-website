@@ -1,12 +1,5 @@
 import Image from "next/image";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Search,
-  Twitter,
-  Youtube,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin, Search, X, Youtube } from "lucide-react";
 import Container from "./Container";
 
 export default function TopBar() {
@@ -57,7 +50,7 @@ export default function TopBar() {
             <div className="flex items-center gap-2 text-slate-500">
               {[
                 { icon: Facebook, label: "Facebook" },
-                { icon: Twitter, label: "X" },
+                { icon: X, label: "X" },
                 { icon: Instagram, label: "Instagram" },
                 { icon: Linkedin, label: "LinkedIn" },
                 { icon: Youtube, label: "YouTube" },

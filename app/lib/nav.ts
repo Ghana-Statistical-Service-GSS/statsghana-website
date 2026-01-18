@@ -39,12 +39,28 @@ export const NAV: NavItem[] = [
       { label: "Statistical Service Act", href: "/about/statistical-service-act" },
     ],
   },
-  withChildren("Census & Surveys", [
-    "Population & Housing Census",
-    "Agricultural Census",
-    "Economic Census",
-    "Surveys",
-  ]),
+  {
+    label: "Census & Surveys",
+    href: "/census-surveys",
+    children: [
+      {
+        label: "Population & Housing Census",
+        href: "/census-surveys/population-housing-census",
+      },
+      {
+        label: "Agricultural Census",
+        href: "/census-surveys/agricultural-census",
+      },
+      {
+        label: "Economic Census",
+        href: "/census-surveys/economic-census",
+      },
+      {
+        label: "Surveys",
+        href: "/census-surveys/surveys",
+      },
+    ],
+  },
   withChildren("Data & Statistics", [
     "Economic Statistics",
     "Business, Industry & Trade Statistics",

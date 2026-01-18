@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "./Container";
 import GhanaMap from "./GhanaMap";
-import { INDICATORS, INDICATOR_LABELS, Indicator } from "../lib/indicators";
+import { INDICATORS, INDICATOR_LABELS, INDICATOR_TOOLTIPS, Indicator } from "../lib/indicators";
 
 export default function Hero() {
   const [indicator, setIndicator] = useState<Indicator>("CPI");
@@ -17,6 +18,36 @@ export default function Hero() {
   const labelToId = Object.fromEntries(
     INDICATORS.map((id) => [INDICATOR_LABELS[id], id])
   ) as Record<string, Indicator>;
+  const labelRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+  const [hoveredLabel, setHoveredLabel] = useState<string | null>(null);
+  const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    if (!hoveredLabel) return;
+    const target = labelRefs.current[hoveredLabel];
+    if (!target) return;
+
+    const updatePosition = () => {
+      const rect = target.getBoundingClientRect();
+      const tooltipWidth = 240;
+      const tooltipHeight = 70;
+      const x = Math.min(
+        Math.max(8, rect.left + rect.width / 2 - tooltipWidth / 2),
+        window.innerWidth - tooltipWidth - 8
+      );
+      const y = Math.max(8, rect.top - tooltipHeight - 10);
+      setTooltipPos({ x, y });
+    };
+
+    updatePosition();
+    window.addEventListener("scroll", updatePosition, true);
+    window.addEventListener("resize", updatePosition);
+
+    return () => {
+      window.removeEventListener("scroll", updatePosition, true);
+      window.removeEventListener("resize", updatePosition);
+    };
+  }, [hoveredLabel]);
 
   return (
     <section className="relative overflow-visible bg-white py-12 sm:py-16">
@@ -80,31 +111,48 @@ export default function Hero() {
               <GhanaMap indicator={indicator} mode={mode} onModeChange={setMode} />
             </div>
             <div className="mt-4">
-              <div className="no-scrollbar flex gap-2 overflow-x-auto">
+              <div className="no-scrollbar flex gap-2 overflow-x-auto overflow-y-visible">
                 {indicatorLabels.map((label) => {
                   const isActive = label === INDICATOR_LABELS[indicator];
                   return (
-                    <button
-                      key={label}
-                      type="button"
-                      onClick={() => {
-                        const next = labelToId[label];
-                        if (next) {
-                          setIndicator(next);
-                        }
-                      }}
-                      className={`min-h-[40px] max-w-[140px] rounded-full px-3 py-2 text-center text-xs font-semibold leading-tight transition whitespace-normal ${
-                        isActive
-                          ? "bg-purple-700 text-white shadow-sm"
-                          : "bg-slate-100 text-slate-600 hover:text-purple-700"
-                      }`}
-                    >
-                      {label}
-                    </button>
+                    <div key={label} className="group relative">
+                      <button
+                        ref={(el) => {
+                          labelRefs.current[label] = el;
+                        }}
+                        type="button"
+                        onClick={() => {
+                          const next = labelToId[label];
+                          if (next) {
+                            setIndicator(next);
+                          }
+                        }}
+                        onMouseEnter={() => setHoveredLabel(label)}
+                        onMouseLeave={() => setHoveredLabel(null)}
+                        className={`min-h-[40px] max-w-[140px] rounded-full px-3 py-2 text-center text-xs font-semibold leading-tight transition whitespace-normal ${
+                          isActive
+                            ? "bg-purple-700 text-white shadow-sm"
+                            : "bg-slate-100 text-slate-600 hover:text-purple-700"
+                        }`}
+                      >
+                        {label}
+                      </button>
+                    </div>
                   );
                 })}
               </div>
             </div>
+            {hoveredLabel && typeof window !== "undefined"
+              ? createPortal(
+                  <div
+                    className="pointer-events-none fixed z-[999] w-60 rounded-md bg-slate-900 px-3 py-2 text-[11px] leading-relaxed text-white shadow-lg"
+                    style={{ left: tooltipPos.x, top: tooltipPos.y }}
+                  >
+                    {INDICATOR_TOOLTIPS[labelToId[hoveredLabel]]}
+                  </div>,
+                  document.body
+                )
+              : null}
           </div>
         </div>
       </Container>
