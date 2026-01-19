@@ -61,11 +61,24 @@ export const NAV: NavItem[] = [
       },
     ],
   },
-  withChildren("Data & Statistics", [
-    "Economic Statistics",
-    "Business, Industry & Trade Statistics",
-    "Social & Demographic Statistics",
-  ]),
+  {
+    label: "Data & Statistics",
+    href: "/data-statistics",
+    children: [
+      {
+        label: "Economic Statistics",
+        href: "/data-statistics/economic-statistics",
+      },
+      {
+        label: "Business, Industry & Trade Statistics",
+        href: "/data-statistics/business-industry-and-trade-statistics",
+      },
+      {
+        label: "Social & Demographic Statistics",
+        href: "/data-statistics/social-and-demographic-statistics",
+      },
+    ],
+  },
   withChildren("Publications", [
     "Census Reports",
     "Survey Reports",
