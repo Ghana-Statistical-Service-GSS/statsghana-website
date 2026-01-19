@@ -517,15 +517,6 @@ export default function SocialDemographicStatisticsPage() {
                 culture to support planning and service delivery.
               </p>
             </div>
-            <div className="relative h-[220px] w-full md:h-[280px]">
-              <Image
-                src={HERO_BG}
-                alt="Social and demographic statistics illustration"
-                fill
-                className="object-contain"
-                sizes="(max-width: 768px) 100vw, 520px"
-              />
-            </div>
           </div>
         </div>
       </section>
