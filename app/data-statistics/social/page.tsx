@@ -2,31 +2,14 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
-import {
-  BookOpen,
-  Building2,
-  Cross,
-  HeartPulse,
-  Home,
-  Landmark,
-  Plane,
-  Users,
-} from "lucide-react";
+import { BookOpen, Building2, Cross, HeartPulse, Home } from "lucide-react";
 import ProgramTable, {
   ProgramRow,
 } from "../economic-statistics/components/ProgramTable";
 
 const HERO_BG = "/images/economic-statistics/hero-bg.png";
 
-type SocialKey =
-  | "population"
-  | "migration"
-  | "crvs"
-  | "education"
-  | "health"
-  | "housing"
-  | "governance"
-  | "tourism";
+type SocialKey = "education" | "health" | "housing" | "governance" | "tourism";
 
 type SocialContent = {
   title: string;
@@ -36,156 +19,6 @@ type SocialContent = {
 };
 
 const SOCIAL_CONTENT: Record<SocialKey, SocialContent> = {
-  population: {
-    title: "Population & Demography",
-    description:
-      "Population size, structure, and demographic indicators across Ghana.",
-    subtitle: "Population & Demography Releases",
-    rows: [
-      {
-        program: "Population Estimates",
-        category: "Population",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Age-Sex Structure Brief",
-        category: "Demography",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Urban-Rural Profile",
-        category: "Population",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Fertility Indicators Update",
-        category: "Demography",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Mortality Trends Note",
-        category: "Demography",
-        month: "Sep",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Population Projections",
-        category: "Population",
-        month: "Aug",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
-  },
-  migration: {
-    title: "Migration",
-    description:
-      "Internal and international migration flows, patterns, and profiles.",
-    subtitle: "Migration Releases",
-    rows: [
-      {
-        program: "Internal Migration Brief",
-        category: "Migration",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "International Migration Snapshot",
-        category: "Migration",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Migration by Region",
-        category: "Migration",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Remittance Trends Note",
-        category: "Migration",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Border Movements Summary",
-        category: "Migration",
-        month: "Sep",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Migration Profiles Report",
-        category: "Migration",
-        month: "Aug",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
-  },
-  crvs: {
-    title: "Civil Registration & Vital Statistics",
-    description:
-      "Births, deaths, and registration coverage indicators for Ghana.",
-    subtitle: "CRVS Releases",
-    rows: [
-      {
-        program: "Birth Registration Update",
-        category: "CRVS",
-        month: "Feb",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Death Registration Bulletin",
-        category: "CRVS",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Vital Statistics Summary",
-        category: "CRVS",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Cause of Death Profile",
-        category: "CRVS",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Registration Coverage Note",
-        category: "CRVS",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "CRVS Performance Review",
-        category: "CRVS",
-        month: "Sep",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
-  },
   education: {
     title: "Education",
     description:
@@ -238,8 +71,7 @@ const SOCIAL_CONTENT: Record<SocialKey, SocialContent> = {
   },
   health: {
     title: "Health and Social Care",
-    description:
-      "Health service coverage, outcomes, and social care indicators.",
+    description: "Health service coverage, outcomes, and social care indicators.",
     subtitle: "Health & Social Care Releases",
     rows: [
       {
@@ -288,8 +120,7 @@ const SOCIAL_CONTENT: Record<SocialKey, SocialContent> = {
   },
   housing: {
     title: "Housing and Living Conditions",
-    description:
-      "Housing stock, utilities access, and household living standards.",
+    description: "Housing stock, utilities access, and household living standards.",
     subtitle: "Housing & Living Conditions Releases",
     rows: [
       {
@@ -338,8 +169,7 @@ const SOCIAL_CONTENT: Record<SocialKey, SocialContent> = {
   },
   governance: {
     title: "Governance & Peace",
-    description:
-      "Governance indicators, safety, and peace-related statistical updates.",
+    description: "Governance indicators, safety, and peace-related updates.",
     subtitle: "Governance & Peace Releases",
     rows: [
       {
@@ -387,10 +217,10 @@ const SOCIAL_CONTENT: Record<SocialKey, SocialContent> = {
     ],
   },
   tourism: {
-    title: "Tourism and Culture",
+    title: "Tourism and Cultural",
     description:
       "Tourism flows, cultural participation, and hospitality indicators.",
-    subtitle: "Tourism & Culture Releases",
+    subtitle: "Tourism & Cultural Releases",
     rows: [
       {
         program: "Tourist Arrivals Bulletin",
@@ -441,23 +271,8 @@ const SOCIAL_CONTENT: Record<SocialKey, SocialContent> = {
 const CATEGORY_ITEMS: Array<{
   key: SocialKey;
   label: string;
-  icon: typeof Users;
+  icon: typeof BookOpen;
 }> = [
-  {
-    key: "population",
-    label: "Population & Demography",
-    icon: Users,
-  },
-  {
-    key: "migration",
-    label: "Migration",
-    icon: Plane,
-  },
-  {
-    key: "crvs",
-    label: "Civil Registration & Vital Statistics",
-    icon: Landmark,
-  },
   {
     key: "education",
     label: "Education",
@@ -480,13 +295,13 @@ const CATEGORY_ITEMS: Array<{
   },
   {
     key: "tourism",
-    label: "Tourism and Culture",
+    label: "Tourism and Cultural",
     icon: Cross,
   },
 ];
 
-export default function SocialDemographicStatisticsPage() {
-  const [activeKey, setActiveKey] = useState<SocialKey>("population");
+export default function SocialStatisticsPage() {
+  const [activeKey, setActiveKey] = useState<SocialKey>("education");
   const activeContent = useMemo(() => SOCIAL_CONTENT[activeKey], [activeKey]);
 
   return (
@@ -505,16 +320,15 @@ export default function SocialDemographicStatisticsPage() {
                 Home <span className="mx-2 text-slate-400">/</span> Data &amp;
                 Statistics <span className="mx-2 text-slate-400">/</span>{" "}
                 <span className="font-medium text-slate-800">
-                  Social &amp; Demographic Statistics
+                  Social Statistics
                 </span>
               </div>
               <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-900 md:text-5xl">
-                Social &amp; Demographic Statistics
+                Social Statistics
               </h1>
               <p className="mt-4 max-w-xl leading-relaxed text-slate-600">
-                Explore Ghana&apos;s social and demographic statistics, covering
-                population dynamics, education, health, housing, governance, and
-                culture to support planning and service delivery.
+                Explore social conditions and wellbeing statistics across key
+                sectors.
               </p>
             </div>
           </div>

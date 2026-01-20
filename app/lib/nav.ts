@@ -74,8 +74,12 @@ export const NAV: NavItem[] = [
         href: "/data-statistics/business-industry-and-trade-statistics",
       },
       {
-        label: "Social & Demographic Statistics",
-        href: "/data-statistics/social-and-demographic-statistics",
+        label: "Social Statistics",
+        href: "/data-statistics/social",
+      },
+      {
+        label: "Demography Statistics",
+        href: "/data-statistics/demography",
       },
     ],
   },
@@ -83,26 +87,44 @@ export const NAV: NavItem[] = [
     "Census Reports",
     "Survey Reports",
     "Administrative Data Reports",
-    "Statistical Frameworks",
+    "Statistical Governance",
   ]),
-  withChildren("News & Media", [
-    "News",
-    "Press Releases",
-    "Gallery",
-    "Videos",
-    "Opportunities",
-  ]),
-  withChildren("Data Portals", [
-    "StatsBank",
-    "Microdata Catalog",
-    "National Reporting platform",
-    "CPI Inflation Calculator",
-    "Open Data for Africa",
-    "Ghana Gridded Data portal",
-  ]),
+  {
+    label: "News & Media",
+    href: "/news-and-media",
+    children: [
+      { label: "News", href: "/news" },
+      { label: "Press Releases", href: "/press-releases" },
+      { label: "Gallery", href: "/news-and-media/gallery" },
+      { label: "Videos", href: "/news-and-media/videos" },
+      { label: "Opportunities", href: "/news-and-media/opportunities" },
+    ],
+  },
+  {
+    label: "Data Portals",
+    href: "/data-portals",
+    children: [
+      { label: "StatsBank", href: "https://statsbank.statsghana.gov.gh/" },
+      {
+        label: "Microdata Catalog",
+        href: "https://microdata.statsghana.gov.gh/",
+      },
+      {
+        label: "National Reporting platform",
+        href: "https://sdgs-ghana.github.io/",
+      },
+      { label: "CPI Inflation Calculator", href: "/data-portals/cpi-inflation-calculator" },
+      {
+        label: "Open Data for Africa",
+        href: "https://dataportals.org/portal/ghana_opendataforafrica/",
+      },
+      {
+        label: "Ghana Gridded Data portal",
+        href: "https://ghana-gridded-statistics-platform-statsghana.hub.arcgis.com/",
+      },
+    ],
+  },
   withChildren("Data Request", [
     "Request Data",
-    "Microdata Access",
-    "Data Access Policy",
   ]),
 ];
