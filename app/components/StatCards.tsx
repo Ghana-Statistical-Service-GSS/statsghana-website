@@ -1,6 +1,7 @@
 import {
   BarChart3,
   Briefcase,
+  BriefcaseBusiness,
   Factory,
   Flame,
   LineChart,
@@ -32,6 +33,13 @@ const kpis = [
     icon: Factory,
   },
   {
+    key: "PBCI",
+    title: "PBCI",
+    value: "4.2%",
+    sub: "Private Business Confidence Index",
+    icon: BriefcaseBusiness,
+  },
+  {
     key: "MIEG",
     title: "MIEG",
     value: "3.8%",
@@ -60,7 +68,13 @@ export default function StatCards() {
       <Container>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-6">
           {kpis.map(({ key, title, value, sub, icon: Icon }) => (
-            <Card key={key} className="flex items-center gap-3 p-4">
+            <Card
+              key={key}
+              className={[
+                "flex items-center gap-3 p-4",
+                key === "POP" ? "lg:col-span-6 lg:max-w-md lg:mx-auto" : "",
+              ].join(" ")}
+            >
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-700/10 text-purple-700">
                 <Icon className="h-5 w-5" />
               </div>
