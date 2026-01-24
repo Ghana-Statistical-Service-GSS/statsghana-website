@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PAGE_TITLE = "Corporate Plan";
 const BREADCRUMB = ["About GSS", "Corporate Plan"];
 
@@ -71,6 +73,12 @@ export default function CorporatePlanPage() {
           <p className="mt-2 text-justify text-slate-700 leading-relaxed">
             To be the trusted provider of official statistics for good governance
           </p>
+          <Link
+            href="/about/vision"
+            className="mt-2 inline-flex text-sm font-semibold text-emerald-700 hover:text-emerald-800"
+          >
+            View Vision
+          </Link>
 
           <h2 className="mt-6 text-xl font-bold text-slate-900">Mission</h2>
           <p className="mt-2 text-justify text-slate-700 leading-relaxed">
@@ -79,12 +87,24 @@ export default function CorporatePlanPage() {
             and motivated staff for evidence-based decision making, in support of national
             development.
           </p>
+          <Link
+            href="/about/mission"
+            className="mt-2 inline-flex text-sm font-semibold text-emerald-700 hover:text-emerald-800"
+          >
+            View Mission
+          </Link>
 
           <h2 className="mt-6 text-xl font-bold text-slate-900">Core Values</h2>
           <p className="mt-2 text-justify text-slate-700 leading-relaxed">
             The core values are essential to achieving high performance levels and to create
             an organization that will foster:
           </p>
+          <Link
+            href="/about/core-mandate"
+            className="mt-2 inline-flex text-sm font-semibold text-emerald-700 hover:text-emerald-800"
+          >
+            View Core Mandate
+          </Link>
           <ul className="mt-4 list-disc space-y-1 pl-5 text-slate-700">
             {values.map((value) => (
               <li key={value}>{value}</li>

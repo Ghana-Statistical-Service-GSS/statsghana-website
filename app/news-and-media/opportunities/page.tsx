@@ -60,14 +60,14 @@ export default function OpportunitiesPage() {
 
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <p className="text-sm text-slate-500">
-          Home / News &amp; Media / Opportunities
+          Home / News / Career &amp; Jobs
         </p>
         <h1 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-          Opportunities
+          Career &amp; Jobs
         </h1>
         <p className="mt-3 max-w-3xl text-slate-600">
-          Explore current openings and opportunities at the Ghana Statistical
-          Service (GSS).
+          Explore current openings and career opportunities at the Ghana
+          Statistical Service (GSS).
         </p>
 
         <div className="mt-6 rounded-2xl border border-white/60 bg-white/80 p-4 shadow-sm">

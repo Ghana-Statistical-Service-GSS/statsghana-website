@@ -27,6 +27,7 @@ export default function KeyIndicators() {
   const [slider, setSlider] = useState({ left: 0, width: 0 });
   const [hovered, setHovered] = useState<Indicator | null>(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
+  const tabIndicators: Indicator[] = ["CPI", "PPI", "IIP", "PBCI", "MIEG"];
 
   useEffect(() => {
     const el = tabRefs.current[active];
@@ -86,7 +87,7 @@ export default function KeyIndicators() {
               className="absolute top-1 bottom-1 rounded-full bg-white shadow-sm transition-all duration-300"
               style={{ left: slider.left, width: slider.width }}
             />
-            {INDICATORS.map((tab) => (
+            {tabIndicators.map((tab) => (
               <div key={tab} className="relative">
                 <button
                   ref={(el) => {

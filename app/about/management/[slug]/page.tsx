@@ -5,8 +5,8 @@ import {
   Globe,
   Linkedin,
   Mail,
-  X,
 } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 import PortraitRing from "../../../components/PortraitRing";
 import { getPersonSlug, MANAGEMENT } from "../../../lib/management";
 
@@ -86,7 +86,7 @@ export default async function ManagementProfilePage({
               <div className="mt-6 flex flex-wrap gap-3">
                 {[
                   { icon: Linkedin, label: "LinkedIn" },
-                  { icon: X, label: "X" },
+                  { icon: FaXTwitter, label: "X (formerly Twitter)" },
                   { icon: Facebook, label: "Facebook" },
                   { icon: Globe, label: "Website" },
                   { icon: Mail, label: "Email" },

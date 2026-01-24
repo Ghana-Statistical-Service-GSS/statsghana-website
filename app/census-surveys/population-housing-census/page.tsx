@@ -3,17 +3,31 @@ import { ArrowRight, CalendarClock, Download, FileText } from "lucide-react";
 
 const editions = [
   {
-    year: "1984",
-    title: "PHC 1984",
+    year: "2021",
+    title: "PHC 2021",
     description:
-      "Foundation census series supporting national planning and baseline demographic statistics.",
+      "Latest national census results and thematic reports supporting SDGs and national development planning.",
     bullets: [
-      "National population counts",
-      "Settlement & housing characteristics",
-      "Key tables & reports",
+      "Thematic reports",
+      "District & regional outputs",
+      "Digital access to key tables",
     ],
-    accent: "emerald",
-    viewHref: "/census-surveys/population-housing-census/1984",
+    accent: "purple",
+    viewHref: "https://census2021.statsghana.gov.gh",
+    external: true,
+  },
+  {
+    year: "2010",
+    title: "PHC 2010",
+    description:
+      "Enhanced analysis products and updated classifications supporting development monitoring.",
+    bullets: [
+      "Analytical reports",
+      "Community profiles",
+      "Migration & urbanisation insights",
+    ],
+    accent: "teal",
+    viewHref: "/census-surveys/population-housing-census/2010",
     external: false,
   },
   {
@@ -31,32 +45,18 @@ const editions = [
     external: false,
   },
   {
-    year: "2010",
-    title: "PHC 2010",
+    year: "1984",
+    title: "PHC 1984",
     description:
-      "Enhanced analysis products and updated classifications supporting development monitoring.",
+      "Foundation census series supporting national planning and baseline demographic statistics.",
     bullets: [
-      "Analytical reports",
-      "Community profiles",
-      "Migration & urbanisation insights",
+      "National population counts",
+      "Settlement & housing characteristics",
+      "Key tables & reports",
     ],
-    accent: "teal",
-    viewHref: "/census-surveys/population-housing-census/2010",
+    accent: "emerald",
+    viewHref: "/census-surveys/population-housing-census/1984",
     external: false,
-  },
-  {
-    year: "2021",
-    title: "PHC 2021",
-    description:
-      "Latest national census results and thematic reports supporting SDGs and national development planning.",
-    bullets: [
-      "Thematic reports",
-      "District & regional outputs",
-      "Digital access to key tables",
-    ],
-    accent: "purple",
-    viewHref: "https://census2021.statsghana.gov.gh",
-    external: true,
   },
 ];
 

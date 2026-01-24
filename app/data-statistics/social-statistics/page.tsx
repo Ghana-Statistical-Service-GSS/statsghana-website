@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
-export default function DemographyStatisticsPage() {
+export default function SocialStatisticsLegacyRedirect() {
   redirect("/data-statistics/social-demographic");
 }

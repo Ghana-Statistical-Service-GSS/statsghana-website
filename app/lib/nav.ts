@@ -29,14 +29,24 @@ export const NAV: NavItem[] = [
     href: "/about",
     children: [
       { label: "Legal Mandate", href: "/about/legal-mandate" },
+      {
+        label: "Statistical Service Act",
+        href: "/about/statistical-service-act",
+      },
       { label: "Management", href: "/about/management" },
       { label: "History", href: "/about/history" },
       {
         label: "National Statistical System (NSS)",
-        href: "/about/national-statistical-system-nss",
+        href: "/about/national-statistical-system",
       },
       { label: "Corporate Plan", href: "/about/corporate-plan" },
-      { label: "Statistical Service Act", href: "/about/statistical-service-act" },
+      { label: "Vision", href: "/about/vision" },
+      { label: "Mission", href: "/about/mission" },
+      { label: "Core Mandate", href: "/about/core-mandate" },
+      {
+        label: "Privacy & Confidentiality",
+        href: "/about/privacy-confidentiality",
+      },
     ],
   },
   {
@@ -74,12 +84,8 @@ export const NAV: NavItem[] = [
         href: "/data-statistics/business-industry-and-trade-statistics",
       },
       {
-        label: "Social Statistics",
-        href: "/data-statistics/social",
-      },
-      {
-        label: "Demography Statistics",
-        href: "/data-statistics/demography",
+        label: "Social & Demographic Statistics",
+        href: "/data-statistics/social-demographic",
       },
     ],
   },
@@ -90,14 +96,20 @@ export const NAV: NavItem[] = [
     "Statistical Governance",
   ]),
   {
-    label: "News & Media",
-    href: "/news-and-media",
+    label: "News",
+    href: "/news",
     children: [
       { label: "News", href: "/news" },
       { label: "Press Releases", href: "/press-releases" },
-      { label: "Gallery", href: "/news-and-media/gallery" },
-      { label: "Videos", href: "/news-and-media/videos" },
-      { label: "Opportunities", href: "/news-and-media/opportunities" },
+      { label: "Career & Jobs", href: "/news-and-media/opportunities" },
+    ],
+  },
+  {
+    label: "Media",
+    href: "/media/gallery",
+    children: [
+      { label: "Gallery", href: "/media/gallery" },
+      { label: "Videos", href: "/media/videos" },
     ],
   },
   {

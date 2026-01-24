@@ -107,7 +107,7 @@ export default function GalleryPageClient() {
       <div className="pointer-events-none absolute right-0 top-10 h-72 w-72 rounded-full bg-amber-100/20 blur-3xl" />
 
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <p className="text-sm text-slate-500">Home / News &amp; Media / Gallery</p>
+        <p className="text-sm text-slate-500">Home / Media / Gallery</p>
         <h1 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
           Gallery
         </h1>

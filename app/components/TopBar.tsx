@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { Facebook, Instagram, Linkedin, Search, X, Youtube } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 import Container from "./Container";
+import HeaderSearch from "./HeaderSearch";
 
 export default function TopBar() {
   return (
@@ -25,12 +27,7 @@ export default function TopBar() {
           </div>
 
           <div className="flex flex-wrap items-center gap-3 sm:gap-4">
-            <button
-              type="button"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-slate-600 transition hover:border-purple-700 hover:text-purple-700"
-            >
-              <Search className="h-4 w-4" />
-            </button>
+            <HeaderSearch />
 
             <div className="flex items-center gap-2">
               <button
@@ -50,7 +47,7 @@ export default function TopBar() {
             <div className="flex items-center gap-2 text-slate-500">
               {[
                 { icon: Facebook, label: "Facebook" },
-                { icon: X, label: "X" },
+                { icon: FaXTwitter, label: "X (formerly Twitter)" },
                 { icon: Instagram, label: "Instagram" },
                 { icon: Linkedin, label: "LinkedIn" },
                 { icon: Youtube, label: "YouTube" },

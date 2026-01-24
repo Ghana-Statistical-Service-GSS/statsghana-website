@@ -17,8 +17,8 @@ const IBES_BG = HERO_BG;
 
 const industrialItems = [
   {
-    year: "1962",
-    title: "1962 Industrial Census",
+    year: "2004",
+    title: "2004 Industrial Census",
     text: "Complete enumerations of Ghana's industries conducted.",
     downloadUrl: "#",
   },
@@ -29,8 +29,8 @@ const industrialItems = [
     downloadUrl: "#",
   },
   {
-    year: "2004",
-    title: "2004 Industrial Census",
+    year: "1962",
+    title: "1962 Industrial Census",
     text: "Complete enumerations of Ghana's industries conducted.",
     downloadUrl: "#",
   },
@@ -57,29 +57,6 @@ type IbesCard = {
 
 const ibesCards: IbesCard[] = [
   {
-    year: "2014",
-    titleLeft: "IBES 2014",
-    defaultPhase: "phase1",
-    phases: {
-      phase1: {
-        pill: "Phase 1",
-        phaseLabel: "Phase 1 is a",
-        phaseType: "Census",
-        bandTitle: "Listing & Frame Update",
-        body: "Full enumeration to update the business register.",
-        downloadUrl: "#",
-      },
-      phase2: {
-        pill: "Phase 2",
-        phaseLabel: "Phase 2 is a",
-        phaseType: "Survey",
-        bandTitle: "Sampled Survey",
-        body: "Sample survey module focusing on detailed economic characteristics of establishments.",
-        downloadUrl: "#",
-      },
-    },
-  },
-  {
     year: "2024",
     titleLeft: "IBES 2024",
     defaultPhase: "phase2",
@@ -100,6 +77,29 @@ const ibesCards: IbesCard[] = [
         body: "Data collection is still in progress.",
         downloadUrl: "#",
         status: { left: "Started late 2025", right: "Data collection ending soon" },
+      },
+    },
+  },
+  {
+    year: "2014",
+    titleLeft: "IBES 2014",
+    defaultPhase: "phase1",
+    phases: {
+      phase1: {
+        pill: "Phase 1",
+        phaseLabel: "Phase 1 is a",
+        phaseType: "Census",
+        bandTitle: "Listing & Frame Update",
+        body: "Full enumeration to update the business register.",
+        downloadUrl: "#",
+      },
+      phase2: {
+        pill: "Phase 2",
+        phaseLabel: "Phase 2 is a",
+        phaseType: "Survey",
+        bandTitle: "Sampled Survey",
+        body: "Sample survey module focusing on detailed economic characteristics of establishments.",
+        downloadUrl: "#",
       },
     },
   },
@@ -275,7 +275,7 @@ export default function EconomicCensusPage() {
           <div className="mt-12">
           <div className="flex items-center gap-4">
             <h2 className="text-2xl font-extrabold text-slate-900 sm:text-3xl">
-              Economic Census Timeline
+              Economic Census 
             </h2>
             <div className="h-px flex-1 bg-slate-200" />
           </div>
@@ -334,7 +334,7 @@ export default function EconomicCensusPage() {
               </div>
 
               <div className="relative p-6 sm:p-8">
-                <h3 className="text-2xl font-extrabold text-slate-900">IBES</h3>
+                <h3 className="text-2xl font-extrabold text-slate-900">Integrated Business Establishment Survey (IBES)</h3>
                 <div className="mt-3 h-px bg-slate-300/60" />
 
                 <div className="mt-6 space-y-6">
@@ -384,7 +384,7 @@ export default function EconomicCensusPage() {
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2 w-2 rounded-full bg-amber-400" />
-                Complete enumerations of Ghana&apos;s industries wereconducted in
+                Complete enumerations of Ghana&apos;s industries were conducted in
                 1962, 1987, and 2004.
               </li>
               <li className="flex items-start gap-3">

@@ -1,9 +1,9 @@
 export const INDICATORS = [
   "CPI",
-  "MIEG",
   "PPI",
-  "PBCI",
   "IIP",
+  "PBCI",
+  "MIEG",
   "POP2021",
   "IBES",
 ] as const;

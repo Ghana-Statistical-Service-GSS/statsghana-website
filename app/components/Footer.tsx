@@ -1,16 +1,30 @@
-import { Facebook, Instagram, Linkedin, Music2, X, Youtube } from "lucide-react";
+import Link from "next/link";
+import { Facebook, Instagram, Linkedin, Music2, Youtube } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 import Container from "./Container";
 
 const followIcons = [
   { label: "facebook", icon: Facebook },
-  { label: "x", icon: X },
+  { label: "X", icon: FaXTwitter },
   { label: "tiktok", icon: Music2 },
   { label: "youtube", icon: Youtube },
   { label: "instagram", icon: Instagram },
   { label: "linkedin", icon: Linkedin },
 ];
 
-const links = ["Data & Statistics", "Publications", "Press Releases"];
+const usefulLinks = [
+  { label: "Data & Statistics", href: "/data-statistics" },
+  { label: "Publications", href: "/publications" },
+  { label: "Press Releases", href: "/press-releases" },
+];
+
+const quickLinks = [
+  { label: "FAQs", href: "/faqs" },
+  { label: "Data & Statistics", href: "/data-statistics" },
+  { label: "Publications", href: "/publications" },
+  { label: "Press Release", href: "/press-releases" },
+  { label: "Sitemap", href: "/sitemap" },
+];
 
 export default function Footer() {
   return (
@@ -37,18 +51,26 @@ export default function Footer() {
           </div>
           <div className="space-y-2">
             <p className="font-semibold">Useful Links</p>
-            {links.map((link) => (
-              <p key={link} className="text-white/80">
-                {link}
-              </p>
+            {usefulLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="block text-white/80 transition hover:text-white"
+              >
+                {link.label}
+              </Link>
             ))}
           </div>
           <div className="space-y-2">
-            <p className="font-semibold">Useful Links</p>
-            {links.map((link) => (
-              <p key={`${link}-dup`} className="text-white/80">
-                {link}
-              </p>
+            <p className="font-semibold">Quick Links</p>
+            {quickLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="block text-white/80 transition hover:text-white"
+              >
+                {link.label}
+              </Link>
             ))}
           </div>
         </div>
