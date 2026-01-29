@@ -12,26 +12,32 @@ const portals = [
   {
     title: "StatsBank",
     description: "Explore time-series data across sectors and regions.",
+    href: "https://statsbank.statsghana.gov.gh/",
   },
   {
     title: "Microdata Catalogue",
     description: "Download survey datasets and metadata for research use.",
+    href: "https://microdata.statsghana.gov.gh/",
   },
   {
     title: "National Reporting Platform",
     description: "Discover key insights from Ghana's Population and Housing Census.",
+    href: "https://sdgs-ghana.github.io/",
   },
   {
     title: "CPI Inflation Calculator",
     description: "Calculate historical inflation-adjusted values.",
+    href: "/data-portals/cpi-inflation-calculator",
   },
   {
     title: "Open Data for Africa",
     description: "Interactive access to regional and continental data comparisons.",
+    href: "https://dataportals.org/portal/ghana_opendataforafrica/",
   },
   {
     title: "Ghana Gridded Data Portal",
     description: "Visualize spatial data for planning and analysis.",
+    href: "https://ghana-gridded-statistics-platform-statsghana.hub.arcgis.com/",
   },
 ];
 
@@ -108,12 +114,14 @@ export default function DataPortals() {
                   {portal.title}
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">{portal.description}</p>
-                <button
-                  type="button"
+                <a
+                  href={portal.href}
+                  target={portal.href.startsWith("http") ? "_blank" : undefined}
+                  rel={portal.href.startsWith("http") ? "noreferrer" : undefined}
                   className="mt-4 inline-flex items-center gap-1 text-xs font-semibold uppercase text-purple-700 transition hover:text-purple-900"
                 >
                   Learn More <ArrowUpRight className="h-4 w-4" />
-                </button>
+                </a>
               </div>
             </Card>
           ))}

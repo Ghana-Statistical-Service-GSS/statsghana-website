@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { BarChart3, Briefcase, Leaf, TrendingUp } from "lucide-react";
 import ProgramTable, {
@@ -33,6 +33,7 @@ const ECON_CONTENT: Record<EconKey, EconContent> = {
         program: "Quarterly GDP Bulletin",
         category: "GDP",
         month: "Jan",
+        quarter: "Q1",
         year: "2025",
         downloadUrl: "#",
         fileLabel: "PDF",
@@ -63,6 +64,7 @@ const ECON_CONTENT: Record<EconKey, EconContent> = {
         program: "Quarterly GDP Bulletin",
         category: "GDP",
         month: "Sep",
+        quarter: "Q3",
         year: "2024",
         downloadUrl: "#",
         fileLabel: "PDF",
@@ -257,7 +259,40 @@ const CATEGORY_ITEMS: Array<{
 
 export default function EconomicStatisticsPage() {
   const [activeKey, setActiveKey] = useState<EconKey>("national-accounts");
-  const activeContent = useMemo(() => ECON_CONTENT[activeKey], [activeKey]);
+  const [nationalRows, setNationalRows] = useState<ProgramRow[]>(
+    ECON_CONTENT["national-accounts"].rows,
+  );
+
+  useEffect(() => {
+    const loadRows = async () => {
+      try {
+        const response = await fetch(
+          "/api/economic-statistics/national-accounts",
+        );
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data?.rows?.length) {
+          setNationalRows(
+            data.rows.map((row: ProgramRow) => ({
+              ...row,
+              downloadUrl: row.downloadUrl || "#",
+            })),
+          );
+        }
+      } catch {
+        // keep fallback rows
+      }
+    };
+
+    loadRows();
+  }, []);
+
+  const activeContent = useMemo(() => {
+    if (activeKey === "national-accounts") {
+      return { ...ECON_CONTENT[activeKey], rows: nationalRows };
+    }
+    return ECON_CONTENT[activeKey];
+  }, [activeKey, nationalRows]);
 
   return (
     <div className="bg-white">
@@ -362,6 +397,7 @@ export default function EconomicStatisticsPage() {
               title={`${activeContent.title} Releases`}
               subtitle={activeContent.subtitle}
               rows={activeContent.rows}
+              showType={activeKey === "national-accounts"}
             />
           </div>
         </div>

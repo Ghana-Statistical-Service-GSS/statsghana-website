@@ -22,7 +22,7 @@ const principles = [
   },
   {
     title: "Sources of official statistics",
-    text: "Data for statistical purposes may be drawn from all types of sources, be they statistical surveys or administrative records. Statistical agencies are to choose the source with regard to quality, timeliness, costs and the burden on respondents.",
+    text: "Data for statistical purposes may be drawn from all types of sources, be they statistical surveys or administrative records. Statistical agencies are to choose the source regarding quality, timeliness, costs and the burden on respondents.",
   },
   {
     title: "Confidentiality",

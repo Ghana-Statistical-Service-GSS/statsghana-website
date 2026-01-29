@@ -2,8 +2,7 @@ const PAGE_TITLE = "Legal Mandate";
 const BREADCRUMB = ["About GSS", "Legal Mandate"];
 
 const paragraphs = [
-  "Efforts to institutionalise the collection and dissemination of statistical information in Ghana began in 1891 when the first population census in the Gold Coast was conducted. The Office of the Government Statistician was established in 1948 and was expanded and renamed the Central Bureau of Statistics in 1961. Subsequently, the Statistical Service Law, 1985 (PNDCL 135) was promulgated to establish the Ghana Statistical Service as an autonomous independent public service with a Board of Directors who report directly to the Office of the President.",
-  "The Ghana Statistical Service has been consistent in performing its legal functions to serve the needs of individuals, organisations, development partners and the government without hindrance. However, the need to improve the legal framework to reflect changes in the statistics landscape worldwide has resulted in the promulgation of a new law- Statistical Service Act, 2019 (Act 1003) to replace the Statistical Service Law, 1985. The New Law establishes the Ghana Statistical Service as the central statistics producing and co-ordinating institution for the National Statistical System and to strengthen the production of quality, relevant, accurate and timely statistical information for the purpose of national development.",
+  "The Ghana Statistical Service has been consistent in performing its legal functions to serve the needs of individuals, organisations, development partners and the government without hindrance. However, the need to improve the legal framework to reflect changes in the statistics landscape worldwide has resulted in the promulgation of a new law- The Statistical Service Act, 2019 (Act 1003) to replace the Statistical Service Law, 1985. The New Law establishes the Ghana Statistical Service as the central statistics producing and coordinating institution for the National Statistical System and strengthens the production of quality, relevant, accurate, and timely statistical information for the purpose of national development.",
 ];
 
 const leadIn = "The New Law specifically mandates the Service to:";
@@ -15,7 +14,7 @@ const mandates = [
   },
   {
     key: "b",
-    text: "Collect, compile, analyse, abstract, publish and disseminate statistical information related to the commercial, industrial, financial, social, demographic, economic and other activities and conditions of the people or this country through the conduct of surveys and national censuses, including population, housing, economic and agricultural censuses;",
+    text: "Collect, compile, analyse, abstract, publish and disseminate statistical information related to the commercial, industrial, financial, social, demographic, economic and other activities and conditions of the people or this country through the conduct of surveys and national censuses, including population, housing, economic and agricultural censuses.",
   },
   {
     key: "c",
@@ -23,11 +22,11 @@ const mandates = [
   },
   {
     key: "d",
-    text: "Develop, create awareness and operationalize the code of ethics and practice for the production and use of data to ensure quality of statistics with respect to relevance, accuracy and reliability, coherence and comparability, sustainability, continuity, timeliness, topicality and integrity;",
+    text: "Develop, create awareness and operationalise the code of ethics and practice for the production and use of data to ensure quality of statistics with respect to relevance, accuracy and reliability, coherence and comparability, sustainability, continuity, timeliness, topicality and integrity.",
   },
   {
     key: "e",
-    text: "Manage a centrally organized database of",
+    text: "Manage a centrally organised database of",
     subItems: [
       "Commercial, industrial, financial, social, demographic and economic survey and censuses data sets at the micro and macro levels,",
       "Statistical indicators, and",

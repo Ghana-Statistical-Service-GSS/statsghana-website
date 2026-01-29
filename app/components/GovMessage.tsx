@@ -29,16 +29,15 @@ export default function GovMessage() {
               <Quote className="h-8 w-8" />
             </div>
             <p className="mt-6 text-sm text-gray-500 sm:text-base">
-              Welcome to the official website of the Ghana Statistical Service —
-              the trusted source of official data for national development. At
-              GSS, we recognize that data drives progress. Our commitment is to
-              produce and share timely, reliable, and relevant statistics that
-              inform policy, empower citizens, and promote accountability. As we
-              embrace digital transformation, we continue to innovate in how data
-              is collected, analyzed, and disseminated — ensuring that statistics
-              are accessible and meaningful to all users. Together, let us build
-              a data-driven Ghana, where every statistic counts and every
-              decision is guided by evidence.
+              At GSS, we are guided by a clear mandate to produce, manage, and disseminate timely, reliable, and relevant statistical information in service of 
+              national development. Our work supports sound policymaking, strengthens accountability, deepens public understanding, and enables citizens, 
+              institutions, and partners to make informed decisions that advance Ghana’s socio-economic progress.
+              As part of our digital transformation agenda, we are continuously strengthening our systems, platforms, and processes to improve data accessibility, 
+              usability, and transparency. We remain committed to innovation in data production and dissemination, ensuring that official statistics are not only 
+              credible, but also responsive to the evolving needs of government, the private sector, academia, civil society, and the general public.
+              Together, we will continue to build a data-driven Ghana, where policy is guided by evidence, development is informed by facts, 
+              and statistics serve as a foundation for inclusive and sustainable national progress.
+
             </p>
             <div className="flex items-center justify-end pr-2 text-slate-300">
               <Quote className="h-8 w-8 scale-x" />

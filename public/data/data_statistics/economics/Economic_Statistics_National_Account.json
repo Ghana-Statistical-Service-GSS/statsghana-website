@@ -1,0 +1,1272 @@
+[
+  {
+    "id": "BA1",
+    "program": "Annual GDP_Expenditure Approach_September 2025 Edition_GSS",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA2",
+    "program": "Annual GDP_Expenditure Approach_March 2024 Edition",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA3",
+    "program": "Annual GDP_Expenditure Approach_March 2024 Edition",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA4",
+    "program": "Annual GDP Expenditure Approach June 2023 Edition",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA5",
+    "program": "Annual GDP Expenditure Approach June 2023 Edition",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA6",
+    "program": "GDP Expenditure Approach April 2022 Edition",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA7",
+    "program": "GDP Expenditure Approach",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA8",
+    "program": "GDP Expenditure 2013 2019 April 2020 Edition",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "4",
+    "year": "2020",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA9",
+    "program": "Annual GDP by Expenditure",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA10",
+    "program": "Annual GDP by Expenditure",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA11",
+    "program": "GDP Expenditure Approach Time Series",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "1",
+    "year": "2012",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA12",
+    "program": "Revised GDP Production and Expenditure Approach",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "1",
+    "year": "2013",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA13",
+    "program": "GDP Expenditure approach New Series",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "1",
+    "year": "2013",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA14",
+    "program": "GDP Expenditure Approach",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "4",
+    "year": "2014",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA15",
+    "program": "GDP National Accounts Statistics",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "4",
+    "year": "2014",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA16",
+    "program": "Revised Annual Expenditure",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "2",
+    "year": "2016",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA17",
+    "program": "Annual GDP Expenditure",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "2",
+    "year": "2016",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA18",
+    "program": "GDP Expenditure",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "3",
+    "year": "2015",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BA19",
+    "program": "Annual GDP Expenditure",
+    "category": "Annual GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "3",
+    "year": "2013",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "BD1",
+    "program": "Annual_2013_2024_GDP_September 2025 edition",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD2",
+    "program": "Annual_GDP_2013_2024_GSS",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD3",
+    "program": "Annual_GDP_2006_2021_P_GSS",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD4",
+    "program": "Annual_2013_2023_GDP_GSS",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD5",
+    "program": "Annual 2013 to 2022 Annual detail GDP compilation up to GNI",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD6",
+    "program": "Annual GDP by Production Approach 2013 - 2022",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD7",
+    "program": "GDP distribution at basic prices",
+    "category": "Annual GDP By Production Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "2",
+    "year": "2022",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD8",
+    "program": "Annual GDP by Production Approach 2013 - 2021",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD9",
+    "program": "Annual GDP 2013 to 2020",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD10",
+    "program": "Rebased 2013-2019 AnnualGross Domestic Product",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "4",
+    "year": "2020",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD11",
+    "program": "Annual GDP by Production",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "4",
+    "year": "2020",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD12",
+    "program": "Annual 2013-2018 GDP April 2019 Edition",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD13",
+    "program": "Rebased Annual GDP September 2018 Edition",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD14",
+    "program": "Annual Gross Domestic Product (Old and New Series)",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD15",
+    "program": "Revised GDP",
+    "category": "Annual GDP By Production Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "4",
+    "year": "2013",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD16",
+    "program": "Revised GDP April",
+    "category": "Annual GDP By Production Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "2",
+    "year": "2012",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD17",
+    "program": "Revised GDP May",
+    "category": "Annual GDP By Production Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "2",
+    "year": "2011",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD18",
+    "program": "GDP Real, Nominal Growth Rates",
+    "category": "Annual GDP By Production Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "2",
+    "year": "2014",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD19",
+    "program": "Revised Annual GDP",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "1",
+    "year": "2015",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD20",
+    "program": "Growth Rate of Annual GDP (Production Approach)",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "2",
+    "year": "2016",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "BD21",
+    "program": "Revised Annual GDP",
+    "category": "Annual GDP By Production Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "2",
+    "year": "2016",
+    "sheet": "AnnualGDPbyProductionApproach"
+  },
+  {
+    "id": "IM1",
+    "program": "Annual 2013 2020 GDP",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM2",
+    "program": "Release of Provisional GDP",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM3",
+    "program": "Provisional GDP",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM4",
+    "program": "Provisional GDP",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM5",
+    "program": "Revised GDP Newsletter",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2008",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM6",
+    "program": "GDP Presentation",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM7",
+    "program": "Annual GDP Presentation",
+    "category": "Annual GDP News Letters",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Annual GDP Newsletters"
+  },
+  {
+    "id": "IM8",
+    "program": "National Income",
+    "category": "Gross National Income",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2011",
+    "sheet": "GNI"
+  },
+  {
+    "id": "IM9",
+    "program": "AFDB ICP Household Consumption",
+    "category": "Others",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Others"
+  },
+  {
+    "id": "IM10",
+    "program": "Newsletter_quarterly_GDP_2023_September__2023_Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM11",
+    "program": "Newsletter_quarterly_GDP_2023__Q1_June__2023_Edition_Final",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "1",
+    "year": "2023",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM12",
+    "program": "Newsletter_quarterly_GDP_2022__Q4_April__2023_Edition_Final",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2023",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM13",
+    "program": "Newsletter quarterly GDP 2022 _Q2_September 2022 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "2",
+    "year": "2022",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM14",
+    "program": "Newsletter quarterly GDP 2022 Q1, June 2022 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "1",
+    "year": "2022",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM15",
+    "program": "Newsletter quarterly GDP 2021 Q4 April 2022 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2022",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM16",
+    "program": "Newsletter quarterly GDP 2021 Q3 December 2021 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "3",
+    "year": "2021",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM17",
+    "program": "Newsletter Quarterly GDP 2021 Q2 September 2021",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "2",
+    "year": "2021",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM18",
+    "program": "Newsletter quarterly GDP 2021 Q1 June 2021 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "1",
+    "year": "2021",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM19",
+    "program": "Quarterly Gross Domestic Product (QGDP) Third Quarter 2020",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "3",
+    "year": "2020",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM20",
+    "program": "Newsletter Quarterly Gross Domestic Product (QGDP) Second Quarter 2020",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "2",
+    "year": "2020",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM21",
+    "program": "News Letter Quarterly",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM22",
+    "program": "Newsletter quarterly GDP 2019 Q4 April 2020 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2020",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM23",
+    "program": "Newsletter quarterly GDP 2019 Q3 December 2019 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "3",
+    "year": "2019",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM24",
+    "program": "Newsletter quarterly GDP",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM25",
+    "program": "GDP Q4 2018 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2019",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM26",
+    "program": "GDP Q2 October 2018 Edition",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "2",
+    "year": "2018",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM27",
+    "program": "Newsletter quarterly GDP",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM28",
+    "program": "4th Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2014",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM29",
+    "program": "3rd Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "January",
+    "quarter": "3",
+    "year": "2013",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM30",
+    "program": "2nd Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "October",
+    "quarter": "2",
+    "year": "2014",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM31",
+    "program": "1st Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "1",
+    "year": "2014",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM32",
+    "program": "GDP 4th Quarter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2012",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM33",
+    "program": "GDP 4th Quarter National Accounts Statistics",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "May",
+    "quarter": "4",
+    "year": "2011",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM34",
+    "program": "1st Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "1",
+    "year": "2012",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM35",
+    "program": "4th Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "March",
+    "quarter": "4",
+    "year": "2013",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM36",
+    "program": "4th Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "4",
+    "year": "2013",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM37",
+    "program": "3rd Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "January",
+    "quarter": "3",
+    "year": "2012",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM38",
+    "program": "2nd Quarter GDP 2013 Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "2",
+    "year": "2013",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM39",
+    "program": "2nd Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "October",
+    "quarter": "2",
+    "year": "2011",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM40",
+    "program": "1st Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "1",
+    "year": "2012",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM41",
+    "program": "1st Quarter GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "January",
+    "quarter": "1",
+    "year": "2011",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM42",
+    "program": "Quarterly GDP Newsletter",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM43",
+    "program": "Newsletter Quarterly GDP",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM44",
+    "program": "Newsletter Quarterly GDP",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "January",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "IM45",
+    "program": "News Letter Quarterly",
+    "category": "Quarterly GDP News Letter",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Quarterly GDP Newsletters"
+  },
+  {
+    "id": "BA20",
+    "program": "Quarterly GDP distribution at basic prices by economic activity (Shares)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA21",
+    "program": "Quarterly GDP growth rates 2013 prices by economic activity (year-on-year change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA22",
+    "program": "Seasonally adjusted quarterly GDP growth rates by economic activity (quarter-on-quarter change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA23",
+    "program": "Rebased_GDP_quarterly_bullettin_June_2023_edition_gss_web",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA24",
+    "program": "Rebased GDP quarterly bullettin_September_2022 edition_2006Q1_2022Q2_final",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA25",
+    "program": "Percentage share of GDP",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA26",
+    "program": "Seasonally adjusted quarterly GDP growth rates by economic activity (quarter-on-quarter change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA27",
+    "program": "Quarterly GDP growth rates 2013 prices by economic activity (year-on-year change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA28",
+    "program": "Rebased GDP quarterly bullettin_April_2023 edition_gss_web",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA29",
+    "program": "Rebased GDP quarterly bullettin_September_2022 edition_2006Q1_2022Q2_final",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA30",
+    "program": "Seasonally adjusted GDP growth rates by activity (quarter-on-quarter change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA31",
+    "program": "Rebased GDP quarterly bullettin_December_2022 edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA32",
+    "program": "Newsletter quarterly GDP 2022 _Q3_December 2022 Edition_final",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA33",
+    "program": "Quarterly GDP growth rates 2013 prices by economic activity (year-on-year change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA34",
+    "program": "Seasonally adjusted quarterly GDP growth rates by economic activity (quarter-on-quarter change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA35",
+    "program": "Quarterly GDP growth rates 2013 prices by economic activity (year-on-year change)",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA36",
+    "program": "Rebased GDP quarterly bulletin June 2022",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA37",
+    "program": "Annual 2006 to 2021 GDP",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA38",
+    "program": "Rebased GDP quarterly bulletin April 2022 edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA39",
+    "program": "Rebased GDP quarterly bulletin December 2021 edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA40",
+    "program": "Rebased GDP quarterly bulletin September 2021 edition 2021Q2",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA41",
+    "program": "Rebased GDP quarterly bulletin June 2021 edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA42",
+    "program": "Rebased GDP quarterly bullettin",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA43",
+    "program": "Rebased GDP quarterly bullettin December 2020 edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA44",
+    "program": "Rebased GDP quarterly bullettin",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA45",
+    "program": "Rebased GDP quarterly bullettin June 2020 edition 2020Q1",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA46",
+    "program": "Rebased GDP quarterly bulletin April 2020 edition 2019 Q4",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA47",
+    "program": "Rebased GDP quarterly bullettin_Dec_2019 edition_2019Q3",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA48",
+    "program": "Rebased GDP Quarterly Bulletin December Edition Q3",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA49",
+    "program": "Rebased GDP Quarterly Bulletin September Edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA50",
+    "program": "Quarterly GDP 2019 September Edition",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA51",
+    "program": "Rebased Quarterly Gross Domestic Product 2013Q1-2019Q1",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA52",
+    "program": "Rebased Quarterly GDP 2013Q1-2018Q4",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "April",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA53",
+    "program": "Re-based Quarterly GDP",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA54",
+    "program": "Quarterly GDP Time Series",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "January",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA55",
+    "program": "2nd Quarter GDP",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "",
+    "month": "September",
+    "quarter": "2nd",
+    "year": "2012",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA56",
+    "program": "3rd Quarter GDP",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "",
+    "month": "January",
+    "quarter": "3rd",
+    "year": "2012",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA57",
+    "program": "Quarterly Gross Domestic Product",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "October",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA58",
+    "program": "1st Quarter GDP Times Series",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "",
+    "month": "June",
+    "quarter": "1st",
+    "year": "2013",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA59",
+    "program": "Quarterly GDP Stats Ghana Time Series",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA60",
+    "program": "Quarterly GDP Stats Ghana Time Series",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "January",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Quarterly GDP by Production App"
+  },
+  {
+    "id": "BA61",
+    "program": "Quarterly GDP Time Series",
+    "category": "Quarterly GDP by Production Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Quarterly GDP by Production App"
+  }
+]
