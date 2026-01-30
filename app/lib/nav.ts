@@ -80,6 +80,7 @@ export const NAV: NavItem[] = [
         label: "Economic Statistics",
         href: "/data-statistics/economic-statistics",
       },
+
       {
         label: "Business, Industry & Trade Statistics",
         href: "/data-statistics/business-industry-and-trade-statistics",
@@ -97,17 +98,17 @@ export const NAV: NavItem[] = [
     "Statistical Governance",
   ]),
   {
-    label: "News",
-    href: "/news",
+    label: "News & Events",
+    href: "/news-and-events",
     children: [
-      { label: "News", href: "/news" },
-      { label: "Press Releases", href: "/press-releases" },
-      { label: "Career & Jobs", href: "/news-and-media/opportunities" },
+      { label: "News", href: "/news-and-events/news" },
+      { label: "Press Releases", href: "/news-and-events/press-releases" },
+      { label: "Career & Jobs", href: "/news-and-events/opportunities" },
     ],
   },
   {
     label: "Media",
-    href: "/media/gallery",
+    href: "/media",
     children: [
       { label: "Gallery", href: "/media/gallery" },
       { label: "Videos", href: "/media/videos" },

@@ -18,7 +18,7 @@ export default function NewsDetailPage({ params }: NewsDetailPageProps) {
     <div className="bg-white py-10 sm:py-12">
       <div className="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8">
         <div className="text-sm text-slate-500">
-          Home / News &amp; Media / <Link href="/news">News</Link> /{" "}
+          Home / News &amp; Events / <Link href="/news-and-events">News</Link> /{" "}
           <span className="text-slate-700">{item.title}</span>
         </div>
         <h1 className="mt-4 text-3xl font-extrabold text-slate-900 sm:text-4xl">
