@@ -118,7 +118,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Director",
     group: "DIRECTOR",
     directorate: "Administration",
-    photo: "/images/management/kwadwoasante.jpg",
+    photo: "/images/management/kwadwo.jpg",
     bio: kwadwoBio,
     email:"kwadwo.asante@statsghana.gov.gh"
   },
@@ -215,7 +215,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Ag. Director",
     group: "DIRECTOR",
     directorate: "Communication and Dissemination",
-    photo: "/images/management/bessah.jpg",
+    photo: "/images/management/davidbessah.jpg",
     bio: davidBio,
     email:"david.bessah@statsghana.gov.gh"
   },
