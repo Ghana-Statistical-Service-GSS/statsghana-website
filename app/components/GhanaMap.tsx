@@ -84,6 +84,8 @@ type MiegDimensions = {
   monthCode: string;
   seriesCode: string;
   seriesValue: string;
+  variableCode: string | null;
+  variableValue: string | null;
 };
 
 type ProjectionDimensions = {
@@ -510,6 +512,7 @@ export default function GhanaMap({
         const rows = data.data ?? [];
         const monthIdx = columns.findIndex((c: any) => c.code === "Month");
         const seriesIdx = columns.findIndex((c: any) => c.code === "GDP_Series");
+        const variableIdx = columns.findIndex((c: any) => c.code === "Variable");
 
         if (monthIdx === -1 || seriesIdx === -1) {
           throw new Error("Missing Month or GDP_Series columns");
@@ -518,6 +521,9 @@ export default function GhanaMap({
         const monthSet = new Set<string>();
         for (const row of rows) {
           if (row.key?.[seriesIdx] !== "MIEG Index Growth (year-on-year %)") continue;
+          if (variableIdx !== -1 && row.key?.[variableIdx] !== "Total MIEG") {
+            continue;
+          }
           const month = row.key?.[monthIdx];
           if (month) monthSet.add(month);
         }
@@ -532,6 +538,8 @@ export default function GhanaMap({
           monthCode: "Month",
           seriesCode: "GDP_Series",
           seriesValue: "MIEG Index Growth (year-on-year %)",
+          variableCode: variableIdx !== -1 ? "Variable" : null,
+          variableValue: variableIdx !== -1 ? "Total MIEG" : null,
         };
 
         if (isActive) {
@@ -977,13 +985,19 @@ export default function GhanaMap({
         const rows = data?.data ?? [];
         const monthIdx = columns.findIndex((c: any) => c.code === miegDims.monthCode);
         const seriesIdx = columns.findIndex((c: any) => c.code === miegDims.seriesCode);
+        const variableIdx =
+          miegDims.variableCode
+            ? columns.findIndex((c: any) => c.code === miegDims.variableCode)
+            : -1;
 
         const filtered =
           monthIdx !== -1 && seriesIdx !== -1
             ? rows.filter(
                 (row: any) =>
                   row.key?.[monthIdx] === miegMonth &&
-                  row.key?.[seriesIdx] === miegDims.seriesValue,
+                  row.key?.[seriesIdx] === miegDims.seriesValue &&
+                  (variableIdx === -1 ||
+                    row.key?.[variableIdx] === miegDims.variableValue),
               )
             : [];
 

@@ -63,7 +63,13 @@ const INDICATOR_CONFIG = {
   },
   MIEG: {
     label: "MIEG",
-    rows: (miegData as any)?.response?.data ?? [],
+    rows:
+      ((miegData as any)?.response?.data ?? []).filter((row: any) => {
+        const cols = (miegData as any)?.response?.columns ?? [];
+        const variableIdx = cols.findIndex((c: any) => c.code === "Variable");
+        if (variableIdx === -1) return true;
+        return row.key?.[variableIdx] === "Total MIEG";
+      }) ?? [],
     columns: (miegData as any)?.response?.columns ?? [],
     monthIndex: (miegData as any)?.response?.columns?.findIndex((c: any) => c.code === "Month") ?? 0,
     indicatorIndex:

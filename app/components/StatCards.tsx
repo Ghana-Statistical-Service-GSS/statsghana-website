@@ -133,10 +133,14 @@ export default function StatCards() {
   const miegRows = (miegData as any)?.response?.data ?? [];
   const miegColumns = (miegData as any)?.response?.columns ?? [];
   const miegSeriesIdx = miegColumns.findIndex((c: any) => c.code === "GDP_Series");
+  const miegVariableIdx = miegColumns.findIndex((c: any) => c.code === "Variable");
   const miegMonthIdx = miegColumns.findIndex((c: any) => c.code === "Month");
   const latestMieg = getLatestMonthValue(
     miegRows.filter(
-      (row: any) => row.key?.[miegSeriesIdx] === "MIEG Index Growth (year-on-year %)"
+      (row: any) =>
+        row.key?.[miegSeriesIdx] === "MIEG Index Growth (year-on-year %)" &&
+        (miegVariableIdx === -1 ||
+          row.key?.[miegVariableIdx] === "Total MIEG")
     ),
     miegMonthIdx
   ) as LatestMonthValue;
