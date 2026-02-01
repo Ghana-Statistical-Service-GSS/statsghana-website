@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import Container from "./Container";
@@ -9,7 +10,7 @@ export default function TopBar() {
     <div className="border-b border-slate-100 bg-white">
       <Container>
         <div className="flex flex-col gap-4 py-2 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <div className="relative h-[82px] w-[82px]">
               <Image
                 src="/images/gss-logo.png"
@@ -24,7 +25,7 @@ export default function TopBar() {
               <div>Statistical</div>
               <div>Service</div>
             </div>
-          </div>
+          </Link>
 
           <div className="flex flex-wrap items-center gap-3 sm:gap-4">
             <HeaderSearch />

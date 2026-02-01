@@ -14,6 +14,7 @@ export const searchIndex: SearchItem[] = [
     group: "About",
   },
   { label: "Management", href: "/about/management", group: "About" },
+  { label: "Board", href: "/about/board", group: "About" },
   { label: "History", href: "/about/history", group: "About" },
   {
     label: "National Statistical System (NSS)",

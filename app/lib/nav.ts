@@ -34,6 +34,7 @@ export const NAV: NavItem[] = [
         href: "/about/statistical-service-act",
       },
       { label: "Management", href: "/about/management" },
+      { label: "Board", href: "/about/board" },
       { label: "History", href: "/about/history" },
       {
         label: "National Statistical System (NSS)",

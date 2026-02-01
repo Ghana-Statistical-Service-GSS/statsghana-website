@@ -1,0 +1,315 @@
+{
+  "fetchedAt": "2026-02-01T02:06:47.988Z",
+  "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/PHC%202021%20StatsBank/Population/population_table.px",
+  "query": [
+    {
+      "code": "Age",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "All ages"
+        ]
+      }
+    },
+    {
+      "code": "Locality",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "All Locality Types"
+        ]
+      }
+    },
+    {
+      "code": "Education",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Total"
+        ]
+      }
+    },
+    {
+      "code": "Geographic_Area",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Ghana",
+          "Western",
+          "Central",
+          "Greater Accra",
+          "Volta",
+          "Eastern",
+          "Ashanti",
+          "Western North",
+          "Ahafo",
+          "Bono",
+          "Bono East",
+          "Oti",
+          "Northern",
+          "Savannah",
+          "North East",
+          "Upper East",
+          "Upper West"
+        ]
+      }
+    },
+    {
+      "code": "Sex",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Both sexes"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "columns": [
+      {
+        "code": "Age",
+        "text": "Age",
+        "type": "d"
+      },
+      {
+        "code": "Locality",
+        "text": "Locality",
+        "type": "d"
+      },
+      {
+        "code": "Education",
+        "text": "Education",
+        "type": "d"
+      },
+      {
+        "code": "Geographic_Area",
+        "text": "Geographic_Area",
+        "type": "d"
+      },
+      {
+        "code": "Sex",
+        "text": "Sex",
+        "type": "d"
+      },
+      {
+        "code": "Population",
+        "text": "Population",
+        "type": "c"
+      }
+    ],
+    "comments": [],
+    "data": [
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ghana",
+          "Both sexes"
+        ],
+        "values": [
+          "30832019"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Western",
+          "Both sexes"
+        ],
+        "values": [
+          "2060585"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Central",
+          "Both sexes"
+        ],
+        "values": [
+          "2859821"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Greater Accra",
+          "Both sexes"
+        ],
+        "values": [
+          "5455692"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Volta",
+          "Both sexes"
+        ],
+        "values": [
+          "1659040"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Eastern",
+          "Both sexes"
+        ],
+        "values": [
+          "2925653"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ashanti",
+          "Both sexes"
+        ],
+        "values": [
+          "5440463"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Western North",
+          "Both sexes"
+        ],
+        "values": [
+          "880921"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ahafo",
+          "Both sexes"
+        ],
+        "values": [
+          "564668"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bono",
+          "Both sexes"
+        ],
+        "values": [
+          "1208649"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bono East",
+          "Both sexes"
+        ],
+        "values": [
+          "1203400"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Oti",
+          "Both sexes"
+        ],
+        "values": [
+          "747248"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Northern",
+          "Both sexes"
+        ],
+        "values": [
+          "2310928"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Savannah",
+          "Both sexes"
+        ],
+        "values": [
+          "653277"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "North East",
+          "Both sexes"
+        ],
+        "values": [
+          "658946"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Upper East",
+          "Both sexes"
+        ],
+        "values": [
+          "1301226"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Upper West",
+          "Both sexes"
+        ],
+        "values": [
+          "901502"
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "updated": "2023-04-26T10:04:00Z",
+        "label": "Population by Age, Locality, Education, Geographic_Area and Sex",
+        "source": "Ghana Statistical Service (2021 PHC)"
+      }
+    ]
+  }
+}

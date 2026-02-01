@@ -1,0 +1,42 @@
+{
+  "IBES": {
+    "2014": {
+      "National": 638235,
+      "Western": 43030,
+      "Central": 52975,
+      "Greater Accra": 177152,
+      "Volta": 31113,
+      "Eastern": 58766,
+      "Ashanti": 123644,
+      "Western North": 20409,
+      "Ahafo": 9920,
+      "Bono": 23230,
+      "Bono East": 16197,
+      "Oti": 11042,
+      "Northern": 27627,
+      "Savannah": 6131,
+      "North East": 6217,
+      "Upper East": 17054,
+      "Upper West": 13728
+    },
+    "2024": {
+      "National": 1867695,
+      "Western": 134421,
+      "Central": 171066,
+      "Greater Accra": 434623,
+      "Volta": 97441,
+      "Eastern": 175876,
+      "Ashanti": 296338,
+      "Western North": 52114,
+      "Ahafo": 31008,
+      "Bono": 66848,
+      "Bono East": 68671,
+      "Oti": 38399,
+      "Northern": 114986,
+      "Savannah": 28376,
+      "North East": 29037,
+      "Upper East": 87179,
+      "Upper West": 41312
+    }
+  }
+}

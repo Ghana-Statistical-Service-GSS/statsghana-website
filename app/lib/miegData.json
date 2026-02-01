@@ -1,0 +1,346 @@
+{
+  "fetchedAt": "2026-02-01T04:22:10.976Z",
+  "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Monthly%20Indicator%20of%20Economic%20Growth(MIEG)/mieg_px.px",
+  "query": [
+    {
+      "code": "Month",
+      "selection": {
+        "filter": "all",
+        "values": [
+          "*"
+        ]
+      }
+    },
+    {
+      "code": "GDP_Series",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "MIEG Index Growth (year-on-year %)"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "columns": [
+      {
+        "code": "Month",
+        "text": "Month",
+        "type": "t"
+      },
+      {
+        "code": "GDP_Series",
+        "text": "GDP_Series",
+        "type": "d"
+      }
+    ],
+    "data": [
+      {
+        "key": [
+          "2023-01-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-02-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-03-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-04-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-05-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-06-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-07-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-08-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-09-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-10-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-11-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2023-12-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "0.0"
+        ]
+      },
+      {
+        "key": [
+          "2024-01-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "22.1"
+        ]
+      },
+      {
+        "key": [
+          "2024-02-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "14.3"
+        ]
+      },
+      {
+        "key": [
+          "2024-03-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "16.7"
+        ]
+      },
+      {
+        "key": [
+          "2024-04-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "20.3"
+        ]
+      },
+      {
+        "key": [
+          "2024-05-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "13.8"
+        ]
+      },
+      {
+        "key": [
+          "2024-06-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "27.2"
+        ]
+      },
+      {
+        "key": [
+          "2024-07-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "32.9"
+        ]
+      },
+      {
+        "key": [
+          "2024-08-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "18.9"
+        ]
+      },
+      {
+        "key": [
+          "2024-09-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "30.2"
+        ]
+      },
+      {
+        "key": [
+          "2024-10-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "11.0"
+        ]
+      },
+      {
+        "key": [
+          "2024-11-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "27.4"
+        ]
+      },
+      {
+        "key": [
+          "2024-12-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "15.5"
+        ]
+      },
+      {
+        "key": [
+          "2025-01-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "26.4"
+        ]
+      },
+      {
+        "key": [
+          "2025-02-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "21.2"
+        ]
+      },
+      {
+        "key": [
+          "2025-03-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "17.4"
+        ]
+      },
+      {
+        "key": [
+          "2025-04-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "15.6"
+        ]
+      },
+      {
+        "key": [
+          "2025-05-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "23.5"
+        ]
+      },
+      {
+        "key": [
+          "2025-06-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "23.1"
+        ]
+      },
+      {
+        "key": [
+          "2025-07-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "23.2"
+        ]
+      },
+      {
+        "key": [
+          "2025-08-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "20.3"
+        ]
+      },
+      {
+        "key": [
+          "2025-09-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "17.6"
+        ]
+      },
+      {
+        "key": [
+          "2025-10-01",
+          "MIEG Index Growth (year-on-year %)"
+        ],
+        "values": [
+          "13.3"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "PBCI": {
+    "National": [
+      { "month": "2023-01-01", "inflation": null },
+      { "month": "2023-02-01", "inflation": null },
+      { "month": "2023-03-01", "inflation": null },
+      { "month": "2023-04-01", "inflation": null },
+      { "month": "2023-05-01", "inflation": null },
+      { "month": "2023-06-01", "inflation": null },
+      { "month": "2023-07-01", "inflation": null },
+      { "month": "2023-08-01", "inflation": null },
+      { "month": "2023-09-01", "inflation": null },
+      { "month": "2023-10-01", "inflation": null },
+      { "month": "2023-11-01", "inflation": null },
+      { "month": "2023-12-01", "inflation": null },
+      { "month": "2024-01-01", "inflation": 6.263201331 },
+      { "month": "2024-02-01", "inflation": 8.256254232 },
+      { "month": "2024-03-01", "inflation": 9.143063341 },
+      { "month": "2024-04-01", "inflation": 8.453362457 },
+      { "month": "2024-05-01", "inflation": 11.13247417 },
+      { "month": "2024-06-01", "inflation": 13.4267929 },
+      { "month": "2024-07-01", "inflation": 16.1673108 },
+      { "month": "2024-08-01", "inflation": 17.5728514 },
+      { "month": "2024-09-01", "inflation": 18.37338944 },
+      { "month": "2024-10-01", "inflation": 19.17070455 },
+      { "month": "2024-11-01", "inflation": 21.74184728 },
+      { "month": "2024-12-01", "inflation": 22.57405439 },
+      { "month": "2025-01-01", "inflation": 23.73372002 },
+      { "month": "2025-02-01", "inflation": 23.69067078 },
+      { "month": "2025-03-01", "inflation": 23.63173796 },
+      { "month": "2025-04-01", "inflation": 24.40972636 },
+      { "month": "2025-05-01", "inflation": 21.96080929 },
+      { "month": "2025-06-01", "inflation": 18.13191533 },
+      { "month": "2025-07-01", "inflation": 14.15632749 },
+      { "month": "2025-08-01", "inflation": 12.02298242 },
+      { "month": "2025-09-01", "inflation": 9.733691956 },
+      { "month": "2025-10-01", "inflation": 7.804330334 },
+      { "month": "2025-11-01", "inflation": 5.938368956 },
+      { "month": "2025-12-01", "inflation": 4.369686464 }
+    ]
+  }
+}

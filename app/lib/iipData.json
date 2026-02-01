@@ -1,0 +1,175 @@
+{
+  "fetchedAt": "2026-02-01T04:22:10.826Z",
+  "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Prices%20and%20Inflation/iip.px",
+  "query": [
+    {
+      "code": "Quarter",
+      "selection": {
+        "filter": "all",
+        "values": [
+          "*"
+        ]
+      }
+    },
+    {
+      "code": "Indicator",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Year-on-year IIP change (%)"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "columns": [
+      {
+        "code": "Quarter",
+        "text": "Quarter",
+        "type": "t"
+      },
+      {
+        "code": "Indicator",
+        "text": "Indicator",
+        "type": "d"
+      }
+    ],
+    "data": [
+      {
+        "key": [
+          "2025Q3",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "110.6"
+        ]
+      },
+      {
+        "key": [
+          "2025Q2",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "177.7"
+        ]
+      },
+      {
+        "key": [
+          "2025Q1",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "178.3"
+        ]
+      },
+      {
+        "key": [
+          "2024Q4",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "239.4"
+        ]
+      },
+      {
+        "key": [
+          "2024Q3",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "237.2"
+        ]
+      },
+      {
+        "key": [
+          "2024Q2",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "278.1"
+        ]
+      },
+      {
+        "key": [
+          "2024Q1",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "259.9"
+        ]
+      },
+      {
+        "key": [
+          "2023Q4",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "25.9"
+        ]
+      },
+      {
+        "key": [
+          "2023Q3",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "171.9"
+        ]
+      },
+      {
+        "key": [
+          "2023Q2",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "-76.4"
+        ]
+      },
+      {
+        "key": [
+          "2023Q1",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          "-115.4"
+        ]
+      },
+      {
+        "key": [
+          "2022Q4",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2022Q3",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2022Q2",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2022Q1",
+          "Year-on-year IIP change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      }
+    ]
+  }
+}

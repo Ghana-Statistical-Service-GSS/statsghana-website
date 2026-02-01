@@ -1,0 +1,665 @@
+{
+  "fetchedAt": "2026-02-01T04:39:27.975Z",
+  "annual": {
+    "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Real%20Sector%20(GDP)/Annual%20GDP/agdp_e_px.px",
+    "query": [
+      {
+        "code": "Year",
+        "selection": {
+          "filter": "all",
+          "values": [
+            "*"
+          ]
+        }
+      },
+      {
+        "code": "GDP_Series",
+        "selection": {
+          "filter": "item",
+          "values": [
+            "Real GDP growth rate (year-on-year %)"
+          ]
+        }
+      }
+    ],
+    "response": {
+      "columns": [
+        {
+          "code": "Year",
+          "text": "Year",
+          "type": "d"
+        },
+        {
+          "code": "GDP_Series",
+          "text": "GDP_Series",
+          "type": "d"
+        },
+        {
+          "code": "Annual GDP Expenditure Approach",
+          "text": "Annual GDP Expenditure Approach",
+          "type": "c"
+        }
+      ],
+      "comments": [],
+      "data": [
+        {
+          "key": [
+            "2024**",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.6"
+          ]
+        },
+        {
+          "key": [
+            "2023*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.1"
+          ]
+        },
+        {
+          "key": [
+            "2022",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.8"
+          ]
+        },
+        {
+          "key": [
+            "2021",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.1"
+          ]
+        },
+        {
+          "key": [
+            "2020",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "0.5"
+          ]
+        },
+        {
+          "key": [
+            "2019",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.5"
+          ]
+        },
+        {
+          "key": [
+            "2018",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.2"
+          ]
+        },
+        {
+          "key": [
+            "2017",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "8.1"
+          ]
+        },
+        {
+          "key": [
+            "2016",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.4"
+          ]
+        },
+        {
+          "key": [
+            "2015",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "2.1"
+          ]
+        },
+        {
+          "key": [
+            "2014",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "2.9"
+          ]
+        },
+        {
+          "key": [
+            "2013",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            ".."
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "updated": "2025-09-15T10:09:00Z",
+          "label": "Annual GDP Expenditure Approach by Year and GDP_Series",
+          "source": "GSS"
+        }
+      ]
+    }
+  },
+  "quarterly": {
+    "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Real%20Sector%20(GDP)/Quarterly%20GDP/qgdp_e_px.px",
+    "query": [
+      {
+        "code": "Quarter",
+        "selection": {
+          "filter": "all",
+          "values": [
+            "*"
+          ]
+        }
+      },
+      {
+        "code": "GDP_Series",
+        "selection": {
+          "filter": "item",
+          "values": [
+            "Real GDP growth rate (year-on-year %)"
+          ]
+        }
+      }
+    ],
+    "response": {
+      "columns": [
+        {
+          "code": "Quarter",
+          "text": "Quarter",
+          "type": "d"
+        },
+        {
+          "code": "GDP_Series",
+          "text": "GDP_Series",
+          "type": "d"
+        },
+        {
+          "code": "Quarterly GDP Expenditure Approach",
+          "text": "Quarterly GDP Expenditure Approach",
+          "type": "c"
+        }
+      ],
+      "comments": [],
+      "data": [
+        {
+          "key": [
+            "2025Q2**",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.3"
+          ]
+        },
+        {
+          "key": [
+            "2025Q1*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.3"
+          ]
+        },
+        {
+          "key": [
+            "2024Q4*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.2"
+          ]
+        },
+        {
+          "key": [
+            "2024Q3*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "key": [
+            "2024Q2*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.7"
+          ]
+        },
+        {
+          "key": [
+            "2024Q1*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "4.5"
+          ]
+        },
+        {
+          "key": [
+            "2023Q4*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.1"
+          ]
+        },
+        {
+          "key": [
+            "2023Q3*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "1.9"
+          ]
+        },
+        {
+          "key": [
+            "2023Q2*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "2.1"
+          ]
+        },
+        {
+          "key": [
+            "2023Q1*",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.2"
+          ]
+        },
+        {
+          "key": [
+            "2022Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.8"
+          ]
+        },
+        {
+          "key": [
+            "2022Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.3"
+          ]
+        },
+        {
+          "key": [
+            "2022Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "4.9"
+          ]
+        },
+        {
+          "key": [
+            "2022Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.3"
+          ]
+        },
+        {
+          "key": [
+            "2021Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.1"
+          ]
+        },
+        {
+          "key": [
+            "2021Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.8"
+          ]
+        },
+        {
+          "key": [
+            "2021Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "4.5"
+          ]
+        },
+        {
+          "key": [
+            "2021Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.9"
+          ]
+        },
+        {
+          "key": [
+            "2020Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "4.3"
+          ]
+        },
+        {
+          "key": [
+            "2020Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "-3.3"
+          ]
+        },
+        {
+          "key": [
+            "2020Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "-5.6"
+          ]
+        },
+        {
+          "key": [
+            "2020Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.4"
+          ]
+        },
+        {
+          "key": [
+            "2019Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.0"
+          ]
+        },
+        {
+          "key": [
+            "2019Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.3"
+          ]
+        },
+        {
+          "key": [
+            "2019Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "9.1"
+          ]
+        },
+        {
+          "key": [
+            "2019Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.9"
+          ]
+        },
+        {
+          "key": [
+            "2018Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "4.2"
+          ]
+        },
+        {
+          "key": [
+            "2018Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.6"
+          ]
+        },
+        {
+          "key": [
+            "2018Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.3"
+          ]
+        },
+        {
+          "key": [
+            "2018Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "10.9"
+          ]
+        },
+        {
+          "key": [
+            "2017Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.9"
+          ]
+        },
+        {
+          "key": [
+            "2017Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "7.0"
+          ]
+        },
+        {
+          "key": [
+            "2017Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "12.5"
+          ]
+        },
+        {
+          "key": [
+            "2017Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "7.6"
+          ]
+        },
+        {
+          "key": [
+            "2016Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "5.4"
+          ]
+        },
+        {
+          "key": [
+            "2016Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "11.1"
+          ]
+        },
+        {
+          "key": [
+            "2016Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "-2.5"
+          ]
+        },
+        {
+          "key": [
+            "2016Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "-0.4"
+          ]
+        },
+        {
+          "key": [
+            "2015Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "0.1"
+          ]
+        },
+        {
+          "key": [
+            "2015Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "-4.7"
+          ]
+        },
+        {
+          "key": [
+            "2015Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.3"
+          ]
+        },
+        {
+          "key": [
+            "2015Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "10.8"
+          ]
+        },
+        {
+          "key": [
+            "2014Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "1.8"
+          ]
+        },
+        {
+          "key": [
+            "2014Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "7.8"
+          ]
+        },
+        {
+          "key": [
+            "2014Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "3.0"
+          ]
+        },
+        {
+          "key": [
+            "2014Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "-1.1"
+          ]
+        },
+        {
+          "key": [
+            "2013Q4",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            ".."
+          ]
+        },
+        {
+          "key": [
+            "2013Q3",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            ".."
+          ]
+        },
+        {
+          "key": [
+            "2013Q2",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            ".."
+          ]
+        },
+        {
+          "key": [
+            "2013Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            ".."
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "updated": "2025-09-15T10:09:00Z",
+          "label": "Quarterly GDP Expenditure Approach by Quarter and GDP_Series",
+          "source": "GSS"
+        }
+      ]
+    }
+  }
+}

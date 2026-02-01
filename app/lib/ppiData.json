@@ -1,0 +1,2128 @@
+{
+  "fetchedAt": "2026-02-01T04:22:10.680Z",
+  "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Prices%20and%20Inflation/ppi.px",
+  "query": [
+    {
+      "code": "Month",
+      "selection": {
+        "filter": "all",
+        "values": [
+          "*"
+        ]
+      }
+    },
+    {
+      "code": "Indicator",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Year-on-year PPI change (%)"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "columns": [
+      {
+        "code": "Month",
+        "text": "Month",
+        "type": "t"
+      },
+      {
+        "code": "Indicator",
+        "text": "Indicator",
+        "type": "d"
+      }
+    ],
+    "data": [
+      {
+        "key": [
+          "2025M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "1.9"
+        ]
+      },
+      {
+        "key": [
+          "2025M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "1.3"
+        ]
+      },
+      {
+        "key": [
+          "2025M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "1.4"
+        ]
+      },
+      {
+        "key": [
+          "2025M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.2"
+        ]
+      },
+      {
+        "key": [
+          "2025M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.0"
+        ]
+      },
+      {
+        "key": [
+          "2025M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.7"
+        ]
+      },
+      {
+        "key": [
+          "2025M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.8"
+        ]
+      },
+      {
+        "key": [
+          "2025M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.2"
+        ]
+      },
+      {
+        "key": [
+          "2025M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "18.7"
+        ]
+      },
+      {
+        "key": [
+          "2025M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "24.4"
+        ]
+      },
+      {
+        "key": [
+          "2025M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "27.7"
+        ]
+      },
+      {
+        "key": [
+          "2025M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "28.6"
+        ]
+      },
+      {
+        "key": [
+          "2024M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "26.1"
+        ]
+      },
+      {
+        "key": [
+          "2024M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "27.0"
+        ]
+      },
+      {
+        "key": [
+          "2024M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "33.0"
+        ]
+      },
+      {
+        "key": [
+          "2024M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "30.5"
+        ]
+      },
+      {
+        "key": [
+          "2024M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "33.2"
+        ]
+      },
+      {
+        "key": [
+          "2024M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "29.0"
+        ]
+      },
+      {
+        "key": [
+          "2024M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "25.6"
+        ]
+      },
+      {
+        "key": [
+          "2024M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "23.4"
+        ]
+      },
+      {
+        "key": [
+          "2024M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.5"
+        ]
+      },
+      {
+        "key": [
+          "2024M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.1"
+        ]
+      },
+      {
+        "key": [
+          "2024M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.9"
+        ]
+      },
+      {
+        "key": [
+          "2024M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.1"
+        ]
+      },
+      {
+        "key": [
+          "2023M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.4"
+        ]
+      },
+      {
+        "key": [
+          "2023M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "1.7"
+        ]
+      },
+      {
+        "key": [
+          "2023M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.5"
+        ]
+      },
+      {
+        "key": [
+          "2023M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "24.9"
+        ]
+      },
+      {
+        "key": [
+          "2023M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "28.1"
+        ]
+      },
+      {
+        "key": [
+          "2023M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "32.7"
+        ]
+      },
+      {
+        "key": [
+          "2023M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "29.1"
+        ]
+      },
+      {
+        "key": [
+          "2023M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "30.1"
+        ]
+      },
+      {
+        "key": [
+          "2023M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "34.1"
+        ]
+      },
+      {
+        "key": [
+          "2023M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "33.3"
+        ]
+      },
+      {
+        "key": [
+          "2023M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "50.6"
+        ]
+      },
+      {
+        "key": [
+          "2023M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "52.2"
+        ]
+      },
+      {
+        "key": [
+          "2022M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "55.4"
+        ]
+      },
+      {
+        "key": [
+          "2022M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "80.5"
+        ]
+      },
+      {
+        "key": [
+          "2022M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "63.5"
+        ]
+      },
+      {
+        "key": [
+          "2022M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "45.8"
+        ]
+      },
+      {
+        "key": [
+          "2022M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "41.0"
+        ]
+      },
+      {
+        "key": [
+          "2022M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "36.9"
+        ]
+      },
+      {
+        "key": [
+          "2022M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "41.6"
+        ]
+      },
+      {
+        "key": [
+          "2022M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "41.3"
+        ]
+      },
+      {
+        "key": [
+          "2022M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "46.2"
+        ]
+      },
+      {
+        "key": [
+          "2022M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "42.8"
+        ]
+      },
+      {
+        "key": [
+          "2022M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "21.4"
+        ]
+      },
+      {
+        "key": [
+          "2022M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "12.1"
+        ]
+      },
+      {
+        "key": [
+          "2021M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "12.1"
+        ]
+      },
+      {
+        "key": [
+          "2021M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.9"
+        ]
+      },
+      {
+        "key": [
+          "2021M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.6"
+        ]
+      },
+      {
+        "key": [
+          "2021M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.8"
+        ]
+      },
+      {
+        "key": [
+          "2021M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.0"
+        ]
+      },
+      {
+        "key": [
+          "2021M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.8"
+        ]
+      },
+      {
+        "key": [
+          "2021M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.0"
+        ]
+      },
+      {
+        "key": [
+          "2021M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.5"
+        ]
+      },
+      {
+        "key": [
+          "2021M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.7"
+        ]
+      },
+      {
+        "key": [
+          "2021M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.5"
+        ]
+      },
+      {
+        "key": [
+          "2021M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.3"
+        ]
+      },
+      {
+        "key": [
+          "2021M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.7"
+        ]
+      },
+      {
+        "key": [
+          "2020M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.0"
+        ]
+      },
+      {
+        "key": [
+          "2020M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.1"
+        ]
+      },
+      {
+        "key": [
+          "2020M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.4"
+        ]
+      },
+      {
+        "key": [
+          "2020M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.7"
+        ]
+      },
+      {
+        "key": [
+          "2020M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.0"
+        ]
+      },
+      {
+        "key": [
+          "2020M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.3"
+        ]
+      },
+      {
+        "key": [
+          "2020M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.5"
+        ]
+      },
+      {
+        "key": [
+          "2020M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.4"
+        ]
+      },
+      {
+        "key": [
+          "2020M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.4"
+        ]
+      },
+      {
+        "key": [
+          "2020M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.8"
+        ]
+      },
+      {
+        "key": [
+          "2020M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.5"
+        ]
+      },
+      {
+        "key": [
+          "2020M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "14.5"
+        ]
+      },
+      {
+        "key": [
+          "2019M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "13.0"
+        ]
+      },
+      {
+        "key": [
+          "2019M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.9"
+        ]
+      },
+      {
+        "key": [
+          "2019M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.9"
+        ]
+      },
+      {
+        "key": [
+          "2019M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.1"
+        ]
+      },
+      {
+        "key": [
+          "2019M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.2"
+        ]
+      },
+      {
+        "key": [
+          "2019M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.8"
+        ]
+      },
+      {
+        "key": [
+          "2019M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.1"
+        ]
+      },
+      {
+        "key": [
+          "2019M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.7"
+        ]
+      },
+      {
+        "key": [
+          "2019M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.1"
+        ]
+      },
+      {
+        "key": [
+          "2019M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.1"
+        ]
+      },
+      {
+        "key": [
+          "2019M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.4"
+        ]
+      },
+      {
+        "key": [
+          "2019M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.4"
+        ]
+      },
+      {
+        "key": [
+          "2018M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "4.4"
+        ]
+      },
+      {
+        "key": [
+          "2018M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.5"
+        ]
+      },
+      {
+        "key": [
+          "2018M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.2"
+        ]
+      },
+      {
+        "key": [
+          "2018M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.8"
+        ]
+      },
+      {
+        "key": [
+          "2018M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.0"
+        ]
+      },
+      {
+        "key": [
+          "2018M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.2"
+        ]
+      },
+      {
+        "key": [
+          "2018M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.7"
+        ]
+      },
+      {
+        "key": [
+          "2018M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.1"
+        ]
+      },
+      {
+        "key": [
+          "2018M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.4"
+        ]
+      },
+      {
+        "key": [
+          "2018M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.7"
+        ]
+      },
+      {
+        "key": [
+          "2018M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.5"
+        ]
+      },
+      {
+        "key": [
+          "2018M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.7"
+        ]
+      },
+      {
+        "key": [
+          "2017M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.7"
+        ]
+      },
+      {
+        "key": [
+          "2017M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.1"
+        ]
+      },
+      {
+        "key": [
+          "2017M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.3"
+        ]
+      },
+      {
+        "key": [
+          "2017M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.5"
+        ]
+      },
+      {
+        "key": [
+          "2017M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.6"
+        ]
+      },
+      {
+        "key": [
+          "2017M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "2.0"
+        ]
+      },
+      {
+        "key": [
+          "2017M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.2"
+        ]
+      },
+      {
+        "key": [
+          "2017M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.7"
+        ]
+      },
+      {
+        "key": [
+          "2017M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "4.4"
+        ]
+      },
+      {
+        "key": [
+          "2017M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "6.0"
+        ]
+      },
+      {
+        "key": [
+          "2017M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.4"
+        ]
+      },
+      {
+        "key": [
+          "2017M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.1"
+        ]
+      },
+      {
+        "key": [
+          "2016M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "4.8"
+        ]
+      },
+      {
+        "key": [
+          "2016M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.9"
+        ]
+      },
+      {
+        "key": [
+          "2016M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.7"
+        ]
+      },
+      {
+        "key": [
+          "2016M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.7"
+        ]
+      },
+      {
+        "key": [
+          "2016M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.0"
+        ]
+      },
+      {
+        "key": [
+          "2016M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.4"
+        ]
+      },
+      {
+        "key": [
+          "2016M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.6"
+        ]
+      },
+      {
+        "key": [
+          "2016M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.0"
+        ]
+      },
+      {
+        "key": [
+          "2016M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.2"
+        ]
+      },
+      {
+        "key": [
+          "2016M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "14.3"
+        ]
+      },
+      {
+        "key": [
+          "2016M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "14.5"
+        ]
+      },
+      {
+        "key": [
+          "2016M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.9"
+        ]
+      },
+      {
+        "key": [
+          "2015M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.0"
+        ]
+      },
+      {
+        "key": [
+          "2015M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.0"
+        ]
+      },
+      {
+        "key": [
+          "2015M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "2.9"
+        ]
+      },
+      {
+        "key": [
+          "2015M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "4.8"
+        ]
+      },
+      {
+        "key": [
+          "2015M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "3.9"
+        ]
+      },
+      {
+        "key": [
+          "2015M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.2"
+        ]
+      },
+      {
+        "key": [
+          "2015M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "23.1"
+        ]
+      },
+      {
+        "key": [
+          "2015M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "18.8"
+        ]
+      },
+      {
+        "key": [
+          "2015M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.5"
+        ]
+      },
+      {
+        "key": [
+          "2015M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.2"
+        ]
+      },
+      {
+        "key": [
+          "2015M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "21.8"
+        ]
+      },
+      {
+        "key": [
+          "2015M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "22.8"
+        ]
+      },
+      {
+        "key": [
+          "2014M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "33.4"
+        ]
+      },
+      {
+        "key": [
+          "2014M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "37.6"
+        ]
+      },
+      {
+        "key": [
+          "2014M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "40.1"
+        ]
+      },
+      {
+        "key": [
+          "2014M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "47.0"
+        ]
+      },
+      {
+        "key": [
+          "2014M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "48.6"
+        ]
+      },
+      {
+        "key": [
+          "2014M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "47.2"
+        ]
+      },
+      {
+        "key": [
+          "2014M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "33.1"
+        ]
+      },
+      {
+        "key": [
+          "2014M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "33.0"
+        ]
+      },
+      {
+        "key": [
+          "2014M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "31.3"
+        ]
+      },
+      {
+        "key": [
+          "2014M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "27.8"
+        ]
+      },
+      {
+        "key": [
+          "2014M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "27.1"
+        ]
+      },
+      {
+        "key": [
+          "2014M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "23.3"
+        ]
+      },
+      {
+        "key": [
+          "2013M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.3"
+        ]
+      },
+      {
+        "key": [
+          "2013M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "13.0"
+        ]
+      },
+      {
+        "key": [
+          "2013M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.6"
+        ]
+      },
+      {
+        "key": [
+          "2013M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.8"
+        ]
+      },
+      {
+        "key": [
+          "2013M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "4.7"
+        ]
+      },
+      {
+        "key": [
+          "2013M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "5.0"
+        ]
+      },
+      {
+        "key": [
+          "2013M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "7.0"
+        ]
+      },
+      {
+        "key": [
+          "2013M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "8.3"
+        ]
+      },
+      {
+        "key": [
+          "2013M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.2"
+        ]
+      },
+      {
+        "key": [
+          "2013M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.6"
+        ]
+      },
+      {
+        "key": [
+          "2013M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.1"
+        ]
+      },
+      {
+        "key": [
+          "2013M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.5"
+        ]
+      },
+      {
+        "key": [
+          "2012M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.1"
+        ]
+      },
+      {
+        "key": [
+          "2012M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.8"
+        ]
+      },
+      {
+        "key": [
+          "2012M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.1"
+        ]
+      },
+      {
+        "key": [
+          "2012M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.8"
+        ]
+      },
+      {
+        "key": [
+          "2012M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.8"
+        ]
+      },
+      {
+        "key": [
+          "2012M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.0"
+        ]
+      },
+      {
+        "key": [
+          "2012M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.2"
+        ]
+      },
+      {
+        "key": [
+          "2012M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.4"
+        ]
+      },
+      {
+        "key": [
+          "2012M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.8"
+        ]
+      },
+      {
+        "key": [
+          "2012M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.2"
+        ]
+      },
+      {
+        "key": [
+          "2012M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.1"
+        ]
+      },
+      {
+        "key": [
+          "2012M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.0"
+        ]
+      },
+      {
+        "key": [
+          "2011M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "13.6"
+        ]
+      },
+      {
+        "key": [
+          "2011M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.9"
+        ]
+      },
+      {
+        "key": [
+          "2011M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.4"
+        ]
+      },
+      {
+        "key": [
+          "2011M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.6"
+        ]
+      },
+      {
+        "key": [
+          "2011M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.2"
+        ]
+      },
+      {
+        "key": [
+          "2011M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "13.9"
+        ]
+      },
+      {
+        "key": [
+          "2011M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "12.0"
+        ]
+      },
+      {
+        "key": [
+          "2011M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "23.2"
+        ]
+      },
+      {
+        "key": [
+          "2011M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "24.3"
+        ]
+      },
+      {
+        "key": [
+          "2011M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "23.5"
+        ]
+      },
+      {
+        "key": [
+          "2011M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "22.3"
+        ]
+      },
+      {
+        "key": [
+          "2011M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "20.8"
+        ]
+      },
+      {
+        "key": [
+          "2010M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.8"
+        ]
+      },
+      {
+        "key": [
+          "2010M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.0"
+        ]
+      },
+      {
+        "key": [
+          "2010M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.5"
+        ]
+      },
+      {
+        "key": [
+          "2010M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.9"
+        ]
+      },
+      {
+        "key": [
+          "2010M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "18.0"
+        ]
+      },
+      {
+        "key": [
+          "2010M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "18.9"
+        ]
+      },
+      {
+        "key": [
+          "2010M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.4"
+        ]
+      },
+      {
+        "key": [
+          "2010M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.2"
+        ]
+      },
+      {
+        "key": [
+          "2010M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.9"
+        ]
+      },
+      {
+        "key": [
+          "2010M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.1"
+        ]
+      },
+      {
+        "key": [
+          "2010M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "22.1"
+        ]
+      },
+      {
+        "key": [
+          "2010M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "26.3"
+        ]
+      },
+      {
+        "key": [
+          "2009M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "27.7"
+        ]
+      },
+      {
+        "key": [
+          "2009M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "20.4"
+        ]
+      },
+      {
+        "key": [
+          "2009M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.3"
+        ]
+      },
+      {
+        "key": [
+          "2009M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "14.6"
+        ]
+      },
+      {
+        "key": [
+          "2009M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "14.1"
+        ]
+      },
+      {
+        "key": [
+          "2009M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "16.1"
+        ]
+      },
+      {
+        "key": [
+          "2009M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "17.8"
+        ]
+      },
+      {
+        "key": [
+          "2009M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "10.9"
+        ]
+      },
+      {
+        "key": [
+          "2009M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "12.2"
+        ]
+      },
+      {
+        "key": [
+          "2009M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.6"
+        ]
+      },
+      {
+        "key": [
+          "2009M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "12.6"
+        ]
+      },
+      {
+        "key": [
+          "2009M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "11.6"
+        ]
+      },
+      {
+        "key": [
+          "2008M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "9.6"
+        ]
+      },
+      {
+        "key": [
+          "2008M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "19.2"
+        ]
+      },
+      {
+        "key": [
+          "2008M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "34.2"
+        ]
+      },
+      {
+        "key": [
+          "2008M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "36.9"
+        ]
+      },
+      {
+        "key": [
+          "2008M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "36.9"
+        ]
+      },
+      {
+        "key": [
+          "2008M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "38.1"
+        ]
+      },
+      {
+        "key": [
+          "2008M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "37.1"
+        ]
+      },
+      {
+        "key": [
+          "2008M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "37.5"
+        ]
+      },
+      {
+        "key": [
+          "2008M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "35.7"
+        ]
+      },
+      {
+        "key": [
+          "2008M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "38.4"
+        ]
+      },
+      {
+        "key": [
+          "2008M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "34.5"
+        ]
+      },
+      {
+        "key": [
+          "2008M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "30.2"
+        ]
+      },
+      {
+        "key": [
+          "2007M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "32.6"
+        ]
+      },
+      {
+        "key": [
+          "2007M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "32.0"
+        ]
+      },
+      {
+        "key": [
+          "2007M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "20.7"
+        ]
+      },
+      {
+        "key": [
+          "2007M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "15.3"
+        ]
+      },
+      {
+        "key": [
+          "2007M08",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M07",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M06",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M05",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M03",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M02",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2007M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2006M12",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2006M11",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2006M10",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      },
+      {
+        "key": [
+          "2006M09",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          ".."
+        ]
+      }
+    ]
+  }
+}

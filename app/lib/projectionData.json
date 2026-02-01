@@ -1,0 +1,6231 @@
+{
+  "fetchedAt": "2026-02-01T02:06:48.858Z",
+  "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/PHC%202021%20StatsBank/Population/projections.px",
+  "query": [
+    {
+      "code": "Year",
+      "selection": {
+        "filter": "all",
+        "values": [
+          "*"
+        ]
+      }
+    },
+    {
+      "code": "Geographic_Area",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Ghana",
+          "Western",
+          "Central",
+          "Greater Accra",
+          "Volta",
+          "Eastern",
+          "Ashanti",
+          "Western North",
+          "Ahafo",
+          "Bono",
+          "Bono East",
+          "Oti",
+          "Northern",
+          "Savannah",
+          "North East",
+          "Upper East",
+          "Upper West"
+        ]
+      }
+    },
+    {
+      "code": "Age",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "All ages"
+        ]
+      }
+    },
+    {
+      "code": "Sex",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Both sexes"
+        ]
+      }
+    },
+    {
+      "code": "Locality",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "All locality types"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "columns": [
+      {
+        "code": "Year",
+        "text": "Year",
+        "type": "d"
+      },
+      {
+        "code": "Geographic_Area",
+        "text": "Geographic_Area",
+        "type": "d"
+      },
+      {
+        "code": "Age",
+        "text": "Age",
+        "type": "d"
+      },
+      {
+        "code": "Sex",
+        "text": "Sex",
+        "type": "d"
+      },
+      {
+        "code": "Locality",
+        "text": "Locality",
+        "type": "d"
+      },
+      {
+        "code": "Population Projections",
+        "text": "Population Projections",
+        "type": "c"
+      }
+    ],
+    "comments": [],
+    "data": [
+      {
+        "key": [
+          "2021",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "30832019"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2060585"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2859821"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5455692"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1659040"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2925653"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5440463"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "880921"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "564668"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1208649"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1203400"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "747248"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2310928"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "653277"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "658946"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1301226"
+        ]
+      },
+      {
+        "key": [
+          "2021",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "901502"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "31548148"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2106523"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2936148"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5623395"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1679652"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2959585"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5517037"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "900582"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "574002"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1241830"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1238114"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "760050"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2399787"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "674595"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "681444"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1330771"
+        ]
+      },
+      {
+        "key": [
+          "2022",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "924633"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "32275647"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2153191"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3013687"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5793761"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1700591"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2994055"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5594826"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "920556"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "583483"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1275539"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1273379"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "773056"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2490056"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "696252"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "704300"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1360784"
+        ]
+      },
+      {
+        "key": [
+          "2023",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "948131"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "33007618"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2200146"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3091703"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5965173"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1721658"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3028737"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5673094"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "940652"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "593024"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1309454"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1308862"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "786142"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2580881"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "718041"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "727296"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1390982"
+        ]
+      },
+      {
+        "key": [
+          "2024",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "971773"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "33742380"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2247279"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3170016"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6137240"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1742806"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3063552"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5751660"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "960825"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "602600"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1343499"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1344479"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "799277"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2672051"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "739914"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "750380"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1421296"
+        ]
+      },
+      {
+        "key": [
+          "2025",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "995506"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "34378768"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2288102"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3237844"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6286269"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1761123"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3093705"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5819707"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "978298"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "610894"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1372986"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1375328"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "810654"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2751015"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "758859"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "770373"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1447550"
+        ]
+      },
+      {
+        "key": [
+          "2026",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1016061"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "35090075"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2333731"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3313658"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6452843"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1781595"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3127409"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5895765"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "997826"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "620165"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1405944"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1409808"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "823370"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2839276"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "780033"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "792720"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1476896"
+        ]
+      },
+      {
+        "key": [
+          "2027",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1039036"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "35804385"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2379553"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3389791"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6620120"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1802155"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3161254"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5972144"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1017438"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "629475"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1439041"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1444434"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "836140"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2927909"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "801297"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "815161"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1506366"
+        ]
+      },
+      {
+        "key": [
+          "2028",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1062107"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "36520430"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2425486"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3466109"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6787804"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1822764"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3195182"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6048709"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1037097"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "638808"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1472219"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1479144"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "848940"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3016757"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "822613"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "837657"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1535907"
+        ]
+      },
+      {
+        "key": [
+          "2029",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1085236"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "37237374"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2471477"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3542523"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6955697"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1843399"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3229152"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6125370"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1056781"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "648152"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1505438"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1513898"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "861757"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3105717"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "843955"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "860181"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1565485"
+        ]
+      },
+      {
+        "key": [
+          "2030",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1108393"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "37957148"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2517649"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3619239"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7124253"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1864115"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3263257"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6202334"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1076542"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "657533"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1538788"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1548789"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "874625"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3195028"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "865382"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "882793"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1595180"
+        ]
+      },
+      {
+        "key": [
+          "2031",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1131641"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "38679317"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2563975"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3696210"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7293371"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1884901"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3297474"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6279553"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1096370"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "666945"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1572250"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1583796"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "887535"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3284636"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "886879"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "905481"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1624974"
+        ]
+      },
+      {
+        "key": [
+          "2032",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1154967"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "39403579"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2610435"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3773404"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7462978"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1905747"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3331792"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6356996"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1116254"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "676385"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1605808"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1618904"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "900483"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3374504"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "908440"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "928235"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1654854"
+        ]
+      },
+      {
+        "key": [
+          "2033",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1178360"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "40129396"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2656994"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3850764"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7632950"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1926637"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3366182"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6434606"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1136182"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "685845"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1639439"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1654088"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "913459"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3464564"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "930046"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "951038"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1684798"
+        ]
+      },
+      {
+        "key": [
+          "2034",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1201804"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "40855847"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2703595"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3928191"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7803070"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1947546"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3400603"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6512284"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1156127"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "695313"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1673098"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1689302"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "926445"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3554704"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "951672"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "973861"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1714768"
+        ]
+      },
+      {
+        "key": [
+          "2035",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1225268"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "41580705"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2750093"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4005449"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7972817"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1968409"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3434948"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6589791"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1176028"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "704760"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1706684"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1724440"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "939404"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3644645"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "973250"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "996633"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1744673"
+        ]
+      },
+      {
+        "key": [
+          "2036",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1248681"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "42304258"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2796508"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4082567"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "8142259"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1989234"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3469232"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6667158"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1195893"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "714191"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1740209"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1759514"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "952339"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3734425"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "994789"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1019365"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1774524"
+        ]
+      },
+      {
+        "key": [
+          "2037",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1272051"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "43026805"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2842858"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4159578"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "8311465"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2010031"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3503468"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6744418"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1215731"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "723608"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1773688"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1794539"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "965256"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3824080"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1016298"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1042065"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1804333"
+        ]
+      },
+      {
+        "key": [
+          "2038",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1295389"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "43747430"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2889085"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4236385"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "8480221"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2030772"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3537612"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6821473"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1235515"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "733000"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1807078"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1829471"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "978138"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3913497"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1037750"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1064705"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1834063"
+        ]
+      },
+      {
+        "key": [
+          "2039",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1318665"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "44465234"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2935130"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4312891"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "8648316"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2051431"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3571623"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6898225"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1255223"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "742356"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1840337"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1864266"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "990971"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4002564"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1059118"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1087256"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1863677"
+        ]
+      },
+      {
+        "key": [
+          "2040",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1341850"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "45187816"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2981483"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4389905"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "8817530"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2072229"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3605861"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "6975489"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1275062"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "751773"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1873818"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1899293"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1003888"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4092223"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1080628"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1109957"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1893488"
+        ]
+      },
+      {
+        "key": [
+          "2041",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1365189"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "45919418"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3028413"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4467882"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "8988857"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2093286"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3640526"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7053717"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1295148"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "761309"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1907716"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1934758"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1016967"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4183001"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1102407"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1132941"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1923671"
+        ]
+      },
+      {
+        "key": [
+          "2042",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1388819"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "46664015"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3076178"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4547243"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "9163226"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2114717"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3675806"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7133335"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1315591"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "771013"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1942217"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1970852"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1030279"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4275392"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1124572"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1156334"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1954390"
+        ]
+      },
+      {
+        "key": [
+          "2043",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1412870"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "47420635"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3124714"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4627886"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "9340411"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2136494"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3711657"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7214238"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1336364"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "780875"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1977274"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2007529"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1043805"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4369275"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1147096"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1180104"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1985605"
+        ]
+      },
+      {
+        "key": [
+          "2044",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1437308"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "48188183"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3173951"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4709694"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "9520156"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2158585"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3748024"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7296310"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1357437"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "790879"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2012838"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2044735"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1057526"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4464514"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1169945"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1204218"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2017271"
+        ]
+      },
+      {
+        "key": [
+          "2045",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1462100"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "48964187"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3223730"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4792403"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "9701880"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2180920"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3784793"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7379286"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1378742"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "800993"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2048794"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2082352"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1071399"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4560802"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1193045"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1228598"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2049286"
+        ]
+      },
+      {
+        "key": [
+          "2046",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1487164"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "49748714"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3274056"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4876020"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "9885600"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2203500"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3821966"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7463173"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1400282"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "811218"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2085145"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2120382"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1085424"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4658148"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1216399"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1253245"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2081652"
+        ]
+      },
+      {
+        "key": [
+          "2047",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1512504"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "50541743"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3324927"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4960543"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "10071312"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2226326"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3859541"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7547970"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1422054"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "821554"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2121889"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2158824"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1099601"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4756548"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1240007"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1278159"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2114369"
+        ]
+      },
+      {
+        "key": [
+          "2048",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1538119"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "51342963"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3376324"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5045940"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "10258941"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2249386"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3897505"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7633642"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1444052"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "831996"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2159014"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2197662"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1113925"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4855965"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1263858"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1303331"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2147424"
+        ]
+      },
+      {
+        "key": [
+          "2049",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1563998"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Ghana",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "52465316"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Western",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3448321"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Central",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "5165564"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Greater Accra",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "10521774"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Volta",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2281690"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Eastern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "3950684"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Ashanti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "7753652"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Western North",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1474866"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Ahafo",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "846624"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Bono",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2211017"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Bono East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2252068"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Oti",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1133989"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Northern",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "4995229"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Savannah",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1297269"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "North East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1338591"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Upper East",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "2193728"
+        ]
+      },
+      {
+        "key": [
+          "2050",
+          "Upper West",
+          "All ages",
+          "Both sexes",
+          "All locality types"
+        ],
+        "values": [
+          "1600250"
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "updated": "2024-07-09T17:07:00Z",
+        "label": "Population Projections by Year, Geographic_Area, Age, Sex and Locality",
+        "source": "Projections based on PHC 2021"
+      }
+    ]
+  }
+}

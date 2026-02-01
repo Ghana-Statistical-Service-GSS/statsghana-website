@@ -113,7 +113,7 @@ export default function Hero() {
             <div className="mt-4">
               <div className="no-scrollbar flex gap-2 overflow-x-auto overflow-y-visible">
                 {indicatorLabels.map((label) => {
-                  const isActive = label === INDICATOR_LABELS[indicator];
+                  const isActive = labelToId[label] === indicator;
                   return (
                     <div key={label} className="group relative">
                       <button

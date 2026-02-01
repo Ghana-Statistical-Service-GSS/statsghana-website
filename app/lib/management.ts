@@ -47,7 +47,6 @@ const dgsBio =
   "Inter-agency coordination across MDAs\n\n" +
   "International data reporting and partnerships\n\n" +
   "Mr. Seidu also served as National Coordinator for the SDG Data Framework, spearheading Ghana's efforts in tracking, compiling, validating, and disseminating SDG indicators in collaboration with national and international partners.\n\n" +
-   +
   "In recognition of his outstanding contribution to national and global development data systems, Mr. Omar Seidu was honoured at the GEO Global Forum in 2025 for his leadership and impact as Head of the SDGs Unit at the Ghana Statistical Service. The recognition highlighted his role in advancing the use of geospatial and statistical integration for sustainable development monitoring.\n\n" +
   "Mr. Seidu has represented the Ghana Statistical Service at numerous regional and international statistical forums, including engagements with the United Nations Statistics Division (UNSD), African Union Commission, World Bank, UNDP, and other development partners. His work continues to contribute significantly to strengthening data-driven governance and improving access to reliable, timely, and disaggregated statistics.\n\n" +
   "He is widely respected for his technical depth, institutional knowledge, and commitment to building a credible, modern, and resilient national statistical system, in line with the Statistical Service Act, 2019 (Act 1003) and international best practices.";
@@ -68,9 +67,10 @@ const emmanuelBio =
   "Mr Cobbinah is a result oriented professional with over twenty year's demonstrated experience and accomplishment in development work and Public Service and with commitment towards the development of a socially just and sustainable economies with accountable and inclusive system of governance. He has a track record of research and advocacy, publication and report writing, project design and appraisal, surveys, monitoring and evaluation as well as networking and collaboration with NGOs, MDAs, decentralised departments, development partners and community groups and committees. He also has close to a decade experience with Public Procurement including, the World Bank Procurement and other development Partners' procurement System. Mr Cobbinah has enormous skills in participatory methodologies and approaches, multi-stakeholder processes and Governance.";
 
 const davidBio =
-  "David began his career with a background in Mathematics and has worked in the Statistical Service for nearly two decades. For the first eight years, he served as a Statistician in Economic Statistics Directorate, where he had the opportunity to compile and provide insightful interpretations of economic indicators. This was followed by opportunities to deepen his statistical expertise in the fields of social statistics and demographics. David's people-centred personality has shaped how he has spent the past decade, focusing on effective communication and dissemination of statistics.\n\n" +
-  "His passion for addressing the needs of data users drew his attention to the inefficiencies in the GSS data response system, which ultimately led to the conceptualization and establishment of the Resource and Data Centre (RDC) in the Communication and Dissemination Directorate. In addition to generating income from data requests, the creation of the RDC addressed three major challenges: the lack of time series data, inconsistencies and gaps in MDAs' datasets, and the need for improved turnaround times in responding to requests. In recognition of his contributions to the organization's goals, David has addressed specific user needs by authoring two foundational publications: the 2013 Ghana Statistical Yearbook and the 2016 Education Statistics report, which tracks progress at the basic level across districts.\n\n" +
-  "David brings a strong analytical and storytelling ability to the communication field, demonstrated through his commitment to accuracy, relevance, timeliness, and high-quality data. Championing inclusivity is a hallmark of David's work. He believes that statistical products should be packaged and disseminated with all audiences in mind, including vulnerable and marginalized groups.";
+  "David began his career with a background in Mathematics and has worked in the Statistical Service for nearly two decades. For the first eight years, he served as a Statistician in Economic Statistics Directorate, where he had the opportunity to compile and provide insightful interpretations of economic indicators. This was followed by opportunities to deepen his statistical expertise in the fields of social statistics and demographics. David’s people-centred personality has shaped how he has spent the past decade, focusing on effective communication and dissemination of statistics.\n\n" +
+  "His passion for addressing the needs of data users drew his attention to the inefficiencies in the GSS data response system, which ultimately led to the conceptualization and establishment of the Resource and Data Centre (RDC) in the Communication and Dissemination Directorate. In addition to generating income from data requests, the creation of the RDC addressed three major challenges: the lack of time series data, inconsistencies and gaps in MDAs’ datasets, and the need for improved turnaround times in responding to requests. In recognition of his contributions to the organization's goals, David has addressed specific user needs by authoring two foundational publications: the 2013 Ghana Statistical Yearbook and the 2016 Education Statistics report, which tracks progress at the basic level across districts.\n\n" +
+  "David brings a strong analytical and storytelling ability to the communication field, demonstrated through his commitment to accuracy, relevance, timeliness, and high-quality data.\n\n" +
+  "Championing inclusivity is a hallmark of David’s work. He believes that statistical products should be packaged and disseminated with all audiences in mind, including vulnerable and marginalized groups.";
 
 const markBio =
   "Mr. Mark Abuabu-Dadzie is the Director of Digital Services & Technology (DST) at the Ghana Statistical Service (GSS), where he provides strategic leadership for the planning, development, and security of the Service's digital infrastructure and technology systems.\n\n" +
@@ -161,8 +161,9 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Director",
     group: "DIRECTOR",
     directorate: "Economy",
-    photo: "/images/placeholder-person.png",
-    bio: bioBase.replace("[Name]", "Francis Bright Mensah"),
+    photo: "/images/management/francisbright.jpg",
+    bio:
+      "A senior statistician and economist with over 24 years of progressive professional experience in official statistics, macroeconomic measurement, national accounts, and applied data science. Currently serving as Chief Statistician and Director of the Economy Directorate, providing overall leadership, strategic direction and policy guidance for the development, coordination and management of Ghana’s economic statistics.",
   },
   {
     id: "director-4",
@@ -191,8 +192,11 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Director",
     group: "DIRECTOR",
     directorate: "Demography",
-    photo: "/images/placeholder-person.png",
-    bio: bioBase.replace("[Name]", "Godwin Odei Gyebi"),
+    photo: "/images/management/odei.jpg",
+    bio:
+      "Mr. Godwin Odei Gyebi is a Chief Statistician and demography expert with over 26 years of experience in population research and national statistical systems in Ghana. He is a Director at the Ghana Statistical Service and currently heads the Demography Directorate, where he oversees demographic data validation, statistical publications, and the computation of population indicators, estimates, and projections.\n\n" +
+      "He has played key roles in Ghana’s Population and Housing Censuses (2000, 2010, and 2021) and major national sample surveys, including the Demographic and Health Survey, Labour Force Survey, Ghana Living Standards Survey, Multiple Indicator Cluster Survey, and the Malaria Indicator Survey.\n\n" +
+      "Mr. Gyebi holds a master’s degree in Population Studies from the University of Ghana and a B.Ed. in Social Studies with a Diploma in Geography from the University of Cape Coast. He has also contributed to national migration policy development and participated in several international and UN technical forums.",
   },
   {
     id: "director-12",
