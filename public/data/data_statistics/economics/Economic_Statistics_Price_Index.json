@@ -1,0 +1,4092 @@
+[
+  {
+    "id": "SK1",
+    "program": "PBCI",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK2",
+    "program": "PBCI out new base 1997 -December 2024",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK3",
+    "program": "PBCI out new base 1997 -September 2024",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK4",
+    "program": "PBCI out new base 1997 -April 2024",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK5",
+    "program": "PBCI out new base 1997 -July 2023",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK6",
+    "program": "PBCI out new base 1997 -March 2023",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK7",
+    "program": "PBCI out new base 1997 -December 2022",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK8",
+    "program": "PBCI out new base 1997 -September 2022",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK9",
+    "program": "PBCI out new base 1997 -June 2022",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK10",
+    "program": "PBCI out new base 1997 -December 2021",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK11",
+    "program": "PBCI out new base 1997 -September 2021",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK12",
+    "program": "PBCI out new base 1997 -June 2021",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK13",
+    "program": "PBCI out new base 1997 -March 2021",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK14",
+    "program": "PBCI out new base 1997 -December 2020",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK15",
+    "program": "PBCI out new base 1997 -September 2020",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK16",
+    "program": "PBCI out new base 1997 -June 2020",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK17",
+    "program": "PBCI out new base 1997 -December 2019",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK18",
+    "program": "PBCI out new base 1997 -June 2019",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK19",
+    "program": "PBCI out new base 1997 -March 2019",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK20",
+    "program": "PBCI out new base 1997 -December 2018",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK21",
+    "program": "PBCI out new base 1997 -September 2018",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK22",
+    "program": "PBCI out new base 1997 -June 2018",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK23",
+    "program": "PBCI out new base 1997 -March 2018",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK24",
+    "program": "PBCI out new base 1997 -December 2017",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK25",
+    "program": "PBCI out new base 1997 -September 2017",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "SK26",
+    "program": "PBCI out new base 1997 -June 2017",
+    "category": "Prime Building Cost Index (PBCI)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Prime Building Cost Index (PBCI"
+  },
+  {
+    "id": "BD1",
+    "program": "CPI Presentation December 2025",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD2",
+    "program": "CPI Presentation November 2025",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD3",
+    "program": "CPI Presentation October 2025",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD4",
+    "program": "CPI Presentation September 2025",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD5",
+    "program": "06-Aug 2025 CPI-PPT",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD6",
+    "program": "03-July 2025 CPI-PPT-5Aug25-Final",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD7",
+    "program": "07-June 2025 CPI-PPT-2Jul2025-Final",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD8",
+    "program": "03-May 2025 CPI-PPT-Final-4Jun25",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD9",
+    "program": "April 2025 CPI-PPT-Final-7May25",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD10",
+    "program": "CPI_March_2025.",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD11",
+    "program": "CPI_February_2025",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD12",
+    "program": "CPI_January_2025",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD13",
+    "program": "CPI_December_2024_Pr",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD14",
+    "program": "CPI_November_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD15",
+    "program": "CPI_October_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD16",
+    "program": "CPI_September_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD17",
+    "program": "CPI_August_2024.",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD19",
+    "program": "CPI_June_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD20",
+    "program": "CPI April_2024_2",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD21",
+    "program": "CPI March_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD22",
+    "program": "CPI_FEB_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD23",
+    "program": "CPI January_2024",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD24",
+    "program": "CPI December_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD25",
+    "program": "CPI November_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD26",
+    "program": "CPI October_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD27",
+    "program": "CPI September_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD28",
+    "program": "CPI August_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD29",
+    "program": "CPI July_2023_rev",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD30",
+    "program": "CPI June_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD32",
+    "program": "CPI April_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD33",
+    "program": "CPI March_2023_pdf",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD34",
+    "program": "CPI February_2023",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD35",
+    "program": "CPI January_2023_final_2",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD36",
+    "program": "CPI December_2022_final",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD37",
+    "program": "CPI November_2022",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD38",
+    "program": "CPI October_2022_rev (1)",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD39",
+    "program": "1.CPI September_2022_rev",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD41",
+    "program": "CPI July 2022_Rev",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD42",
+    "program": "CPI June 2022",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD43",
+    "program": "CPI May 2022_rev",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD44",
+    "program": "CPI April 2022_110522 (1)",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD45",
+    "program": "CPI_March_2022_prof",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD46",
+    "program": "CPI_February_2022_prof (2).",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BD1-2",
+    "program": "04-December 2025 CPI Release-Infographics",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD2-2",
+    "program": "04-Nov 2025 CPI Release-Infographics",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD3-2",
+    "program": "05-Oct 2025 CPI Release-Infographics",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD4-2",
+    "program": "04-Sep 2025 CPI Release-1Oct25-Infographics-Final",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD5-2",
+    "program": "03-August 2025 CPI_infographics",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD6-2",
+    "program": "03-July 2025 CPI_infographics-5Aug25-Final",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD7-2",
+    "program": "01_June_2025_CPI_infographics_Final (1)",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD8-2",
+    "program": "May 2025 CPI_infographics_Final",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD9-2",
+    "program": "April2025CPI_infographics_Final-7May25",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BD1-3",
+    "program": "CPI and Price Variability Bulletin",
+    "category": "Food Price Variability",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Food Price Variability"
+  },
+  {
+    "id": "BD2-3",
+    "program": "PriceVariationReport -20240416",
+    "category": "Food Price Variability",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Food Price Variability"
+  },
+  {
+    "id": "BD3-3",
+    "program": "Price Variation Across Regions Report - 20230613",
+    "category": "Food Price Variability",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Food Price Variability"
+  },
+  {
+    "id": "PI1",
+    "program": "",
+    "category": "",
+    "type": "",
+    "month": "",
+    "quarter": "",
+    "year": "",
+    "sheet": "Food Price Variability"
+  },
+  {
+    "id": "SK1-2",
+    "program": "PBCI_ANNEXES_September_2025_r",
+    "category": "PBCI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PBCI Presentation"
+  },
+  {
+    "id": "SK1-3",
+    "program": "1_PBCI_INFOGRAPHICS_September_2025",
+    "category": "PBCI Infographics",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PBCI Infographics"
+  },
+  {
+    "id": "BD1-4",
+    "program": "PBCI_ANNEXES_September_2025_r",
+    "category": "PBCI Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PBCI Annexes"
+  },
+  {
+    "id": "SK1-4",
+    "program": "2_September 2025_PBCI-Bulletin",
+    "category": "PBCI Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PBCI Bulletin"
+  },
+  {
+    "id": "BD1-5",
+    "program": "CPI COICOP back cast 1997_2021_2018 base year",
+    "category": "CPI Technical Guide",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Technical Guide"
+  },
+  {
+    "id": "BD2-4",
+    "program": "CPI_Technical_Guide_v5_Published_14102020",
+    "category": "CPI Technical Guide",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Technical Guide"
+  },
+  {
+    "id": "BD1-6",
+    "program": "December 2025 CPI COICOP Annexes.",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD2-5",
+    "program": "November 2025 CPI COICOP Annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD3-4",
+    "program": "October 2025 CPI COICOP Annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD4-3",
+    "program": "September 2025 CPI COICOP Annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD5-3",
+    "program": "August 2025 CPI COICOP Annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD6-3",
+    "program": "July 2025 CPI COICOP Annexes- Final-AIEdits-7Jun25 -Final",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD7-3",
+    "program": "04-June 2025 CPI COICOP Annexes- Final-AIEdits-7Jun25 -Final",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD8-3",
+    "program": "03-May 2025 CPI COICOP Annexes- Final-AIEdits-7Jun25",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD9-3",
+    "program": "April 2025 CPI COICOP Annexes- Final-7May25",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD10-2",
+    "program": "COICOP Annexes- CPI March 2025",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD11-2",
+    "program": "COICOP Annexes- CPI February 2025",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD12-2",
+    "program": "COICOP Annexes- CPI January 2025",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD13-2",
+    "program": "COICOP Annexes- CPI December 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD14-2",
+    "program": "COICOP Annexes- CPI November 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD16-2",
+    "program": "COICOP Annexes- CPI September 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD17-2",
+    "program": "COICOP Annexes- CPI August 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD18",
+    "program": "COICOP Annexes- CPI July 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD19-2",
+    "program": "COICOP Annexes- CPI June 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD20-2",
+    "program": "COICOP Annexes- CPI May 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD21-2",
+    "program": "COICOP Annexes- CPI April 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD22-2",
+    "program": "COICOP Annexes- CPI February 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD23-2",
+    "program": "COICOP Annexes- CPI January 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD24-2",
+    "program": "COICOP Annexes- CPI March 2024",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD25-2",
+    "program": "COICOP Annexes- CPI October 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD30-2",
+    "program": "COICOP Annexes- CPI November 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD32-2",
+    "program": "COICOP Annexes- CPI September 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD34-2",
+    "program": "COICOP Annexes- CPI July2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD35-2",
+    "program": "COICOP Annexes- CPI June 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD36-2",
+    "program": "COICOP Annexes- CPI May 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD37-2",
+    "program": "COICOP Annexes- CPI April 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD38-2",
+    "program": "COICOP Annexes- CPI March 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD39-2",
+    "program": "COICOP Annexes- CPI February 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD40",
+    "program": "COICOP Annexes- CPI January 2023",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD42-2",
+    "program": "COICOP Annexes- CPI December 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD44-2",
+    "program": "COICOP Annexes- CPI May 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD45-2",
+    "program": "COICOP Annexes- CPI September 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD46-2",
+    "program": "COICOP Annexes- CPI August 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD47",
+    "program": "COICOP Annexes- CPI July 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD48",
+    "program": "COICOP Annexes- CPI June 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD49",
+    "program": "COICOP Annexes- CPI May 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD51",
+    "program": "COICOP Annexes- CPI March 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD52",
+    "program": "COICOP Annexes- CPI February 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD53",
+    "program": "COICOP Annexes- CPI January 2022",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD54",
+    "program": "COICOP Annexes- CPI December 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD55",
+    "program": "COICOP Annexes- CPI November 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD57",
+    "program": "COICOP Annexes- CPI Sept 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD58",
+    "program": "COICOP Annexes- CPI August 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD59",
+    "program": "COICOP Annexes- CPI July 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD60",
+    "program": "COICOP Annexes- CPI June 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD62",
+    "program": "COICOP Annexes- CPI May 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD63",
+    "program": "CPI COICOP back cast 1997_2021_2018 base year (2)",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD64",
+    "program": "COICOP Annexes- CPI April 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD65",
+    "program": "COICOP Annexes- CPI March 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD67",
+    "program": "COICOP Annexes- CPI Febraury 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD68",
+    "program": "COICOP Annexes- CPI January 2021",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD69",
+    "program": "COICOP Annexes- CPI December 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD70",
+    "program": "COICOP Annexes- CPI November 2020.",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD71",
+    "program": "COICOP Annexes- CPI Octorbe 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD72",
+    "program": "COICOP Annexes- CPI September 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD73",
+    "program": "COICOP Annexes- CPI August 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD74",
+    "program": "COICOP Annexes- CPI July 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD75",
+    "program": "COICOP Annexes- CPI June 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD76",
+    "program": "COICOP Annexes- CPI May 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD77",
+    "program": "COICOP Annexes- CPI April 2020.",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD78",
+    "program": "COICOP Annexes- CPI March 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD79",
+    "program": "COICOP Annexes- CPI February 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD80",
+    "program": "COICOP Annexes- CPI January 2020",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD81",
+    "program": "COICOP Annexes- CPI December 2019",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD82",
+    "program": "COICOP Annexes- CPI November 2019",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD83",
+    "program": "COICOP Annexes- OCT 2019",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD84",
+    "program": "COICOP Annexes- SEPT 2019",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD85",
+    "program": "July 2019 CPI_COICOP",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD86",
+    "program": "June 2019 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD87",
+    "program": "May 2019 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD88",
+    "program": "April 2019 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD89",
+    "program": "March 2019 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD90",
+    "program": "February 2019 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD91",
+    "program": "COICOP Annexes- CPI February",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD92",
+    "program": "Dec CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD93",
+    "program": "Nov CPI_COICOP_annexes (3)",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD94",
+    "program": "Oct CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD95",
+    "program": "Sept CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD96",
+    "program": "August CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD97",
+    "program": "July CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD98",
+    "program": "July CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD100",
+    "program": "Apr 17 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD101",
+    "program": "Feb 17 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD102",
+    "program": "December CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD103",
+    "program": "November CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD104",
+    "program": "January 2019 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD106",
+    "program": "October CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD107",
+    "program": "August CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD108",
+    "program": "July CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD109",
+    "program": "June CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD110",
+    "program": "May CPI_COICOP_annexes (1)",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD112",
+    "program": "Mar 18 CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD114",
+    "program": "Jan CPI_COICOP_annexes",
+    "category": "CPI Coicop Annexes",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "CPI Coicop Annexes"
+  },
+  {
+    "id": "BD1-7",
+    "program": "CPI Chain link and Back cast",
+    "category": "CPI Back Cast",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Back cast"
+  },
+  {
+    "id": "BD2-6",
+    "program": "Ghana CPI_chain_linked series_2021_published",
+    "category": "CPI Back Cast",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "CPI Back cast"
+  },
+  {
+    "id": "BD1-8",
+    "program": "cpi presentation may 2022",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD2-7",
+    "program": "Newsletter_CPI_April_2022",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD3-5",
+    "program": "CPI_March_2022_prof",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD4-4",
+    "program": "Newsletter_CPI_February_2022",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD5-4",
+    "program": "Newsletter_CPI_January_2022",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD6-4",
+    "program": "Newsletter_CPI_December_2021",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD7-4",
+    "program": "Newsletter_CPI_November_2021-1",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD10-3",
+    "program": "Newsletter_CPI_July_2021",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD14-3",
+    "program": "Newsletter_CPI_March_2021",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD15-2",
+    "program": "Newsletter_CPI_Feb_2021",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD16-3",
+    "program": "Newsletter_CPI_Jan_2021",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD17-3",
+    "program": "Newsletter_CPI_Dec_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD18-2",
+    "program": "Newsletter_CPI_Nov_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD19-3",
+    "program": "Newsletter_CPI_Oct_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD20-3",
+    "program": "Newsletter_CPI_Sep_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD21-3",
+    "program": "Newsletter_CPI_August(1)",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD22-3",
+    "program": "Newsletter_CPI_JULY",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD23-3",
+    "program": "Newsletter_CPI_JUNE_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD24-3",
+    "program": "Newsletter_CPI_May_v2",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD25-3",
+    "program": "Newsletter_CPI_April_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD26-2",
+    "program": "Newsletter_CPI_March_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD27-2",
+    "program": "Newsletter_CPI_Feb_2020.",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD28-2",
+    "program": "Newsletter_CPI_Jan_2020",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD29-2",
+    "program": "Newsletter_ CPI Dec 2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD30-3",
+    "program": "Newsletter - CPI_ November 2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD31",
+    "program": "CPI Newsletter_ Oct_2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD33-2",
+    "program": "CPI_Newsletter August  2019_New seies",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD34-3",
+    "program": "CPI_Newsletter July 2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD35-3",
+    "program": "CPI_Newsletter June  2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD36-3",
+    "program": "CPI_Newsletter April  2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD37-3",
+    "program": "CPI_Newsletter March  2019_rev",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD38-3",
+    "program": "CPI_Newsletter February  2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD39-3",
+    "program": "CPI_Newsletter December  2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD40-2",
+    "program": "CPI_Newsletter Feb 2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD41-2",
+    "program": "CPI_Newsletter January  2019",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD42-3",
+    "program": "CPI_Newsletter November  2018.",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD43-2",
+    "program": "CPI_Newsletter October  2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD44-3",
+    "program": "CPI_Newsletter September  2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD45-3",
+    "program": "CPI_Newsletter August  2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD46-3",
+    "program": "CPI_Newsletter July  2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD47-2",
+    "program": "Newsletter quarterly GDP 2018 _Q1_June 2018 Edition",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD48-2",
+    "program": "CPI_Newsletter May 2018.",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD49-2",
+    "program": "CPI_Newsletter April 2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD50",
+    "program": "CPI_Newsletter Mar 2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD52-2",
+    "program": "nov12_cpi_release",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD53-2",
+    "program": "oct12_cpi_release",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD57-2",
+    "program": "June_2012_CPI_Release",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD62-2",
+    "program": "CPI_Newsletter July 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD63-2",
+    "program": "CPI_Newsletter July 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD64-2",
+    "program": "CPI newsletter_December_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD65-2",
+    "program": "Newsletter_Nov_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD66",
+    "program": "CPI_Newsletter Sept_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD67-2",
+    "program": "CPI_Newsletter June_2015_PNedit",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD68-2",
+    "program": "CPI_Newsletter May_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD70-2",
+    "program": "CPI_Newsletter June_2014",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD74-2",
+    "program": "oct13_cpi_newsletter",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD77-2",
+    "program": "CPI_New_Series_Newsletter_July_2013",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD84-2",
+    "program": "CPI_Newsletter Jan 2018",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD85-2",
+    "program": "CPI_Newsletter Dec 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD86-2",
+    "program": "CPI_Newsletter Nov 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD87-2",
+    "program": "CPI_Newsletter Oct  2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD87-3",
+    "program": "CPI_Newsletter Sep 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD88-2",
+    "program": "CPI_Newsletter August 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD89-2",
+    "program": "CPI_Newsletter_June2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD90-2",
+    "program": "CPI_Newsletter May 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD91-2",
+    "program": "CPI_Newsletter_April2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD92-2",
+    "program": "CPI_Newsletter_March_2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD93-2",
+    "program": "CPI_Newsletter Feb 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD94-2",
+    "program": "CPI_Newsletter Jan 2016",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD95-2",
+    "program": "CPI_Newsletter March 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD96-2",
+    "program": "CPI_Newsletter Dec 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD97-2",
+    "program": "CPI_Newsletter Nov 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD98-2",
+    "program": "CPI_Newsletter Oct 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD99",
+    "program": "CPI_Newsletter Sept 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD100-2",
+    "program": "CPI_Newsletter August 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD101-2",
+    "program": "CPI_Newsletter June 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD102-2",
+    "program": "CPI_Newsletter May 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD104-2",
+    "program": "CPI_Newsletter Jan 2017",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD105",
+    "program": "CPI_Newsletter_January_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD107-2",
+    "program": "CPI_Newsletter March_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD108-2",
+    "program": "CPI_Newsletter February_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD109-2",
+    "program": "CPI_Newsletter Oct_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD110-2",
+    "program": "CPI_Newsletter July_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD111",
+    "program": "CPI_Newsletter August_2015",
+    "category": "Consumer Price Index News Letter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index News Lette"
+  },
+  {
+    "id": "BD1-9",
+    "program": "December 2025CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD2-8",
+    "program": "November 2025CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD3-6",
+    "program": "October 2025CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD4-5",
+    "program": "September 2025CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD5-5",
+    "program": "August 2025CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD6-5",
+    "program": "July 2025CPI-Bulletin-Final",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD7-5",
+    "program": "June 2025CPI-Bulletin-Final",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD8-4",
+    "program": "May 2025CPI-Bulletin-Final",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD9-4",
+    "program": "April 2025CPI-Bulletin-Final",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD10-4",
+    "program": "March 2025 CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD11-3",
+    "program": "Bulletin_ CPI February 2025",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD13-3",
+    "program": "Bulletin_ CPI December 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD14-4",
+    "program": "Bulletin_ CPI November 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD16-4",
+    "program": "Bulletin_ CPI September 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD17-4",
+    "program": "Bulletin_ CPI August 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD18-3",
+    "program": "Bulletin_ CPI July 2024.",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD19-4",
+    "program": "Bulletin_ CPI June 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD20-4",
+    "program": "Bulletin_ CPI May 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD22-4",
+    "program": "Bulletin_ CPI April 2024.",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD23-4",
+    "program": "Bulletin_ CPI March 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD24-4",
+    "program": "Bulletin_ CPI February 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD25-4",
+    "program": "Bulletin_ CPI January 2024",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD26-3",
+    "program": "Bulletin_ CPI December 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD27-3",
+    "program": "Bulletin_ CPI November 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD28-3",
+    "program": "Bulletin_ CPI October 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD29-3",
+    "program": "Bulletin_ CPI September 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD31-2",
+    "program": "Bulletin_ CPI July 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD32-3",
+    "program": "Bulletin_ CPI June 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD33-3",
+    "program": "Bulletin_ CPI May 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD34-4",
+    "program": "Bulletin_ CPI April 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD35-4",
+    "program": "Bulletin_ CPI March 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD36-4",
+    "program": "Bulletin_ CPI January 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD37-4",
+    "program": "Bulletin_ CPI Febuary 2023",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD38-4",
+    "program": "Bulleting_CPI December 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD39-4",
+    "program": "Bulleting_CPI November 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD40-3",
+    "program": "Bulletin _ October CPI 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD41-3",
+    "program": "Bulletin _ CPI September 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD42-4",
+    "program": "Bulletin_ CPI August 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD43-3",
+    "program": "Bulletin _ CPI July 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD45-4",
+    "program": "Bulletin _ CPI May 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD46-4",
+    "program": "CPI April 2022_110522 (1)",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD47-3",
+    "program": "Bulletin _ CPI April 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD48-3",
+    "program": "Bulletin_ March CPI 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD49-3",
+    "program": "Bulletin _ CPI February 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD50-2",
+    "program": "Bulletin _ CPI January 2022",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD51-2",
+    "program": "Bulletin_ CPI December 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD52-3",
+    "program": "Bulletin_ CPI Nov 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD53-3",
+    "program": "Bulletin_ CPI October 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD55-2",
+    "program": "Bulletin_ CPI August 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD56",
+    "program": "Bulletin_ CPI July 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD57-3",
+    "program": "Bulletin_ CPI June 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD58-2",
+    "program": "Bulletin_ CPI May 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD59-2",
+    "program": "Bulletin_ April 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD61",
+    "program": "Bulletin_ CPI February 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD62-3",
+    "program": "Bulletin_ CPI January 2021",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD63-3",
+    "program": "Bulletin_ CPI December 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD64-3",
+    "program": "Bulletin_ CPI November 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD65-3",
+    "program": "Bulletin_ CPI October 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD66-2",
+    "program": "Bulletin_ CPI September 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD67-3",
+    "program": "Bulletin_ CPI August 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD68-3",
+    "program": "Bulletin_ CPI July 2020_1",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD69-2",
+    "program": "Bulletin_ CPI June 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD70-3",
+    "program": "Bulletin_ CPI May 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD71-2",
+    "program": "Bulletin_ CPI April 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD72-2",
+    "program": "Bulletin_ CPI March 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD73-2",
+    "program": "Bulletin_ CPI Febraury 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD74-3",
+    "program": "Bulletin_ CPI January 2020",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD75-2",
+    "program": "Bulletin_ CPI December 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD76-2",
+    "program": "Bulletin_ CPI November 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD77-3",
+    "program": "Bulletin_ CPI October 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD78-2",
+    "program": "Bulletin_ CPI September 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD79-2",
+    "program": "Bulletin July CPI 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD80-2",
+    "program": "CPI JUNE 2019 BULLETIN",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD81-2",
+    "program": "Bulletin May 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD82-2",
+    "program": "Bulletin_April 2019",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD83-2",
+    "program": "March 2019 CPI - Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD84-3",
+    "program": "February 2019 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD85-3",
+    "program": "December 2018 bulletin.",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD87-4",
+    "program": "December 2017 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD88-3",
+    "program": "CPI bulletin-Nov 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD89-3",
+    "program": "October 2017 CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD90-3",
+    "program": "Bulletin-September 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD91-3",
+    "program": "CPI Bulletin August 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD92-3",
+    "program": "Bulletin July 2017 (1)",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD93-3",
+    "program": "Bulletin June 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD94-3",
+    "program": "Bulletin May 2017.",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD95-3",
+    "program": "Bulletin - April 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD96-3",
+    "program": "Bulletin- March 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD97-3",
+    "program": "Bulletin February 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD98-3",
+    "program": "Bulletin January 2017",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD99-2",
+    "program": "January 2019 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD100-3",
+    "program": "November 2018 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD101-3",
+    "program": "October 2018 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD102-3",
+    "program": "September 2018 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD103-2",
+    "program": "August 2018 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD104-3",
+    "program": "July 2018 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD105-2",
+    "program": "GDP quarterly bullettin_June 2018 edition",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD105-3",
+    "program": "CPI bullettin_June 2018 edition (1)",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD106-2",
+    "program": "Bulletin May 2018",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD107-3",
+    "program": "April 2018 CPI Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD108-3",
+    "program": "March 2018 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD109-3",
+    "program": "December 2016 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD110-3",
+    "program": "November 2016 Bulletin.",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD111-2",
+    "program": "October 16 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD112-2",
+    "program": "September 2016 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD113",
+    "program": "August 2016 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD114-2",
+    "program": "July 16 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD115",
+    "program": "June 2016 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD116",
+    "program": "May 2016 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD117",
+    "program": "April 2016 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD118",
+    "program": "March 2016 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD119",
+    "program": "Februray 2016 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD122",
+    "program": "October 2014 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD123",
+    "program": "CPI_Bulletin_August 2014",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD124",
+    "program": "CPI_Bulletin_July_2014",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD125",
+    "program": "CPI_Bulletin _May2014_",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD126",
+    "program": "CPI_Bulletin_April 2014",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD127",
+    "program": "CPI_Bulletin_February2014",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD128",
+    "program": "CPI_Bulletin _January2014_",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD129",
+    "program": "Bulletin Dec 2015",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD130",
+    "program": "Bulletin November 2015",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD131",
+    "program": "October 2015 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD132",
+    "program": "September 2015 Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD133",
+    "program": "August 2015 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD134",
+    "program": "Bulletin-july 2015",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD135",
+    "program": "June 2015 bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD136",
+    "program": "CPI Bulletin May_2015",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD137",
+    "program": "CPI_Bulletin April _2015",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD138",
+    "program": "March_2015 CPI Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD139",
+    "program": "Bullentin Feb 15",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD140",
+    "program": "CPI_Bulletin_December_2013",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD141",
+    "program": "CPI Bulletin November 2013",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD147",
+    "program": "CPI_Bulletin_2013_January",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD149",
+    "program": "oct 2012_cpi_bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD151",
+    "program": "Bulletin_CPI_August_2012",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD152",
+    "program": "Bulletin_CPI_June_2012",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD154",
+    "program": "CPI_2012_April_Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2012",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BD156",
+    "program": "Bulletin January 2018",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Consumer Price Index Bulletin"
+  }
+]

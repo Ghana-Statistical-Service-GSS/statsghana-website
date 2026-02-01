@@ -262,6 +262,15 @@ export default function EconomicStatisticsPage() {
   const [nationalRows, setNationalRows] = useState<ProgramRow[]>(
     ECON_CONTENT["national-accounts"].rows,
   );
+  const [priceRows, setPriceRows] = useState<ProgramRow[]>(
+    ECON_CONTENT["price-index"].rows,
+  );
+  const [agriRows, setAgriRows] = useState<ProgramRow[]>(
+    ECON_CONTENT["agri-env"].rows,
+  );
+  const [serviceRows, setServiceRows] = useState<ProgramRow[]>(
+    ECON_CONTENT["services"].rows,
+  );
 
   useEffect(() => {
     const loadRows = async () => {
@@ -287,12 +296,87 @@ export default function EconomicStatisticsPage() {
     loadRows();
   }, []);
 
+  useEffect(() => {
+    const loadRows = async () => {
+      try {
+        const response = await fetch("/api/economic-statistics/price-index");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data?.rows?.length) {
+          setPriceRows(
+            data.rows.map((row: ProgramRow) => ({
+              ...row,
+              downloadUrl: row.downloadUrl || "#",
+            })),
+          );
+        }
+      } catch {
+        // keep fallback rows
+      }
+    };
+
+    loadRows();
+  }, []);
+
+  useEffect(() => {
+    const loadRows = async () => {
+      try {
+        const response = await fetch("/api/economic-statistics/agri-env");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data?.rows?.length) {
+          setAgriRows(
+            data.rows.map((row: ProgramRow) => ({
+              ...row,
+              downloadUrl: row.downloadUrl || "#",
+            })),
+          );
+        }
+      } catch {
+        // keep fallback rows
+      }
+    };
+
+    loadRows();
+  }, []);
+
+  useEffect(() => {
+    const loadRows = async () => {
+      try {
+        const response = await fetch("/api/economic-statistics/services");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data?.rows?.length) {
+          setServiceRows(
+            data.rows.map((row: ProgramRow) => ({
+              ...row,
+              downloadUrl: row.downloadUrl || "#",
+            })),
+          );
+        }
+      } catch {
+        // keep fallback rows
+      }
+    };
+
+    loadRows();
+  }, []);
+
   const activeContent = useMemo(() => {
     if (activeKey === "national-accounts") {
       return { ...ECON_CONTENT[activeKey], rows: nationalRows };
     }
+    if (activeKey === "price-index") {
+      return { ...ECON_CONTENT[activeKey], rows: priceRows };
+    }
+    if (activeKey === "agri-env") {
+      return { ...ECON_CONTENT[activeKey], rows: agriRows };
+    }
+    if (activeKey === "services") {
+      return { ...ECON_CONTENT[activeKey], rows: serviceRows };
+    }
     return ECON_CONTENT[activeKey];
-  }, [activeKey, nationalRows]);
+  }, [activeKey, nationalRows, priceRows, agriRows, serviceRows]);
 
   return (
     <div className="bg-white">

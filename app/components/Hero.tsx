@@ -11,8 +11,25 @@ import { INDICATORS, INDICATOR_LABELS, INDICATOR_TOOLTIPS, Indicator } from "../
 export default function Hero() {
   const [indicator, setIndicator] = useState<Indicator>("CPI");
   const [mode, setMode] = useState<"regions" | "districts">("regions");
-  const heroBg = "/images/hero-population.png";
   const HERO_HEIGHT = "lg:h-[420px]";
+  const slides = [
+    {
+      src: "/images/hero-population.png",
+      title: "Population & Housing Census Insights",
+      subtitle: "Explore Ghana’s latest demographic highlights and key trends.",
+    },
+    {
+      src: "/images/ASD 2025 GOVERNANCE BANNER.jpg",
+      title: "ASD 2025 Governance",
+      subtitle: "Strengthening governance data for evidence-based decisions.",
+    },
+    {
+      src: "/images/GDP BANNER copy 1.png",
+      title: "GDP Performance",
+      subtitle: "Track Ghana’s growth trajectory with updated GDP indicators.",
+    },
+  ];
+  const [activeSlide, setActiveSlide] = useState(0);
 
   const indicatorLabels = INDICATORS.map((id) => INDICATOR_LABELS[id]);
   const labelToId = Object.fromEntries(
@@ -49,14 +66,21 @@ export default function Hero() {
     };
   }, [hoveredLabel]);
 
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setActiveSlide((prev) => (prev + 1) % slides.length);
+    }, 15000);
+    return () => window.clearInterval(interval);
+  }, [slides.length]);
+
   return (
     <section className="relative overflow-visible bg-white py-12 sm:py-16">
       <Container>
         <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[1fr_460px] lg:gap-6">
           <div className={`relative h-[300px] w-full overflow-hidden rounded-2xl bg-slate-100 ${HERO_HEIGHT}`}>
             <Image
-              src={heroBg}
-              alt="Hero"
+              src={slides[activeSlide].src}
+              alt={slides[activeSlide].title}
               fill
               className="object-cover object-center"
               priority
@@ -66,6 +90,9 @@ export default function Hero() {
             <button
               type="button"
               aria-label="Previous"
+              onClick={() =>
+                setActiveSlide((prev) => (prev - 1 + slides.length) % slides.length)
+              }
               className="absolute left-0 top-1/2 z-30 hidden h-20 w-16 -translate-y-1/2 items-center justify-center rounded-r-md bg-white/25 text-white backdrop-blur-sm transition hover:bg-white/35 lg:flex"
             >
               <ChevronLeft className="h-5 w-5" />
@@ -73,15 +100,19 @@ export default function Hero() {
             <button
               type="button"
               aria-label="Next"
+              onClick={() => setActiveSlide((prev) => (prev + 1) % slides.length)}
               className="absolute right-0 top-1/2 z-30 hidden h-20 w-16 -translate-y-1/2 items-center justify-center rounded-l-md bg-white/25 text-white backdrop-blur-sm transition hover:bg-white/35 lg:flex"
             >
               <ChevronRight className="h-5 w-5" />
             </button>
 
             <div className="absolute left-6 bottom-20 z-20">
-              <div className="inline-flex items-center rounded-md bg-indigo-600/55 px-4 py-2 backdrop-blur-sm">
-                <span className="text-sm font-semibold text-white sm:text-base whitespace-nowrap">
-                  Inflation Rate stands at 5.4% in December 2024
+              <div className="inline-flex flex-col gap-1 rounded-md bg-indigo-600/55 px-4 py-2 backdrop-blur-sm">
+                <span className="text-sm font-semibold text-white sm:text-base">
+                  {slides[activeSlide].title}
+                </span>
+                <span className="text-xs text-white/90 sm:text-sm">
+                  {slides[activeSlide].subtitle}
                 </span>
               </div>
             </div>
