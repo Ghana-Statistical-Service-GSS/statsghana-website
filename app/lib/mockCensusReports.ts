@@ -3,13 +3,7 @@ export type CensusReport = {
   title: string;
   description: string;
   year: number;
-  reportType:
-    | "Main Report"
-    | "Thematic Report"
-    | "Analytical Report"
-    | "Technical Report"
-    | "Atlas"
-    | "Summary";
+  reportType: string;
   thumbnail: string;
   fileUrl: string;
 };

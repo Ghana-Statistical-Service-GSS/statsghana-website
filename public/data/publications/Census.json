@@ -1,0 +1,785 @@
+[
+  {
+    "id": "BA1",
+    "title": "Population Projections 2021 - 2025 Greater Accra Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2025 Greater Accra Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA2",
+    "title": "Population Projections 2021 - 2050 Western Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Western Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA3",
+    "title": "Population Projections 2021 - 2050 Central Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Central Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA4",
+    "title": "Population Projections 2021 - 2025 Volta Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2025 Volta Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA5",
+    "title": "Population Projections 2021 - 2025 Eastern Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2025 Eastern Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA6",
+    "title": "Population Projections 2021 - 2025 Ashanti Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2025 Ashanti Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA7",
+    "title": "Population Projections 2021 - 2050 Savannah Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Savannah Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA8",
+    "title": "Population Projections 2021 - 2025 Western North Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2025 Western North Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA9",
+    "title": "Population Projections 2021 - 2050 Ahafo Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Ahafo Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA10",
+    "title": "Population Projections 2021 - 2050 Bono East Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Bono East Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA11",
+    "title": "Population Projections 2021 - 2050 Oti Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Oti Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA12",
+    "title": "Population Projections 2021 - 2050 Northern Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Northern Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA13",
+    "title": "Population Projections 2021 - 2050 North East Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 North East Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA14",
+    "title": "Population Projections 2021 - 2050 Upper East Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Upper East Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA15",
+    "title": "Population Projections 2021 - 2050 Upper West Region",
+    "description": "Official analytical report from the Ghana Statistical Service for 2025, covering Population Projections 2021 - 2050 Upper West Region.",
+    "year": 2025,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA16",
+    "title": "Slums and Informal Settlements in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2025, covering Slums and Informal Settlements in Ghana.",
+    "year": 2025,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA17",
+    "title": "Maternal Motality in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2025, covering Maternal Motality in Ghana.",
+    "year": 2025,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA18",
+    "title": "District Ranking of Micro-Level Indicators",
+    "description": "Official main report from the Ghana Statistical Service for 2025, covering District Ranking of Micro-Level Indicators.",
+    "year": 2025,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA19",
+    "title": "Nandom District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Nandom District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA20",
+    "title": "Amansie Central District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Amansie Central District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA21",
+    "title": "Amansie West District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Amansie West District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA22",
+    "title": "Anloga District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Anloga District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA23",
+    "title": "Asante Akim Central Municipal Dist",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asante Akim Central Municipal Dist.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA24",
+    "title": "Asante Akim North Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asante Akim North Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA25",
+    "title": "Ablekuma Central Municipal Dis",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Ablekuma Central Municipal Dis.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA26",
+    "title": "Asante Akim South Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asante Akim South Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA27",
+    "title": "Asene Manso Akroso District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asene Manso Akroso District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA28",
+    "title": "Ashaiman Municipal District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Ashaiman Municipal District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA29",
+    "title": "Asikuma Odoben Brakwa District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asikuma Odoben Brakwa District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA30",
+    "title": "Asokwa Municipal District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asokwa Municipal District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA31",
+    "title": "Assin FosuMunicipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Assin FosuMunicipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA32",
+    "title": "Assin North District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Assin North District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA33",
+    "title": "Asunafo North Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asunafo North Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA34",
+    "title": "Asunafo South District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asunafo South District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA35",
+    "title": "Asuogyaman District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asuogyaman District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA36",
+    "title": "Asutifi North District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asutifi North District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA37",
+    "title": "Asutifi South District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Asutifi South District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA38",
+    "title": "Atebubu Amantin Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atebubu Amantin Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA39",
+    "title": "Atiwa East District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atiwa East District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA40",
+    "title": "Atiwa West District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atiwa West District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA41",
+    "title": "Atwima Kwanwoma District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atwima Kwanwoma District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA42",
+    "title": "Atwima Mponua District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atwima Mponua District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA43",
+    "title": "Atwima Nwabiagya North District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atwima Nwabiagya North District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA44",
+    "title": "Atwima Nwabiagya South Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Atwima Nwabiagya South Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA45",
+    "title": "Awutu Senya District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Awutu Senya District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA46",
+    "title": "Awutu Senya East Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Awutu Senya East Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA47",
+    "title": "Ayawaso Central Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Ayawaso Central Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA48",
+    "title": "Ayawaso East Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Ayawaso East Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA49",
+    "title": "Ayawaso North Municipa",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Ayawaso North Municipa.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA50",
+    "title": "Bawku West District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bawku West District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA51",
+    "title": "Bekwai Municipal District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bekwai Municipal District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA52",
+    "title": "Berekum East Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Berekum East Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA53",
+    "title": "Berekum West District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Berekum West District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA54",
+    "title": "Bia East District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bia East District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA55",
+    "title": "BiaWest District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering BiaWest District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA56",
+    "title": "Biakoye District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Biakoye District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA57",
+    "title": "Bibiani Anhwiaso Bekwai Municipal District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bibiani Anhwiaso Bekwai Municipal District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA58",
+    "title": "Binduri District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Binduri District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA59",
+    "title": "Birim CentralMunicipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Birim CentralMunicipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA60",
+    "title": "Birim North District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Birim North District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA61",
+    "title": "Birim South District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Birim South District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA62",
+    "title": "Bodi District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bodi District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA63",
+    "title": "Bole District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bole District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA64",
+    "title": "Bolgatanga East District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bolgatanga East District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA65",
+    "title": "Bolgatanga Municipal District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bolgatanga Municipal District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA66",
+    "title": "Bongo District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bongo District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA67",
+    "title": "Bosome Freho District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bosome Freho District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA68",
+    "title": "Bosomtwe District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bosomtwe District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA69",
+    "title": "Builsa North Municipal District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Builsa North Municipal District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA70",
+    "title": "Builsa South District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Builsa South District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA71",
+    "title": "Bunkpurugu Nakpanduri District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Bunkpurugu Nakpanduri District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA72",
+    "title": "Cape CoastMetropolis",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Cape CoastMetropolis.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA73",
+    "title": "Central Gonja District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Central Gonja District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA74",
+    "title": "Central Tongu District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Central Tongu District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA75",
+    "title": "Chereponi District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Chereponi District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA76",
+    "title": "Daffiama Bussie Issa District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Daffiama Bussie Issa District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA77",
+    "title": "Denkyembuor District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Denkyembuor District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA78",
+    "title": "Dormaa Central Municipal",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Dormaa Central Municipal.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA79",
+    "title": "Dormaa East District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Dormaa East District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA80",
+    "title": "Dormaa West District",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Dormaa West District.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA81",
+    "title": "Child Marriage in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2024, covering Child Marriage in Ghana.",
+    "year": 2024,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA82",
+    "title": "Ghana 2010 and 2021 Population and Housing Census Water Report",
+    "description": "Official main report from the Ghana Statistical Service for 2023, covering Ghana 2010 and 2021 Population and Housing Census Water Report.",
+    "year": 2023,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA83",
+    "title": "Digital Exclusion in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2023, covering Digital Exclusion in Ghana.",
+    "year": 2023,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA84",
+    "title": "Thematic Report on Migration",
+    "description": "Official thematic report from the Ghana Statistical Service for 2023, covering Thematic Report on Migration.",
+    "year": 2023,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA85",
+    "title": "2021 PHC General Report Vol 3N Structures",
+    "description": "Official main report from the Ghana Statistical Service for 2022, covering 2021 PHC General Report Vol 3N Structures.",
+    "year": 2022,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA86",
+    "title": "2021 PHC General Report Vol 3M Water and Sanitation",
+    "description": "Official main report from the Ghana Statistical Service for 2022, covering 2021 PHC General Report Vol 3M Water and Sanitation.",
+    "year": 2022,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA87",
+    "title": "2021 PHC General Report 3K Housing Characteristics",
+    "description": "Official main report from the Ghana Statistical Service for 2022, covering 2021 PHC General Report 3K Housing Characteristics.",
+    "year": 2022,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA88",
+    "title": "2021 PHC General Report Vol 3H Fertility and Mortality",
+    "description": "Official main report from the Ghana Statistical Service for 2022, covering 2021 PHC General Report Vol 3H Fertility and Mortality.",
+    "year": 2022,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA89",
+    "title": "2021 PHC General Report Vol 3G ICT",
+    "description": "Official main report from the Ghana Statistical Service for 2022, covering 2021 PHC General Report Vol 3G ICT.",
+    "year": 2022,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA90",
+    "title": "2021 PHC General Report Vol 3D Literacy and Education",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering 2021 PHC General Report Vol 3D Literacy and Education.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA91",
+    "title": "2021 PHC General Report Vol 3E Economic Activity",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering 2021 PHC General Report Vol 3E Economic Activity.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA92",
+    "title": "2021 PHC General Report Vol 3F Difficulty in Performing Activities",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering 2021 PHC General Report Vol 3F Difficulty in Performing Activities.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA93",
+    "title": "Download 2021 PHC General Report Vol 3B, Age and Sex Profile",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering Download 2021 PHC General Report Vol 3B, Age and Sex Profile.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA94",
+    "title": "2021 PHC General Report Vol 3C, Background Characteristics",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering 2021 PHC General Report Vol 3C, Background Characteristics.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA95",
+    "title": "2021 Preliminary Report",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering 2021 Preliminary Report.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA96",
+    "title": "Download the tables from the Preliminary Report",
+    "description": "Official main report from the Ghana Statistical Service for 2021, covering Download the tables from the Preliminary Report.",
+    "year": 2021,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA97",
+    "title": "Ghana Census of Agriculture (GCA), 2017/18",
+    "description": "Official main report from the Ghana Statistical Service for 2020, covering Ghana Census of Agriculture (GCA), 2017/18.",
+    "year": 2020,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA98",
+    "title": "Urbanisation",
+    "description": "Official main report from the Ghana Statistical Service for 2014, covering Urbanisation.",
+    "year": 2014,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA99",
+    "title": "Migration in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2014, covering Migration in Ghana.",
+    "year": 2014,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA100",
+    "title": "Mortality",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering Mortality.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA101",
+    "title": "Millennium Development Goals in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering Millennium Development Goals in Ghana.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA102",
+    "title": "2010 PHC Elderly in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering 2010 PHC Elderly in Ghana.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA103",
+    "title": "2010 PHC Children Adolescents & Young People in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering 2010 PHC Children Adolescents & Young People in Ghana.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA104",
+    "title": "2010 PHC Monograph Women & Men in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering 2010 PHC Monograph Women & Men in Ghana.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA105",
+    "title": "2010 PHC Demographic Social Economic Housing Characteristics",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering 2010 PHC Demographic Social Economic Housing Characteristics.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA106",
+    "title": "Economic Activities",
+    "description": "Official main report from the Ghana Statistical Service for 2013, covering Economic Activities.",
+    "year": 2013,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA107",
+    "title": "Housing in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 1970, covering Housing in Ghana.",
+    "year": 1970,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA108",
+    "title": "Ghana Population Prospects",
+    "description": "Official main report from the Ghana Statistical Service for 1970, covering Ghana Population Prospects.",
+    "year": 1970,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA109",
+    "title": "Fertility in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2010, covering Fertility in Ghana.",
+    "year": 2010,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA110",
+    "title": "Disability in Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2014, covering Disability in Ghana.",
+    "year": 2014,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA111",
+    "title": "FAO Ghana Country Profile Final 2012 on Gender Inequality in Rural Ghana",
+    "description": "Official main report from the Ghana Statistical Service for 2014, covering FAO Ghana Country Profile Final 2012 on Gender Inequality in Rural Ghana.",
+    "year": 2014,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "SK112",
+    "title": "Water and Sanitation",
+    "description": "Official main report from the Ghana Statistical Service, covering Water and Sanitation.",
+    "reportType": "Main Report"
+  }
+]

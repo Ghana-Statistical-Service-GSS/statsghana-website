@@ -1,0 +1,786 @@
+[
+  {
+    "id": "BA1",
+    "title": "Population Projections 2021 - 2025 Greater Accra Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA2",
+    "title": "Population Projections 2021 - 2050 Western Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA3",
+    "title": "Population Projections 2021 - 2050 Central Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA4",
+    "title": "Population Projections 2021 - 2025 Volta Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA5",
+    "title": "Population Projections 2021 - 2025 Eastern Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA6",
+    "title": "Population Projections 2021 - 2025 Ashanti Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA7",
+    "title": "Population Projections 2021 - 2050 Savannah Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA8",
+    "title": "Population Projections 2021 - 2025 Western North Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA9",
+    "title": "Population Projections 2021 - 2050 Ahafo Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA10",
+    "title": "Population Projections 2021 - 2050 Bono East Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA11",
+    "title": "Population Projections 2021 - 2050 Oti Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA12",
+    "title": "Population Projections 2021 - 2050 Northern Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA13",
+    "title": "Population Projections 2021 - 2050 North East Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA14",
+    "title": "Population Projections 2021 - 2050 Upper East Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA15",
+    "title": "Population Projections 2021 - 2050 Upper West Region",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA16",
+    "title": "Slums and Informal Settlements in Ghana",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA17",
+    "title": "Maternal Motality in Ghana",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA18",
+    "title": "District Ranking of Micro-Level Indicators",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA19",
+    "title": "Nandom District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA20",
+    "title": "Amansie Central District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA21",
+    "title": "Amansie West District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA22",
+    "title": "Anloga District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA23",
+    "title": "Asante Akim Central Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA24",
+    "title": "Asante Akim North Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA25",
+    "title": "ABLEKUMA CENTRAL MUNICIPAL",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA26",
+    "title": "Asante Akim South Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA27",
+    "title": "Asene Manso Akroso ",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA28",
+    "title": "Ashaiman Municipal ",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA29",
+    "title": "Asikuma Odoben Brakwa District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA30",
+    "title": "Asokwa Municipal ",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA31",
+    "title": "Assin FosuMunicipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA32",
+    "title": "Assin North District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA33",
+    "title": "Asunafo North Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA34",
+    "title": "Asunafo South District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA35",
+    "title": "Asuogyaman District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA36",
+    "title": "Asutifi North District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA37",
+    "title": "Asutifi South District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA38",
+    "title": "Atebubu Amantin Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA39",
+    "title": "Atiwa East District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA40",
+    "title": "Atiwa West District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA41",
+    "title": "Atwima Kwanwoma District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA42",
+    "title": "Atwima Mponua District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA43",
+    "title": "Atwima Nwabiagya North District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA44",
+    "title": "Atwima Nwabiagya South Municipal\n",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA45",
+    "title": "Awutu Senya District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA46",
+    "title": "Awutu Senya East Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA47",
+    "title": "Ayawaso Central Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA48",
+    "title": "Ayawaso East Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA49",
+    "title": "Ayawaso North Municipa",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA50",
+    "title": "Bawku West District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA51",
+    "title": "Bekwai Municipal District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA52",
+    "title": "Berekum East Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA53",
+    "title": "Berekum West District\n",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA54",
+    "title": "Bia East District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA55",
+    "title": "BiaWest District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA56",
+    "title": "Biakoye District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA57",
+    "title": "Bibiani Anhwiaso Bekwai Municipal District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA58",
+    "title": "Binduri District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA59",
+    "title": "Birim Central Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA60",
+    "title": "Birim North District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA61",
+    "title": "Birim South District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA62",
+    "title": "Bodi District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA63",
+    "title": "Bole District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA64",
+    "title": "Bolgatanga East District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA65",
+    "title": "Bolgatanga Municipal District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA66",
+    "title": "Bongo District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA67",
+    "title": "Bosome Freho District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA68",
+    "title": "Bosomtwe District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA69",
+    "title": "Builsa North Municipal District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA70",
+    "title": "Builsa South District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA71",
+    "title": "Bunkpurugu Nakpanduri District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA72",
+    "title": "Cape CoastMetropolis",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA73",
+    "title": "Central Gonja District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA74",
+    "title": "Central Tongu District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA75",
+    "title": "Chereponi District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA76",
+    "title": "Daffiama Bussie Issa District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA77",
+    "title": "Denkyembuor District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA78",
+    "title": "Dormaa Central Municipal",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA79",
+    "title": "Dormaa East District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA80",
+    "title": "Dormaa West District",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA81",
+    "title": "Child Marriage in Ghana",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA82",
+    "title": "Ghana 2010 and 2021 Population and Housing Census Water Report",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA83",
+    "title": "Digital Exclusion in Ghana",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA84",
+    "title": "Thematic Report on Migration",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA85",
+    "title": "2021 PHC General Report Vol 3N Structures",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA86",
+    "title": "2021 PHC General Report Vol 3M Water and Sanitation",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA87",
+    "title": "2021 PHC General Report 3K Housing Characteristics",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA88",
+    "title": "2021 PHC General Report Vol 3H Fertility and Mortality",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA89",
+    "title": "2021 PHC General Report Vol 3G ICT",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA90",
+    "title": "2021 PHC General Report Vol 3D Literacy and Education",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA91",
+    "title": "2021 PHC General Report Vol 3E Economic Activity",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA92",
+    "title": "2021 PHC General Report Vol 3F Difficulty in Performing Activities",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA93",
+    "title": "Download 2021 PHC General Report Vol 3B, Age and Sex Profile",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA94",
+    "title": "2021 PHC General Report Vol 3C, Background Characteristics",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA95",
+    "title": "2021 Preliminary Report",
+    "description": "",
+    "year": 2021,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA96",
+    "title": "Download the tables from the Preliminary Report",
+    "description": "",
+    "year": 2021,
+    "reportType": "Analytical Report"
+  },
+  {
+    "id": "BA97",
+    "title": "Ghana Census of Agriculture (GCA), 2017/18",
+    "description": "",
+    "year": 2017,
+    "reportType": "Main Report"
+  },
+  {
+    "id": "BA98",
+    "title": "Urbanisation",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA99",
+    "title": "Migration in Ghana",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA100",
+    "title": "Mortality",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA101",
+    "title": "Millennium Development Goals in Ghana",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA102",
+    "title": "2010 PHC Elderly in Ghana",
+    "description": "",
+    "year": 2010,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA103",
+    "title": "2010 PHC Children Adolescents & Young People in Ghana\n",
+    "description": "",
+    "year": 2010,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA104",
+    "title": "2010 PHC Monograph Women & Men in Ghana",
+    "description": "",
+    "year": 2010,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA105",
+    "title": "2010 PHC Demographic Social Economic Housing Characteristics",
+    "description": "",
+    "year": 2010,
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA106",
+    "title": "Economic Activities",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA107",
+    "title": "Housing in Ghana",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA108",
+    "title": "Ghana Population Prospects",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA109",
+    "title": "Fertility in Ghana",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA110",
+    "title": "Disability in Ghana",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": "BA111",
+    "title": "FAO Ghana Country Profile Final 2012 on Gender Inequality in Rural Ghana",
+    "description": "",
+    "year":"",
+    "reportType": "Thematic Report"
+  },
+  {
+    "id": " SK112",
+    "title": " Water and Sanitation",
+    "description": "",
+    "year": "",
+    "reportType": "Thematic Report"
+  }
+]

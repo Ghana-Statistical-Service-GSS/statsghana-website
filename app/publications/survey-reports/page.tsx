@@ -1,7 +1,24 @@
 import ReportsGrid from "../census-reports/ReportsGrid";
-import { mockSurveyReports } from "@/app/lib/mockSurveyReports";
+import surveyReports from "@/app/lib/survey.json";
+import type { CensusReport } from "@/app/lib/mockCensusReports";
 
 export default function SurveyReportsPage() {
+  const reports: CensusReport[] = (surveyReports as Array<{
+    id: string;
+    title: string;
+    description: string;
+    year?: number;
+    reportType: CensusReport["reportType"];
+  }>).map((row) => ({
+    id: row.id,
+    title: row.title,
+    description: row.description,
+    year: row.year ?? 0,
+    reportType: row.reportType,
+    thumbnail: "/images/publications/census-reports/image.png",
+    fileUrl: "#",
+  }));
+
   return (
     <div className="bg-white">
       <section className="relative overflow-hidden py-10 sm:py-12">
@@ -26,8 +43,9 @@ export default function SurveyReportsPage() {
       <section className="pb-12">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <ReportsGrid
-            reports={mockSurveyReports}
+            reports={reports}
             fallbackSrc="/images/publications/census-reports/image.png"
+            filePrefix="publications/survey"
           />
         </div>
       </section>

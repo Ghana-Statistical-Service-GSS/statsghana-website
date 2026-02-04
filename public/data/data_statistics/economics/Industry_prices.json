@@ -1,0 +1,3572 @@
+[
+  {
+    "id": "BA1",
+    "program": "Press Release. Ghana Index Of Industrial Production (IIP), 2025 – Q",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA2",
+    "program": "Index Of Industrial Production (IIP) infographics, 2025Q3",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA3",
+    "program": "Index Of Industrial Production (IIP) infographics, 2025Q2",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "SK4",
+    "program": "2ND_quarter_2025_IIP_press_release",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA5",
+    "program": "Press Release. Ghana Index Of Industrial Production (IIP), 2025 – Q2",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA6",
+    "program": "Quarterly IIP Newsletter 2025Q1",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA7",
+    "program": "Ghana Index Of Industrial Production (IIP) Quarterly Newsletter 2024 Quarter 2",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA8",
+    "program": "Ghana Index Of Industrial Production (IIP), 2024- Q4",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA9",
+    "program": "Ghana Index Of Industrial Production (IIP), 2024- Q3",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "SK10",
+    "program": "3rd_quarter_2025_IIP_press_release_Final",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "",
+    "year": "",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "SK11",
+    "program": "2025Q2_Quarterly_IIP_Newsletter",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "",
+    "year": "",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "SK1",
+    "program": "February_PPI_All_activities_(summary)_19_2_2025",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK2",
+    "program": "PPI Activity Summary",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK3",
+    "program": "December_PPI_All_activities_(summary)_11_12_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK4-2",
+    "program": "Activity Summary",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK5",
+    "program": "November_PPI_All_activities_(summary)_1_11_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK6",
+    "program": "October_PPI_All activities (summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK7",
+    "program": "September_PPI_All_activities_(summary)_revised_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK8",
+    "program": "August_PPI_All_activities_(summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK9",
+    "program": "July_PPI_All activities (summary)_15_08_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK10-2",
+    "program": "June_PPI_All activities (summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK10-3",
+    "program": "April_PPI_All activities (summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK11-2",
+    "program": "May_PPI_All activities (summary) _17_06_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK12",
+    "program": "March_PPI_All activities (summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK13",
+    "program": "February_PPI_All activities (summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK14",
+    "program": "January_PPI_All activities (summary)_2024",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK15",
+    "program": "October_PPI_All activities (summary)_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK16",
+    "program": "September_PPI_All activities (summary)_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK17",
+    "program": "August_PPI_All activities (summary)_15_08_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK18",
+    "program": "July_PPI_All activities (summary)_15_8_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK19",
+    "program": "June_PPI_All activities (summary)_17_7_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK20",
+    "program": "May_PPI_All activities (summary)_17_6_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK21",
+    "program": "April_PPI_All activities (summary)_17_4_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK22",
+    "program": "March_PPI_All activities (summary)_17_4_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK23",
+    "program": "February_PPI_All activities (summary)_2_13_2023",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK24",
+    "program": "PPI Activity Summary",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK25",
+    "program": "PPI Activity Summary",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK26",
+    "program": "December_PPI_All activities (summary)_2022",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "SK27",
+    "program": "OCT 2022 PPI_All activities (summary)",
+    "category": "PPI Activity Summary",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Activity Summary"
+  },
+  {
+    "id": "IM1",
+    "program": "February_PPI_Construction_19_2_2025",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM2",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM3",
+    "program": "December_PPI_Construction_11_12_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM4",
+    "program": "November_PPI_Construction_2024.",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM5",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM6",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM7",
+    "program": "August_PPI_Construction_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM8",
+    "program": "July_PPI_Construction_15_08_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM9",
+    "program": "June_PPI_Construction_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM10",
+    "program": "May_PPI_Construction_17_06_2024.",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM11",
+    "program": "April_PPI_Construction_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM12",
+    "program": "March_PPI_Construction_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM13",
+    "program": "February_PPI_Construction_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM14",
+    "program": "January_PPI_Construction_16_02_2024",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM222",
+    "program": "December_PPI_Construction_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM15",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM16",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM17",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM18",
+    "program": "July_PPI_Construction_15_8_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM19",
+    "program": "June_PPI_Construction_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM20",
+    "program": "May_PPI_Construction_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM21",
+    "program": "April_PPI_Construction_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM22",
+    "program": "March_PPI_Construction_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM23",
+    "program": "February_PPI_Construction_2023",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM24",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM25",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM26",
+    "program": "November_PPI_Construction-2022",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM27",
+    "program": "PPI Construction",
+    "category": "PPI Construction",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Construction"
+  },
+  {
+    "id": "IM1-2",
+    "program": "February_PPI_Industrial_1922025",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM2-2",
+    "program": "January_PPI_Industrial_160224",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM3-2",
+    "program": "December_PPI_Industrial_111224",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM4-2",
+    "program": "November_PPI_Industrial_111224",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM5-2",
+    "program": "October_PPI_Industrial_181124.",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM6-2",
+    "program": "September_PPI_Industrial_141024_revised",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM7-2",
+    "program": "August_PPI_Industrial_2024",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM8-2",
+    "program": "July_PPI_Industrial_150824",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM9-2",
+    "program": "June_PPI_Industrial_2024",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM10-2",
+    "program": "May_PPI_Industrial _170624",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM11-2",
+    "program": "April_PPI_Industrial_2024",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM12-2",
+    "program": "March_PPI_Industrial_2024",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM13-2",
+    "program": "February_PPI_Industrial_2024",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM14-2",
+    "program": "PPI Industrial",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM",
+    "program": "Decmber_PPI_Industrial_2023.",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM15-2",
+    "program": "October_PPI_Industrial_221123",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM16-2",
+    "program": "September_PPI_Industrial_2023",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM17-2",
+    "program": "PPI Industrial",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM18-2",
+    "program": "July_PPI_Industrial_1582023",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM19-2",
+    "program": "June_PPI_Industrial_17723",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM20-2",
+    "program": "May_PPI_Industrial_17623",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM21-2",
+    "program": "April_PPI_Industrial_17423",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM22-2",
+    "program": "March_PPI_Industrial_17423",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM23-2",
+    "program": "February_PPI_Industrial_21323",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM24-2",
+    "program": "PPI Industrial",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM25-2",
+    "program": "PPI Industrial",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM26-2",
+    "program": "November_PPI_Industrial_161222",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "IM27-2",
+    "program": "OCT 2022 PPI_Industrial",
+    "category": "PPI Industrial",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Industrial"
+  },
+  {
+    "id": "BA1-2",
+    "program": "PPI Infographics",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA2-2",
+    "program": "Infographics_October_2025_PPI",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA3-2",
+    "program": "Infographics_September_2025_PPI_Final",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA4",
+    "program": "Infographics_August_2025_PPI_Final",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA5-2",
+    "program": "PPI Infographics",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA6-2",
+    "program": "Infographics_July 2025 PPI_13825.",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA7-2",
+    "program": "PPI Infographics",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA8-2",
+    "program": "PPI_May_2025_updated",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "BA9-2",
+    "program": "APRIL_2025_PPI_infographics",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "SK10-4",
+    "program": "Infographics_PPI_Final_15_07_2025",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "SK11-3",
+    "program": "PPI Infograph_November 2025_PPI_11122025",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "SK1-2",
+    "program": "Powerpoint_November_2025_PPI_11122025",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK2-2",
+    "program": "October_2025_PPI_121125-Edited",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK3-2",
+    "program": "PPI Presentations",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK4-3",
+    "program": "August_2025_PPI-PPT_Final",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK5-2",
+    "program": "July_2025_PPI-PPT_13825",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK6-2",
+    "program": "June 2025 PPI-PPT-Final_15072025",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK7-2",
+    "program": "May_2025_PPI_Press_Release_New",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK8-2",
+    "program": "Feb 2023 PPI press release_rev.",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK9-2",
+    "program": "PPI Presentations",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK10-5",
+    "program": "December_2024_PPI_press_release_111224",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK11-4",
+    "program": "November_2024_PPI_press_release_111224",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK12-2",
+    "program": "September_2024_PPI_press_release_141024",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK13-2",
+    "program": "August_2024_PPI_press_release",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK14-2",
+    "program": "April_2024_PPI_press_release",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK15-2",
+    "program": "PPI Presentations",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK16-2",
+    "program": "August_2023_PPI_press_release_1582023_review",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK17-2",
+    "program": "July_2023_PPI_press_release_1582023",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK18-2",
+    "program": "June_2023_PPI_press_release_17723",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK19-2",
+    "program": "May_2023_PPI_press_release_17623",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK20-2",
+    "program": "Apr_2023_PPI_press_release_17423_rev",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK21-2",
+    "program": "Mar 2023 PPI press release_17423",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK22-2",
+    "program": "Feb 2023 PPI press release_rev.",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK23-2",
+    "program": "October_2023_PPI_press_release_221123",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK24-2",
+    "program": "2022_Rebased PPI press release _161122.",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK25-2",
+    "program": "September_2025_PPI_Final",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "SK1-3",
+    "program": "February_PPI_Services_1922025",
+    "category": "PPI Services",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK2-3",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK3-3",
+    "program": "December_PPI_Services_111224",
+    "category": "PPI Services",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK4-4",
+    "program": "November_PPI_Services_111224",
+    "category": "PPI Services",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK5-3",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK6-3",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK7-3",
+    "program": "August_PPI_Services_2024",
+    "category": "PPI Services",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK8-3",
+    "program": "July_PPI_Services_150824",
+    "category": "PPI Services",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK9-3",
+    "program": "June_PPI_Services_2024",
+    "category": "PPI Services",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK10-6",
+    "program": "May_PPI_Services_170624",
+    "category": "PPI Services",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK11-5",
+    "program": "April_PPI_Services_2024",
+    "category": "PPI Services",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK12-3",
+    "program": "March_PPI_Services_2024",
+    "category": "PPI Services",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK13-3",
+    "program": "February_PPI_Services_2024",
+    "category": "PPI Services",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK14-3",
+    "program": "January_PPI_Services_160224",
+    "category": "PPI Services",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK15-3",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK16-3",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK17-3",
+    "program": "August_PPI_Services_1582023",
+    "category": "PPI Services",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK18-3",
+    "program": "July_PPI_Services_1582023",
+    "category": "PPI Services",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK19-3",
+    "program": "June_PPI_Services_17723",
+    "category": "PPI Services",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK20-3",
+    "program": "May_PPI_Services_17623",
+    "category": "PPI Services",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK21-3",
+    "program": "April_PPI_Services_17423",
+    "category": "PPI Services",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK22-3",
+    "program": "March_PPI_Services_17423",
+    "category": "PPI Services",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK23-3",
+    "program": "February_PPI_Services_21323.",
+    "category": "PPI Services",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK24-3",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK25-3",
+    "program": "December_PPI_Services_2022",
+    "category": "PPI Services",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK26-2",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "SK27-2",
+    "program": "PPI Services",
+    "category": "PPI Services",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "PPI Services"
+  },
+  {
+    "id": "BD1",
+    "program": "August 2022 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD2",
+    "program": "July 2022 PPI_templatefinal_Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD3",
+    "program": "June 2022 PPI_Bullitin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD4",
+    "program": "May 2022 PPI _bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD5",
+    "program": "April 2022 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD6",
+    "program": "March 2022 PPI_bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD7",
+    "program": "February 2022 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD8",
+    "program": "PPI bulletin_January 2022",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD9",
+    "program": "December 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD10",
+    "program": "November 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD11",
+    "program": "October 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD12",
+    "program": "September 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD13",
+    "program": "August 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD14",
+    "program": "July 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD15",
+    "program": "June 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD16",
+    "program": "May 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD17",
+    "program": "April 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD18",
+    "program": "March 2021 PPI bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD19",
+    "program": "February 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD20",
+    "program": "January 2021 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD21",
+    "program": "December 2020 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD22",
+    "program": "November 2020 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD23",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD24",
+    "program": "September 2020 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD25",
+    "program": "August 2020PPI_ bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD26",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD27",
+    "program": "June 2020 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD28",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD29",
+    "program": "April 2020 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD30",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD31",
+    "program": "February_2020 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD32",
+    "program": "January 2020 PPI_ bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD33",
+    "program": "December 2019 PPI_bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD34",
+    "program": "November 2019 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD35",
+    "program": "October 2019 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD36",
+    "program": "September 2019 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD37",
+    "program": "August 2019 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD38",
+    "program": "July 2019 PPI _ bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD39",
+    "program": "June 2019 PPI_bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD40",
+    "program": "May 2019 PPI_bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD41",
+    "program": "April 2019 PPI bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD42",
+    "program": "March 2019 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD43",
+    "program": "February 2019 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD44",
+    "program": "January 2019 PPI_bulletinl.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD45",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD46",
+    "program": "July 2018 PPI_bulletin_final",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD47",
+    "program": "June 2018 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD48",
+    "program": "April 2018 PPI bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD49",
+    "program": "March 2018 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD50",
+    "program": "February 2018_ PPI bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD51",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD52",
+    "program": "PPI Newsletter_December 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD53",
+    "program": "November 2017_PPI Newsletter",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD54",
+    "program": "PPI Newsletter_January 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD55",
+    "program": "PPI Newsletter_October 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD56",
+    "program": "PPI Newsletter_September 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD57",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD58",
+    "program": "July  2017 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD59",
+    "program": "PPI Newsletter_June 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD60",
+    "program": "PPI Newsletter_May 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD61",
+    "program": "PPI Newsletter_April 2017",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD62",
+    "program": "March  2017 PPI Newsletter.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD63",
+    "program": "PPI Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD64",
+    "program": "TimeSeries+PPI+2010-05",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2010",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD65",
+    "program": "TimeSeries_P4_PPI_mar_2011",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2011",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD66",
+    "program": "TimeSeries_P4_PPI_july",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2010",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD67",
+    "program": "Producer Price Index",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD68",
+    "program": "PPI_Statistical_Bulletin_new_February 2014",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD69",
+    "program": "PPI_bulletin_March_2014",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD70",
+    "program": "PPI_bulletin_June2014",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD71",
+    "program": "PPI_bulletin_Jan_2014",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD72",
+    "program": "PPI_bulletin_December_2014.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD73",
+    "program": "MAY 2016 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD74",
+    "program": "MARCH 2016 PPI_Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD75",
+    "program": "JUNE 2016 PPI_Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD76",
+    "program": "JANUARY 2016 PPI_Bullentin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD77",
+    "program": "FEBRUARY_2016_PPI_Bulletin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD78",
+    "program": "April 2016 PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD79",
+    "program": "DECEMBER 2015 PPI_ Bullentin.",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD80",
+    "program": "SEPTEMBER 2015 PPI bullentin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD81",
+    "program": "OCTOBER_2015_PPI_bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD82",
+    "program": "NOVEMBER 2015 PPI_bullentin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD83",
+    "program": "JUNE_2015_PPI bullentin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD84",
+    "program": "JULY 2015 PPI _Bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD85",
+    "program": "April_2015_PPI bulletin",
+    "category": "Producer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index Bulletin"
+  },
+  {
+    "id": "BD1-2",
+    "program": "Producer Price Index Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD7-2",
+    "program": "PPI Activity Summary",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD8-2",
+    "program": "April 2025 _PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD9-2",
+    "program": "July_2024_PPI_press_release_210824[1",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD10-2",
+    "program": "PPI Newsletter_August 2022_19922",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD11-2",
+    "program": "PPI Newsletter_Jluly 2022_rev",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD12-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD13-2",
+    "program": "May 2022 PPI _Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD14-2",
+    "program": "PPI Newsletter_April 2022-rev",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD15-2",
+    "program": "March 2022_PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD16-2",
+    "program": "PPI Newsletter_February 2022",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD17-2",
+    "program": "PPI Newsletter_January 2022",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2022",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD18-2",
+    "program": "November 2021_ PPI Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD19-2",
+    "program": "October 2021 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD20-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD21-2",
+    "program": "August 2021 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD22-2",
+    "program": "July 2021 PPI_newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD23-2",
+    "program": "June 2021 _Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD24-2",
+    "program": "May 2021 PPI_Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD25-2",
+    "program": "April 2021 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD26-2",
+    "program": "March 2021 PPI Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD27-2",
+    "program": "PPI Newsletter_February 2021",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD28-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2021",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD29-2",
+    "program": "December 2020 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD30-2",
+    "program": "November 2020 PPI_ Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD31-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD32-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD33-2",
+    "program": "August 2020PPI_ Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD34-2",
+    "program": "July 2020 PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD35-2",
+    "program": "June 2020 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD36-2",
+    "program": "May 2020_PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD37-2",
+    "program": "PPI Newsletter_April 2020",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD38-2",
+    "program": "March 2020 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD39-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD40-2",
+    "program": "January 2020 PPI_ Newletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2020",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD41-2",
+    "program": "December 2019_Newletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD42-2",
+    "program": "November 2019 PPI_Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD43-2",
+    "program": "October 2019 PPI_newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD44-2",
+    "program": "September 2019 PPI_Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD45-2",
+    "program": "August 2019 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD46-2",
+    "program": "July 2019 PPI _ Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD47-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD48-2",
+    "program": "PPI News letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD49-2",
+    "program": "April 2019 PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD50-2",
+    "program": "March 2019_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD51-2",
+    "program": "PPI Newsletter_February 2019",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD52-2",
+    "program": "January 2019 PPI_Newslette",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD53-2",
+    "program": "PPI Newsletter_September 2018",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD54-2",
+    "program": "July 2018 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD55-2",
+    "program": "PPI Newsletter_June 2018 rev",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD56-2",
+    "program": "April 2018 PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD57-2",
+    "program": "March 2018 PPI_Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD58-2",
+    "program": "February 2018_PPI Newsletter.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2018",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD70-2",
+    "program": "PPI_Newsletter_Dec_2013",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD71-2",
+    "program": "PPI Newsletter_November 2013_2",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD72-2",
+    "program": "ppi_newsletter_oct_2013",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD73-2",
+    "program": "ppi_newsletter_sept_2013",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD74-2",
+    "program": "ppi_newsletter_aug2013",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD75-2",
+    "program": "jul_2013_ppi_release",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD76-2",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD77-2",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD78-2",
+    "program": "April_2013_ppi_release",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD79-2",
+    "program": "jan_2013_ppi_release.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD80-2",
+    "program": "mar_ppi_release_2013",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD81-2",
+    "program": "feb_2013_ppi_release",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2013",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD82-2",
+    "program": "December 2016 PPI_ Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD83-2",
+    "program": "PPI News Letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD84-2",
+    "program": "PPI Newsletter_October 2016",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD85-2",
+    "program": "September 2016 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD86",
+    "program": "PPI Newsletter_AUGUST 2016.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD87",
+    "program": "JULY 2016 PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD88",
+    "program": "PPI Newsletter_APRIL 2016_PNedit",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD89",
+    "program": "PPI Newsletter_AUGUST 2015",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD90",
+    "program": "PPI Newsletter_May 2015",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD91",
+    "program": "PPI Newsletter_March 2015",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD92",
+    "program": "PPI News Letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD93",
+    "program": "PPI News Letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD94",
+    "program": "PPI News Letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD95",
+    "program": "PPI Newsletter_Oct_2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD96",
+    "program": "September 2014 PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD97",
+    "program": "PPI Newsletter_August 2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD98",
+    "program": "PPI News Letter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD99",
+    "program": "PPI Newsletter_April2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD100",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD101",
+    "program": "November 2017_PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD102",
+    "program": "PPI Newsletter_October 2017",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD103",
+    "program": "PPI Newsletter_September 2017",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD104",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD105",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD106",
+    "program": "PPI Newsletter_June 2017.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD107",
+    "program": "PPI Newsletter_May 2017",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD108",
+    "program": "PPI Newsletter_April 2017",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD109",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD110",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD111",
+    "program": "PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD112",
+    "program": "PPI Newsletter_December _ 2017",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2017",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD113",
+    "program": "PPI_Newsletter_March 2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD114",
+    "program": "PPI_Newsletter_December_2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD115",
+    "program": "Producer Price Index Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD116",
+    "program": "Producer Price Index Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD117",
+    "program": "PPI Newsletter_February 2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD118",
+    "program": "Producer Price Index Newsletter May 2014",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2014",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD119",
+    "program": "Producer Price Index Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD120",
+    "program": "PPI Newsletter_MARCH 2016",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD121",
+    "program": "PPI Newsletter_JANUARY 2016",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD122",
+    "program": "JUNE 2016 PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD123",
+    "program": "FEBRUARY_2016_PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2016",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD124",
+    "program": "PPI Newsletter_DECEMBER 2015",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD125",
+    "program": "PPI_Newsletter_April 2015",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD126",
+    "program": "PPI Newsletter_SEPTEMBER 2015",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "September",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD127",
+    "program": "Producer Price Index Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD128",
+    "program": "PPI Newsletter_JULY 2015.",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "July",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD129",
+    "program": "OCTOBER_2015_PPI_Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  },
+  {
+    "id": "BD130",
+    "program": "JUNE_2015_PPI Newsletter",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "June",
+    "quarter": "",
+    "year": "2015",
+    "sheet": "Producer Price Index News Lette"
+  }
+]

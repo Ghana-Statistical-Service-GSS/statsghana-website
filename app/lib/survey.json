@@ -1,0 +1,541 @@
+[
+  {
+    "id": "BD1",
+    "title": "Labour Force Survey (Quarter (1-3)",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD2",
+    "title": "Domestic Visitors factsheet",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD3",
+    "title": "Domestic Same-day Visitors",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD4",
+    "title": "Domestic Overnight Visitors",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD5",
+    "title": "Governance Wave 2 Factsheet Responsiveness & Inclusiveness Of Governance",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD6",
+    "title": "Governance Wave 2 Factsheet Bribery & Corruption",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD7",
+    "title": "The Governance Wave 2",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD8",
+    "title": "Inbound Same-day & Overnight Visitors’ Fact Sheet",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD9",
+    "title": "Inbound Same-Day Visitors' Report 2023",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD10",
+    "title": "Inbound Overnight Visitors Report 2023",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD11",
+    "title": "Quarterly Labour Statistics FactSheet",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD12",
+    "title": "Quarterly Labour Statistics",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD13",
+    "title": "Public Service Satisfaction Survey",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD14",
+    "title": "The Governance Series, Wave one",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD15",
+    "title": "Business Establishment Report Fact Sheet",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD16",
+    "title": "Business Establishment Report Vol.3",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD17",
+    "title": "Business Establishment Report Vol.2",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD18",
+    "title": "Business Establishment Report Vol.1",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD19",
+    "title": "Productivity Employment and Growth, National Report",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD20",
+    "title": "Ghana National Human Development Report",
+    "description": "",
+    "year": 2025,
+    "reportType": ""
+  },
+  {
+    "id": "BD21",
+    "title": "Ghana Poverty Mapping Brief",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD22",
+    "title": "The Ghana National Anti-Corruption Action Plan",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD23",
+    "title": "2023 Multidimentional Poverty Report (Quarter 4 Bulletin)",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD24",
+    "title": "Akwapim South Municipal",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD25",
+    "title": "Business Tracker Brief Report Wave 4",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD26",
+    "title": "Annual Household Income and Expenditure Survey (AHIES) Labour Force",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD27",
+    "title": "2022 GDHS Qualitative Research Studies",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD28",
+    "title": "Ghana Demographic and Health Survey 2022, Main Report",
+    "description": "",
+    "year": 2024,
+    "reportType": ""
+  },
+  {
+    "id": "BD29",
+    "title": "Quarter 4 2022 Food Insecurity Report",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD30",
+    "title": "Children with Special Education Needs",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD31",
+    "title": "Quarter 4 2022 Multidimensional Poverty Report",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD32",
+    "title": "Quarter 4 2022 Labour Statistics Report",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD33",
+    "title": "Ghana Demographic and Health Survey Key Indicators",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD34",
+    "title": "Third Quarter Labour Force Report",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD35",
+    "title": "Do Women in Leadership affect Firms?",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD36",
+    "title": "Bribery and Corruption Problems in Ghana",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD37",
+    "title": "2022 User Satisfaction Survey",
+    "description": "",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD38",
+    "title": "Impact of COVID-19 on Agribusiness",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD39",
+    "title": "Corruption in Ghana, People’s experiences and Views",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD40",
+    "title": "Comprehensive Food Security and Vulnerability Analysis (CFSVA)",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD41",
+    "title": "MICS 6",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD42",
+    "title": "Children Living in Residential Care in Ghana",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD43",
+    "title": "COVID-19 Households and Jobs Tracker wave 3 summary report",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  },
+  {
+    "id": "BD44",
+    "title": "Local Economy Tracker",
+    "description": "",
+    "year": 2020,
+    "reportType": ""
+  },
+  {
+    "id": "BD45",
+    "title": "Recruitment Costs Pilot Survey",
+    "description": "",
+    "year": 2020,
+    "reportType": ""
+  },
+  {
+    "id": "BD46",
+    "title": "Household Survey on ICT in Ghana",
+    "description": "",
+    "year": 2020,
+    "reportType": ""
+  },
+  {
+    "id": "BD47",
+    "title": "2017 GMHS Research Policy Brief",
+    "description": "",
+    "year": 2017,
+    "reportType": ""
+  },
+  {
+    "id": "BD48",
+    "title": "COVID-19 Business Tracker",
+    "description": "",
+    "year": 2020,
+    "reportType": ""
+  },
+  {
+    "id": "BD49",
+    "title": "Ghana Malaria Indicator Survey",
+    "description": "",
+    "year": 2020,
+    "reportType": ""
+  },
+  {
+    "id": "BD50",
+    "title": "Multidimensional Poverty Ghana Report",
+    "description": "",
+    "year": 2020,
+    "reportType": ""
+  },
+  {
+    "id": "BD51",
+    "title": "Multiple Indicator Cluster Survey Six (MICS 6)",
+    "description": "",
+    "year": 2018,
+    "reportType": ""
+  },
+  {
+    "id": "BD52",
+    "title": "GLSS 7 Main Report",
+    "description": "",
+    "year": 2019,
+    "reportType": ""
+  },
+  {
+    "id": "BD53",
+    "title": "Snapshots On Key Findings (MICS)",
+    "description": "",
+    "year": 2017,
+    "reportType": ""
+  },
+  {
+    "id": "BD54",
+    "title": "IBES Summary Report Final",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD55",
+    "title": "IBES Regional Spatial Business Report",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD56",
+    "title": "IBES National Employment Report Final",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD57",
+    "title": "IBES II Comprehensive Sectoral Report, 2014",
+    "description": "",
+    "year": 2014,
+    "reportType": ""
+  },
+  {
+    "id": "BD58",
+    "title": "Poverty Profile Report",
+    "description": "",
+    "year": 2018,
+    "reportType": ""
+  },
+  {
+    "id": "BD59",
+    "title": "Trend Analysis for DHS",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD60",
+    "title": "Ghana Maternal Health Survey",
+    "description": "",
+    "year": 2018,
+    "reportType": ""
+  },
+  {
+    "id": "BD61",
+    "title": "User Satisfaction Survey",
+    "description": "",
+    "year": 2018,
+    "reportType": ""
+  },
+  {
+    "id": "BD62",
+    "title": "IBES Job Creation Report",
+    "description": "",
+    "year": 2015,
+    "reportType": ""
+  },
+  {
+    "id": "BD63",
+    "title": "Second National Household Transport",
+    "description": "",
+    "year": 2013,
+    "reportType": ""
+  },
+  {
+    "id": "BD64",
+    "title": "Multiple Indicator Cluster",
+    "description": "",
+    "year": 2012,
+    "reportType": ""
+  },
+  {
+    "id": "BD65",
+    "title": "Ghana Poverty Map",
+    "description": "",
+    "year": 2015,
+    "reportType": ""
+  },
+  {
+    "id": "BD66",
+    "title": "IBES II Summary Report",
+    "description": "",
+    "year": 2017,
+    "reportType": ""
+  },
+  {
+    "id": "BD67",
+    "title": "Women and Men in Ghana",
+    "description": "",
+    "year": 2014,
+    "reportType": ""
+  },
+  {
+    "id": "BD68",
+    "title": "Malaria Indicator Survey",
+    "description": "",
+    "year": 2017,
+    "reportType": ""
+  },
+  {
+    "id": "BD69",
+    "title": "Health of Children and Women in Ghana",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD70",
+    "title": "Domestic Violence in Ghana (Summary Report)",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD71",
+    "title": "Domestic Violence in Ghana (Final Report)",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD72",
+    "title": "User Satisfaction Survey 2016",
+    "description": "",
+    "year": 2016,
+    "reportType": ""
+  },
+  {
+    "id": "BD73",
+    "title": "Demographic and Health Survey 2014",
+    "description": "",
+    "year": 2015,
+    "reportType": ""
+  },
+  {
+    "id": "BD74",
+    "title": "Ghana in Figures 2005",
+    "description": "",
+    "year": 2005,
+    "reportType": ""
+  },
+  {
+    "id": "BD75",
+    "title": "Ghana in Figures 2008",
+    "description": "",
+    "year": 2008,
+    "reportType": ""
+  },
+  {
+    "id": "BD76",
+    "title": "2015 Labour Force Survey Report",
+    "description": "",
+    "year": 2017,
+    "reportType": ""
+  },
+  {
+    "id": "SK77",
+    "title": "Third Quarter Labour Force Report",
+    "description": "",
+    "year": 2022,
+    "reportType": ""
+  }
+]

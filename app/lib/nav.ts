@@ -25,7 +25,7 @@ const withChildren = (base: string, children: string[]): NavItem => ({
 export const NAV: NavItem[] = [
   { label: "Home", href: "/" },
   {
-    label: "About GSS",
+    label: "About Us",
     href: "/about",
     children: [
       { label: "Legal Mandate", href: "/about/legal-mandate" },

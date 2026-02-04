@@ -4,22 +4,21 @@ import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
 import { ArrowRight, Download } from "lucide-react";
 import { CensusReport } from "@/app/lib/mockCensusReports";
+import {
+  buildKeyIndex,
+  extractKey,
+  isAllowedFile,
+  isImageFile,
+  matchKeyForReport,
+} from "@/app/lib/minioFileMatch";
 
 type ReportsGridProps = {
   reports: CensusReport[];
   fallbackSrc?: string;
+  filePrefix?: string;
 };
 
 type SortOrder = "newest" | "oldest";
-
-const reportTypes: Array<CensusReport["reportType"]> = [
-  "Main Report",
-  "Thematic Report",
-  "Analytical Report",
-  "Technical Report",
-  "Atlas",
-  "Summary",
-];
 
 const BLUR_DATA_URL =
   "data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=";
@@ -29,17 +28,45 @@ function ReportImage({
   alt,
   fallbackSrc,
   priority,
+  imageKey,
 }: {
   src: string;
   alt: string;
   fallbackSrc?: string;
   priority?: boolean;
+  imageKey?: string | null;
 }) {
   const [currentSrc, setCurrentSrc] = useState(src);
 
   useEffect(() => {
     setCurrentSrc(src);
   }, [src]);
+
+  useEffect(() => {
+    let isActive = true;
+
+    const loadImage = async () => {
+      if (!imageKey) return;
+      try {
+        const res = await fetch(
+          `/api/minio/presign?key=${encodeURIComponent(imageKey)}&expires=900`,
+        );
+        if (!res.ok) return;
+        const data = await res.json();
+        if (isActive && data?.url) {
+          setCurrentSrc(data.url);
+        }
+      } catch (err) {
+        // fallback handled by onError
+      }
+    };
+
+    loadImage();
+
+    return () => {
+      isActive = false;
+    };
+  }, [imageKey]);
 
   return (
     <Image
@@ -60,19 +87,110 @@ function ReportImage({
   );
 }
 
-export default function ReportsGrid({ reports, fallbackSrc }: ReportsGridProps) {
+export default function ReportsGrid({
+  reports,
+  fallbackSrc,
+  filePrefix = "publications/census",
+}: ReportsGridProps) {
   const [query, setQuery] = useState("");
   const [yearFilter, setYearFilter] = useState<"all" | number>("all");
   const [typeFilter, setTypeFilter] =
     useState<"all" | CensusReport["reportType"]>("all");
   const [sortOrder, setSortOrder] = useState<SortOrder>("newest");
   const [page, setPage] = useState(1);
+  const [fileKeys, setFileKeys] = useState<string[]>([]);
+  const [imageKeys, setImageKeys] = useState<string[]>([]);
+  const [fileLoading, setFileLoading] = useState(false);
+  const [fileError, setFileError] = useState<string | null>(null);
+  const [downloadingId, setDownloadingId] = useState<string | null>(null);
+  const [fileDebug, setFileDebug] = useState<{
+    prefix: string | null;
+    rawCount: number;
+    keyCount: number;
+    sample: string[];
+  }>({ prefix: null, rawCount: 0, keyCount: 0, sample: [] });
   const pageSize = 9;
 
   const years = useMemo(() => {
     const yearSet = new Set(reports.map((item) => item.year));
     return Array.from(yearSet).sort((a, b) => b - a);
   }, [reports]);
+
+  const reportTypes = useMemo(() => {
+    const types = new Set(reports.map((item) => item.reportType).filter(Boolean));
+    return Array.from(types).sort();
+  }, [reports]);
+
+  useEffect(() => {
+    let isActive = true;
+    const prefixes = [filePrefix, `${filePrefix}/`];
+
+    const loadKeys = async () => {
+      setFileLoading(true);
+      setFileError(null);
+
+      try {
+        let allItems: any[] = [];
+        let success = false;
+
+        for (const prefix of prefixes) {
+          const res = await fetch(`/api/minio/list?prefix=${encodeURIComponent(prefix)}`);
+          if (!res.ok) continue;
+          const data = await res.json().catch(() => null);
+          if (data?.ok && Array.isArray(data.items)) {
+            allItems = data.items;
+            success = true;
+            if (isActive) {
+              setFileDebug((prev) => ({
+                ...prev,
+                prefix,
+                rawCount: data.items.length,
+              }));
+            }
+            break;
+          }
+        }
+
+        if (!success) {
+          throw new Error("Unable to load files from MinIO.");
+        }
+
+        const keys = allItems
+          .map((item) => extractKey(item))
+          .filter((key) => key && isAllowedFile(key));
+        const imageList = allItems
+          .map((item) => extractKey(item))
+          .filter((key) => key && isImageFile(key));
+
+        if (isActive) {
+          setFileKeys(keys);
+          setImageKeys(imageList);
+          setFileDebug((prev) => ({
+            ...prev,
+            keyCount: keys.length,
+            sample: keys.slice(0, 3),
+          }));
+        }
+      } catch (err) {
+        if (isActive) {
+          setFileError("Unable to load report files.");
+        }
+      } finally {
+        if (isActive) {
+          setFileLoading(false);
+        }
+      }
+    };
+
+    loadKeys();
+
+    return () => {
+      isActive = false;
+    };
+  }, []);
+
+  const keyIndex = useMemo(() => buildKeyIndex(fileKeys), [fileKeys]);
+  const imageIndex = useMemo(() => buildKeyIndex(imageKeys), [imageKeys]);
 
   const filteredReports = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -113,6 +231,25 @@ export default function ReportsGrid({ reports, fallbackSrc }: ReportsGridProps) 
     (currentPage - 1) * pageSize,
     currentPage * pageSize,
   );
+
+  const handleDownload = async (report: CensusReport, key: string | null) => {
+    if (!key) return;
+    setDownloadingId(report.id);
+    try {
+      const res = await fetch(
+        `/api/minio/presign?key=${encodeURIComponent(key)}&expires=900`,
+      );
+      if (!res.ok) throw new Error("Failed to presign");
+      const data = await res.json();
+      if (data?.url) {
+        window.open(data.url, "_blank", "noopener");
+      }
+    } catch (err) {
+      console.error("Presign failed", err);
+    } finally {
+      setDownloadingId(null);
+    }
+  };
 
   return (
     <div className="mt-8 space-y-8">
@@ -177,24 +314,39 @@ export default function ReportsGrid({ reports, fallbackSrc }: ReportsGridProps) 
         </div>
       </div>
 
+      {process.env.NODE_ENV !== "production" ? (
+        <div className="rounded-xl border border-slate-200 bg-white/80 px-4 py-3 text-xs text-slate-600 shadow-sm">
+          <div>MinIO prefix: {fileDebug.prefix ?? "none"}</div>
+          <div>Items: {fileDebug.rawCount} • Files: {fileDebug.keyCount}</div>
+          <div>
+            Sample: {fileDebug.sample.length ? fileDebug.sample.join(", ") : "—"}
+          </div>
+          {fileError ? <div className="text-rose-600">Error: {fileError}</div> : null}
+        </div>
+      ) : null}
+
       {filteredReports.length ? (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {pagedReports.map((report, index) => {
-            const isDisabled = report.fileUrl === "#";
+            const matchedKey = matchKeyForReport(
+              report.title,
+              report.id,
+              keyIndex,
+            );
+            const matchedImageKey = matchKeyForReport(
+              report.title,
+              report.id,
+              imageIndex,
+            );
+            const isDisabled = !matchedKey || fileLoading || Boolean(fileError);
+            const isDownloading = downloadingId === report.id;
             return (
               <div
                 key={report.id}
                 className="flex h-full flex-col items-stretch overflow-hidden rounded-2xl border border-slate-200/70 bg-white shadow-sm md:flex-row"
               >
                 <div className="relative w-full bg-slate-50 p-3 md:w-[34%] md:shrink-0">
-                  <div className="relative h-full w-full">
-                    <ReportImage
-                      src={report.thumbnail}
-                      alt={report.title}
-                      fallbackSrc={fallbackSrc}
-                      priority={currentPage === 1 && index === 0}
-                    />
-                  </div>
+                  <div className="relative h-full w-full" />
                 </div>
                 <div className="flex h-full flex-1 flex-col p-5 md:w-[66%]">
                   <h3 className="text-lg font-semibold text-slate-900">
@@ -207,9 +359,10 @@ export default function ReportsGrid({ reports, fallbackSrc }: ReportsGridProps) 
                     {report.year} • {report.reportType}
                   </div>
                   <div className="mt-5 flex flex-wrap gap-3">
-                    <a
-                      href={report.fileUrl}
-                      download={report.fileUrl !== "#" ? true : undefined}
+                    <button
+                      type="button"
+                      onClick={() => handleDownload(report, matchedKey)}
+                      disabled={isDisabled || isDownloading}
                       className={[
                         "inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold shadow-sm transition",
                         isDisabled
@@ -219,8 +372,12 @@ export default function ReportsGrid({ reports, fallbackSrc }: ReportsGridProps) 
                       aria-disabled={isDisabled}
                     >
                       <Download className="h-4 w-4" />
-                      Download
-                    </a>
+                      {isDisabled
+                        ? "No file"
+                        : isDownloading
+                        ? "Preparing..."
+                        : "Download"}
+                    </button>
                     <button
                       type="button"
                       className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 hover:text-emerald-800"

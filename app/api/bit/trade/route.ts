@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { listObjects } from "@/app/lib/minio";
 
-type PriceIndexRow = {
+type TradeRow = {
   id?: string;
   program: string;
   category: string;
@@ -24,27 +24,15 @@ export async function GET() {
   try {
     const dataPath = join(
       process.cwd(),
-      "public/data/data_statistics/economics/Economic_Statistics_Price_Index.json",
-    );
-    const industryPath = join(
-      process.cwd(),
-      "public/data/data_statistics/economics/Industry_prices.json",
+      "public/data/data_statistics/bit/Trade.json",
     );
     const raw = await readFile(dataPath, "utf-8");
-    const rawIndustry = await readFile(industryPath, "utf-8");
-    const rows: PriceIndexRow[] = [
-      ...JSON.parse(raw),
-      ...JSON.parse(rawIndustry),
-    ];
+    const rows: TradeRow[] = JSON.parse(raw);
 
     let keys: string[] = [];
     try {
-      const [price, ppi, iip] = await Promise.all([
-        listObjects("data_statistics/economic/Price"),
-        listObjects("data_statistics/economic/Price Indices/ppi"),
-        listObjects("data_statistics/economic/Price Indices/iip"),
-      ]);
-      keys = [...price, ...ppi, ...iip].map((item) => item.key);
+      const objects = await listObjects("data_statistics/bit/Trade");
+      keys = objects.map((item) => item.key);
     } catch {
       keys = [];
     }

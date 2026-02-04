@@ -79,10 +79,10 @@ const ECON_CONTENT: Record<EconKey, EconContent> = {
     ],
   },
   "price-index": {
-    title: "Price Index",
+    title: "Price Indices",
     description:
       "Monitor inflation and price movements with consumer and producer price indices.",
-    subtitle: "Price Index Releases",
+    subtitle: "Price Indices Releases",
     rows: [
       {
         program: "CPI Bulletin",
@@ -242,7 +242,7 @@ const CATEGORY_ITEMS: Array<{
   },
   {
     key: "price-index",
-    label: "Price Index",
+    label: "Price Indices",
     icon: TrendingUp,
   },
   {
@@ -402,7 +402,7 @@ export default function EconomicStatisticsPage() {
               </h1>
               <p className="mt-4 max-w-xl leading-relaxed text-slate-600">
                 Explore Ghana&apos;s Economic Statistics, covering National
-                Accounts, Price Index, Trade, Agriculture, Environment,
+                Accounts, Price Indices, Trade, Agriculture, Environment,
                 Services, and Industry. These statistics provided by the Ghana
                 Statistical Service (GSS) offer a comprehensive view of the
                 country&apos;s economic performance across various sectors to

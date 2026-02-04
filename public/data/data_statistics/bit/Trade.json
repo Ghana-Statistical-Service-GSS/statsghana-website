@@ -1,0 +1,192 @@
+[
+  {
+    "id": "BA1",
+    "program": "Trade Totals 2014 -2018",
+    "category": "Historical Trade Data",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Historical Trade Data"
+  },
+  {
+    "id": "BA2",
+    "program": "Trade Data by SITC 1971-2018",
+    "category": "Historical Trade Data",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2019",
+    "sheet": "Historical Trade Data"
+  },
+  {
+    "id": "BA1-2",
+    "program": "Ghana Informal Cross-Border Trade (ICBT) Survey",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "October",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BA2-2",
+    "program": "Highlights of Ghana 2023 Trade Report",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BA3",
+    "program": "Highlights of Ghana 2023 Trade Report",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BA4",
+    "program": "Ghana 2023 Trade Report",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BA5",
+    "program": "Ghana 2023 Mid-Year Report on Trade",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BA6",
+    "program": "Ghana 2022 Trade Vulnerability Report",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BA7",
+    "program": "Highlights of Ghana 2022 Trade Vulnerability Report",
+    "category": "Trade Reports",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "",
+    "sheet": "Trade Reports"
+  },
+  {
+    "id": "BD1",
+    "program": "Previous Technical Manual for Trade Statistics",
+    "category": "Technical Manuals",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Technical Manuals"
+  },
+  {
+    "id": "BD2",
+    "program": "Technical Manual for Trade Statistics",
+    "category": "Technical Manuals",
+    "type": "",
+    "month": "November",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Technical Manuals"
+  },
+  {
+    "id": "BD3",
+    "program": "Previous Technical Manual for Trade Statistics",
+    "category": "Technical Manuals",
+    "type": "",
+    "month": "August",
+    "quarter": "",
+    "year": "2023",
+    "sheet": "Technical Manuals"
+  },
+  {
+    "id": "BD1-2",
+    "program": "Informal Cross-Border Trade Valued at GH¢7.4 Billion in Fourth Quarter of 2024",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "October",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Quarterly Newsletters"
+  },
+  {
+    "id": "BD2-2",
+    "program": "Quarterly Trade Newsletter Q2 2025",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Quarterly Newsletters"
+  },
+  {
+    "id": "BD3-2",
+    "program": "Quarterly Trade Newsletter Q1 2025",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "September",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Quarterly Newsletters"
+  },
+  {
+    "id": "BD4",
+    "program": "Quarterly Trade Newsletter Q4 2024",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "Feburary",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Quarterly Newsletters"
+  },
+  {
+    "id": "BD5",
+    "program": "Quarterly Trade Newsletter Q3 2024",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "December",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Quarterly Newsletters"
+  },
+  {
+    "id": "BD6",
+    "program": "Quarterly Trade Newsletter Q2 2024",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "October",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Quarterly Newsletters"
+  },
+  {
+    "id": "BD7",
+    "program": "Quarterly Trade Newsletter Q1 2024",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "May",
+    "quarter": "",
+    "year": "2024",
+    "sheet": "Quarterly Newsletters"
+  }
+]

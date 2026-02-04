@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:census": "node scripts/build-census-json.mjs",
     "start": "next start",
     "lint": "eslint"
   },

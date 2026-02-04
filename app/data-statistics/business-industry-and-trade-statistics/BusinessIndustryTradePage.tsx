@@ -1,15 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
-import { Briefcase, Factory, Ship, TrendingUp } from "lucide-react";
+import { Briefcase, Factory, Ship } from "lucide-react";
 import ProgramTable, {
   ProgramRow,
 } from "../economic-statistics/components/ProgramTable";
 
 const HERO_BG = "/images/economic-statistics/hero-bg.png";
 
-type BizKey = "business" | "price-index" | "trade" | "industry";
+type BizKey = "business" | "trade" | "industry";
 
 type BizContent = {
   title: string;
@@ -24,231 +24,33 @@ const BIZ_CONTENT: Record<BizKey, BizContent> = {
     description:
       "Track business demography, registrations, and enterprise activity across Ghana.",
     subtitle: "Business Releases",
-    rows: [
-      {
-        program: "Business Register Update",
-        category: "Enterprise",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "New Registrations Bulletin",
-        category: "Enterprise",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "SME Performance Note",
-        category: "SME",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Business Confidence Snapshot",
-        category: "Business Outlook",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Enterprise Size Distribution",
-        category: "Enterprise",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Business Demography Report",
-        category: "Enterprise",
-        month: "Sep",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
-  },
-  "price-index": {
-    title: "Price Index",
-    description:
-      "Monitor inflation and price movements with consumer and producer price indices.",
-    subtitle: "Price Index Releases",
-    rows: [
-      {
-        program: "CPI Bulletin",
-        category: "Inflation",
-        month: "Feb",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "CPI Regional Summary",
-        category: "Inflation",
-        month: "Feb",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "PPI Release",
-        category: "Producer Prices",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Inflation Outlook Note",
-        category: "Inflation",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "CPI Bulletin",
-        category: "Inflation",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Market Basket Update",
-        category: "Consumer Prices",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
+    rows: [],
   },
   trade: {
     title: "Trade",
     description:
       "Understand Ghana's trade performance across exports, imports, and balance of trade.",
     subtitle: "Trade Releases",
-    rows: [
-      {
-        program: "Monthly External Trade Bulletin",
-        category: "External Trade",
-        month: "Feb",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Exports Summary",
-        category: "Exports",
-        month: "Feb",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Imports Summary",
-        category: "Imports",
-        month: "Feb",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Balance of Trade",
-        category: "External Trade",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Trade Partner Highlights",
-        category: "External Trade",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Quarterly Trade Brief",
-        category: "External Trade",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Exports Summary",
-        category: "Exports",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Imports Summary",
-        category: "Imports",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
+    rows: [],
   },
   industry: {
     title: "Industry",
     description:
       "Review manufacturing, construction, and utilities data across Ghana's industrial sector.",
     subtitle: "Industry Releases",
-    rows: [
-      {
-        program: "Manufacturing Output Report",
-        category: "Manufacturing",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Construction Activity Note",
-        category: "Construction",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Mining & Quarrying Bulletin",
-        category: "Mining",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Energy & Utilities Update",
-        category: "Utilities",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Industrial Employment Brief",
-        category: "Industry",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Manufacturing Output Report",
-        category: "Manufacturing",
-        month: "Sep",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
+    rows: [],
   },
 };
 
 const CATEGORY_ITEMS: Array<{
   key: BizKey;
   label: string;
-  icon: typeof TrendingUp;
+  icon: typeof Briefcase;
 }> = [
   {
     key: "business",
     label: "Business",
     icon: Briefcase,
-  },
-  {
-    key: "price-index",
-    label: "Price Index",
-    icon: TrendingUp,
   },
   {
     key: "trade",
@@ -263,8 +65,39 @@ const CATEGORY_ITEMS: Array<{
 ];
 
 export default function BusinessIndustryTradePage() {
-  const [activeKey, setActiveKey] = useState<BizKey>("price-index");
-  const activeContent = useMemo(() => BIZ_CONTENT[activeKey], [activeKey]);
+  const [activeKey, setActiveKey] = useState<BizKey>("business");
+  const [tradeRows, setTradeRows] = useState<ProgramRow[]>(
+    BIZ_CONTENT.trade.rows,
+  );
+
+  useEffect(() => {
+    const loadRows = async () => {
+      try {
+        const response = await fetch("/api/bit/trade");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data?.rows?.length) {
+          setTradeRows(
+            data.rows.map((row: ProgramRow) => ({
+              ...row,
+              downloadUrl: row.downloadUrl || "#",
+            })),
+          );
+        }
+      } catch {
+        // keep fallback rows
+      }
+    };
+
+    loadRows();
+  }, []);
+
+  const activeContent = useMemo(() => {
+    if (activeKey === "trade") {
+      return { ...BIZ_CONTENT.trade, rows: tradeRows };
+    }
+    return BIZ_CONTENT[activeKey];
+  }, [activeKey, tradeRows]);
 
   return (
     <div className="bg-white">

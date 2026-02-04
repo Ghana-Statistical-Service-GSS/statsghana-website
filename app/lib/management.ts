@@ -151,7 +151,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Director",
     group: "DIRECTOR",
     directorate: "Business, Industry and Trade (BIT)",
-    photo: "/images/placeholder-person.png",
+    photo: "/images/management/kagya.jpg",
     bio: bioBase.replace("[Name]", "Johnson Owusu Kagya"),
   },
   {
