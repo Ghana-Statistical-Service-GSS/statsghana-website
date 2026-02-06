@@ -177,15 +177,25 @@ export default function KeyIndicators() {
   };
 
   const SinglePointLabel = (props: {
-    x?: number;
-    y?: number;
-    value?: number;
-    width?: number;
-    height?: number;
+    x?: number | string;
+    y?: number | string;
+    value?: number | string;
+    width?: number | string;
+    height?: number | string;
     index?: number;
   }) => {
-    const { x = 0, y = 0, value = null, width = 0, height = 0 } = props;
-    const numeric = typeof value === "number" ? value : Number(value);
+    const rawX = typeof props.x === "number" ? props.x : Number(props.x);
+    const rawY = typeof props.y === "number" ? props.y : Number(props.y);
+    const rawWidth =
+      typeof props.width === "number" ? props.width : Number(props.width);
+    const rawHeight =
+      typeof props.height === "number" ? props.height : Number(props.height);
+    const x = Number.isFinite(rawX) ? rawX : 0;
+    const y = Number.isFinite(rawY) ? rawY : 0;
+    const width = Number.isFinite(rawWidth) ? rawWidth : 0;
+    const height = Number.isFinite(rawHeight) ? rawHeight : 0;
+    const numeric =
+      typeof props.value === "number" ? props.value : Number(props.value);
     if (!Number.isFinite(numeric)) return null;
     const label = formatValue(numeric);
     const offset = 10;
@@ -360,14 +370,17 @@ export default function KeyIndicators() {
                   stroke="#3C2FA3"
                   strokeWidth={2}
                   dot={(props) => {
-                    if (!isSinglePoint) return false;
-                    if (!props?.payload?.hasData) return false;
+                    const shouldShow =
+                      isSinglePoint && Boolean(props?.payload?.hasData);
+                    const r = shouldShow ? 6 : 0;
                     return (
                       <circle
                         key={`dot-${props.index ?? 0}`}
                         cx={props.cx}
                         cy={props.cy}
-                        r={6}
+                        r={r}
+                        fill={shouldShow ? "#3C2FA3" : "none"}
+                        stroke={shouldShow ? "#3C2FA3" : "none"}
                       />
                     );
                   }}
@@ -387,7 +400,12 @@ export default function KeyIndicators() {
                         return (
                           <SinglePointLabel
                             key={`label-${props.index ?? 0}`}
-                            {...props}
+                            x={props.x}
+                            y={props.y}
+                            width={props.width}
+                            height={props.height}
+                            value={props.value}
+                            index={props.index}
                           />
                         );
                       }}
