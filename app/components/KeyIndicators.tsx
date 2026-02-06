@@ -4,9 +4,11 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import {
   CartesianGrid,
+  LabelList,
   Line,
   LineChart,
   ResponsiveContainer,
+  ReferenceLine,
   Tooltip,
   XAxis,
   YAxis,
@@ -151,6 +153,58 @@ export default function KeyIndicators() {
     );
   })();
 
+  const chartData = chartSeries.map((point) => {
+    const value = (point as { value?: number | null }).value;
+    const numeric = typeof value === "number" ? value : Number(value);
+    const cleanedValue =
+      Number.isFinite(numeric) && numeric === 0 && point.label !== "Jan"
+        ? null
+        : (Number.isFinite(numeric) ? numeric : null);
+    return {
+      ...point,
+      value: cleanedValue,
+      hasData: cleanedValue !== null,
+    };
+  });
+
+  const realCount = chartData.filter((point) => point.hasData).length;
+  const isSinglePoint = realCount === 1;
+  const singlePoint = chartData.find((point) => point.hasData);
+
+  const formatValue = (value: number | string) => {
+    const numeric = typeof value === "number" ? value : Number(value);
+    return Number.isFinite(numeric) ? numeric.toFixed(1) : "—";
+  };
+
+  const SinglePointLabel = (props: {
+    x?: number;
+    y?: number;
+    value?: number;
+    width?: number;
+    height?: number;
+    index?: number;
+  }) => {
+    const { x = 0, y = 0, value = null, width = 0, height = 0 } = props;
+    const numeric = typeof value === "number" ? value : Number(value);
+    if (!Number.isFinite(numeric)) return null;
+    const label = formatValue(numeric);
+    const offset = 10;
+    const placeAbove = y > (height || 0) * 0.35;
+    const labelY = placeAbove ? y - offset : y + offset + 4;
+    return (
+      <text
+        x={x}
+        y={labelY}
+        textAnchor="middle"
+        fill="#1F2937"
+        fontSize={11}
+        fontWeight={600}
+      >
+        {label}
+      </text>
+    );
+  };
+
   useEffect(() => {
     const el = tabRefs.current[active];
     const container = containerRef.current;
@@ -273,34 +327,73 @@ export default function KeyIndicators() {
           <div className="mt-6 h-64 w-full sm:h-72">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart
-                data={chartSeries}
+                data={chartData}
                 margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
               >
                 <CartesianGrid stroke="#E5E7EB" vertical={false} />
                 <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={10} />
-                <YAxis tickLine={false} axisLine={false} fontSize={10} width={30} />
+                <YAxis
+                  tickLine={false}
+                  axisLine={false}
+                  fontSize={10}
+                  width={30}
+                  padding={{ top: isSinglePoint ? 24 : 8, bottom: 8 }}
+                />
                 <Tooltip
                   contentStyle={{
                     borderRadius: 12,
                     borderColor: "#E2E8F0",
                     fontSize: 12,
                   }}
-                  formatter={(value: number | string) => {
-                    const numeric =
-                      typeof value === "number" ? value : Number(value);
-                    return Number.isFinite(numeric)
-                      ? numeric.toFixed(1)
-                      : "—";
-                  }}
+                  formatter={formatValue}
                 />
+                {isSinglePoint && singlePoint ? (
+                  <ReferenceLine
+                    x={singlePoint.label}
+                    stroke="#E2E8F0"
+                    strokeDasharray="4 4"
+                  />
+                ) : null}
                 <Line
                   type="monotone"
                   dataKey="value"
                   stroke="#3C2FA3"
                   strokeWidth={2}
-                  dot={false}
+                  dot={(props) => {
+                    if (!isSinglePoint) return false;
+                    if (!props?.payload?.hasData) return false;
+                    return (
+                      <circle
+                        key={`dot-${props.index ?? 0}`}
+                        cx={props.cx}
+                        cy={props.cy}
+                        r={6}
+                      />
+                    );
+                  }}
+                  activeDot={{ r: 6 }}
                   connectNulls={false}
-                />
+                >
+                  {isSinglePoint ? (
+                    <LabelList
+                      dataKey="value"
+                      content={(props) => {
+                        const { payload, value } = props as {
+                          payload?: { hasData?: boolean };
+                          value?: number;
+                          index?: number;
+                        };
+                        if (!payload?.hasData || value == null) return null;
+                        return (
+                          <SinglePointLabel
+                            key={`label-${props.index ?? 0}`}
+                            {...props}
+                          />
+                        );
+                      }}
+                    />
+                  ) : null}
+                </Line>
               </LineChart>
             </ResponsiveContainer>
           </div>

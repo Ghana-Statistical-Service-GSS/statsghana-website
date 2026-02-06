@@ -24,7 +24,7 @@ export const BOARD_MEMBERS: BoardMember[] = [
     slug: "dr-alhassan-iddrisu",
     name: "Dr. Alhassan Iddrisu",
     role: "Ex-Officio Member",
-    image: "/images/board/Dr. Alhassan Iddrisu.jpg",
+    image: "/images/board/Dr. Alhassan.jpg",
     managementHref: "/about/management/dr-alhassan-iddrisu",
     bio: [
       "Dr. Alhassan Iddrisu has been the Government Statistician of the Republic of Ghana since April 2025. He is a distinguished economist with over 27 years of expertise in economic policy management, public finance, development economics, statistics, climate change financing, petroleum revenue management, and economic integration. He has an extensive publication record in these domains and has made significant contributions to Ghana's economic development.",
