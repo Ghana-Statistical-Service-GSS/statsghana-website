@@ -14,9 +14,9 @@ export default function Hero() {
   const HERO_HEIGHT = "lg:h-[420px]";
   const slides = [
     {
-      src: "/images/hero-population.png",
-      title: "Population & Housing Census Insights",
-      subtitle: "Explore Ghana’s latest demographic highlights and key trends.",
+      src: "/images/cpi.png",
+      title: "Inflation Rate",
+      subtitle: "Check out the latest Inflation rate",
     },
     {
       src: "/images/ASD 2025 GOVERNANCE BANNER.jpg",
@@ -93,29 +93,19 @@ export default function Hero() {
               onClick={() =>
                 setActiveSlide((prev) => (prev - 1 + slides.length) % slides.length)
               }
-              className="absolute left-0 top-1/2 z-30 hidden h-20 w-16 -translate-y-1/2 items-center justify-center rounded-r-md bg-white/25 text-white backdrop-blur-sm transition hover:bg-white/35 lg:flex"
+              className="absolute left-4 top-1/2 z-30 hidden h-9 w-9 -translate-y-1/2 items-center justify-center rounded-lg border border-white/30 bg-white/20 text-white backdrop-blur-sm transition hover:bg-white/30 lg:flex"
             >
-              <ChevronLeft className="h-5 w-5" />
+              <ChevronLeft className="h-4 w-4" />
             </button>
             <button
               type="button"
               aria-label="Next"
               onClick={() => setActiveSlide((prev) => (prev + 1) % slides.length)}
-              className="absolute right-0 top-1/2 z-30 hidden h-20 w-16 -translate-y-1/2 items-center justify-center rounded-l-md bg-white/25 text-white backdrop-blur-sm transition hover:bg-white/35 lg:flex"
+              className="absolute right-4 top-1/2 z-30 hidden h-9 w-9 -translate-y-1/2 items-center justify-center rounded-lg border border-white/30 bg-white/20 text-white backdrop-blur-sm transition hover:bg-white/30 lg:flex"
             >
-              <ChevronRight className="h-5 w-5" />
+              <ChevronRight className="h-4 w-4" />
             </button>
 
-            <div className="absolute left-6 bottom-20 z-20">
-              <div className="inline-flex flex-col gap-1 rounded-md bg-indigo-600/55 px-4 py-2 backdrop-blur-sm">
-                <span className="text-sm font-semibold text-white sm:text-base">
-                  {slides[activeSlide].title}
-                </span>
-                <span className="text-xs text-white/90 sm:text-sm">
-                  {slides[activeSlide].subtitle}
-                </span>
-              </div>
-            </div>
             <div className="absolute left-6 bottom-6 z-20">
               <button
                 type="button"

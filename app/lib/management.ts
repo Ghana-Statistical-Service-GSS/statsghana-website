@@ -9,6 +9,10 @@ export type ManagementPerson = {
   bio: string;
   email?: string;
   phone?: string;
+  socials?: Array<{
+    platform: "facebook" | "instagram" | "linkedin" | "x" | "website";
+    url: string;
+  }>;
 };
 
 export const slugify = (value: string) =>
@@ -27,13 +31,13 @@ const bioBase =
   "Mr. [Name] brings extensive experience in statistical leadership, policy advisory, and national development planning. Their work focuses on data quality, modernization of statistical systems, and strengthening the National Statistical System across sectors.";
 
 const gsBio =
-  "Dr. Alhassan Iddrisu is a distinguished economist with over 27 years of experience in economic policy management, public finance, development economics, climate change financing, petroleum revenue management, and economic integration. He has an extensive record of publications and contributions in these areas.\n\n" +
-  "He is currently the Government Statistician of the Ghana Statistical Service. Prior to this appointment, he served as the Chief Economics Officer and Director of the Economic Strategy and Research Division (ESRD) at the Ministry of Finance. In that role, he led strategic economic research, policy analysis, and the design and implementation of policies to support Ghana's economic development agenda.\n\n" +
-  "Dr. Iddrisu has held several key leadership positions within the Ministry of Finance, including Director of the Economic Planning Division (EPD), the Real Sector Division (RSD), and the Economic Research and Forecasting Division (ERFD). His leadership has been instrumental in shaping national economic strategies and advancing policy reforms.\n\n" +
-  "Beyond the Ministry, he has served on numerous boards, councils, and committees, bringing his expertise to bear on national development initiatives. He has also worked extensively with international organisations such as the International Monetary Fund (IMF), World Bank, African Union (AU), and the Economic Community of West African States (ECOWAS), and has consulted for various global and local institutions.\n\n" +
-  "In recognition of his exceptional service, Dr. Iddrisu was honoured as \"Best Director\" in Ghana's Civil Service for four years - 2018, 2019, 2020, and 2022 - underscoring his consistent performance and dedication.\n\n" +
-  "He is also committed to academic excellence and capacity building. His teaching engagements in economics, public policy, and development have contributed to the training and professional growth of students and government staff alike.\n\n" +
-  "Dr. Iddrisu holds a PhD and a Master's degree in International Development Studies from the National Graduate Institute for Policy Studies (GRIPS) in Tokyo, Japan. He also earned an MPhil in Economics and a BA in Economics and Statistics from the University of Ghana, Legon.";
+  "Dr. Alhassan Iddrisu has been the Government Statistician of the Republic of Ghana since April 2025. He is a distinguished economist with over 27 years of expertise in economic policy management, public finance, development economics, statistics, climate change financing, petroleum revenue management, and economic integration. He has an extensive publication record in these domains and has made significant contributions to Ghana's economic development.\n\n" +
+  "He served as the Chief Economic Officer and Director of the Economic Strategy and Research Division (ESRD) at Ghana's Ministry of Finance from 2019 to April 2025. In this capacity, he led strategic economic research, policy analysis, and the formulation and implementation of policies aimed at advancing the nation’s economic goals.\n\n" +
+  "Over the years, Dr. Iddrisu has held several key leadership roles within the Ministry of Finance. These include Director of the Economic Planning Division (EPD), the Real Sector Division (RSD), and the Economic Research and Forecasting Division (ERFD). His leadership and expertise have been instrumental in shaping Ghana’s economic policies and strategies.\n\n" +
+  "Dr. Iddrisu has also served on numerous governing boards, councils, and committees, where his extensive knowledge and leadership have significantly influenced national development initiatives. He has also collaborated with leading global organizations, including the International Monetary Fund (IMF), World Bank, African Union (AU), and Economic Community of West African States (ECOWAS), and has consulted for various international and local institutions.\n\n" +
+  "Dr. Iddrisu’s outstanding contributions to public service have earned him multiple accolades, including being named \"Best Director\" in Ghana’s Civil Service for four years (2018, 2019, 2020, and 2022). These awards recognize his exceptional performance, commitment, and dedication to duty.\n\n" +
+  "Dr. Iddrisu’s teaching engagements reflect his commitment to academic excellence, capacity-building, and knowledge dissemination in key areas of economics, quantitative techniques, public policy, and development contributing to the education and professional development of students and government staff alike.\n\n" +
+  "Dr. Iddrisu holds a PhD and Master’s degree in International Development Studies from the National Graduate Institute for Policy Studies (GRIPS) in Tokyo, Japan. He also earned an MPhil in Economics and a BA in Economics and Statistics from the University of Ghana, Legon.";
 
 const dgsBio =
   "Mr. Omar Seidu is a seasoned statistician with over two decades of professional experience in official statistics, social and demographic data systems, and national development monitoring.\n\n" +
@@ -87,7 +91,24 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Office of the Government Statistician",
     photo: "/images/management/gs.jpg",
     bio: gsBio,
-    email: "alhassan.iddrisu@statsghana.gov.gh",
+    socials: [
+      {
+        platform: "facebook",
+        url: "https://web.facebook.com/alhassan.iddrisu.7773",
+      },
+      {
+        platform: "instagram",
+        url: "https://www.instagram.com/alhassan.iddrisu_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      },
+      {
+        platform: "linkedin",
+        url: "https://www.linkedin.com/in/alhassan-iddrisu-464638394/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      },
+      {
+        platform: "x",
+        url: "https://x.com/daiddrisu?s=11",
+      },
+    ],
   },
   {
     id: "dgs",
@@ -98,7 +119,16 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Office of the Deputy Government Statistician",
     photo: "/images/management/omarseidu.jpeg",
     bio: dgsBio,
-    email: "omar.seidu@statsghana.gov.gh",
+    socials: [
+      {
+        platform: "linkedin",
+        url: "https://www.linkedin.com/in/omar-seidu-23b874105/",
+      },
+      {
+        platform: "x",
+        url: "https://x.com/seidu_omar?lang=en",
+      },
+    ],
   },
   {
     id: "director-13",
@@ -109,7 +139,6 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Digital Services and Technology",
     photo: "/images/management/mark.jpg",
     bio: markBio,
-    email:"mabuabu-dadzie@statsghana.gov.gh"
   },
   {
     id: "director-10",
@@ -120,7 +149,6 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Administration",
     photo: "/images/management/kwadwo.jpg",
     bio: kwadwoBio,
-    email:"kwadwo.asante@statsghana.gov.gh"
   },
   {
     id: "director-7",
@@ -131,7 +159,6 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Survey and Census Organisation",
     photo: "/images/management/abenaosei.jpg",
     bio: abenaBio,
-    email:"abena.osei-akoto@statsghana.gov.gh"
   },
   {
     id: "director-14",
@@ -142,7 +169,6 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Internal and External Cooperation",
     photo: "/images/management/cobinnah.jpg",
     bio: emmanuelBio,
-    email:"emmanuel.cobbinah@statsghana.gov.gh"
   },
   {
     id: "director-1",
@@ -205,7 +231,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Director",
     group: "DIRECTOR",
     directorate: "Finance",
-    photo: "/images/placeholder-person.png",
+    photo: "/images/management/afful.jpg",
     bio: bioBase.replace("[Name]", "Timothy Afful"),
   },
   {
@@ -217,7 +243,6 @@ export const MANAGEMENT: ManagementPerson[] = [
     directorate: "Communication and Dissemination",
     photo: "/images/management/davidbessah.jpg",
     bio: davidBio,
-    email:"david.bessah@statsghana.gov.gh"
   },
   {
     id: "director-3",
@@ -226,7 +251,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Ag.Director",
     group: "DIRECTOR",
     directorate: "Methods and Standards",
-    photo: "/images/placeholder-person.png",
+    photo: "/images/management/lucy.jpg",
     bio: bioBase.replace("[Name]", "Lucy Twumwaa"),
   },
   {
@@ -246,7 +271,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Ag.Director",
     group: "DIRECTOR",
     directorate: "Human Resource",
-    photo: "/images/placeholder-person.png",
+    photo: "/images/management/odoom.jpg",
     bio: bioBase.replace("[Name]", "Isaac Odoom"),
   },
   {
@@ -256,7 +281,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Head",
     group: "DIRECTOR",
     directorate: "Internal Audit",
-    photo: "/images/placeholder-person.png",
+    photo: "/images/management/asare.jpg",
     bio: bioBase.replace("[Name]", "David Asare"),
   },
   {

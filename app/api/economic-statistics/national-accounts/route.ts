@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { listObjects } from "@/app/lib/minio";
 
 type NationalAccountRow = {
+  id?: string;
   program: string;
   category: string;
   type?: string;
@@ -16,7 +17,13 @@ type NationalAccountRow = {
 };
 
 function normalize(value: string) {
-  return value.toLowerCase().replace(/\\s+/g, " ").trim();
+  return value.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function normalizeFilename(key: string) {
+  const base = key.split("/").pop() ?? key;
+  const withoutExt = base.replace(/\\.[^.]+$/, "");
+  return normalize(withoutExt);
 }
 
 export async function GET() {
@@ -30,7 +37,9 @@ export async function GET() {
 
     let keys: string[] = [];
     try {
-      const objects = await listObjects();
+      const objects = await listObjects(
+        "data_statistics/economic/National Accounts",
+      );
       keys = objects.map((item) => item.key);
     } catch {
       keys = [];
@@ -38,15 +47,19 @@ export async function GET() {
 
     const normalizedKeys = keys.map((key) => ({
       key,
-      normalized: normalize(key),
+      normalized: normalizeFilename(key),
     }));
 
     const withDownloads = rows.map((row) => {
       if (!row.program) return row;
       const target = normalize(row.program);
-      const match = normalizedKeys.find((item) =>
-        item.normalized.includes(target),
-      );
+      const match =
+        normalizedKeys.find((item) => item.normalized === target) ??
+        normalizedKeys.find(
+          (item) =>
+            item.normalized.includes(target) ||
+            target.includes(item.normalized),
+        );
       return {
         ...row,
         downloadKey: match?.key,

@@ -1,46 +1,31 @@
-export type ParsedPerson = {
-  name: string;
-  isChair: boolean;
-  role: "Board Chair" | "Board Member" | "Board Secretary" | "Ex-Officio Member";
-};
+import { BoardMember } from "./board-data";
 
-export type BoardItem = ParsedPerson & {
-  key: string;
-  url: string;
-};
-
-export function isImageKey(key: string): boolean {
-  return /\.(jpe?g|png|webp)$/i.test(key);
+export function slugify(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
-export function parsePersonFromFilename(keyOrFilename: string): ParsedPerson {
-  const base = keyOrFilename.split("/").pop() ?? keyOrFilename;
-  const decoded = decodeURIComponent(base);
-  const withoutExt = decoded.replace(/\.[^.]+$/, "");
-  const isChair = /board\s*chair/i.test(withoutExt);
-  const cleaned = withoutExt
-    .replace(/\(.*board\s*chair.*\)/i, "")
-    .replace(/board\s*chair/i, "")
-    .replace(/[_-]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  const lower = cleaned.toLowerCase();
-  let role: ParsedPerson["role"] = isChair ? "Board Chair" : "Board Member";
+export function sortBoardMembers(members: BoardMember[]): BoardMember[] {
+  return [...members].sort((a, b) => {
+    const aLower = a.name.toLowerCase();
+    const bLower = b.name.toLowerCase();
+    const aIsChair = a.role === "Board Chair";
+    const bIsChair = b.role === "Board Chair";
+    const aIsAlhassan = aLower.includes("alhassan iddrisu");
+    const bIsAlhassan = bLower.includes("alhassan iddrisu");
+    const aIsKwadwo = aLower.includes("kwadwo asante");
+    const bIsKwadwo = bLower.includes("kwadwo asante");
 
-  if (lower.includes("kwadwo asante")) {
-    role = "Board Secretary";
-  }
-  if (lower.includes("alhassan iddrisu")) {
-    role = "Ex-Officio Member";
-  }
-
-  return { name: cleaned, isChair, role };
-}
-
-export function sortBoardMembers(items: BoardItem[]): BoardItem[] {
-  return [...items].sort((a, b) => {
-    if (a.isChair && !b.isChair) return -1;
-    if (!a.isChair && b.isChair) return 1;
+    if (aIsChair && !bIsChair) return -1;
+    if (!aIsChair && bIsChair) return 1;
+    if (aIsAlhassan && !bIsAlhassan) return -1;
+    if (!aIsAlhassan && bIsAlhassan) return 1;
+    if (aIsKwadwo && !bIsKwadwo) return 1;
+    if (!aIsKwadwo && bIsKwadwo) return -1;
     return a.name.localeCompare(b.name);
   });
 }

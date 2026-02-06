@@ -6,6 +6,7 @@ import { BarChart3, Briefcase, Leaf, TrendingUp } from "lucide-react";
 import ProgramTable, {
   ProgramRow,
 } from "./components/ProgramTable";
+import NationalAccountsReleases from "./components/NationalAccountsReleases";
 
 const HERO_BG = "/images/economic-statistics/hero-bg.png";
 
@@ -259,9 +260,7 @@ const CATEGORY_ITEMS: Array<{
 
 export default function EconomicStatisticsPage() {
   const [activeKey, setActiveKey] = useState<EconKey>("national-accounts");
-  const [nationalRows, setNationalRows] = useState<ProgramRow[]>(
-    ECON_CONTENT["national-accounts"].rows,
-  );
+  const [nationalRows, setNationalRows] = useState<ProgramRow[]>([]);
   const [priceRows, setPriceRows] = useState<ProgramRow[]>(
     ECON_CONTENT["price-index"].rows,
   );
@@ -477,12 +476,19 @@ export default function EconomicStatisticsPage() {
           </div>
 
           <div className="mt-8">
-            <ProgramTable
-              title={`${activeContent.title} Releases`}
-              subtitle={activeContent.subtitle}
-              rows={activeContent.rows}
-              showType={activeKey === "national-accounts"}
-            />
+            {activeKey === "national-accounts" ? (
+              <NationalAccountsReleases
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+              />
+            ) : (
+              <ProgramTable
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+                rows={activeContent.rows}
+                showType={false}
+              />
+            )}
           </div>
         </div>
       </section>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import {
   Facebook,
   Globe,
+  Instagram,
   Linkedin,
   Mail,
 } from "lucide-react";
@@ -83,24 +84,32 @@ export default async function ManagementProfilePage({
                 ))}
               </div>
 
-              <div className="mt-6 flex flex-wrap gap-3">
-                {[
-                  { icon: Linkedin, label: "LinkedIn" },
-                  { icon: FaXTwitter, label: "X (formerly Twitter)" },
-                  { icon: Facebook, label: "Facebook" },
-                  { icon: Globe, label: "Website" },
-                  { icon: Mail, label: "Email" },
-                ].map(({ icon: Icon, label }) => (
-                  <a
-                    key={label}
-                    href="#"
-                    className="flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-600 transition hover:border-slate-300 hover:text-[#241B5A]"
-                    aria-label={label}
-                  >
-                    <Icon className="h-5 w-5" />
-                  </a>
-                ))}
-              </div>
+              {person.socials?.length ? (
+                <div className="mt-6 flex flex-wrap gap-3">
+                  {person.socials.map((social) => {
+                    const iconMap = {
+                      linkedin: Linkedin,
+                      x: FaXTwitter,
+                      facebook: Facebook,
+                      instagram: Instagram,
+                      website: Globe,
+                    };
+                    const Icon = iconMap[social.platform];
+                    return (
+                      <a
+                        key={`${person.id}-${social.platform}`}
+                        href={social.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-600 transition hover:border-slate-300 hover:text-[#241B5A]"
+                        aria-label={social.platform}
+                      >
+                        <Icon className="h-5 w-5" />
+                      </a>
+                    );
+                  })}
+                </div>
+              ) : null}
             </div>
 
             <div className="mt-6">

@@ -521,7 +521,7 @@ export default function StatCards() {
     },
     {
       key: "UNEMP",
-      title: "Unemployment",
+      title: "Unemployment Rate",
       currentValue: 12.8,
       value: "12.8%",
       periodLabel: "Unemployment Rate",

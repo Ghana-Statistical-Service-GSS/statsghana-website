@@ -1,11 +1,15 @@
 import Container from "../../components/Container";
-import BoardClient from "./BoardClient";
+import BoardGrid from "./BoardGrid";
+import { BOARD_MEMBERS } from "./board-data";
+import { sortBoardMembers } from "./board-utils";
 
 const PAGE_TITLE = "Board Members";
 const PAGE_SUBTITLE =
   "Meet the Board of Directors guiding Ghana Statistical Service.";
 
 export default function BoardPage() {
+  const members = sortBoardMembers(BOARD_MEMBERS);
+
   return (
     <section className="py-10 sm:py-12">
       <Container>
@@ -15,7 +19,7 @@ export default function BoardPage() {
         </h1>
         <p className="mt-3 text-slate-600">{PAGE_SUBTITLE}</p>
 
-        <BoardClient />
+        <BoardGrid members={members} />
       </Container>
     </section>
   );
