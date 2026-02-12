@@ -9,7 +9,7 @@ export default function GovMessage() {
     <section className="bg-white py-12 sm:py-16">
       <Container>
         <SectionTitle title="Message from the Government Statistician" />
-        <div className="mt-27">
+        <div className="mt-34">
           <Card className="relative mx-auto max-w-3xl px-6 pb-10 pt-20 text-center sm:px-12">
             <div className="absolute left-1/2 top-0 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center">
               <div className="relative h-48 w-48 sm:h-56 sm:w-56">
@@ -43,7 +43,7 @@ export default function GovMessage() {
               <Quote className="h-8 w-8 scale-x" />
             </div>
             <p className="mt-6 text-sm font-semibold text-slate-900">
-              Dr Alhassan Iddrisu - Government Statistician
+              Dr. Alhassan Iddrisu - Government Statistician
             </p>
           </Card>
         </div>

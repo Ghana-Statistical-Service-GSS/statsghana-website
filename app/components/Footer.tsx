@@ -13,6 +13,7 @@ const followIcons = [
 ];
 
 const usefulLinks = [
+  { label: "Data Request", href: "/data-request" },
   { label: "Data & Statistics", href: "/data-statistics" },
   { label: "Publications", href: "/publications" },
   { label: "Press Releases", href: "/press-releases" },

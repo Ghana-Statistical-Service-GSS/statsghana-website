@@ -190,6 +190,8 @@ export default function Navbar() {
                             className={`block py-1 text-sm ${
                               childActive ? "text-white" : "text-white/80"
                             }`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             {child.label}
                           </Link>

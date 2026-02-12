@@ -4,9 +4,9 @@ import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { mockPressReleases } from "@/app/lib/mockPressReleases";
+import { mockNews } from "@/app/lib/mockNews";
 
-export default function PressReleasesPage() {
+export default function NewsPage() {
   const [query, setQuery] = useState("");
   const [yearFilter, setYearFilter] = useState<"all" | number>("all");
   const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
@@ -15,14 +15,14 @@ export default function PressReleasesPage() {
 
   const years = useMemo(() => {
     const yearSet = new Set(
-      mockPressReleases.map((item) => new Date(item.dateISO).getFullYear()),
+      mockNews.map((item) => new Date(item.dateISO).getFullYear()),
     );
     return Array.from(yearSet).sort((a, b) => b - a);
   }, []);
 
-  const filteredItems = useMemo(() => {
+  const filteredNews = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    const filtered = mockPressReleases.filter((item) => {
+    const filtered = mockNews.filter((item) => {
       const matchesQuery =
         !normalizedQuery ||
         [item.title, item.excerpt, item.dateISO]
@@ -48,9 +48,9 @@ export default function PressReleasesPage() {
     setPage(1);
   }, [query, yearFilter, sortOrder]);
 
-  const totalPages = Math.max(1, Math.ceil(filteredItems.length / pageSize));
+  const totalPages = Math.max(1, Math.ceil(filteredNews.length / pageSize));
   const currentPage = Math.min(page, totalPages);
-  const pagedItems = filteredItems.slice(
+  const pagedNews = filteredNews.slice(
     (currentPage - 1) * pageSize,
     currentPage * pageSize,
   );
@@ -62,14 +62,13 @@ export default function PressReleasesPage() {
       <div className="pointer-events-none absolute right-0 top-10 h-72 w-72 rounded-full bg-amber-100/20 blur-3xl" />
 
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <p className="text-sm text-slate-500">
-          Home / News &amp; Media / Press Releases
-        </p>
+        <p className="text-sm text-slate-500">Home / News &amp; Events / News</p>
         <h1 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-          Press Releases
+          News
         </h1>
         <p className="mt-3 max-w-3xl text-slate-600">
-          Official announcements and updates from the Ghana Statistical Service.
+          Explore updates, announcements, and highlights from the Ghana
+          Statistical Service.
         </p>
 
         <div className="mt-6 rounded-2xl border border-white/60 bg-white/80 p-4 shadow-sm sm:flex sm:items-center sm:justify-between">
@@ -77,7 +76,7 @@ export default function PressReleasesPage() {
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search press releases..."
+              placeholder="Search news..."
               className="w-full rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/40"
             />
           </div>
@@ -113,9 +112,9 @@ export default function PressReleasesPage() {
           </div>
         </div>
 
-        {filteredItems.length ? (
+        {filteredNews.length ? (
           <div className="mt-8 grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {pagedItems.map((item) => (
+            {pagedNews.map((item) => (
               <Link
                 key={item.id}
                 href={`/news/${item.slug}`}
@@ -157,11 +156,11 @@ export default function PressReleasesPage() {
           </div>
         ) : (
           <div className="mt-8 rounded-2xl border border-white/60 bg-white/80 p-10 text-center text-sm text-slate-500 shadow-sm">
-            No press releases match your search.
+            No news items match your search.
           </div>
         )}
 
-        {filteredItems.length ? (
+        {filteredNews.length ? (
           <div className="mt-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/60 bg-white/80 px-4 py-3 shadow-sm">
             <div className="text-sm text-slate-600">
               Page {currentPage} of {totalPages}
