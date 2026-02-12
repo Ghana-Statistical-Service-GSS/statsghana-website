@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-12T12:34:15.431Z",
+  "fetchedAt": "2026-02-01T07:34:15.013Z",
   "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Monthly%20Indicator%20of%20Economic%20Growth(MIEG)/mieg_px.px",
   "query": [
     {
@@ -394,16 +394,13 @@
         "values": [
           "3.8"
         ]
-      },
+      }
+    ],
+    "metadata": [
       {
-        "key": [
-          "2025-11-01",
-          "MIEG Index Growth (year-on-year %)",
-          "Total MIEG"
-        ],
-        "values": [
-          "4.2"
-        ]
+        "updated": "2026-01-30T15:01:00Z",
+        "label": "Monthly Indicator of Economic Growth by Month, GDP_Series and Variable",
+        "source": "GSS"
       }
     ]
   }
