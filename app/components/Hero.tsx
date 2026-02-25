@@ -1,35 +1,22 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "./Container";
 import GhanaMap from "./GhanaMap";
 import { INDICATORS, INDICATOR_LABELS, INDICATOR_TOOLTIPS, Indicator } from "../lib/indicators";
+import { HERO_SLIDES } from "../lib/heroSlides";
 
 export default function Hero() {
   const [indicator, setIndicator] = useState<Indicator>("CPI");
   const [mode, setMode] = useState<"regions" | "districts">("regions");
   const HERO_HEIGHT = "lg:h-[420px]";
-  const slides = [
-    {
-      src: "/images/cpi.png",
-      title: "Inflation Rate",
-      subtitle: "Check out the latest Inflation rate",
-    },
-    {
-      src: "/images/ASD 2025 GOVERNANCE BANNER.jpg",
-      title: "ASD 2025 Governance",
-      subtitle: "Strengthening governance data for evidence-based decisions.",
-    },
-    {
-      src: "/images/GDP BANNER copy 1.png",
-      title: "GDP Performance",
-      subtitle: "Track Ghana’s growth trajectory with updated GDP indicators.",
-    },
-  ];
+  const slides = HERO_SLIDES;
   const [activeSlide, setActiveSlide] = useState(0);
+  const active = slides[activeSlide] ?? slides[0];
 
   const indicatorLabels = INDICATORS.map((id) => INDICATOR_LABELS[id]);
   const labelToId = Object.fromEntries(
@@ -79,8 +66,8 @@ export default function Hero() {
         <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[1fr_460px] lg:gap-6">
           <div className={`relative h-[300px] w-full overflow-hidden rounded-2xl bg-slate-100 ${HERO_HEIGHT}`}>
             <Image
-              src={slides[activeSlide].src}
-              alt={slides[activeSlide].title}
+              src={active.src}
+              alt={active.title}
               fill
               className="object-cover object-center"
               priority
@@ -107,12 +94,12 @@ export default function Hero() {
             </button>
 
             <div className="absolute left-6 bottom-6 z-20">
-              <button
-                type="button"
+              <Link
+                href={`/highlights/${active.slug}`}
                 className="inline-flex items-center gap-2 rounded-md bg-blue-700 px-5 py-3 text-sm font-semibold text-white shadow transition hover:bg-blue-800"
               >
                 Read More <ChevronRight className="h-4 w-4" />
-              </button>
+              </Link>
             </div>
           </div>
 

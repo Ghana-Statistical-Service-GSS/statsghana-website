@@ -16,12 +16,13 @@ import {
 import { ChevronDown } from "lucide-react";
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
-import { Indicator, INDICATOR_TOOLTIPS } from "../lib/indicators";
+import { INDICATOR_TOOLTIPS } from "../lib/indicators";
 import cpiData from "../lib/cpiData.json";
 import ppiData from "../lib/ppiData.json";
 import iipData from "../lib/iipData.json";
 import pbciData from "../lib/pbciData.json";
 import miegData from "../lib/miegData.json";
+import gdpData from "../lib/gdpData.json";
 import {
   buildMonthlySeriesFromNationalArray,
   buildMonthlySeriesFromPxweb,
@@ -78,12 +79,35 @@ const INDICATOR_CONFIG = {
       (miegData as any)?.response?.columns?.findIndex((c: any) => c.code === "GDP_Series") ?? 1,
     indicatorValue: "MIEG Index Growth (year-on-year %)",
   },
+  GDP: {
+    label: "GDP",
+  },
 } as const;
 
 type IndicatorKey = keyof typeof INDICATOR_CONFIG;
+type GdpApproach = "production" | "expenditure";
+type GdpFrequency = "quarterly" | "yearly";
+
+const KEY_INDICATOR_TOOLTIPS: Record<IndicatorKey, string> = {
+  CPI: INDICATOR_TOOLTIPS.CPI,
+  PPI: INDICATOR_TOOLTIPS.PPI,
+  IIP: INDICATOR_TOOLTIPS.IIP,
+  PBCI: INDICATOR_TOOLTIPS.PBCI,
+  MIEG: INDICATOR_TOOLTIPS.MIEG,
+  GDP: "GDP tracks Ghana's economic growth and can be viewed by production or expenditure approaches, across annual and quarterly releases.",
+};
+
+function parseYearFromLabel(value: string) {
+  const match = String(value).match(/(\d{4})/);
+  if (!match) return null;
+  const year = Number(match[1]);
+  return Number.isFinite(year) ? year : null;
+}
 
 export default function KeyIndicators() {
   const [active, setActive] = useState<IndicatorKey>("CPI");
+  const [gdpApproach, setGdpApproach] = useState<GdpApproach>("production");
+  const [gdpFrequency, setGdpFrequency] = useState<GdpFrequency>("quarterly");
   const [activeYear, setActiveYear] = useState<number | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const tabRefs = useRef<Record<IndicatorKey, HTMLButtonElement | null>>(
@@ -92,12 +116,35 @@ export default function KeyIndicators() {
   const [slider, setSlider] = useState({ left: 0, width: 0 });
   const [hovered, setHovered] = useState<IndicatorKey | null>(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
-  const tabIndicators: IndicatorKey[] = ["CPI", "PPI", "IIP", "PBCI", "MIEG"];
+  const tabIndicators: IndicatorKey[] = ["CPI", "PPI", "IIP", "PBCI", "MIEG", "GDP"];
 
   // Debug: inspect IIP quarter keys (remove if not needed)
   // console.log("[IIP sample keys]", (iipData as any)?.response?.data?.slice(0, 5).map((r: any) => r.key?.[0]));
 
   const availableYears = useMemo(() => {
+    if (active === "GDP") {
+      const sourceRows =
+        gdpFrequency === "quarterly"
+          ? gdpApproach === "production"
+            ? (gdpData as any)?.quarterlyProduction?.response?.data ?? []
+            : (gdpData as any)?.quarterlyExpenditure?.response?.data ?? []
+          : gdpApproach === "production"
+            ? (gdpData as any)?.annualProduction?.response?.data ?? []
+            : (gdpData as any)?.annualExpenditure?.response?.data ?? [];
+
+      if (gdpFrequency === "quarterly") {
+        return extractYearsFromPxwebQuarter(sourceRows as any, 0);
+      }
+
+      const years = new Set<number>();
+      sourceRows.forEach((row: any) => {
+        const year = parseYearFromLabel(row.key?.[0]);
+        const value = Number(row.values?.[0]);
+        if (year !== null && Number.isFinite(value)) years.add(year);
+      });
+      return Array.from(years).sort((a, b) => b - a);
+    }
+
     const config = INDICATOR_CONFIG[active];
     if (active === "PBCI") {
       const years = new Set<number>();
@@ -115,7 +162,7 @@ export default function KeyIndicators() {
     }
     const monthIndex = (config as any).monthIndex ?? 0;
     return extractYearsFromPxweb(config.rows as any, monthIndex);
-  }, [active]);
+  }, [active, gdpApproach, gdpFrequency]);
 
   useEffect(() => {
     const latest = getLatestYear(availableYears);
@@ -123,6 +170,43 @@ export default function KeyIndicators() {
   }, [availableYears]);
 
   const chartSeries = (() => {
+    if (active === "GDP") {
+      const quarterlyRows =
+        gdpApproach === "production"
+          ? (gdpData as any)?.quarterlyProduction?.response?.data ?? []
+          : (gdpData as any)?.quarterlyExpenditure?.response?.data ?? [];
+      const annualRows =
+        gdpApproach === "production"
+          ? (gdpData as any)?.annualProduction?.response?.data ?? []
+          : (gdpData as any)?.annualExpenditure?.response?.data ?? [];
+
+      if (gdpFrequency === "quarterly") {
+        if (!activeYear) return [];
+        return buildQuarterSeriesFromPxweb(
+          quarterlyRows as any,
+          {
+            quarterIndex: 0,
+            indicatorIndex: 1,
+            indicatorValue: "Real GDP growth rate (year-on-year %)",
+          },
+          activeYear
+        );
+      }
+
+      return (annualRows as any[])
+        .map((row: any) => {
+          const year = parseYearFromLabel(row.key?.[0]);
+          const value = Number(row.values?.[0]);
+          if (!Number.isFinite(year) || !Number.isFinite(value)) return null;
+          return {
+            label: String(year),
+            value,
+          };
+        })
+        .filter((item): item is { label: string; value: number } => Boolean(item))
+        .sort((a: any, b: any) => Number(a.label) - Number(b.label));
+    }
+
     const config = INDICATOR_CONFIG[active];
     if (!activeYear) return [];
     if (active === "PBCI") {
@@ -153,15 +237,17 @@ export default function KeyIndicators() {
     );
   })();
 
-  const chartData = chartSeries.map((point) => {
+  const chartData = chartSeries.map((point: any) => {
+    const label = typeof point?.label === "string" ? point.label : "";
     const value = (point as { value?: number | null }).value;
     const numeric = typeof value === "number" ? value : Number(value);
     const cleanedValue =
-      Number.isFinite(numeric) && numeric === 0 && point.label !== "Jan"
+      Number.isFinite(numeric) && numeric === 0 && label !== "Jan"
         ? null
         : (Number.isFinite(numeric) ? numeric : null);
     return {
       ...point,
+      label,
       value: cleanedValue,
       hasData: cleanedValue !== null,
     };
@@ -301,7 +387,7 @@ export default function KeyIndicators() {
                 className="pointer-events-none fixed z-[999] w-60 rounded-md bg-slate-900 px-3 py-2 text-[11px] leading-relaxed text-white shadow-lg"
                 style={{ left: tooltipPos.x, top: tooltipPos.y }}
               >
-                {INDICATOR_TOOLTIPS[hovered as Indicator]}
+                {KEY_INDICATOR_TOOLTIPS[hovered]}
               </div>,
               document.body
             )
@@ -310,28 +396,74 @@ export default function KeyIndicators() {
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-sm font-semibold text-slate-900">
-                {INDICATOR_CONFIG[active].label}
+                {active === "GDP"
+                  ? `GDP (${gdpApproach === "production" ? "Production" : "Expenditure"} - ${
+                      gdpFrequency === "quarterly" ? "Quarterly" : "Annual"
+                    })`
+                  : INDICATOR_CONFIG[active].label}
               </p>
-              <div className="mt-1 inline-flex items-center gap-2 text-xs text-slate-400">
-                <span>Year</span>
-                <div className="relative">
-                  <select
-                    value={activeYear ?? ""}
-                    onChange={(event) => setActiveYear(Number(event.target.value))}
-                    className="appearance-none rounded-full border border-slate-200 bg-white px-2 py-1 pr-6 text-xs text-slate-600"
-                  >
-                    {availableYears.map((year) => (
-                      <option key={year} value={year}>
-                        {year}
-                      </option>
+              {active === "GDP" ? (
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <div className="inline-flex rounded-full border border-slate-200 bg-white p-1">
+                    {(["production", "expenditure"] as GdpApproach[]).map((value) => (
+                      <button
+                        key={value}
+                        type="button"
+                        onClick={() => setGdpApproach(value)}
+                        className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+                          gdpApproach === value
+                            ? "bg-indigo-700 text-white"
+                            : "text-slate-600 hover:text-slate-800"
+                        }`}
+                      >
+                        {value === "production" ? "Production" : "Expenditure"}
+                      </button>
                     ))}
-                  </select>
-                  <ChevronDown className="pointer-events-none absolute right-1.5 top-1/2 h-3 w-3 -translate-y-1/2 text-slate-400" />
+                  </div>
+                  <div className="inline-flex rounded-full border border-slate-200 bg-white p-1">
+                    {(["quarterly", "yearly"] as GdpFrequency[]).map((value) => (
+                      <button
+                        key={value}
+                        type="button"
+                        onClick={() => setGdpFrequency(value)}
+                        className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+                          gdpFrequency === value
+                            ? "bg-indigo-700 text-white"
+                            : "text-slate-600 hover:text-slate-800"
+                        }`}
+                      >
+                        {value === "quarterly" ? "Quarterly" : "Yearly"}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              ) : null}
+              {active !== "GDP" || gdpFrequency === "quarterly" ? (
+                <div className="mt-1 inline-flex items-center gap-2 text-xs text-slate-400">
+                  <span>Year</span>
+                  <div className="relative">
+                    <select
+                      value={activeYear ?? ""}
+                      onChange={(event) => setActiveYear(Number(event.target.value))}
+                      className="appearance-none rounded-full border border-slate-200 bg-white px-2 py-1 pr-6 text-xs text-slate-600"
+                    >
+                      {availableYears.map((year) => (
+                        <option key={year} value={year}>
+                          {year}
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown className="pointer-events-none absolute right-1.5 top-1/2 h-3 w-3 -translate-y-1/2 text-slate-400" />
+                  </div>
+                </div>
+              ) : (
+                <p className="mt-1 text-xs text-slate-400">All years</p>
+              )}
             </div>
             <div className="text-xs font-semibold text-slate-400">
-              {activeYear ?? ""}
+              {active === "GDP" && gdpFrequency === "yearly"
+                ? "All years"
+                : activeYear ?? ""}
             </div>
           </div>
           <div className="mt-6 h-64 w-full sm:h-72">

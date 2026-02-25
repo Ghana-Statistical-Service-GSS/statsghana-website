@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-01T02:06:47.988Z",
+  "fetchedAt": "2026-02-25T02:37:20.360Z",
   "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/PHC%202021%20StatsBank/Population/population_table.px",
   "query": [
     {
@@ -32,25 +32,9 @@
     {
       "code": "Geographic_Area",
       "selection": {
-        "filter": "item",
+        "filter": "all",
         "values": [
-          "Ghana",
-          "Western",
-          "Central",
-          "Greater Accra",
-          "Volta",
-          "Eastern",
-          "Ashanti",
-          "Western North",
-          "Ahafo",
-          "Bono",
-          "Bono East",
-          "Oti",
-          "Northern",
-          "Savannah",
-          "North East",
-          "Upper East",
-          "Upper West"
+          "*"
         ]
       }
     },
@@ -128,11 +112,503 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Jomoro Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "126576"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ellembelle",
+          "Both sexes"
+        ],
+        "values": [
+          "120893"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nzema East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "94621"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ahanta West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "153140"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Effia Kwesimintsim Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "173975"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sekondi Takoradi Metropolitan Area (STMA)",
+          "Both sexes"
+        ],
+        "values": [
+          "245382"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "STMA-Takoradi",
+          "Both sexes"
+        ],
+        "values": [
+          "50065"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "STMA-Sekondi",
+          "Both sexes"
+        ],
+        "values": [
+          "54772"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "STMA-Essikado-Ketan",
+          "Both sexes"
+        ],
+        "values": [
+          "140545"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Shama",
+          "Both sexes"
+        ],
+        "values": [
+          "117224"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wassa East",
+          "Both sexes"
+        ],
+        "values": [
+          "99641"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Mpohor",
+          "Both sexes"
+        ],
+        "values": [
+          "52028"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tarkwa-Nsuaem Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "219109"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Prestea/Huni Valley Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "229301"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wassa Amenfi East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "179696"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wassa Amenfi Central",
+          "Both sexes"
+        ],
+        "values": [
+          "117999"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wassa Amenfi West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "131000"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Central",
           "Both sexes"
         ],
         "values": [
           "2859821"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Komenda Edina Eguafo Abirem Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "166017"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Cape Cape Metropolitan Area (CCMA)",
+          "Both sexes"
+        ],
+        "values": [
+          "189925"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "CCMA-Cape Coast South",
+          "Both sexes"
+        ],
+        "values": [
+          "70286"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "CCMA-Cape Coast North",
+          "Both sexes"
+        ],
+        "values": [
+          "119639"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Abura Asebu Kwamankese",
+          "Both sexes"
+        ],
+        "values": [
+          "124465"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Mfantsiman Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "168905"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ekumfi",
+          "Both sexes"
+        ],
+        "values": [
+          "56741"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Gomoa West",
+          "Both sexes"
+        ],
+        "values": [
+          "129512"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Effutu Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "108816"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Gomoa Central",
+          "Both sexes"
+        ],
+        "values": [
+          "82592"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Gomoa East",
+          "Both sexes"
+        ],
+        "values": [
+          "308697"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Awutu Senya East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "236527"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Awutu Senya",
+          "Both sexes"
+        ],
+        "values": [
+          "161460"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Agona East",
+          "Both sexes"
+        ],
+        "values": [
+          "98637"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Agona West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "136569"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asikuma Odoben Brakwa",
+          "Both sexes"
+        ],
+        "values": [
+          "126993"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ajumako Enyan Essiam",
+          "Both sexes"
+        ],
+        "values": [
+          "120586"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Assin South",
+          "Both sexes"
+        ],
+        "values": [
+          "105995"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Twifo Heman Lower Denkyira",
+          "Both sexes"
+        ],
+        "values": [
+          "66075"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Twifo Ati Morkwa",
+          "Both sexes"
+        ],
+        "values": [
+          "100851"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Assin Fosu Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "88753"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Assin North",
+          "Both sexes"
+        ],
+        "values": [
+          "80539"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Upper Denkyira East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "110141"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Upper Denkyira West",
+          "Both sexes"
+        ],
+        "values": [
+          "91025"
         ]
       },
       {
@@ -152,11 +628,635 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Ga South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "350121"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Weija Gbawe Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "213674"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ga Central Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "332232"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ablekuma North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "159208"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ablekuma West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "153490"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ablekuma Central Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "169145"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Accra Metropolitan Area (AMA)",
+          "Both sexes"
+        ],
+        "values": [
+          "284124"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "AMA-Ablekuma South",
+          "Both sexes"
+        ],
+        "values": [
+          "110158"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "AMA-Ashiedu Keteke",
+          "Both sexes"
+        ],
+        "values": [
+          "88633"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "AMA-Okaikoi South",
+          "Both sexes"
+        ],
+        "values": [
+          "85333"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Korle Klottey Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "68633"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ayawaso Central Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "94831"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ayawaso East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "53004"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ayawaso North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "63386"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "La Dade-Kotopon Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "140264"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ledzokuku Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "217304"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Krowor Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "143012"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Adentan Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "265971"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ayawaso West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "75303"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Okaikoi North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "160446"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ga North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "235292"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ga West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "314299"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ga East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "283379"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "La Nkwantanang Madina Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "220757"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kpone Katamanso Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "412828"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ashaiman Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "208060"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tema West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "196224"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tema Metropolitan Area (TMA)",
+          "Both sexes"
+        ],
+        "values": [
+          "177924"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "TMA-Tema Central",
+          "Both sexes"
+        ],
+        "values": [
+          "66191"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "TMA-Tema East",
+          "Both sexes"
+        ],
+        "values": [
+          "111733"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ningo-Prampram",
+          "Both sexes"
+        ],
+        "values": [
+          "204673"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Shai-Osudoku",
+          "Both sexes"
+        ],
+        "values": [
+          "105610"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ada West",
+          "Both sexes"
+        ],
+        "values": [
+          "76087"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ada East",
+          "Both sexes"
+        ],
+        "values": [
+          "76411"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Volta",
           "Both sexes"
         ],
         "values": [
           "1659040"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "South Tongu",
+          "Both sexes"
+        ],
+        "values": [
+          "113114"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Anloga",
+          "Both sexes"
+        ],
+        "values": [
+          "94895"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Keta Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "78862"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ketu South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "253122"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ketu North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "114993"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Akatsi North",
+          "Both sexes"
+        ],
+        "values": [
+          "32755"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Akatsi South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "92133"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Central Tongu",
+          "Both sexes"
+        ],
+        "values": [
+          "83284"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "North Tongu",
+          "Both sexes"
+        ],
+        "values": [
+          "111410"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ho West",
+          "Both sexes"
+        ],
+        "values": [
+          "83172"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Adaklu",
+          "Both sexes"
+        ],
+        "values": [
+          "38649"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Agortime-Ziope",
+          "Both sexes"
+        ],
+        "values": [
+          "39553"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ho Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "180142"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "South Dayi",
+          "Both sexes"
+        ],
+        "values": [
+          "57518"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Afadzato South",
+          "Both sexes"
+        ],
+        "values": [
+          "73146"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "North Dayi",
+          "Both sexes"
+        ],
+        "values": [
+          "39268"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kpando Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "58552"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Hohoe Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "114472"
         ]
       },
       {
@@ -176,11 +1276,983 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Birim South",
+          "Both sexes"
+        ],
+        "values": [
+          "35654"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Birim Central Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "76302"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Achiase",
+          "Both sexes"
+        ],
+        "values": [
+          "56348"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asene Manso Akroso",
+          "Both sexes"
+        ],
+        "values": [
+          "77498"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "West Akim Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "117681"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Upper West Akim",
+          "Both sexes"
+        ],
+        "values": [
+          "95855"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ayensuano",
+          "Both sexes"
+        ],
+        "values": [
+          "94594"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nsawam Adoagyiri Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "155597"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Akwapim South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "76922"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Akwapim North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "105315"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Okere",
+          "Both sexes"
+        ],
+        "values": [
+          "51675"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "New Juaben South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "129741"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "New Juaben North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "88716"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Suhum Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "126403"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Abuakwa North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "76195"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Abuakwa South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "89051"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Denkyembuor",
+          "Both sexes"
+        ],
+        "values": [
+          "77029"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Akyemansa",
+          "Both sexes"
+        ],
+        "values": [
+          "91038"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwaebibirem Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "121698"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Birim North",
+          "Both sexes"
+        ],
+        "values": [
+          "82669"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atiwa West",
+          "Both sexes"
+        ],
+        "values": [
+          "61219"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atiwa East",
+          "Both sexes"
+        ],
+        "values": [
+          "64647"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Fanteakwa South",
+          "Both sexes"
+        ],
+        "values": [
+          "54634"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Yilo Krobo Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "122398"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Lower Manya Krobo Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "121849"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asuogyaman",
+          "Both sexes"
+        ],
+        "values": [
+          "101256"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Upper Manya Krobo",
+          "Both sexes"
+        ],
+        "values": [
+          "70612"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Fanteakwa North",
+          "Both sexes"
+        ],
+        "values": [
+          "56987"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwahu South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "79851"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwahu West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "145429"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwahu East",
+          "Both sexes"
+        ],
+        "values": [
+          "80233"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwahu Afram Plains South",
+          "Both sexes"
+        ],
+        "values": [
+          "74002"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwahu Afram Plains North",
+          "Both sexes"
+        ],
+        "values": [
+          "66555"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Ashanti",
           "Both sexes"
         ],
         "values": [
           "5440463"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Amansie South",
+          "Both sexes"
+        ],
+        "values": [
+          "113155"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Amansie Central",
+          "Both sexes"
+        ],
+        "values": [
+          "93052"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Akrofuom",
+          "Both sexes"
+        ],
+        "values": [
+          "49291"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Adansi South",
+          "Both sexes"
+        ],
+        "values": [
+          "85200"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Adansi Asokwa",
+          "Both sexes"
+        ],
+        "values": [
+          "71844"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Obuasi East",
+          "Both sexes"
+        ],
+        "values": [
+          "92401"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Obuasi Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "104297"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Adansi North",
+          "Both sexes"
+        ],
+        "values": [
+          "54155"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bekwai Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "137967"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Amansie West",
+          "Both sexes"
+        ],
+        "values": [
+          "112627"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atwima Kwanwoma",
+          "Both sexes"
+        ],
+        "values": [
+          "234846"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bosomtwi",
+          "Both sexes"
+        ],
+        "values": [
+          "165180"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bosome Freho",
+          "Both sexes"
+        ],
+        "values": [
+          "62259"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asante Akim Central Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "91673"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asante Akim South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "123633"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asante Akim North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "85202"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sekyere Kumawu",
+          "Both sexes"
+        ],
+        "values": [
+          "64396"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sekyere East",
+          "Both sexes"
+        ],
+        "values": [
+          "74789"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Juaben Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "63929"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ejisu Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "180723"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Oforikrom Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "213126"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asokwa Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "125642"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kumasi Metropolitan Area (KMA)",
+          "Both sexes"
+        ],
+        "values": [
+          "443981"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "KMA-Nhyiaeso",
+          "Both sexes"
+        ],
+        "values": [
+          "114944"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "KMA-Subin",
+          "Both sexes"
+        ],
+        "values": [
+          "76466"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "KMA-Manhyia South",
+          "Both sexes"
+        ],
+        "values": [
+          "38138"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "KMA-Manhyia North",
+          "Both sexes"
+        ],
+        "values": [
+          "91893"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "KMA-Bantama",
+          "Both sexes"
+        ],
+        "values": [
+          "122540"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwadaso Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "154526"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Suame Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "136290"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Old Tafo Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "114368"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asokore Mampong Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "191402"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kwabre East",
+          "Both sexes"
+        ],
+        "values": [
+          "296814"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Afigya Kwabre South",
+          "Both sexes"
+        ],
+        "values": [
+          "234667"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atwima Nwabiagya North",
+          "Both sexes"
+        ],
+        "values": [
+          "155025"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atwima Nwabiagya South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "161893"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atwima Mponua",
+          "Both sexes"
+        ],
+        "values": [
+          "155254"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ahafo Ano South West",
+          "Both sexes"
+        ],
+        "values": [
+          "65770"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ahafo Ano North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "92742"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ahafo Ano South East",
+          "Both sexes"
+        ],
+        "values": [
+          "63468"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Offinso North",
+          "Both sexes"
+        ],
+        "values": [
+          "83440"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Offinso Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "137272"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Afigya Kwabre North",
+          "Both sexes"
+        ],
+        "values": [
+          "73330"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sekyere South",
+          "Both sexes"
+        ],
+        "values": [
+          "120076"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Mampong Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "116632"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Ejura Sekyedumase Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "137672"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sekyere Central",
+          "Both sexes"
+        ],
+        "values": [
+          "73228"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sekyere Afram Plains",
+          "Both sexes"
+        ],
+        "values": [
+          "33226"
         ]
       },
       {
@@ -200,11 +2272,191 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Aowin Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "133257"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sefwi Akontombra",
+          "Both sexes"
+        ],
+        "values": [
+          "66689"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Suaman",
+          "Both sexes"
+        ],
+        "values": [
+          "38268"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bodi",
+          "Both sexes"
+        ],
+        "values": [
+          "65748"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sefwi Wiawso Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "151220"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bibiani Anhwiaso Bekwai Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "167971"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Juaboso",
+          "Both sexes"
+        ],
+        "values": [
+          "88814"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bia West",
+          "Both sexes"
+        ],
+        "values": [
+          "115881"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bia East",
+          "Both sexes"
+        ],
+        "values": [
+          "53073"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Ahafo",
           "Both sexes"
         ],
         "values": [
           "564668"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asunafo South",
+          "Both sexes"
+        ],
+        "values": [
+          "91693"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asunafo North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "151258"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asutifi South",
+          "Both sexes"
+        ],
+        "values": [
+          "67334"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Asutifi North",
+          "Both sexes"
+        ],
+        "values": [
+          "73556"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tano North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "93838"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tano South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "86989"
         ]
       },
       {
@@ -224,11 +2476,287 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Dormaa West",
+          "Both sexes"
+        ],
+        "values": [
+          "47913"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Dormaa Central Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "112702"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Dormaa East",
+          "Both sexes"
+        ],
+        "values": [
+          "67899"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sunyani Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "193595"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sunyani West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "136022"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Berekum East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "106252"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Berekum West",
+          "Both sexes"
+        ],
+        "values": [
+          "49464"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Jaman South",
+          "Both sexes"
+        ],
+        "values": [
+          "109768"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Jaman North",
+          "Both sexes"
+        ],
+        "values": [
+          "116529"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tain",
+          "Both sexes"
+        ],
+        "values": [
+          "115568"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wenchi Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "124758"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Banda",
+          "Both sexes"
+        ],
+        "values": [
+          "28179"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Bono East",
           "Both sexes"
         ],
         "values": [
           "1203400"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nkoranza South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "114642"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Techiman Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "243335"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nkoranza North",
+          "Both sexes"
+        ],
+        "values": [
+          "56468"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Techiman North",
+          "Both sexes"
+        ],
+        "values": [
+          "102529"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Atebubu Amantin Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "144947"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sene West",
+          "Both sexes"
+        ],
+        "values": [
+          "70104"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sene East",
+          "Both sexes"
+        ],
+        "values": [
+          "72081"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Pru West",
+          "Both sexes"
+        ],
+        "values": [
+          "69820"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Pru East",
+          "Both sexes"
+        ],
+        "values": [
+          "100840"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kintampo South",
+          "Both sexes"
+        ],
+        "values": [
+          "88384"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kintampo North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "140250"
         ]
       },
       {
@@ -248,11 +2776,335 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Biakoye",
+          "Both sexes"
+        ],
+        "values": [
+          "71827"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Jasikan Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "59695"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kadjebi",
+          "Both sexes"
+        ],
+        "values": [
+          "73959"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Krachi East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "110435"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Krachi West Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "61128"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Krachi Nchumuru",
+          "Both sexes"
+        ],
+        "values": [
+          "79934"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nkwanta South Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "135936"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nkwanta North (Kpassa)",
+          "Both sexes"
+        ],
+        "values": [
+          "126096"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Guan",
+          "Both sexes"
+        ],
+        "values": [
+          "28238"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Northern",
           "Both sexes"
         ],
         "values": [
           "2310928"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kpandai",
+          "Both sexes"
+        ],
+        "values": [
+          "126213"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nanumba South",
+          "Both sexes"
+        ],
+        "values": [
+          "106374"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nanumba North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "188680"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Zabzugu",
+          "Both sexes"
+        ],
+        "values": [
+          "82846"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tatale Sanguli",
+          "Both sexes"
+        ],
+        "values": [
+          "74805"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Saboba",
+          "Both sexes"
+        ],
+        "values": [
+          "95683"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Yendi Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "154421"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Mion",
+          "Both sexes"
+        ],
+        "values": [
+          "94930"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nanton",
+          "Both sexes"
+        ],
+        "values": [
+          "50767"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tamale Metropolitan Area (TMA)",
+          "Both sexes"
+        ],
+        "values": [
+          "374744"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "TMA-Tamale South",
+          "Both sexes"
+        ],
+        "values": [
+          "246766"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "TMA-Tamale Central",
+          "Both sexes"
+        ],
+        "values": [
+          "127978"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sagnarigu Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "341711"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tolon",
+          "Both sexes"
+        ],
+        "values": [
+          "118090"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kumbungu",
+          "Both sexes"
+        ],
+        "values": [
+          "110586"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Savelugu Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "122888"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Karaga",
+          "Both sexes"
+        ],
+        "values": [
+          "114225"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Gushegu Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "153965"
         ]
       },
       {
@@ -272,11 +3124,167 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Bole",
+          "Both sexes"
+        ],
+        "values": [
+          "115800"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sawla Tuna Kalba",
+          "Both sexes"
+        ],
+        "values": [
+          "112664"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "North Gonja",
+          "Both sexes"
+        ],
+        "values": [
+          "61443"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "West Gonja",
+          "Both sexes"
+        ],
+        "values": [
+          "63449"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Central Gonja",
+          "Both sexes"
+        ],
+        "values": [
+          "142762"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "East Gonja Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "117755"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "North East Gonja",
+          "Both sexes"
+        ],
+        "values": [
+          "39404"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "North East",
           "Both sexes"
         ],
         "values": [
           "658946"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Mamprugu Moagduri",
+          "Both sexes"
+        ],
+        "values": [
+          "68746"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "West Mamprusi Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "175755"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "East Mamprusi Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "188006"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bunkpurugu Nakpanduri",
+          "Both sexes"
+        ],
+        "values": [
+          "82384"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Yunyoo Nasuan",
+          "Both sexes"
+        ],
+        "values": [
+          "56879"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Chereponi",
+          "Both sexes"
+        ],
+        "values": [
+          "87176"
         ]
       },
       {
@@ -296,19 +3304,324 @@
           "All ages",
           "All Locality Types",
           "Total",
+          "Builsa South",
+          "Both sexes"
+        ],
+        "values": [
+          "36575"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Builsa North Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "56571"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kasena Nankana Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "99895"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Kasena Nankana West",
+          "Both sexes"
+        ],
+        "values": [
+          "90735"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bolgatanga Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "142509"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Talensi",
+          "Both sexes"
+        ],
+        "values": [
+          "87021"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bolgatanga East",
+          "Both sexes"
+        ],
+        "values": [
+          "38824"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bongo",
+          "Both sexes"
+        ],
+        "values": [
+          "116431"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nabdam",
+          "Both sexes"
+        ],
+        "values": [
+          "53039"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bawku West",
+          "Both sexes"
+        ],
+        "values": [
+          "144189"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Binduri",
+          "Both sexes"
+        ],
+        "values": [
+          "76679"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Bawku Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "119458"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Garu",
+          "Both sexes"
+        ],
+        "values": [
+          "71774"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Tempane",
+          "Both sexes"
+        ],
+        "values": [
+          "86993"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Pusiga",
+          "Both sexes"
+        ],
+        "values": [
+          "80533"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
           "Upper West",
           "Both sexes"
         ],
         "values": [
           "901502"
         ]
-      }
-    ],
-    "metadata": [
+      },
       {
-        "updated": "2023-04-26T10:04:00Z",
-        "label": "Population by Age, Locality, Education, Geographic_Area and Sex",
-        "source": "Ghana Statistical Service (2021 PHC)"
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wa West",
+          "Both sexes"
+        ],
+        "values": [
+          "96957"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wa East",
+          "Both sexes"
+        ],
+        "values": [
+          "91457"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Wa Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "200672"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nadowli Kaleo",
+          "Both sexes"
+        ],
+        "values": [
+          "77057"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Daffiama Bussie Issa",
+          "Both sexes"
+        ],
+        "values": [
+          "38754"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sissala East Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "80619"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Sissala West",
+          "Both sexes"
+        ],
+        "values": [
+          "63828"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Jirapa Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "91279"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Lawra Municipal",
+          "Both sexes"
+        ],
+        "values": [
+          "58433"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Lambussie Karni",
+          "Both sexes"
+        ],
+        "values": [
+          "51118"
+        ]
+      },
+      {
+        "key": [
+          "All ages",
+          "All Locality Types",
+          "Total",
+          "Nandom",
+          "Both sexes"
+        ],
+        "values": [
+          "51328"
+        ]
       }
     ]
   }

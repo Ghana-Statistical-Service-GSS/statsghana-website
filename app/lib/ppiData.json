@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-01T04:22:10.680Z",
+  "fetchedAt": "2026-02-25T00:19:18.006Z",
   "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Prices%20and%20Inflation/ppi.px",
   "query": [
     {
@@ -32,9 +32,23 @@
         "code": "Indicator",
         "text": "Indicator",
         "type": "d"
+      },
+      {
+        "code": "Producer Price Index and Inflation",
+        "text": "Producer Price Index and Inflation",
+        "type": "c"
       }
     ],
     "data": [
+      {
+        "key": [
+          "2026M01",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "1.6"
+        ]
+      },
       {
         "key": [
           "2025M12",

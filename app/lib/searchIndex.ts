@@ -81,11 +81,15 @@ export const searchIndex: SearchItem[] = [
     href: "/publications/statistical-governance",
     group: "Publications",
   },
-  { label: "News", href: "/news", group: "News" },
-  { label: "Press Releases", href: "/press-releases", group: "News" },
+  { label: "News", href: "/news-and-events/news", group: "News" },
+  {
+    label: "Press Releases",
+    href: "/news-and-events/press-releases",
+    group: "News",
+  },
   {
     label: "Career & Jobs",
-    href: "/news-and-media/opportunities",
+    href: "/news-and-events/opportunities",
     group: "News",
     keywords: ["Opportunities", "Jobs", "Careers"],
   },
@@ -118,7 +122,7 @@ export const searchIndex: SearchItem[] = [
   },
   {
     label: "CPI Inflation Calculator",
-    href: "/data-portals/cpi-inflation-calculator",
+    href: "https://statsghana.gov.gh/CPI_Inflation_Cal.html",
     group: "Data Portals",
   },
   {

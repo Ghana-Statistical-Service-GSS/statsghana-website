@@ -1,9 +1,8 @@
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Megaphone } from "lucide-react";
 import { mockPressReleases } from "@/app/lib/mockPressReleases";
 
 export default function PressReleasesPage() {
@@ -56,29 +55,32 @@ export default function PressReleasesPage() {
   );
 
   return (
-    <div className="relative overflow-hidden bg-gradient-to-b from-[#f5f1ea] via-white to-[#f5f1ea] py-10 sm:py-12">
-      <div className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-emerald-100/20 blur-3xl" />
-      <div className="pointer-events-none absolute -left-32 top-1/3 h-72 w-72 rounded-full bg-slate-200/40 blur-3xl" />
-      <div className="pointer-events-none absolute right-0 top-10 h-72 w-72 rounded-full bg-amber-100/20 blur-3xl" />
-
+    <div className="bg-white py-10 sm:py-12">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <p className="text-sm text-slate-500">
-          Home / News &amp; Events / Press Releases
-        </p>
-        <h1 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-          Press Releases
-        </h1>
-        <p className="mt-3 max-w-3xl text-slate-600">
-          Official announcements and updates from the Ghana Statistical Service.
-        </p>
+        <p className="text-sm text-slate-500">Home / News &amp; Events / Press Releases</p>
 
-        <div className="mt-6 rounded-2xl border border-white/60 bg-white/80 p-4 shadow-sm sm:flex sm:items-center sm:justify-between">
+        <div className="mt-3 rounded-2xl border border-[#241B5A]/20 bg-[#241B5A] p-6 text-white sm:p-8">
+          <div className="flex items-start gap-3">
+            <div className="rounded-xl bg-white/10 p-2.5">
+              <Megaphone className="h-5 w-5" />
+            </div>
+            <div>
+              <h1 className="text-3xl font-extrabold sm:text-4xl">Press Releases</h1>
+              <p className="mt-2 max-w-3xl text-sm text-white/85 sm:text-base">
+                Official statements, release notes, and institutional announcements
+                from the Ghana Statistical Service.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4 sm:flex sm:items-center sm:justify-between">
           <div className="relative w-full max-w-md">
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Search press releases..."
-              className="w-full rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/40"
+              className="w-full rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 focus:border-[#241B5A] focus:outline-none focus:ring-2 focus:ring-[#241B5A]/20"
             />
           </div>
           <div className="mt-3 flex flex-wrap gap-3 sm:mt-0">
@@ -91,7 +93,7 @@ export default function PressReleasesPage() {
                     : Number(event.target.value),
                 )
               }
-              className="min-w-[140px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600 shadow-sm"
+              className="min-w-[140px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600"
             >
               <option value="all">All Years</option>
               {years.map((year) => (
@@ -105,7 +107,7 @@ export default function PressReleasesPage() {
               onChange={(event) =>
                 setSortOrder(event.target.value as "newest" | "oldest")
               }
-              className="min-w-[150px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600 shadow-sm"
+              className="min-w-[150px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600"
             >
               <option value="newest">Newest first</option>
               <option value="oldest">Oldest first</option>
@@ -114,55 +116,54 @@ export default function PressReleasesPage() {
         </div>
 
         {filteredItems.length ? (
-          <div className="mt-8 grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {pagedItems.map((item) => (
-              <Link
-                key={item.id}
-                href={`/news/${item.slug}`}
-                className="group flex h-full flex-col overflow-hidden rounded-xl border border-white/60 bg-white/80 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-              >
-                <div className="relative w-full aspect-[16/9] overflow-hidden rounded-xl">
-                  <Image
-                    src={item.imageSrc}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 360px"
-                  />
-                </div>
-                <div className="flex h-full flex-col p-5">
-                  <h2 className="text-lg font-semibold tracking-tight text-slate-900 md:text-xl">
-                    {item.title}
-                  </h2>
-                  <p className="mt-2 line-clamp-3 text-sm text-slate-600">
-                    {item.excerpt}
-                  </p>
-                  <div className="mt-3 text-xs text-slate-500">
-                    Post Date:{" "}
-                    {new Date(item.dateISO).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "2-digit",
-                      year: "numeric",
-                    })}
+          <div className="mt-8 space-y-4">
+            {pagedItems.map((item) => {
+              const date = new Date(item.dateISO);
+              const day = date.toLocaleDateString("en-US", { day: "2-digit" });
+              const monthYear = date.toLocaleDateString("en-US", {
+                month: "short",
+                year: "numeric",
+              });
+
+              return (
+                <Link
+                  key={item.id}
+                  href={`/news-and-events/press-releases/${item.slug}`}
+                  className="group grid gap-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-[#241B5A]/30 hover:shadow-md sm:grid-cols-[80px_1fr] sm:items-start"
+                >
+                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 text-center">
+                    <p className="text-2xl font-extrabold leading-none text-slate-900">{day}</p>
+                    <p className="mt-1 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                      {monthYear}
+                    </p>
                   </div>
-                  <div className="mt-5">
-                    <span className="inline-flex items-center gap-2 rounded-full bg-emerald-700 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-800">
-                      Read More
-                      <ArrowRight className="h-4 w-4" />
+
+                  <div>
+                    <p className="inline-flex rounded-full bg-[#241B5A]/8 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-[#241B5A]">
+                      Official Release
+                    </p>
+                    <h2 className="mt-2 text-xl font-bold text-slate-900 group-hover:text-[#241B5A]">
+                      {item.title}
+                    </h2>
+                    <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                      {item.excerpt}
+                    </p>
+                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#241B5A]">
+                      Read full release <ArrowRight className="h-4 w-4" />
                     </span>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         ) : (
-          <div className="mt-8 rounded-2xl border border-white/60 bg-white/80 p-10 text-center text-sm text-slate-500 shadow-sm">
+          <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-10 text-center text-sm text-slate-500">
             No press releases match your search.
           </div>
         )}
 
         {filteredItems.length ? (
-          <div className="mt-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/60 bg-white/80 px-4 py-3 shadow-sm">
+          <div className="mt-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
             <div className="text-sm text-slate-600">
               Page {currentPage} of {totalPages}
             </div>
@@ -170,7 +171,7 @@ export default function PressReleasesPage() {
               <button
                 type="button"
                 onClick={() => setPage((prev) => Math.max(1, prev - 1))}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 shadow-sm transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
                 disabled={currentPage === 1}
               >
                 Previous
@@ -182,9 +183,9 @@ export default function PressReleasesPage() {
                     type="button"
                     onClick={() => setPage(pageNumber)}
                     className={[
-                      "rounded-full px-3 py-1.5 text-xs font-semibold shadow-sm transition",
+                      "rounded-full px-3 py-1.5 text-xs font-semibold transition",
                       pageNumber === currentPage
-                        ? "bg-emerald-700 text-white"
+                        ? "bg-[#241B5A] text-white"
                         : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50",
                     ].join(" ")}
                   >
@@ -195,7 +196,7 @@ export default function PressReleasesPage() {
               <button
                 type="button"
                 onClick={() => setPage((prev) => Math.min(totalPages, prev + 1))}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 shadow-sm transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
                 disabled={currentPage === totalPages}
               >
                 Next

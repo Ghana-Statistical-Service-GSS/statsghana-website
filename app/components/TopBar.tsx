@@ -1,9 +1,42 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok, FaXTwitter } from "react-icons/fa6";
 import Container from "./Container";
 import HeaderSearch from "./HeaderSearch";
+
+const socialLinks = [
+  {
+    label: "Facebook",
+    href: "https://web.facebook.com/statsghana",
+    icon: Facebook,
+  },
+  {
+    label: "X",
+    href: "https://x.com/StatsGhana",
+    icon: FaXTwitter,
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/stats_ghana/?utm_source",
+    icon: Instagram,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/ghana-statistical-service/posts/?feedView=all",
+    icon: Linkedin,
+  },
+  {
+    label: "YouTube",
+    href: "https://www.youtube.com/@ghanastatisticalservice",
+    icon: Youtube,
+  },
+  {
+    label: "TikTok",
+    href: "https://www.tiktok.com/@stats_ghana",
+    icon: FaTiktok,
+  },
+] as const;
 
 export default function TopBar() {
   return (
@@ -46,19 +79,17 @@ export default function TopBar() {
             </div>
 
             <div className="flex items-center gap-2 text-slate-500">
-              {[
-                { icon: Facebook, label: "Facebook" },
-                { icon: FaXTwitter, label: "X (formerly Twitter)" },
-                { icon: Instagram, label: "Instagram" },
-                { icon: Linkedin, label: "LinkedIn" },
-                { icon: Youtube, label: "YouTube" },
-              ].map(({ icon: Icon, label }) => (
-                <span
+              {socialLinks.map(({ icon: Icon, label, href }) => (
+                <a
                   key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={label}
                   className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 transition hover:border-purple-700 hover:text-purple-700"
                 >
                   <Icon className="h-4 w-4" />
-                </span>
+                </a>
               ))}
             </div>
           </div>

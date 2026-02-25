@@ -127,7 +127,7 @@ export const NAV: NavItem[] = [
         label: "National Reporting platform",
         href: "https://sdgs-ghana.github.io/",
       },
-      { label: "CPI Inflation Calculator", href: "/data-portals/cpi-inflation-calculator" },
+      { label: "CPI Inflation Calculator", href: "https://statsghana.gov.gh/CPI_Inflation_Cal.html" },
       {
         label: "Open Data for Africa",
         href: "https://dataportals.org/portal/ghana_opendataforafrica/",

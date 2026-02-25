@@ -21,12 +21,12 @@ const NAME_KEYS = [
   "name",
   "NAME",
   "Name",
-  "region",
-  "Region",
   "district",
   "District",
   "label",
   "LABEL",
+  "region",
+  "Region",
 ];
 
 export function isValidGeometry(geometry: unknown): geometry is Geometry {

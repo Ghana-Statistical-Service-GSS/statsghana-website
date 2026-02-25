@@ -24,13 +24,13 @@ const VIEW_WIDTH = 420;
 const VIEW_HEIGHT = 520;
 const COLOR_BUCKETS = ["#EAE6F9", "#D2CAF3", "#B1A2E8", "#7E6AD8", "#3C2FA3"];
 const NATIONAL_VALUES: Record<Indicator, { value: string }> = {
-  CPI: { value: "5.4%" },
-  MIEG: { value: "3.8%" },
-  PPI: { value: "3.1%" },
-  PBCI: { value: "4.2%" },
-  IIP: { value: "2.6%" },
-  POP2021: { value: "30.8M" },
-  IBES: { value: "1.2M" },
+  CPI: { value: "-" },
+  MIEG: { value: "-" },
+  PPI: { value: "-" },
+  PBCI: { value: "-" },
+  IIP: { value: "-" },
+  POP2021: { value: "-" },
+  IBES: { value: "-" },
 };
 
 const STATSBANK_LINKS: Record<Indicator, string> = {
@@ -142,6 +142,20 @@ function normalizeRegionName(name: string) {
   return name.replace(/\\s+Region$/i, "").trim();
 }
 
+function canonicalizeGeoName(name: string) {
+  return name
+    .toLowerCase()
+    .replace(/\((.*?)\)/g, " ")
+    .replace(/\bregion\b/g, " ")
+    .replace(/\bmetropolitan area\b/g, " ")
+    .replace(/\bmetropolitan\b/g, " ")
+    .replace(/\bmunicipal\b/g, " ")
+    .replace(/\bdistrict\b/g, " ")
+    .replace(/[^a-z0-9\s/-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function extractRegionValues(
   data: Record<string, any>,
   regionCode: string,
@@ -225,7 +239,8 @@ export default function GhanaMap({
   const [miegDims, setMiegDims] = useState<MiegDimensions | null>(null);
   const [miegLoading, setMiegLoading] = useState(false);
   const [miegError, setMiegError] = useState<string | null>(null);
-  const [phcMap, setPhcMap] = useState<Map<string, number>>(new Map());
+  const [phcRegionMap, setPhcRegionMap] = useState<Map<string, number>>(new Map());
+  const [phcDistrictMap, setPhcDistrictMap] = useState<Map<string, number>>(new Map());
   const [phcNational, setPhcNational] = useState<number | null>(null);
   const [projectionYear, setProjectionYear] = useState<number | null>(null);
   const [projectionYearOptions, setProjectionYearOptions] = useState<
@@ -313,6 +328,33 @@ export default function GhanaMap({
       isActive = false;
     };
   }, []);
+
+  const regionNameLookup = useMemo(() => {
+    const map = new Map<string, string>();
+    const features = regionsData?.features ?? [];
+    features.forEach((feature) => {
+      const name = getFeatureName(feature.properties ?? undefined);
+      const normalized = normalizeRegionName(name);
+      const key = canonicalizeGeoName(normalized);
+      if (key) {
+        map.set(key, normalized);
+      }
+    });
+    return map;
+  }, [regionsData]);
+
+  const districtNameLookup = useMemo(() => {
+    const map = new Map<string, string>();
+    const features = districtsData?.features ?? [];
+    features.forEach((feature) => {
+      const name = getFeatureName(feature.properties ?? undefined);
+      const key = canonicalizeGeoName(name);
+      if (key) {
+        map.set(key, name);
+      }
+    });
+    return map;
+  }, [districtsData]);
 
   useEffect(() => {
     if (indicator !== "CPI") return;
@@ -580,13 +622,14 @@ export default function GhanaMap({
           throw new Error("Missing Geographic_Area column");
         }
 
-        const map = new Map<string, number>();
+        const regionMap = new Map<string, number>();
+        const districtMap = new Map<string, number>();
         let national: number | null = null;
 
         rows.forEach((row: any) => {
           const regionKey = row.key?.[regionIdx];
           if (!regionKey) return;
-          const label = regionKey;
+          const label = String(regionKey);
           const numeric = Number(row.values?.[0]);
           if (!Number.isFinite(numeric)) return;
           const lower = String(label).toLowerCase();
@@ -594,17 +637,28 @@ export default function GhanaMap({
             national = numeric;
             return;
           }
-          map.set(normalizeRegionName(label), numeric);
+          const canonical = canonicalizeGeoName(label);
+          const matchedRegion = regionNameLookup.get(canonical);
+          const matchedDistrict = districtNameLookup.get(canonical);
+
+          if (matchedRegion) {
+            regionMap.set(matchedRegion, numeric);
+          }
+          if (matchedDistrict) {
+            districtMap.set(matchedDistrict, numeric);
+          }
         });
 
         if (isActive) {
-          setPhcMap(map);
+          setPhcRegionMap(regionMap);
+          setPhcDistrictMap(districtMap);
           setPhcNational(national);
         }
       } catch (error) {
         if (isActive) {
           setProjectionError("Unable to load PHC data.");
-          setPhcMap(new Map());
+          setPhcRegionMap(new Map());
+          setPhcDistrictMap(new Map());
           setPhcNational(null);
         }
       }
@@ -615,7 +669,7 @@ export default function GhanaMap({
     return () => {
       isActive = false;
     };
-  }, [indicator]);
+  }, [indicator, regionNameLookup, districtNameLookup]);
 
   useEffect(() => {
     if (indicator !== "POP2021") return;
@@ -1027,11 +1081,18 @@ export default function GhanaMap({
     };
   }, [indicator, miegMonth, miegDims]);
 
+  const canSwitchToDistricts = indicator === "POP2021";
+  const effectiveMode: "regions" | "districts" =
+    canSwitchToDistricts ? mode : "regions";
+  const modeOptions = canSwitchToDistricts
+    ? (["regions", "districts"] as const)
+    : (["regions"] as const);
+
   const activeFeatures = useMemo(() => {
-    const source = mode === "districts" ? districtsData : regionsData;
+    const source = effectiveMode === "districts" ? districtsData : regionsData;
     const features = source?.features ?? [];
     return features.filter((feature) => isValidGeometry(feature.geometry));
-  }, [mode, regionsData, districtsData]);
+  }, [effectiveMode, regionsData, districtsData]);
 
   const paths = useMemo(() => {
     if (!activeFeatures.length) return [];
@@ -1048,7 +1109,9 @@ export default function GhanaMap({
       .filter((item): item is { name: string; d: string } => Boolean(item));
 
     if (process.env.NODE_ENV !== "production") {
-      const skipped = (mode === "districts" ? districtsData : regionsData)?.features.filter(
+      const skipped = (
+        effectiveMode === "districts" ? districtsData : regionsData
+      )?.features.filter(
         (feature) => !isValidGeometry(feature.geometry)
       ).length;
       if (skipped) {
@@ -1059,7 +1122,7 @@ export default function GhanaMap({
     }
 
     return mapped;
-  }, [activeFeatures, mode, districtsData, regionsData]);
+  }, [activeFeatures, effectiveMode, districtsData, regionsData]);
 
   const { valueByName, minValue, maxValue, nationalValue } = useMemo(() => {
     const map = new Map<string, number>();
@@ -1074,7 +1137,9 @@ export default function GhanaMap({
           : indicator === "IBES"
           ? ibesMap.get(name)
           : indicator === "POP2021"
-          ? projectionMap.get(name)
+          ? effectiveMode === "districts"
+            ? phcDistrictMap.get(name)
+            : projectionMap.get(name) ?? phcRegionMap.get(name)
           : indicator === "PPI"
           ? undefined
           : indicator === "IIP"
@@ -1167,6 +1232,9 @@ export default function GhanaMap({
     miegNational,
     ibesNational,
     pbciNational,
+    effectiveMode,
+    phcRegionMap,
+    phcDistrictMap,
     projectionMap,
     projectionNational,
   ]);
@@ -1196,6 +1264,7 @@ export default function GhanaMap({
   };
 
   const handleModeChange = (nextMode: "regions" | "districts") => {
+    if (!canSwitchToDistricts && nextMode === "districts") return;
     onModeChange?.(nextMode);
   };
 
@@ -1214,14 +1283,14 @@ export default function GhanaMap({
         indicator === "POP2021" ||
         indicator === "IBES" ||
         indicator === "PBCI" ? (
-          <div className="absolute right-4 top-4 z-20 flex flex-wrap items-center gap-2 rounded-xl border border-slate-200 bg-white/90 p-2 text-[10px] text-slate-600 shadow-sm">
+          <div className="absolute -right-2 top-4 z-20 flex w-36 flex-col items-stretch gap-1 rounded-xl border border-slate-200 bg-white/90 p-2 text-[10px] text-slate-600 shadow-sm">
             {indicator === "IBES" ? (
               <select
                 value={ibesYear}
                 onChange={(event) =>
                   setIbesYear(event.target.value as "2014" | "2024")
                 }
-                className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
               >
                 {["2024", "2014"].map((year) => (
                   <option key={year} value={year}>
@@ -1233,7 +1302,7 @@ export default function GhanaMap({
               <select
                 value={iipQuarter ?? ""}
                 onChange={(event) => setIipQuarter(event.target.value)}
-                className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
               >
                 {iipMeta
                   .slice()
@@ -1257,7 +1326,7 @@ export default function GhanaMap({
               <select
                 value={projectionYear ?? ""}
                 onChange={(event) => setProjectionYear(Number(event.target.value))}
-                className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
               >
                 {projectionYearOptions
                   .slice()
@@ -1282,7 +1351,7 @@ export default function GhanaMap({
                       setPbciMonth(available[0].raw);
                     }
                   }}
-                  className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                  className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
                 >
                   {Array.from(new Set(pbciMeta.map((item) => item.year)))
                     .sort((a, b) => b - a)
@@ -1295,7 +1364,7 @@ export default function GhanaMap({
                 <select
                   value={pbciMonth ?? ""}
                   onChange={(event) => setPbciMonth(event.target.value)}
-                  className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                  className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
                 >
                   {pbciMeta
                     .filter((item) => item.year === pbciYear)
@@ -1345,7 +1414,7 @@ export default function GhanaMap({
                       }
                     }
                   }}
-                  className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                  className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
                 >
                   {Array.from(
                     new Set(
@@ -1382,7 +1451,7 @@ export default function GhanaMap({
                       setMiegMonth(event.target.value);
                     }
                   }}
-                  className="rounded-full border border-slate-200 bg-white px-2 py-1"
+                  className="w-full rounded-full border border-slate-200 bg-white px-2 py-1"
                 >
                   {(
                     indicator === "CPI"
@@ -1513,13 +1582,13 @@ export default function GhanaMap({
         <div className="flex items-center gap-2">
           <span className="text-[10px] uppercase text-slate-400">View</span>
           <div className="flex items-center rounded-full bg-slate-100 p-1">
-            {(["regions", "districts"] as const).map((item) => (
+            {modeOptions.map((item) => (
               <button
                 key={item}
                 type="button"
                 onClick={() => handleModeChange(item)}
                 className={`rounded-full px-2 py-1 text-[10px] font-semibold transition ${
-                  item === mode
+                  item === effectiveMode
                     ? "bg-purple-700 text-white"
                     : "text-slate-500 hover:text-purple-700"
                 }`}
@@ -1576,11 +1645,13 @@ export default function GhanaMap({
           No regional figures for MIEG (national figure only).
         </div>
       ) : null}
-      {indicator === "POP2021" && !projectionLoading && !projectionError ? (
+      {/* {indicator === "POP2021" && !projectionLoading && !projectionError ? (
         <div className="absolute inset-x-4 bottom-4 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-[11px] text-amber-800 shadow-sm">
-          Showing PHC 2021 and projected population by region.
+          {effectiveMode === "districts"
+            ? "Showing PHC 2021 population by district."
+            : "Showing PHC 2021 and projected population by region."}
         </div>
-      ) : null}
+      ) : null} */}
       {indicator === "CPI" && cpiError ? (
         <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white/80 text-xs text-rose-600">
           {cpiError}
@@ -1627,15 +1698,19 @@ export default function GhanaMap({
             <>
               <p className="text-slate-500">
                 PHC 2021:{" "}
-                {phcMap.get(normalizeRegionName(hovered.name))?.toLocaleString?.() ??
+                {(effectiveMode === "districts"
+                  ? phcDistrictMap.get(hovered.name)
+                  : phcRegionMap.get(normalizeRegionName(hovered.name)))?.toLocaleString?.() ??
                   "—"}
               </p>
-              <p className="text-slate-500">
-                Projected {projectionYear ?? ""}:{" "}
-                {projectionMap
-                  .get(normalizeRegionName(hovered.name))
-                  ?.toLocaleString?.() ?? "—"}
-              </p>
+              {effectiveMode === "regions" ? (
+                <p className="text-slate-500">
+                  Projected {projectionYear ?? ""}:{" "}
+                  {projectionMap
+                    .get(normalizeRegionName(hovered.name))
+                    ?.toLocaleString?.() ?? "—"}
+                </p>
+              ) : null}
             </>
           ) : (
             <p className="text-slate-500">

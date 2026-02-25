@@ -27,7 +27,7 @@ const portals = [
   {
     title: "CPI Inflation Calculator",
     description: "Calculate historical inflation-adjusted values.",
-    href: "/data-portals/cpi-inflation-calculator",
+    href: "https://statsghana.gov.gh/CPI_Inflation_Cal.html",
   },
   {
     title: "Open Data for Africa",

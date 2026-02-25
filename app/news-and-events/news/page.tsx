@@ -3,7 +3,7 @@
 import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CalendarDays } from "lucide-react";
 import { mockNews } from "@/app/lib/mockNews";
 
 export default function NewsPage() {
@@ -55,29 +55,28 @@ export default function NewsPage() {
     currentPage * pageSize,
   );
 
-  return (
-    <div className="relative overflow-hidden bg-gradient-to-b from-[#f5f1ea] via-white to-[#f5f1ea] py-10 sm:py-12">
-      <div className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-emerald-100/20 blur-3xl" />
-      <div className="pointer-events-none absolute -left-32 top-1/3 h-72 w-72 rounded-full bg-slate-200/40 blur-3xl" />
-      <div className="pointer-events-none absolute right-0 top-10 h-72 w-72 rounded-full bg-amber-100/20 blur-3xl" />
+  const featured = pagedNews[0];
+  const remaining = pagedNews.slice(1);
 
+  return (
+    <div className="bg-white py-10 sm:py-12">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <p className="text-sm text-slate-500">Home / News &amp; Events / News</p>
-        <h1 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
-          News
-        </h1>
-        <p className="mt-3 max-w-3xl text-slate-600">
-          Explore updates, announcements, and highlights from the Ghana
-          Statistical Service.
-        </p>
+        <div className="mt-3 rounded-2xl border border-slate-200 bg-gradient-to-r from-slate-900 to-slate-700 p-6 text-white sm:p-8">
+          <h1 className="text-3xl font-extrabold sm:text-4xl">Newsroom</h1>
+          <p className="mt-2 max-w-3xl text-sm text-white/85 sm:text-base">
+            Explore updates, feature stories, and official highlights from the
+            Ghana Statistical Service.
+          </p>
+        </div>
 
-        <div className="mt-6 rounded-2xl border border-white/60 bg-white/80 p-4 shadow-sm sm:flex sm:items-center sm:justify-between">
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm sm:flex sm:items-center sm:justify-between">
           <div className="relative w-full max-w-md">
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Search news..."
-              className="w-full rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/40"
+              className="w-full rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 focus:border-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-600/30"
             />
           </div>
           <div className="mt-3 flex flex-wrap gap-3 sm:mt-0">
@@ -90,7 +89,7 @@ export default function NewsPage() {
                     : Number(event.target.value),
                 )
               }
-              className="min-w-[140px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600 shadow-sm"
+              className="min-w-[140px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600"
             >
               <option value="all">All Years</option>
               {years.map((year) => (
@@ -104,7 +103,7 @@ export default function NewsPage() {
               onChange={(event) =>
                 setSortOrder(event.target.value as "newest" | "oldest")
               }
-              className="min-w-[150px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600 shadow-sm"
+              className="min-w-[150px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600"
             >
               <option value="newest">Newest first</option>
               <option value="oldest">Oldest first</option>
@@ -113,55 +112,90 @@ export default function NewsPage() {
         </div>
 
         {filteredNews.length ? (
-          <div className="mt-8 grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {pagedNews.map((item) => (
+          <>
+            {featured ? (
               <Link
-                key={item.id}
-                href={`/news/${item.slug}`}
-                className="group flex h-full flex-col overflow-hidden rounded-xl border border-white/60 bg-white/80 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                href={`/news-and-events/news/${featured.slug}`}
+                className="group mt-8 grid overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md lg:grid-cols-[1.3fr_1fr]"
               >
-                <div className="relative w-full aspect-[16/9] overflow-hidden rounded-xl">
+                <div className="relative min-h-[260px]">
                   <Image
-                    src={item.imageSrc}
-                    alt={item.title}
+                    src={featured.imageSrc}
+                    alt={featured.title}
                     fill
                     className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 360px"
+                    sizes="(max-width: 1024px) 100vw, 780px"
                   />
                 </div>
-                <div className="flex h-full flex-col p-5">
-                  <h2 className="text-lg font-semibold tracking-tight text-slate-900 md:text-xl">
-                    {item.title}
-                  </h2>
-                  <p className="mt-2 line-clamp-3 text-sm text-slate-600">
-                    {item.excerpt}
+                <div className="p-6 sm:p-7">
+                  <p className="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700">
+                    Featured Story
                   </p>
-                  <div className="mt-3 text-xs text-slate-500">
-                    Post Date:{" "}
-                    {new Date(item.dateISO).toLocaleDateString("en-US", {
+                  <h2 className="mt-3 text-2xl font-extrabold text-slate-900">
+                    {featured.title}
+                  </h2>
+                  <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                    {featured.excerpt}
+                  </p>
+                  <p className="mt-4 flex items-center gap-2 text-xs font-semibold text-slate-500">
+                    <CalendarDays className="h-4 w-4" />
+                    {new Date(featured.dateISO).toLocaleDateString("en-US", {
                       month: "long",
                       day: "2-digit",
                       year: "numeric",
                     })}
-                  </div>
-                  <div className="mt-5">
-                    <span className="inline-flex items-center gap-2 rounded-full bg-emerald-700 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-800">
-                      Read More
-                      <ArrowRight className="h-4 w-4" />
-                    </span>
-                  </div>
+                  </p>
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 group-hover:text-emerald-800">
+                    Read full story <ArrowRight className="h-4 w-4" />
+                  </span>
                 </div>
               </Link>
-            ))}
-          </div>
+            ) : null}
+
+            {remaining.length ? (
+              <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {remaining.map((item) => (
+                  <Link
+                    key={item.id}
+                    href={`/news-and-events/news/${item.slug}`}
+                    className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                  >
+                    <div className="relative aspect-[16/9] w-full bg-slate-100">
+                      <Image
+                        src={item.imageSrc}
+                        alt={item.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 1024px) 100vw, 360px"
+                      />
+                    </div>
+                    <div className="flex h-full flex-col p-5">
+                      <h3 className="text-lg font-semibold text-slate-900">{item.title}</h3>
+                      <p className="mt-2 line-clamp-3 text-sm text-slate-600">{item.excerpt}</p>
+                      <p className="mt-3 text-xs text-slate-500">
+                        {new Date(item.dateISO).toLocaleDateString("en-US", {
+                          month: "long",
+                          day: "2-digit",
+                          year: "numeric",
+                        })}
+                      </p>
+                      <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 group-hover:text-emerald-800">
+                        Read More <ArrowRight className="h-4 w-4" />
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : null}
+          </>
         ) : (
-          <div className="mt-8 rounded-2xl border border-white/60 bg-white/80 p-10 text-center text-sm text-slate-500 shadow-sm">
+          <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-10 text-center text-sm text-slate-500">
             No news items match your search.
           </div>
         )}
 
         {filteredNews.length ? (
-          <div className="mt-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/60 bg-white/80 px-4 py-3 shadow-sm">
+          <div className="mt-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
             <div className="text-sm text-slate-600">
               Page {currentPage} of {totalPages}
             </div>
@@ -169,7 +203,7 @@ export default function NewsPage() {
               <button
                 type="button"
                 onClick={() => setPage((prev) => Math.max(1, prev - 1))}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 shadow-sm transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
                 disabled={currentPage === 1}
               >
                 Previous
@@ -181,7 +215,7 @@ export default function NewsPage() {
                     type="button"
                     onClick={() => setPage(pageNumber)}
                     className={[
-                      "rounded-full px-3 py-1.5 text-xs font-semibold shadow-sm transition",
+                      "rounded-full px-3 py-1.5 text-xs font-semibold transition",
                       pageNumber === currentPage
                         ? "bg-emerald-700 text-white"
                         : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50",
@@ -194,7 +228,7 @@ export default function NewsPage() {
               <button
                 type="button"
                 onClick={() => setPage((prev) => Math.min(totalPages, prev + 1))}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 shadow-sm transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-60"
                 disabled={currentPage === totalPages}
               >
                 Next

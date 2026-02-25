@@ -39,11 +39,11 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news-2024-cpi-release",
-    title: "Monthly Consumer Price Index: April 2024 Release",
+    title: "Monthly Consumer Price Index: January 2028 Release",
     excerpt:
       "The CPI release highlights inflation trends, market basket movements, and key price changes across regions.",
     dateISO: "2024-05-19",
-    imageSrc: PLACEHOLDER_IMAGE,
+    imageSrc: "/images/cpi.png",
     slug: "monthly-cpi-april-2024-release",
   },
   {
