@@ -17,10 +17,20 @@ export default function Hero() {
   const slides = HERO_SLIDES;
   const [activeSlide, setActiveSlide] = useState(0);
   const active = slides[activeSlide] ?? slides[0];
+  // Hide selected indicators from the Ghana at a Glance tab pills.
+  const hiddenMapIndicators = new Set<Indicator>([
+    "PPI",
+    "IIP",
+    "PBCI",
+    "MIEG",
+  ]);
+  const visibleIndicators = INDICATORS.filter(
+    (id) => !hiddenMapIndicators.has(id),
+  );
 
-  const indicatorLabels = INDICATORS.map((id) => INDICATOR_LABELS[id]);
+  const indicatorLabels = visibleIndicators.map((id) => INDICATOR_LABELS[id]);
   const labelToId = Object.fromEntries(
-    INDICATORS.map((id) => [INDICATOR_LABELS[id], id])
+    visibleIndicators.map((id) => [INDICATOR_LABELS[id], id]),
   ) as Record<string, Indicator>;
   const labelRefs = useRef<Record<string, HTMLButtonElement | null>>({});
   const [hoveredLabel, setHoveredLabel] = useState<string | null>(null);
@@ -119,7 +129,7 @@ export default function Hero() {
               <GhanaMap indicator={indicator} mode={mode} onModeChange={setMode} />
             </div>
             <div className="mt-4">
-              <div className="no-scrollbar flex gap-2 overflow-x-auto overflow-y-visible">
+              <div className="flex flex-wrap items-center justify-center gap-2">
                 {indicatorLabels.map((label) => {
                   const isActive = labelToId[label] === indicator;
                   return (
