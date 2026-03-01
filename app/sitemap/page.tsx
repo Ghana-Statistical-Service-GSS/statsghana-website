@@ -32,10 +32,6 @@ const sitemapLinks: SitemapSection[] = [
         label: "Business, Industry & Trade Statistics",
         href: "/data-statistics/business-industry-and-trade-statistics",
       },
-      {
-        label: "Social & Demographic Statistics",
-        href: "/data-statistics/social-demographic",
-      },
     ],
   },
   {

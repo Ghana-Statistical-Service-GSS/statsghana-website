@@ -57,11 +57,6 @@ export const searchIndex: SearchItem[] = [
     group: "Data & Statistics",
   },
   {
-    label: "Social & Demographic Statistics",
-    href: "/data-statistics/social-demographic",
-    group: "Data & Statistics",
-  },
-  {
     label: "Census Reports",
     href: "/publications/census-reports",
     group: "Publications",

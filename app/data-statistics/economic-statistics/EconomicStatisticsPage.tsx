@@ -7,6 +7,9 @@ import ProgramTable, {
   ProgramRow,
 } from "./components/ProgramTable";
 import NationalAccountsReleases from "./components/NationalAccountsReleases";
+import PriceIndicesReleases from "./components/PriceIndicesReleases";
+import AgricultureEnvironmentReleases from "./components/AgricultureEnvironmentReleases";
+import ServicesReleases from "./components/ServicesReleases";
 
 const HERO_BG = "/images/economic-statistics/hero-bg.png";
 
@@ -478,6 +481,21 @@ export default function EconomicStatisticsPage() {
           <div className="mt-8">
             {activeKey === "national-accounts" ? (
               <NationalAccountsReleases
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+              />
+            ) : activeKey === "price-index" ? (
+              <PriceIndicesReleases
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+              />
+            ) : activeKey === "agri-env" ? (
+              <AgricultureEnvironmentReleases
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+              />
+            ) : activeKey === "services" ? (
+              <ServicesReleases
                 title={`${activeContent.title} Releases`}
                 subtitle={activeContent.subtitle}
               />

@@ -1,5 +1,0 @@
-import { redirect } from "next/navigation";
-
-export default function DemographyStatisticsPage() {
-  redirect("/data-statistics/social-demographic");
-}

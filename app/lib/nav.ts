@@ -85,10 +85,6 @@ export const NAV: NavItem[] = [
         label: "Business, Industry & Trade Statistics",
         href: "/data-statistics/business-industry-and-trade-statistics",
       },
-      {
-        label: "Social & Demographic Statistics",
-        href: "/data-statistics/social-demographic",
-      },
     ],
   },
   withChildren("Publications", [
