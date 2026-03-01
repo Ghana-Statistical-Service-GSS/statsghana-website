@@ -291,7 +291,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Head",
     group: "DIRECTOR",
     directorate: "Procurement",
-    photo: "/images/management/mabruk.jpeg",
+    photo: "/images/management/mabruk.png",
     bio: bioBase.replace("[Name]", "Mabruk Fuseini"),
   },
 ];
