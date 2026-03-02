@@ -70,12 +70,6 @@ export default function TopBar() {
               >
                 English
               </button>
-              <button
-                type="button"
-                className="rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-purple-700 hover:text-purple-700"
-              >
-                French
-              </button>
             </div>
 
             <div className="flex items-center gap-2 text-slate-500">
