@@ -156,6 +156,12 @@ function canonicalizeGeoName(name: string) {
     .trim();
 }
 
+function formatIndicatorDisplayValue(indicator: Indicator, value: number) {
+  if (!Number.isFinite(value)) return "—";
+  const formatted = value.toFixed(1);
+  return indicator === "CPI" ? `${formatted}%` : formatted;
+}
+
 function extractRegionValues(
   data: Record<string, any>,
   regionCode: string,
@@ -1507,7 +1513,9 @@ export default function GhanaMap({
               indicator === "PPI" ||
               indicator === "IIP" ||
               indicator === "MIEG" ? (
-              nationalValue !== null ? `${nationalValue.toFixed(1)}` : "—"
+              nationalValue !== null
+                ? formatIndicatorDisplayValue(indicator, nationalValue)
+                : "—"
             ) : (
               NATIONAL_VALUES[indicator as keyof typeof NATIONAL_VALUES]?.value ?? "—"
             )}
@@ -1714,7 +1722,7 @@ export default function GhanaMap({
             </>
           ) : (
             <p className="text-slate-500">
-              {indicator}: {Number.isFinite(hovered.value) ? hovered.value.toFixed(1) : "—"}
+              {indicator}: {formatIndicatorDisplayValue(indicator, hovered.value)}
             </p>
           )}
         </div>

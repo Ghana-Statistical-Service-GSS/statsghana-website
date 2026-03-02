@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import ReportsGrid from "../census-reports/ReportsGrid";
 import { mockStatisticalGovernanceReports } from "@/app/lib/mockStatisticalGovernanceReports";
 
@@ -25,10 +26,18 @@ export default function StatisticalGovernancePage() {
 
       <section className="pb-12">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-          <ReportsGrid
-            reports={mockStatisticalGovernanceReports}
-            fallbackSrc="/images/publications/census-reports/image.png"
-          />
+          <Suspense
+            fallback={
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 text-sm text-slate-500 shadow-sm">
+                Loading reports...
+              </div>
+            }
+          >
+            <ReportsGrid
+              reports={mockStatisticalGovernanceReports}
+              fallbackSrc="/images/publications/census-reports/image.png"
+            />
+          </Suspense>
         </div>
       </section>
     </div>

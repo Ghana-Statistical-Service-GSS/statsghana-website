@@ -10,7 +10,7 @@ export type HeroSlide = {
 export const HERO_SLIDES: HeroSlide[] = [
   {
     slug: "inflation-rate",
-    src: "/images/cpi.png",
+    src: "/images/newcpi2026.png",
     title: "Inflation Rate",
     subtitle: "Check out the latest Inflation rate",
     content: ["Placeholder content for Inflation Rate. (We will replace later.)"],

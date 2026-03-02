@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -9,7 +10,9 @@ import {
   Flame,
   LineChart,
   Minus,
+  Scale,
   Users,
+  Wheat,
 } from "lucide-react";
 import Card from "./Card";
 import Container from "./Container";
@@ -53,28 +56,6 @@ function formatMonthWord(value: string) {
   return `${MONTH_NAMES[parsed.month - 1]} ${parsed.year}`;
 }
 
-function getLatestMonthValue(
-  rows: Array<{ key: string[]; values: string[] }>,
-  monthIndex: number
-) {
-  let latest: { month: string; value: number } | null = null;
-  rows.forEach((row) => {
-    const month = row.key?.[monthIndex];
-    const numeric = Number(row.values?.[0]);
-    if (!month || !Number.isFinite(numeric)) return;
-    const parsed = parseMonthValue(month);
-    if (!parsed) return;
-    if (
-      !latest ||
-      parsed.year > parseMonthValue(latest.month)!.year ||
-      (parsed.year === parseMonthValue(latest.month)!.year &&
-        parsed.month > parseMonthValue(latest.month)!.month)
-    ) {
-      latest = { month, value: numeric };
-    }
-  });
-  return latest;
-}
 
 function parseYearValue(raw: string) {
   const match = String(raw).match(/(\d{4})/);
@@ -132,6 +113,19 @@ function getLatestTwoQuarterValues(
     previous: parsed[1] ?? null,
   };
 }
+
+const CARD_LINKS: Record<string, string> = {
+  CPI: "/data-statistics/economic-statistics?tab=price-index",
+  PPI: "/data-statistics/economic-statistics?tab=price-index",
+  IIP: "/data-statistics/economic-statistics?tab=national-accounts",
+  PBCI: "/data-statistics/economic-statistics?tab=price-index",
+  GDP: "/data-statistics/economic-statistics?tab=national-accounts",
+  MIEG: "/data-statistics/economic-statistics?tab=national-accounts",
+  UNEMP: "/publications/survey-reports?q=unemployment",
+  POP: "/publications/survey-reports?q=projected+population",
+  MPI: "/publications/survey-reports?q=multidimensional+poverty",
+  FOOD: "/publications/survey-reports?q=food+insecurity",
+};
 
 const KPI_THEMES: Record<
   string,
@@ -199,6 +193,22 @@ const KPI_THEMES: Record<
     accentTextClass: "text-cyan-700",
     glowClass: "bg-cyan-400/20",
   },
+  // Multidimensional Poverty Index — purple
+  MPI: {
+    bgGradient: "bg-gradient-to-br from-[#FDF4FF] via-white to-[#F5E8FF]",
+    borderClass: "border-purple-200/60",
+    iconBgClass: "bg-purple-500/15 text-purple-700",
+    accentTextClass: "text-purple-700",
+    glowClass: "bg-purple-400/20",
+  },
+  // Food Insecurity — orange
+  FOOD: {
+    bgGradient: "bg-gradient-to-br from-[#FFF7ED] via-white to-[#FFF0DB]",
+    borderClass: "border-orange-200/60",
+    iconBgClass: "bg-orange-500/15 text-orange-700",
+    accentTextClass: "text-orange-700",
+    glowClass: "bg-orange-400/20",
+  },
 };
 
 type StatsCardProps = {
@@ -263,7 +273,7 @@ function StatsCard({
 
   return (
     <Card
-      className={`relative h-full min-h-[160px] w-full overflow-hidden border ${theme.borderClass} p-0 shadow-lg transition hover:shadow-xl`}
+      className={`relative h-full min-h-[200px] w-full overflow-hidden border ${theme.borderClass} p-0 shadow-sm transition-shadow hover:shadow-md`}
     >
       <div className={`absolute inset-0 ${theme.bgGradient}`} />
       <div
@@ -273,53 +283,64 @@ function StatsCard({
         className={`pointer-events-none absolute bottom-0 left-0 h-32 w-32 rounded-full blur-2xl ${theme.glowClass}`}
       />
       <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]" />
-      <div className="relative flex h-full flex-col items-center gap-4 p-5 text-center">
-        <div className="flex items-start justify-between">
-          <div className={`mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-white/40 ${theme.iconBgClass}`}>
-            <Icon className="h-5 w-5" />
+      <div className="relative flex h-full flex-col p-5">
+        <div className="flex flex-1 flex-col justify-center">
+          {/* Zone 1: icon left, indicator key right */}
+          <div className="flex w-full items-center justify-between">
+            <div className={`flex h-10 w-10 items-center justify-center rounded-full border border-white/40 ${theme.iconBgClass}`}>
+              <Icon className="h-5 w-5" />
+            </div>
+            <span className={`text-xs font-bold tracking-widest uppercase ${theme.accentTextClass}`}>
+              {indicatorKey}
+            </span>
           </div>
-          <span className={`text-xs font-semibold uppercase tracking-wide ${theme.accentTextClass}`}>
-            {indicatorKey}
-          </span>
-        </div>
-        <div className="space-y-1">
-          <p className="text-sm font-semibold text-slate-700">{title}</p>
-          <p
-            className={[
-              "text-3xl font-extrabold leading-none text-slate-900 sm:text-4xl",
-              indicatorKey === "POP" ? "tracking-tight tabular-nums sm:text-5xl" : "",
-            ].join(" ")}
-          >
-            {valueDisplay}
-          </p>
-          {periodLabel ? (
-            <p className="text-xs text-slate-500">
-              {title} · {periodLabel}
-            </p>
-          ) : null}
-        </div>
-        {children ? (
-          <div className="border-t border-white/50 pt-3">{children}</div>
-        ) : null}
-        {showDelta ? (
-          <div className="mt-auto flex items-center justify-center gap-2 border-t border-white/50 pt-3 text-xs text-slate-600">
-            <span
-              className={`inline-flex items-center gap-1 font-semibold ${trendColor}`}
+
+          {/* Zone 2 + 3: centered title + value (footer remains left-aligned) */}
+          <div className="mt-3 flex flex-col items-center text-center">
+            <p className="text-sm font-semibold text-slate-600">{title}</p>
+            <p
+              className={
+                indicatorKey === "POP"
+                  ? "mb-3 mt-1 text-2xl font-extrabold leading-none tracking-tight tabular-nums text-slate-900"
+                  : "mb-3 mt-1 text-center text-4xl font-extrabold leading-none text-slate-900"
+              }
             >
-              {trendFlat ? (
-                <Minus className="h-4 w-4" />
-              ) : trendUp ? (
-                <ArrowUpRight className="h-4 w-4" />
-              ) : (
-                <ArrowDownRight className="h-4 w-4" />
-              )}
-              {delta.formatted}
-            </span>
-            <span className="text-slate-500">
-              vs {prevLabel ?? "previous"}
-            </span>
+              {valueDisplay}
+            </p>
           </div>
-        ) : null}
+
+          {children ? (
+            <div className="border-t border-white/50 pt-2.5">{children}</div>
+          ) : null}
+
+          <div className="my-3 h-px w-full bg-slate-200/60" />
+
+          {/* Zone 4: footer slightly lifted for visual balance */}
+          <div className="mt-1 pb-1">
+            {periodLabel ? (
+              <p className="text-xs text-slate-400">{periodLabel}</p>
+            ) : null}
+            {showDelta ? (
+              <div className={`flex items-center gap-2${periodLabel ? " mt-1" : ""}`}>
+                <span
+                  className={`inline-flex items-center gap-1 text-sm font-bold ${trendColor}`}
+                >
+                  {trendFlat ? (
+                    <Minus className="h-4 w-4" />
+                  ) : trendUp ? (
+                    <ArrowUpRight className="h-4 w-4" />
+                  ) : (
+                    <ArrowDownRight className="h-4 w-4" />
+                  )}
+                  {delta.formatted}
+                </span>
+                <span className="text-xs text-slate-400">
+                  vs {prevLabel ?? "previous"}
+                </span>
+              </div>
+            ) : null}
+          </div>
+        </div>
       </div>
     </Card>
   );
@@ -425,20 +446,14 @@ export default function StatCards() {
   const annualGdpProductionLatest = annualGdpProductionRows
     .map((row: any) => {
       const year = parseYearValue(row.key?.[0]);
-      return {
-        year,
-        value: Number(row.values?.[0]),
-      };
+      return { year, value: Number(row.values?.[0]) };
     })
     .filter((row: any) => Number.isFinite(row.year) && Number.isFinite(row.value))
     .sort((a: any, b: any) => b.year - a.year)[0];
   const annualGdpExpenditureLatest = annualGdpExpenditureRows
     .map((row: any) => {
       const year = parseYearValue(row.key?.[0]);
-      return {
-        year,
-        value: Number(row.values?.[0]),
-      };
+      return { year, value: Number(row.values?.[0]) };
     })
     .filter((row: any) => Number.isFinite(row.year) && Number.isFinite(row.value))
     .sort((a: any, b: any) => b.year - a.year)[0];
@@ -454,17 +469,11 @@ export default function StatCards() {
   const quarterlyGdpProductionLatest = quarterlyGdpProductionRows
     .map((row: any) => {
       const parsed = parseQuarterValue(row.key?.[0]);
-      return {
-        year: parsed?.year,
-        quarter: parsed?.quarter,
-        value: Number(row.values?.[0]),
-      };
+      return { year: parsed?.year, quarter: parsed?.quarter, value: Number(row.values?.[0]) };
     })
     .filter(
       (row: any) =>
-        Number.isFinite(row.year) &&
-        Number.isFinite(row.quarter) &&
-        Number.isFinite(row.value)
+        Number.isFinite(row.year) && Number.isFinite(row.quarter) && Number.isFinite(row.value)
     )
     .sort((a: any, b: any) => {
       if (a.year !== b.year) return b.year - a.year;
@@ -473,17 +482,11 @@ export default function StatCards() {
   const quarterlyGdpExpenditureLatest = quarterlyGdpExpenditureRows
     .map((row: any) => {
       const parsed = parseQuarterValue(row.key?.[0]);
-      return {
-        year: parsed?.year,
-        quarter: parsed?.quarter,
-        value: Number(row.values?.[0]),
-      };
+      return { year: parsed?.year, quarter: parsed?.quarter, value: Number(row.values?.[0]) };
     })
     .filter(
       (row: any) =>
-        Number.isFinite(row.year) &&
-        Number.isFinite(row.quarter) &&
-        Number.isFinite(row.value)
+        Number.isFinite(row.year) && Number.isFinite(row.quarter) && Number.isFinite(row.value)
     )
     .sort((a: any, b: any) => {
       if (a.year !== b.year) return b.year - a.year;
@@ -544,26 +547,27 @@ export default function StatCards() {
       title: "GDP",
       value: "—",
       currentValue: null,
+      // Quarterly values include % for display consistency
       gdpProductionQuarterlyValue: quarterlyGdpProductionLatest
-        ? quarterlyGdpProductionLatest.value.toFixed(1)
+        ? `${quarterlyGdpProductionLatest.value.toFixed(1)}%`
         : "—",
       gdpProductionQuarterlyPeriod: quarterlyGdpProductionLatest
         ? `${quarterlyGdpProductionLatest.year} Q${quarterlyGdpProductionLatest.quarter}`
         : "—",
       gdpProductionAnnualValue: annualGdpProductionLatest
-        ? annualGdpProductionLatest.value.toFixed(1)
+        ? `${annualGdpProductionLatest.value.toFixed(1)}%`
         : "—",
       gdpProductionYear: annualGdpProductionLatest
         ? String(annualGdpProductionLatest.year)
         : "—",
       gdpExpenditureQuarterlyValue: quarterlyGdpExpenditureLatest
-        ? quarterlyGdpExpenditureLatest.value.toFixed(1)
+        ? `${quarterlyGdpExpenditureLatest.value.toFixed(1)}%`
         : "—",
       gdpExpenditureQuarterlyPeriod: quarterlyGdpExpenditureLatest
         ? `${quarterlyGdpExpenditureLatest.year} Q${quarterlyGdpExpenditureLatest.quarter}`
         : "—",
       gdpExpenditureAnnualValue: annualGdpExpenditureLatest
-        ? annualGdpExpenditureLatest.value.toFixed(1)
+        ? `${annualGdpExpenditureLatest.value.toFixed(1)}%`
         : "—",
       gdpExpenditureYear: annualGdpExpenditureLatest
         ? String(annualGdpExpenditureLatest.year)
@@ -582,14 +586,17 @@ export default function StatCards() {
       positiveIsGood: true,
       icon: LineChart,
     },
+    // Unemployment Rate — Ghana Statistical Service Q3 2025 Labour Force Survey
     {
       key: "UNEMP",
       title: "Unemployment Rate",
-      currentValue: 12.8,
-      value: "12.8%",
-      periodLabel: "Unemployment Rate",
+      currentValue: 13.0,
+      value: "13.0%",
+      periodLabel: "GSS LFS · Q3 2025",
+      prevValue: 12.6,
+      prevLabel: "Q2 2025",
       deltaType: "pp",
-      positiveIsGood: true,
+      positiveIsGood: false,
       icon: Briefcase,
     },
     {
@@ -607,114 +614,148 @@ export default function StatCards() {
       deltaType: "raw",
       icon: Users,
     },
+    
+    // Multidimensional Poverty Index — Ghana Statistical Service MPI Report (Q3 2025)
+    // Source: https://www.myjoyonline.com/multidimensional-poverty-drops-to-21-9-in-ghana-gss/
+    {
+      key: "MPI",
+      title: "Multidimensional Poverty",
+      currentValue: 21.9,
+      value: "21.9%",
+      periodLabel: "GSS · Q3 2025",
+      prevValue: 23.9,
+      prevLabel: "Q1 2025",
+      deltaType: "pp",
+      positiveIsGood: false,
+      icon: Scale,
+    },
+    // Food Insecurity — Ghana Statistical Service Quarterly Food Insecurity Report (Q3 2025)
+    // Source: https://www.myjoyonline.com/food-insecurity-rises-to-38-1-12-5m-ghanaians-struggle-to-access-food-gss/
+    {
+      key: "FOOD",
+      title: "Food Insecurity",
+      currentValue: 38.1,
+      value: "38.1%",
+      periodLabel: "GSS · Q3 2025",
+      prevValue: 35.3,
+      prevLabel: "Q1 2024",
+      deltaType: "pp",
+      positiveIsGood: false,
+      icon: Wheat,
+    },
   ];
 
   const gdpCard = kpis.find((item) => item.key === "GDP");
   const smallCards = kpis.filter((item) => item.key !== "GDP");
+
   const topRowKeys = ["CPI", "PPI", "IIP", "PBCI"];
-  const bottomRowKeys = ["MIEG", "UNEMP", "POP"];
+  const bottomRowKeys = ["MIEG", "UNEMP", "POP", "MPI", "FOOD"];
+
   const topRowCards = smallCards.filter((item) => topRowKeys.includes(item.key));
   const bottomRowCards = smallCards.filter((item) => bottomRowKeys.includes(item.key));
 
   return (
     <section className="bg-white py-4 sm:py-6">
       <Container>
-        <div className="mt-6 grid grid-cols-1 items-start gap-6 lg:grid-cols-12">
-          <div className="lg:col-span-9">
-            <div className="space-y-6">
-              <div className="grid grid-cols-1 items-start gap-6 sm:grid-cols-2 xl:grid-cols-4">
-                {topRowCards.map(
-                  ({
-                    key,
-                    title,
-                    currentValue,
-                    value,
-                    periodLabel,
-                    icon: Icon,
-                    prevValue,
-                    prevLabel,
-                    deltaType,
-                    positiveIsGood,
-                  }) => (
-                    <StatsCard
-                      key={key}
-                      indicatorKey={key}
-                      title={title}
-                      currentValue={currentValue}
-                      valueDisplay={value}
-                      periodLabel={periodLabel}
-                      icon={Icon}
-                      prevValue={prevValue}
-                      prevLabel={prevLabel}
-                      deltaType={deltaType as StatsCardProps["deltaType"]}
-                      positiveIsGood={positiveIsGood}
-                    />
-                  )
-                )}
-              </div>
-              <div className="flex justify-center">
-                <div className="grid w-full max-w-5xl grid-cols-1 items-start gap-6 sm:grid-cols-2 xl:grid-cols-3">
-                  {bottomRowCards.map(
-                    ({
-                      key,
-                      title,
-                      currentValue,
-                      value,
-                      periodLabel,
-                      icon: Icon,
-                      prevValue,
-                      prevLabel,
-                      deltaType,
-                      positiveIsGood,
-                    }) => (
-                      <StatsCard
-                        key={key}
-                        indicatorKey={key}
-                        title={title}
-                        currentValue={currentValue}
-                        valueDisplay={value}
-                        periodLabel={periodLabel}
-                        icon={Icon}
-                        prevValue={prevValue}
-                        prevLabel={prevLabel}
-                        deltaType={deltaType as StatsCardProps["deltaType"]}
-                        positiveIsGood={positiveIsGood}
-                      />
-                    )
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="lg:col-span-3">
+        <div className="mt-6 space-y-6">
+          {/*
+           * CPI row — CPI, PPI, IIP, PBCI + GDP as the 5th card, all same height.
+           * items-stretch ensures GDP card height matches its neighbours.
+           * xl: 5-col  |  sm: 2-col (GDP is full-width on the last row at sm)
+           */}
+          <div className="grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+            {topRowCards.map(
+              ({
+                key,
+                title,
+                currentValue,
+                value,
+                periodLabel,
+                icon: Icon,
+                prevValue,
+                prevLabel,
+                deltaType,
+                positiveIsGood,
+              }) => (
+                <Link key={key} href={CARD_LINKS[key] ?? "#"} className="block h-full min-w-0">
+                  <StatsCard
+                    indicatorKey={key}
+                    title={title}
+                    currentValue={currentValue}
+                    valueDisplay={value}
+                    periodLabel={periodLabel}
+                    icon={Icon}
+                    prevValue={prevValue}
+                    prevLabel={prevLabel}
+                    deltaType={deltaType as StatsCardProps["deltaType"]}
+                    positiveIsGood={positiveIsGood}
+                  />
+                </Link>
+              )
+            )}
             {gdpCard ? (
-              <GdpStatsCard
-                productionAnnual={{
-                  label: "Annual GDP",
-                  value: gdpCard.gdpProductionAnnualValue ?? "—",
-                  period: gdpCard.gdpProductionYear
-                    ? `Year ${gdpCard.gdpProductionYear}`
-                    : "—",
-                }}
-                productionQuarterly={{
-                  label: "Quarterly GDP",
-                  value: gdpCard.gdpProductionQuarterlyValue ?? "—",
-                  period: gdpCard.gdpProductionQuarterlyPeriod ?? "—",
-                }}
-                expenditureAnnual={{
-                  label: "Annual GDP",
-                  value: gdpCard.gdpExpenditureAnnualValue ?? "—",
-                  period: gdpCard.gdpExpenditureYear
-                    ? `Year ${gdpCard.gdpExpenditureYear}`
-                    : "—",
-                }}
-                expenditureQuarterly={{
-                  label: "Quarterly GDP",
-                  value: gdpCard.gdpExpenditureQuarterlyValue ?? "—",
-                  period: gdpCard.gdpExpenditureQuarterlyPeriod ?? "—",
-                }}
-              />
+              <Link href={CARD_LINKS["GDP"]} className="block h-full min-w-0">
+                <GdpStatsCard
+                  productionAnnual={{
+                    label: "Annual",
+                    value: gdpCard.gdpProductionAnnualValue ?? "—",
+                    period: gdpCard.gdpProductionYear
+                      ? `Year ${gdpCard.gdpProductionYear}`
+                      : "—",
+                  }}
+                  productionQuarterly={{
+                    label: "Quarterly",
+                    value: gdpCard.gdpProductionQuarterlyValue ?? "—",
+                    period: gdpCard.gdpProductionQuarterlyPeriod ?? "—",
+                  }}
+                  expenditureAnnual={{
+                    label: "Annual",
+                    value: gdpCard.gdpExpenditureAnnualValue ?? "—",
+                    period: gdpCard.gdpExpenditureYear
+                      ? `Year ${gdpCard.gdpExpenditureYear}`
+                      : "—",
+                  }}
+                  expenditureQuarterly={{
+                    label: "Quarterly",
+                    value: gdpCard.gdpExpenditureQuarterlyValue ?? "—",
+                    period: gdpCard.gdpExpenditureQuarterlyPeriod ?? "—",
+                  }}
+                />
+              </Link>
             ) : null}
+          </div>
+
+          {/* MIEG row — 5 indicator + social cards  |  xl: 5-col  md: 3-col  sm: 2-col */}
+          <div className="grid grid-cols-1 items-start gap-8 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+            {bottomRowCards.map(
+              ({
+                key,
+                title,
+                currentValue,
+                value,
+                periodLabel,
+                icon: Icon,
+                prevValue,
+                prevLabel,
+                deltaType,
+                positiveIsGood,
+              }) => (
+                <Link key={key} href={CARD_LINKS[key] ?? "#"} className="block h-full">
+                  <StatsCard
+                    indicatorKey={key}
+                    title={title}
+                    currentValue={currentValue}
+                    valueDisplay={value}
+                    periodLabel={periodLabel}
+                    icon={Icon}
+                    prevValue={prevValue}
+                    prevLabel={prevLabel}
+                    deltaType={deltaType as StatsCardProps["deltaType"]}
+                    positiveIsGood={positiveIsGood}
+                  />
+                </Link>
+              )
+            )}
           </div>
         </div>
       </Container>

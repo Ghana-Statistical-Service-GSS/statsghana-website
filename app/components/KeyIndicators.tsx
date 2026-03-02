@@ -34,7 +34,7 @@ import {
 
 const INDICATOR_CONFIG = {
   CPI: {
-    label: "CPI",
+    label: "CPI(Inflation)-YoY",
     rows: (cpiData as any)?.response?.data ?? [],
     columns: (cpiData as any)?.response?.columns ?? [],
     monthIndex: (cpiData as any)?.response?.columns?.findIndex((c: any) => c.code === "Month") ?? 0,
@@ -257,6 +257,15 @@ export default function KeyIndicators() {
   const isSinglePoint = realCount === 1;
   const singlePoint = chartData.find((point) => point.hasData);
 
+  const xAxisLabel =
+    active === "IIP"
+      ? "Quarter"
+      : active === "GDP" && gdpFrequency === "yearly"
+        ? "Year"
+        : "Month";
+  const yAxisLabel =
+    active === "CPI" ? "Inflation Rate (%)" : `${INDICATOR_CONFIG[active].label} (%)`;
+
   const formatValue = (value: number | string) => {
     const numeric = typeof value === "number" ? value : Number(value);
     return Number.isFinite(numeric) ? numeric.toFixed(1) : "—";
@@ -369,7 +378,7 @@ export default function KeyIndicators() {
                   onClick={() => setActive(tab)}
                   onMouseEnter={() => setHovered(tab)}
                   onMouseLeave={() => setHovered(null)}
-                  className={`relative z-10 whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+                  className={`relative z-10 whitespace-nowrap rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
                     tab === active
                       ? "text-indigo-700"
                       : "text-slate-600 hover:text-slate-800"
@@ -383,10 +392,10 @@ export default function KeyIndicators() {
         </div>
         {hovered && typeof window !== "undefined"
           ? createPortal(
-              <div
-                className="pointer-events-none fixed z-[999] w-60 rounded-md bg-slate-900 px-3 py-2 text-[11px] leading-relaxed text-white shadow-lg"
-                style={{ left: tooltipPos.x, top: tooltipPos.y }}
-              >
+               <div
+                    className="pointer-events-none fixed z-[999] w-70 rounded-md bg-white border border-slate-200 px-3 py-2 text-[11px] leading-relaxed text-slate-800 shadow-lg"
+                    style={{ left: tooltipPos.x, top: tooltipPos.y + 120 }}
+                  >
                 {KEY_INDICATOR_TOOLTIPS[hovered]}
               </div>,
               document.body
@@ -439,7 +448,7 @@ export default function KeyIndicators() {
                 </div>
               ) : null}
               {active !== "GDP" || gdpFrequency === "quarterly" ? (
-                <div className="mt-1 inline-flex items-center gap-2 text-xs text-slate-400">
+                <div className="mt-1 ml-auto inline-flex items-center gap-2 text-xs text-slate-400">
                   <span>Year</span>
                   <div className="relative">
                     <select
@@ -460,7 +469,7 @@ export default function KeyIndicators() {
                 <p className="mt-1 text-xs text-slate-400">All years</p>
               )}
             </div>
-            <div className="text-xs font-semibold text-slate-400">
+            <div className="pr-2 text-xs font-semibold text-slate-400 sm:pr-3">
               {active === "GDP" && gdpFrequency === "yearly"
                 ? "All years"
                 : activeYear ?? ""}
@@ -470,16 +479,33 @@ export default function KeyIndicators() {
             <ResponsiveContainer width="100%" height="100%">
               <LineChart
                 data={chartData}
-                margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
+                margin={{ top: 10, right: 10, left: 6, bottom: 16 }}
               >
                 <CartesianGrid stroke="#E5E7EB" vertical={false} />
-                <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={10} />
+                <XAxis
+                  dataKey="label"
+                  tickLine={false}
+                  axisLine={false}
+                  fontSize={10}
+                  label={{
+                    value: xAxisLabel,
+                    position: "insideBottom",
+                    offset: -4,
+                    style: { fontSize: 11, fill: "#64748B" },
+                  }}
+                />
                 <YAxis
                   tickLine={false}
                   axisLine={false}
                   fontSize={10}
-                  width={30}
+                  width={44}
                   padding={{ top: isSinglePoint ? 24 : 8, bottom: 8 }}
+                  label={{
+                    value: yAxisLabel,
+                    angle: -90,
+                    position: "insideLeft",
+                    style: { fontSize: 11, fill: "#64748B" },
+                  }}
                 />
                 <Tooltip
                   contentStyle={{

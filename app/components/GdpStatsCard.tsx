@@ -23,10 +23,10 @@ const GDP_THEME = {
 
 function GdpMiniCard({ label, value, period }: MiniCard) {
   return (
-    <div className="rounded-xl border border-white/50 bg-white/70 px-4 py-3 shadow-sm">
-      <p className="text-xs font-semibold text-slate-500">{label}</p>
-      <p className="mt-1 text-2xl font-extrabold text-slate-900">{value}</p>
-      <p className="text-[11px] text-slate-500">{period}</p>
+    <div className="rounded-lg border border-white/50 bg-white/70 p-2.5 shadow-sm">
+      <p className="truncate text-[10px] font-semibold text-slate-500">{label}</p>
+      <p className="mt-0.5 text-lg font-extrabold leading-tight text-slate-900">{value}</p>
+      <p className="truncate text-[9px] text-slate-400">{period}</p>
     </div>
   );
 }
@@ -39,41 +39,56 @@ export default function GdpStatsCard({
 }: GdpStatsCardProps) {
   return (
     <Card
-      className={`relative h-full w-full overflow-hidden border ${GDP_THEME.borderClass} p-0 shadow-lg transition hover:shadow-xl`}
+      className={`relative h-full w-full overflow-hidden border ${GDP_THEME.borderClass} p-0 shadow-sm transition-shadow hover:shadow-md`}
     >
       <div className={`absolute inset-0 ${GDP_THEME.bgGradient}`} />
+
+      {/* Breathing glow orbs */}
       <div
-        className={`pointer-events-none absolute -top-16 right-0 h-40 w-40 rounded-full blur-3xl ${GDP_THEME.glowClass}`}
+        className={`pointer-events-none absolute -top-16 right-0 h-40 w-40 rounded-full blur-3xl animate-pulse ${GDP_THEME.glowClass}`}
+        style={{ animationDuration: "3s" }}
       />
       <div
-        className={`pointer-events-none absolute bottom-0 left-0 h-32 w-32 rounded-full blur-2xl ${GDP_THEME.glowClass}`}
+        className={`pointer-events-none absolute bottom-0 left-0 h-32 w-32 rounded-full blur-2xl animate-pulse ${GDP_THEME.glowClass}`}
+        style={{ animationDuration: "3s", animationDelay: "1.5s" }}
       />
+
+      {/* Pulsing border glow ring — visual distinction from regular cards */}
+      <div
+        className="pointer-events-none absolute inset-0 rounded-2xl ring-2 ring-violet-400/50 animate-pulse"
+        style={{ animationDuration: "3s" }}
+      />
+
       <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]" />
-      <div className="relative flex h-full flex-col gap-5 p-6">
-        <div className="flex items-start justify-between">
+
+      <div className="relative flex h-full min-h-[200px] flex-col p-5">
+        {/* Zone 1: header — icon left, GDP label right */}
+        <div className="flex items-center justify-between">
           <div
             className={`flex h-10 w-10 items-center justify-center rounded-full border border-white/40 ${GDP_THEME.iconBgClass}`}
           >
             <BarChart3 className="h-5 w-5" />
           </div>
-          <span className="text-xs font-semibold uppercase tracking-wide text-violet-700">
+          <span className="text-xs font-bold tracking-widest uppercase text-violet-700">
             GDP
           </span>
         </div>
 
-        <div>
-          <p className="text-sm font-semibold text-slate-700">GDP by Production</p>
-          <div className="mt-3 grid grid-cols-2 gap-3">
-            <GdpMiniCard {...productionQuarterly} />
-            <GdpMiniCard {...productionAnnual} />
+        {/* Two compact sections stacked: Production then Expenditure */}
+        <div className="mt-3 flex flex-1 flex-col gap-2.5">
+          <div>
+            <p className="mb-1.5 text-[11px] font-semibold text-slate-600">Growth by Production</p>
+            <div className="grid grid-cols-2 gap-2">
+              <GdpMiniCard {...productionQuarterly} />
+              <GdpMiniCard {...productionAnnual} />
+            </div>
           </div>
-        </div>
-
-        <div className="border-t border-white/50 pt-4">
-          <p className="text-sm font-semibold text-slate-700">GDP by Expenditure</p>
-          <div className="mt-3 grid grid-cols-2 gap-3">
-            <GdpMiniCard {...expenditureQuarterly} />
-            <GdpMiniCard {...expenditureAnnual} />
+          <div>
+            <p className="mb-1.5 text-[11px] font-semibold text-slate-600">Growth by Expenditure</p>
+            <div className="grid grid-cols-2 gap-2">
+              <GdpMiniCard {...expenditureQuarterly} />
+              <GdpMiniCard {...expenditureAnnual} />
+            </div>
           </div>
         </div>
       </div>

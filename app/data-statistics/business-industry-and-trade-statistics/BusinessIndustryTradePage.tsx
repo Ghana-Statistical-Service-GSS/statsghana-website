@@ -2,14 +2,15 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
-import { Briefcase, Factory, Ship } from "lucide-react";
+import { Briefcase, Factory, LineChart, Ship } from "lucide-react";
 import ProgramTable, {
   ProgramRow,
 } from "../economic-statistics/components/ProgramTable";
+import ServicesReleases from "../economic-statistics/components/ServicesReleases";
 
 const HERO_BG = "/images/economic-statistics/hero-bg.png";
 
-type BizKey = "business" | "trade" | "industry";
+type BizKey = "business" | "trade" | "industry" | "services";
 
 type BizContent = {
   title: string;
@@ -40,6 +41,13 @@ const BIZ_CONTENT: Record<BizKey, BizContent> = {
     subtitle: "Industry Releases",
     rows: [],
   },
+  services: {
+    title: "Services",
+    description:
+      "See the performance of Ghana's growing services sector, from finance to tourism.",
+    subtitle: "Services Releases",
+    rows: [],
+  },
 };
 
 const CATEGORY_ITEMS: Array<{
@@ -61,6 +69,11 @@ const CATEGORY_ITEMS: Array<{
     key: "industry",
     label: "Industry",
     icon: Factory,
+  },
+  {
+    key: "services",
+    label: "Services",
+    icon: LineChart,
   },
 ];
 
@@ -123,9 +136,10 @@ export default function BusinessIndustryTradePage() {
               </h1>
               <p className="mt-4 max-w-xl leading-relaxed text-slate-600">
                 Explore Ghana&apos;s business, industry, and trade statistics,
-                including price indices, trade flows, and industrial
-                performance. These releases from the Ghana Statistical Service
-                (GSS) provide insights to support evidence-based decision-making.
+                including trade flows, industrial performance, and services
+                activity. These releases from the Ghana Statistical Service
+                (GSS) provide insights to support evidence-based
+                decision-making.
               </p>
             </div>
           
@@ -197,11 +211,18 @@ export default function BusinessIndustryTradePage() {
           </div>
 
           <div className="mt-8">
-            <ProgramTable
-              title={`${activeContent.title} Releases`}
-              subtitle={activeContent.subtitle}
-              rows={activeContent.rows}
-            />
+            {activeKey === "services" ? (
+              <ServicesReleases
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+              />
+            ) : (
+              <ProgramTable
+                title={`${activeContent.title} Releases`}
+                subtitle={activeContent.subtitle}
+                rows={activeContent.rows}
+              />
+            )}
           </div>
         </div>
       </section>

@@ -1,23 +1,22 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
-import { BarChart3, Briefcase, Leaf, TrendingUp } from "lucide-react";
+import { BarChart3, Leaf, TrendingUp } from "lucide-react";
 import ProgramTable, {
   ProgramRow,
 } from "./components/ProgramTable";
 import NationalAccountsReleases from "./components/NationalAccountsReleases";
 import PriceIndicesReleases from "./components/PriceIndicesReleases";
 import AgricultureEnvironmentReleases from "./components/AgricultureEnvironmentReleases";
-import ServicesReleases from "./components/ServicesReleases";
 
 const HERO_BG = "/images/economic-statistics/hero-bg.png";
 
 type EconKey =
   | "national-accounts"
   | "price-index"
-  | "agri-env"
-  | "services";
+  | "agri-env";
 
 type EconContent = {
   title: string;
@@ -182,56 +181,6 @@ const ECON_CONTENT: Record<EconKey, EconContent> = {
       },
     ],
   },
-  services: {
-    title: "Services",
-    description:
-      "See the performance of Ghana's growing services sector, from finance to tourism.",
-    subtitle: "Services Releases",
-    rows: [
-      {
-        program: "ICT Services Bulletin",
-        category: "ICT",
-        month: "Jan",
-        year: "2025",
-        downloadUrl: "#",
-      },
-      {
-        program: "Financial Services Update",
-        category: "Finance",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Tourism Arrivals Report",
-        category: "Tourism",
-        month: "Dec",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Hospitality Activity Note",
-        category: "Hospitality",
-        month: "Nov",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Transport Services Summary",
-        category: "Transport",
-        month: "Oct",
-        year: "2024",
-        downloadUrl: "#",
-      },
-      {
-        program: "Business Services Index",
-        category: "Professional Services",
-        month: "Sep",
-        year: "2024",
-        downloadUrl: "#",
-      },
-    ],
-  },
 };
 
 const CATEGORY_ITEMS: Array<{
@@ -254,24 +203,29 @@ const CATEGORY_ITEMS: Array<{
     label: "Agriculture & Environment",
     icon: Leaf,
   },
-  {
-    key: "services",
-    label: "Services",
-    icon: Briefcase,
-  },
 ];
 
+const VALID_TAB_KEYS: EconKey[] = ["national-accounts", "price-index", "agri-env"];
+
 export default function EconomicStatisticsPage() {
-  const [activeKey, setActiveKey] = useState<EconKey>("national-accounts");
+  const searchParams = useSearchParams();
+  const [activeKey, setActiveKey] = useState<EconKey>(() => {
+    const tab = searchParams.get("tab") as EconKey | null;
+    return tab && VALID_TAB_KEYS.includes(tab) ? tab : "national-accounts";
+  });
+
+  useEffect(() => {
+    const tab = searchParams.get("tab") as EconKey | null;
+    if (tab && VALID_TAB_KEYS.includes(tab)) {
+      setActiveKey(tab);
+    }
+  }, [searchParams]);
   const [nationalRows, setNationalRows] = useState<ProgramRow[]>([]);
   const [priceRows, setPriceRows] = useState<ProgramRow[]>(
     ECON_CONTENT["price-index"].rows,
   );
   const [agriRows, setAgriRows] = useState<ProgramRow[]>(
     ECON_CONTENT["agri-env"].rows,
-  );
-  const [serviceRows, setServiceRows] = useState<ProgramRow[]>(
-    ECON_CONTENT["services"].rows,
   );
 
   useEffect(() => {
@@ -342,28 +296,6 @@ export default function EconomicStatisticsPage() {
     loadRows();
   }, []);
 
-  useEffect(() => {
-    const loadRows = async () => {
-      try {
-        const response = await fetch("/api/economic-statistics/services");
-        if (!response.ok) return;
-        const data = await response.json();
-        if (data?.rows?.length) {
-          setServiceRows(
-            data.rows.map((row: ProgramRow) => ({
-              ...row,
-              downloadUrl: row.downloadUrl || "#",
-            })),
-          );
-        }
-      } catch {
-        // keep fallback rows
-      }
-    };
-
-    loadRows();
-  }, []);
-
   const activeContent = useMemo(() => {
     if (activeKey === "national-accounts") {
       return { ...ECON_CONTENT[activeKey], rows: nationalRows };
@@ -374,11 +306,8 @@ export default function EconomicStatisticsPage() {
     if (activeKey === "agri-env") {
       return { ...ECON_CONTENT[activeKey], rows: agriRows };
     }
-    if (activeKey === "services") {
-      return { ...ECON_CONTENT[activeKey], rows: serviceRows };
-    }
     return ECON_CONTENT[activeKey];
-  }, [activeKey, nationalRows, priceRows, agriRows, serviceRows]);
+  }, [activeKey, nationalRows, priceRows, agriRows]);
 
   return (
     <div className="bg-white">
@@ -404,11 +333,11 @@ export default function EconomicStatisticsPage() {
               </h1>
               <p className="mt-4 max-w-xl leading-relaxed text-slate-600">
                 Explore Ghana&apos;s Economic Statistics, covering National
-                Accounts, Price Indices, Trade, Agriculture, Environment,
-                Services, and Industry. These statistics provided by the Ghana
-                Statistical Service (GSS) offer a comprehensive view of the
-                country&apos;s economic performance across various sectors to
-                support effective decision-making.
+                Accounts, Price Indices, Agriculture, and Environment. These
+                statistics provided by the Ghana Statistical Service (GSS)
+                offer a comprehensive view of the country&apos;s economic
+                performance across key sectors to support effective
+                decision-making.
               </p>
             </div>
           </div>
@@ -491,11 +420,6 @@ export default function EconomicStatisticsPage() {
               />
             ) : activeKey === "agri-env" ? (
               <AgricultureEnvironmentReleases
-                title={`${activeContent.title} Releases`}
-                subtitle={activeContent.subtitle}
-              />
-            ) : activeKey === "services" ? (
-              <ServicesReleases
                 title={`${activeContent.title} Releases`}
                 subtitle={activeContent.subtitle}
               />

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { ArrowRight, Download } from "lucide-react";
 import { CensusReport } from "@/app/lib/mockCensusReports";
@@ -92,7 +93,13 @@ export default function ReportsGrid({
   fallbackSrc,
   filePrefix = "publications/census",
 }: ReportsGridProps) {
-  const [query, setQuery] = useState("");
+  const searchParams = useSearchParams();
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
+
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q !== null) setQuery(q);
+  }, [searchParams]);
   const [yearFilter, setYearFilter] = useState<"all" | number>("all");
   const [typeFilter, setTypeFilter] =
     useState<"all" | CensusReport["reportType"]>("all");

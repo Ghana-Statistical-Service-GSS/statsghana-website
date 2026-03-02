@@ -149,7 +149,12 @@ export default function PopulationHousingCensusPage() {
                   {edition.bullets.map((item) => (
                     <li key={item} className="flex items-start gap-2">
                       <span className={`${accent.dot} mt-1 text-base`}>•</span>
-                      <span>{item}</span>
+                      <Link
+                        href={`/publications/census-reports?series=phc&year=${edition.year}`}
+                        className="cursor-pointer text-slate-600 transition hover:text-slate-900 hover:underline underline-offset-4 focus:outline-none focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-purple-400/40"
+                      >
+                        {item}
+                      </Link>
                     </li>
                   ))}
                 </ul>
