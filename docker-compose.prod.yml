@@ -15,33 +15,9 @@ services:
       MINIO_FORCE_PATH_STYLE: ${MINIO_FORCE_PATH_STYLE:-true}
       PXWEB_BASE_URL: ${PXWEB_BASE_URL}
       NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL}
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:3000/api/health"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 30s
-
-  # Watchtower monitors GHCR every 5 minutes and automatically pulls + restarts
-  # the web container whenever a new image is pushed. No SSH needed from CI.
-  watchtower:
-    image: containrrr/watchtower
-    container_name: statsghana-watchtower
-    restart: unless-stopped
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      # GHCR credentials so Watchtower can pull private images
-      REPO_USER: ${GHCR_USER}
-      REPO_PASS: ${GHCR_TOKEN}
-      # Check for new images every 5 minutes
-      WATCHTOWER_POLL_INTERVAL: "300"
-      # Remove old images after updating
-      WATCHTOWER_CLEANUP: "true"
-      # Only watch containers with this label
-      WATCHTOWER_LABEL_ENABLE: "true"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=false"  # Don't watch itself
-
