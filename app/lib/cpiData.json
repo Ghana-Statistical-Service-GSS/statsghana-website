@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-05T12:31:16.084Z",
+  "fetchedAt": "2026-03-04T11:43:43.191Z",
   "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Prices%20and%20Inflation/cpi.px",
   "query": [
     {
@@ -70,6 +70,176 @@
       }
     ],
     "data": [
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Ghana"
+        ],
+        "values": [
+          "3.3"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Western"
+        ],
+        "values": [
+          "0.4"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Central"
+        ],
+        "values": [
+          "2.4"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Greater Accra"
+        ],
+        "values": [
+          "4.8"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Volta"
+        ],
+        "values": [
+          "5.4"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Eastern"
+        ],
+        "values": [
+          "6.2"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Ashanti"
+        ],
+        "values": [
+          "3.7"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Western North"
+        ],
+        "values": [
+          "2.3"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Ahafo"
+        ],
+        "values": [
+          "1.5"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Bono"
+        ],
+        "values": [
+          "0.4"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Bono East"
+        ],
+        "values": [
+          "-2.2"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Oti"
+        ],
+        "values": [
+          "-1.4"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Northern"
+        ],
+        "values": [
+          "0.5"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Savannah"
+        ],
+        "values": [
+          "-5.6"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "North East"
+        ],
+        "values": [
+          "8.9"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Upper East"
+        ],
+        "values": [
+          "-2.0"
+        ]
+      },
+      {
+        "key": [
+          "Year-on-year inflation (%)",
+          "2026M02",
+          "Upper West"
+        ],
+        "values": [
+          "2.8"
+        ]
+      },
       {
         "key": [
           "Year-on-year inflation (%)",

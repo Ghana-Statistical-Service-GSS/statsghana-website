@@ -10,10 +10,10 @@ export type HeroSlide = {
 export const HERO_SLIDES: HeroSlide[] = [
   {
     slug: "inflation-rate",
-    src: "/images/newcpi2026.png",
+    src: "/images/newcpi02026.png",
     title: "Inflation Rate",
     subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 3.8 in January 2026."],
+    content: ["Inflation rate stands at 3.3 in January 2026."],
     downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics" }],
   },
   {

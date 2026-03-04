@@ -21,12 +21,12 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news-2024-cpi-release",
-    title: "Monthly Consumer Price Index: January 2028 Release",
+    title: "Monthly Consumer Price Index: February 2028 Release",
     excerpt:
       "The CPI release highlights inflation trends, market basket movements, and key price changes across regions.",
-    dateISO: "2028-01-31",
-    imageSrc: "/images/cpi.png",
-    slug: "monthly-cpi-april-2024-release",
+    dateISO: "2026-03-04",
+    imageSrc: "/images/newcpi02026.png",
+    slug: "monthly-cpi-february-2024-release",
   },
   {
     id: "news-2024-sdgs-partnership",
@@ -42,7 +42,7 @@ export const mockNews: NewsItem[] = [
     title: "Ghana Living Standard Survey",
     excerpt:
       "Coverage and updates from the Ghana Living Standard Survey published by the Ghana Statistical Service.",
-    dateISO: "2026-02-07",
+    dateISO: "2025-02-07",
     imageSrc: PLACEHOLDER_IMAGE,
     slug: "ghana-living-standard-survey",
   },
@@ -51,7 +51,7 @@ export const mockNews: NewsItem[] = [
     title: "GSS Maintenance Mode",
     excerpt:
       "Notice from Ghana Statistical Service on scheduled platform maintenance and temporary service interruption.",
-    dateISO: "2026-02-03",
+    dateISO: "2026-02-01",
     imageSrc: PLACEHOLDER_IMAGE,
     slug: "gss-maintenance-mode",
   },
