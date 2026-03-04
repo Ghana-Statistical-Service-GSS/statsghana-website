@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { bucketName, listObjects } from "@/app/lib/minio";
+import { listObjects } from "@/app/lib/minio";
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -10,7 +10,6 @@ export async function GET(request: Request) {
 
     return NextResponse.json({
       ok: true,
-      bucket: bucketName,
       canList: true,
     });
   } catch (error) {
@@ -19,7 +18,6 @@ export async function GET(request: Request) {
     return NextResponse.json(
       {
         ok: false,
-        bucket: bucketName,
         canList: false,
         error: message,
       },
