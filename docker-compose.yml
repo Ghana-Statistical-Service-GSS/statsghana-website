@@ -1,0 +1,31 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://statsghana.gov.gh}
+    image: statsghana-website:local
+    container_name: statsghana-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      # MinIO / S3 storage
+      MINIO_ENDPOINT: ${MINIO_ENDPOINT}
+      MINIO_REGION: ${MINIO_REGION:-us-east-1}
+      MINIO_USE_SSL: ${MINIO_USE_SSL:-true}
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY}
+      MINIO_BUCKET: ${MINIO_BUCKET}
+      MINIO_FORCE_PATH_STYLE: ${MINIO_FORCE_PATH_STYLE:-true}
+      # External APIs
+      PXWEB_BASE_URL: ${PXWEB_BASE_URL}
+      # Public
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://statsghana.gov.gh}
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
