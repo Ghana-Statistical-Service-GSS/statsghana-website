@@ -55,7 +55,7 @@ const nextConfig: NextConfig = {
       "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
       "media-src 'self' https:",
       "form-action 'self'",
-      "upgrade-insecure-requests",
+      // "upgrade-insecure-requests",  // Re-enable only after HTTPS/Nginx is configured
     ].join("; ");
 
     return [

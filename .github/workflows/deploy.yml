@@ -119,20 +119,25 @@ jobs:
             docker compose -f docker-compose.prod.yml pull
             docker compose -f docker-compose.prod.yml up -d --remove-orphans
 
-            # Wait for health check to pass (up to 60s)
-            echo "Waiting for health check..."
-            for i in $(seq 1 24); do
-              STATUS=$(curl -sf http://localhost:3000/api/health && echo "ok" || echo "fail")
-              if [ "$STATUS" = "ok" ]; then
-                echo "Health check passed."
+            # Give the container time to initialise before polling
+            echo "Waiting 30s for container to initialise..."
+            sleep 30
+
+            # Wait for health check to pass (up to 3 minutes)
+            echo "Polling health check..."
+            for i in $(seq 1 36); do
+              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:3000/api/health || true)
+              if [ "$HTTP_CODE" = "200" ]; then
+                echo "Health check passed (attempt $i)."
                 break
               fi
-              echo "Attempt $i/12 — waiting 5s..."
+              echo "Attempt $i/36 — got HTTP $HTTP_CODE, waiting 5s..."
               sleep 5
             done
 
-            if [ "$STATUS" != "ok" ]; then
-              echo "Health check failed after 120s — deployment may have issues."
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "Health check failed after 3 minutes — last HTTP code: $HTTP_CODE"
+              docker logs statsghana-web --tail 50
               exit 1
             fi
 
