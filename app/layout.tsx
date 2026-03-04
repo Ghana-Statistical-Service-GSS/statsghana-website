@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     default: "Ghana Statistical Service",
     template: "%s | Ghana Statistical Service",
   },
+  verification: {
+    google: "xV73Lnp37P4wIPo7-l8dBSmX5x2XDhCN4VCyPqhBAlc",
+  },
 };
 
 export default function RootLayout({
