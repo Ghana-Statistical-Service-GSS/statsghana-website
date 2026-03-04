@@ -390,11 +390,6 @@ export default function GhanaMap({
         const parsed = months
           .map(parseMonth)
           .filter((item: MonthMeta | null): item is MonthMeta => Boolean(item));
-        const yearCounts = parsed.reduce((acc, item) => {
-          acc[item.year] = (acc[item.year] ?? 0) + 1;
-          return acc;
-        }, {} as Record<number, number>);
-        const yearTotals = Object.keys(yearCounts).length;
         const latest = computeLatestMonth(months);
 
         const dims: CpiDimensions = {
@@ -406,13 +401,6 @@ export default function GhanaMap({
         };
 
         if (isActive) {
-          console.log("[CPI meta] using local JSON", {
-            monthCode: dims.monthCode,
-            indicatorCode: dims.indicatorCode,
-            regionCode: dims.regionCode,
-            indicatorValue: dims.indicatorValue,
-          });
-          console.log("[CPI meta] year counts", { yearCounts, yearTotals });
           setCpiMeta(parsed);
           setCpiDims(dims);
           if (latest) {
@@ -873,12 +861,6 @@ export default function GhanaMap({
       setCpiError(null);
       try {
         const data = (cpiData as any)?.response ?? {};
-        console.log("[CPI data] response", {
-          columns: Array.isArray(data?.columns)
-            ? data.columns.map((col: { code: string }) => col.code)
-            : [],
-          dataCount: Array.isArray(data?.data) ? data.data.length : 0,
-        });
         const columns = data?.columns ?? [];
         const rows = data?.data ?? [];
         const monthIdx = columns.findIndex((c: any) => c.code === cpiDims.monthCode);
@@ -904,7 +886,6 @@ export default function GhanaMap({
           cpiDims.regionCode,
           cpiDims.regionLabels,
         );
-        console.log("[CPI data] region sample", Array.from(map.entries()).slice(0, 5));
         if (isActive) {
           setCpiValues(map);
           setCpiNational(national);

@@ -1,6 +1,20 @@
 import { NextResponse } from "next/server";
+import { enforceRateLimit } from "@/app/lib/rateLimit";
 
 export async function POST(request: Request) {
+  const rateLimit = enforceRateLimit(request, {
+    key: "api:pxweb:data",
+    limit: 60,
+    windowMs: 60_000,
+  });
+
+  if (!rateLimit.allowed) {
+    return NextResponse.json(
+      { ok: false, error: "Too many requests. Please try again shortly." },
+      { status: 429, headers: rateLimit.headers },
+    );
+  }
+
   const { searchParams } = new URL(request.url);
   const matrix = searchParams.get("matrix");
   const baseUrl = process.env.PXWEB_BASE_URL;
@@ -9,14 +23,14 @@ export async function POST(request: Request) {
   if (!matrix) {
     return NextResponse.json(
       { ok: false, error: "Missing matrix" },
-      { status: 400 },
+      { status: 400, headers: rateLimit.headers },
     );
   }
 
   if (!baseUrl) {
     return NextResponse.json(
       { ok: false, error: "PXWEB_BASE_URL is not configured" },
-      { status: 500 },
+      { status: 500, headers: rateLimit.headers },
     );
   }
 
@@ -54,17 +68,10 @@ export async function POST(request: Request) {
         status: response.status,
         details: errorBody ? errorBody.slice(0, 500) : undefined,
       },
-      { status: response.status },
+      { status: response.status, headers: rateLimit.headers },
     );
   }
 
   const data = await response.json();
-  console.log("[pxweb/data] ok", {
-    matrix,
-    url,
-    columns: Array.isArray(data?.columns) ? data.columns.map((c: any) => c.code) : [],
-    dataCount: Array.isArray(data?.data) ? data.data.length : 0,
-    sampleRows: Array.isArray(data?.data) ? data.data.slice(0, 3) : [],
-  });
-  return NextResponse.json(data);
+  return NextResponse.json(data, { headers: rateLimit.headers });
 }

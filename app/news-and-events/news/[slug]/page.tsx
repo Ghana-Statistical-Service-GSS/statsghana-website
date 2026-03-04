@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -7,6 +8,26 @@ import { mockNews } from "@/app/lib/mockNews";
 type NewsDetailPageProps = {
   params: Promise<{ slug: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: NewsDetailPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const decodedSlug = decodeURIComponent(slug);
+  const item = mockNews.find((news) => news.slug === decodedSlug);
+
+  if (!item) {
+    return {
+      title: "News",
+      description: "Latest updates from the Ghana Statistical Service.",
+    };
+  }
+
+  return {
+    title: item.title,
+    description: item.excerpt,
+  };
+}
 
 export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
   const { slug } = await params;

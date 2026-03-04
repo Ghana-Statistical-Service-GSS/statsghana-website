@@ -13,19 +13,19 @@ export type UpcomingRelease = {
 
 export const UPCOMING_RELEASES: UpcomingRelease[] = [
   {
-    slug: "food-insecurity-quarterly-labour-force-release",
-    title: "Food Insecurity (Quarterly Labour Force) Release",
+    slug: "cpi-release",
+    title: "Consumer Price Index(CPI)",
     description:
-      "Provides quarterly evidence on food insecurity patterns across regions and population groups based on the Labour Force Survey",
-    image: "/images/food_insecurity_release.png",
+      "Presents Ghana's February 2026 inflation rate from the Consumer Price Index (CPI), including national and regional price highlights.",
+    image: "/images/upcomingrelease/cpirelease.png",
     content: [
-      "Placeholder: Add overview for the Food Insecurity release.",
-      "Placeholder: Add methodology / highlights / key indicators.",
+      "This release covers the February 2026 CPI inflation rate for Ghana.",
+      "It includes key year-on-year and month-on-month inflation movements across major divisions.",
     ],
     event: {
       status: "Scheduled",
-      expectedRelease: "Q3 2026",
-      nextUpdate: "Fieldwork validation update due in July 2026",
+      expectedRelease: "March 2026",
+      nextUpdate: "Next CPI update expected in April 2026",
     },
   },
   {
@@ -33,31 +33,31 @@ export const UPCOMING_RELEASES: UpcomingRelease[] = [
     title: "Producer Price Index Release (PPI)",
     description:
       "Tracks changes in prices received by domestic producers, offering key indicators on inflationary pressures at the production level.",
-    image: "/images/ppi.png",
+    image: "/images/upcomingrelease/ppirelease.png",
     content: [
-      "Placeholder: Add overview for the PPI release.",
-      "Placeholder: Add methodology / highlights / key indicators.",
+      "This release presents Ghana's Producer Price Index (PPI) for February 2026 and is scheduled for publication in March 2026.",
+      "It highlights month-on-month and year-on-year producer price changes, with key movements across major industrial sectors.",
     ],
     event: {
       status: "In preparation",
-      expectedRelease: "August 2026",
-      nextUpdate: "Technical notes and release calendar update due in June 2026",
+      expectedRelease: "March 2026",
+      nextUpdate: "Next PPI update expected in April 2026",
     },
   },
   {
-    slug: "multi-dimensional-poverty-release-mpi",
-    title: "Multi-Dimensional Poverty (MPI) Release",
+    slug: "statsbank-2-release",
+    title: "StatsBank 2.0 Release",
     description:
-      "Examines poverty beyond income by assessing deprivations in education, health, and living standards across regions and population groups.",
-    image: "/images/mpi_release.png",
+      "Announces StatsBank 2.0, an enhanced version of the current StatsBank with easier accessibility and more powerful features.",
+    image: "/images/upcomingrelease/statsbank.png",
     content: [
-      "Placeholder: Add overview for the MPI release.",
-      "Placeholder: Add disaggregation / indicators / notes.",
+      "StatsBank 2.0 introduces a faster and simpler way to access Ghana's official statistics.",
+      "The new version includes improved discovery, cleaner navigation, and expanded tools for exploring and using statistical data.",
     ],
     event: {
-      status: "Planned",
-      expectedRelease: "Q4 2026",
-      nextUpdate: "Indicator framework consultation update due in September 2026",
+      status: "Scheduled",
+      expectedRelease: "March 2026",
+      nextUpdate: "User manual and feature highlights to be released in March 2026",
     },
   },
 ];

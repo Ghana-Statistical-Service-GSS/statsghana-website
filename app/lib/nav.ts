@@ -1,17 +1,10 @@
+import { slugify } from "./slugify";
+
 export type NavItem = {
   label: string;
   href: string;
   children?: NavItem[];
 };
-
-const slugify = (value: string) =>
-  value
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/\([^)]*\)/g, "")
-    .replace(/[^a-z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-");
 
 const withChildren = (base: string, children: string[]): NavItem => ({
   label: base,
@@ -134,7 +127,15 @@ export const NAV: NavItem[] = [
       },
     ],
   },
-  withChildren("Data Request", [
-    "Request Data",
-  ]),
+  {
+    label: "Data Request",
+    href: "/data-request",
+    children: [
+      { label: "Request Data", href: "/data-request/request-data" },
+      {
+        label: "Dataset Downloads",
+        href: "https://microdata.statsghana.gov.gh/",
+      },
+    ],
+  },
 ];

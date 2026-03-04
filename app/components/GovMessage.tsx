@@ -29,15 +29,14 @@ export default function GovMessage() {
               <Quote className="h-8 w-8" />
             </div>
             <p className="mt-6 text-sm text-gray-500 sm:text-base">
-              At GSS, we are guided by a clear mandate to produce, manage, and disseminate timely, reliable, and relevant statistical information in service of 
-              national development. Our work supports sound policymaking, strengthens accountability, deepens public understanding, and enables citizens, 
-              institutions, and partners to make informed decisions that advance Ghana’s socio-economic progress.
-              As part of our digital transformation agenda, we are continuously strengthening our systems, platforms, and processes to improve data accessibility, 
-              usability, and transparency. We remain committed to innovation in data production and dissemination, ensuring that official statistics are not only 
-              credible, but also responsive to the evolving needs of government, the private sector, academia, civil society, and the general public.
-              Together, we will continue to build a data-driven Ghana, where policy is guided by evidence, development is informed by facts, 
-              and statistics serve as a foundation for inclusive and sustainable national progress.
-
+              At the Ghana Statistical Service, our mission is clear: deliver data Ghana can trust and use for evidence-based 
+              decision making to support national development.  We produce timely, relevant, and reliable statistics that inform policy, 
+              guide investment, strengthen accountability, and help citizens understand the realities shaping our nation. As we modernize 
+              our systems and expand digital access, we are making our data easier to find, understand, and use. Statistics are not just numbers; 
+              they are the foundation for sound decisions and national progress. We are committed to raising standards, embracing innovation, and  
+              we remain responsive to the evolving needs of data users. I invite policymakers, businesses, researchers, civil society organisations,  
+              the media, and every citizen to use our data, question it, engage with it, and apply it. Together, let us build a Ghana where decisions 
+              are guided by evidence and progress is anchored in facts
             </p>
             <div className="flex items-center justify-end pr-2 text-slate-300">
               <Quote className="h-8 w-8 scale-x" />

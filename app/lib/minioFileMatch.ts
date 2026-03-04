@@ -1,8 +1,18 @@
 const EXTENSIONS = ["pdf", "doc", "docx", "xls", "xlsx", "zip", "ppt", "pptx"];
 const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp"];
 
+function hasNoFileMarker(key: string) {
+  const normalized = key
+    .toLowerCase()
+    .replace(/[_-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return normalized.includes("no file");
+}
+
 export function isAllowedFile(key: string) {
   const lower = key.toLowerCase();
+  if (hasNoFileMarker(lower)) return false;
   return EXTENSIONS.some((ext) => lower.endsWith(`.${ext}`));
 }
 

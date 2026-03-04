@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import SiteLayout from "./components/SiteLayout";
 import "./globals.css";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://statsghana.gov.gh";
+
 export const metadata: Metadata = {
-  title: "Ghana Statistical Service",
-  description: "Official homepage of the Ghana Statistical Service",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Ghana Statistical Service",
+    template: "%s | Ghana Statistical Service",
+  },
 };
 
 export default function RootLayout({

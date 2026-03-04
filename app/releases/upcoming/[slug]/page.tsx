@@ -25,13 +25,13 @@ export async function generateMetadata({
 
   if (!release) {
     return {
-      title: "Upcoming Release | StatsGhana",
+      title: "Upcoming Release",
       description: "Upcoming statistical releases by Ghana Statistical Service.",
     };
   }
 
   return {
-    title: `${release.title} | StatsGhana`,
+    title: release.title,
     description: release.description,
   };
 }

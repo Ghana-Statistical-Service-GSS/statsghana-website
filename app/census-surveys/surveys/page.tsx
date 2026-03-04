@@ -27,82 +27,59 @@ type CompletedSurvey = {
 
 const upcomingSurveys: UpcomingSurvey[] = [
   {
-    title: "Survey Title 1",
-    theme: "Demographics",
-    period: "To be announced",
+    title: "Quarterly Labour Force Survey",
+    theme: "Economic",
+    period: "Upcoming",
   },
   {
-    title: "Survey Title 2",
-    theme: "Agriculture",
-    period: "To be published",
-  },
-  {
-    title: "Survey Title 3",
-    theme: "Business",
-    period: "To be announced",
-  },
-  {
-    title: "Survey Title 4",
-    theme: "Other",
-    period: "To be published",
+    title: "TOURISM SUPPLY ESTABLISHMENT SURVEY (TSES)",
+    theme: "Services",
+    period: "Upcoming",
   },
 ];
 
 const ongoingSurveys: OngoingSurvey[] = [
   {
-    title: "IBES 2024 Phase 1 | Business Listing",
+    title: "IBES II",
     theme: "Business",
-    period: "2024 - 2025",
+    period: "Ongoing",
     status: "In Progress",
   },
   {
-    title: "IBES 2024 Phase 2 | Sampled Survey",
-    theme: "Business",
-    period: "2024 - late 2025",
+    title: "MVAM",
+    theme: "Food Security",
+    period: "Ongoing",
     status: "In Progress",
   },
   {
-    title: "Survey Title 3",
-    theme: "Health",
+    title: "Governance Series Wave 3",
+    theme: "Governance",
     period: "Ongoing",
-    status: "Ongoing",
-  },
-  {
-    title: "Survey Title 4",
-    theme: "Education",
-    period: "Ongoing",
-    status: "Data collection",
+    status: "In Progress",
   },
 ];
 
 const completedSurveys: CompletedSurvey[] = [
   {
-    title: "Agricultural Census",
-    shortName: "Ag Census",
-    theme: "Demographics",
-    period: "2017",
-    reportUrl: "/publications",
+    title: "Governance Series Wave 3",
+    shortName: "Governance Wave 3",
+    theme: "Governance",
+    period: "Completed",
+    reportUrl: "/publications/survey-reports?q=Governance",
   },
   {
-    title: "National Demographic and Health Survey",
-    shortName: "NDHS",
+    title: "IBES I",
+    shortName: "IBES I",
     theme: "Business",
-    period: "2022/23",
-    reportUrl: "/publications",
+    period: "Completed",
+    reportUrl: "/publications/survey-reports?q=IBES",
   },
   {
-    title: "Ghana Living Standards Survey (GLSS)",
-    shortName: "GLSS",
-    theme: "Demographics",
-    period: "2016/17",
-    reportUrl: "/publications",
-  },
-  {
-    title: "Integrated Business Establishment Survey (IBES)",
-    shortName: "IBES",
-    theme: "Health",
-    period: "Phase 1 Phase 2 2024 (upcoming)",
-    reportUrl: "/publications",
+    title: "Domestic Outbound Tourism Survey",
+    shortName: "DOTS",
+    theme: "Services",
+    period: "Completed",
+    reportUrl: "/publications/survey-reports?q=Domestic",
   },
 ];
 

@@ -2,14 +2,12 @@
 
 import { useMemo, useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import Image from "next/image";
 import { ArrowRight, Download } from "lucide-react";
 import { CensusReport } from "@/app/lib/mockCensusReports";
 import {
   buildKeyIndex,
   extractKey,
   isAllowedFile,
-  isImageFile,
   matchKeyForReport,
 } from "@/app/lib/minioFileMatch";
 
@@ -21,76 +19,8 @@ type ReportsGridProps = {
 
 type SortOrder = "newest" | "oldest";
 
-const BLUR_DATA_URL =
-  "data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=";
-
-function ReportImage({
-  src,
-  alt,
-  fallbackSrc,
-  priority,
-  imageKey,
-}: {
-  src: string;
-  alt: string;
-  fallbackSrc?: string;
-  priority?: boolean;
-  imageKey?: string | null;
-}) {
-  const [currentSrc, setCurrentSrc] = useState(src);
-
-  useEffect(() => {
-    setCurrentSrc(src);
-  }, [src]);
-
-  useEffect(() => {
-    let isActive = true;
-
-    const loadImage = async () => {
-      if (!imageKey) return;
-      try {
-        const res = await fetch(
-          `/api/minio/presign?key=${encodeURIComponent(imageKey)}&expires=900`,
-        );
-        if (!res.ok) return;
-        const data = await res.json();
-        if (isActive && data?.url) {
-          setCurrentSrc(data.url);
-        }
-      } catch (err) {
-        // fallback handled by onError
-      }
-    };
-
-    loadImage();
-
-    return () => {
-      isActive = false;
-    };
-  }, [imageKey]);
-
-  return (
-    <Image
-      src={currentSrc}
-      alt={alt}
-      fill
-      sizes="(min-width: 1024px) 34vw, 100vw"
-      className="object-contain object-center"
-      placeholder="blur"
-      blurDataURL={BLUR_DATA_URL}
-      priority={priority}
-      onError={() => {
-        if (fallbackSrc && currentSrc !== fallbackSrc) {
-          setCurrentSrc(fallbackSrc);
-        }
-      }}
-    />
-  );
-}
-
 export default function ReportsGrid({
   reports,
-  fallbackSrc,
   filePrefix = "publications/census",
 }: ReportsGridProps) {
   const searchParams = useSearchParams();
@@ -106,7 +36,6 @@ export default function ReportsGrid({
   const [sortOrder, setSortOrder] = useState<SortOrder>("newest");
   const [page, setPage] = useState(1);
   const [fileKeys, setFileKeys] = useState<string[]>([]);
-  const [imageKeys, setImageKeys] = useState<string[]>([]);
   const [fileLoading, setFileLoading] = useState(false);
   const [fileError, setFileError] = useState<string | null>(null);
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
@@ -137,7 +66,7 @@ export default function ReportsGrid({
       setFileError(null);
 
       try {
-        let allItems: any[] = [];
+        let allItems: Array<Record<string, unknown>> = [];
         let success = false;
 
         for (const prefix of prefixes) {
@@ -145,7 +74,10 @@ export default function ReportsGrid({
           if (!res.ok) continue;
           const data = await res.json().catch(() => null);
           if (data?.ok && Array.isArray(data.items)) {
-            allItems = data.items;
+            allItems = data.items.filter(
+              (item: unknown): item is Record<string, unknown> =>
+                typeof item === "object" && item !== null,
+            );
             success = true;
             if (isActive) {
               setFileDebug((prev) => ({
@@ -165,20 +97,16 @@ export default function ReportsGrid({
         const keys = allItems
           .map((item) => extractKey(item))
           .filter((key) => key && isAllowedFile(key));
-        const imageList = allItems
-          .map((item) => extractKey(item))
-          .filter((key) => key && isImageFile(key));
 
         if (isActive) {
           setFileKeys(keys);
-          setImageKeys(imageList);
           setFileDebug((prev) => ({
             ...prev,
             keyCount: keys.length,
             sample: keys.slice(0, 3),
           }));
         }
-      } catch (err) {
+      } catch {
         if (isActive) {
           setFileError("Unable to load report files.");
         }
@@ -194,10 +122,19 @@ export default function ReportsGrid({
     return () => {
       isActive = false;
     };
-  }, []);
+  }, [filePrefix]);
 
   const keyIndex = useMemo(() => buildKeyIndex(fileKeys), [fileKeys]);
-  const imageIndex = useMemo(() => buildKeyIndex(imageKeys), [imageKeys]);
+  const matchedFileKeyByReportId = useMemo(() => {
+    const matched = new Map<string, string>();
+    reports.forEach((report) => {
+      const key = matchKeyForReport(report.title, report.id, keyIndex);
+      if (key) {
+        matched.set(report.id, key);
+      }
+    });
+    return matched;
+  }, [keyIndex, reports]);
 
   const filteredReports = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -222,11 +159,13 @@ export default function ReportsGrid({
       return matchesQuery && matchesYear && matchesType;
     });
 
-    return filtered.sort((a, b) => {
-      if (sortOrder === "newest") return b.year - a.year;
-      return a.year - b.year;
-    });
-  }, [query, reports, sortOrder, typeFilter, yearFilter]);
+    return filtered
+      .filter((report) => matchedFileKeyByReportId.has(report.id))
+      .sort((a, b) => {
+        if (sortOrder === "newest") return b.year - a.year;
+        return a.year - b.year;
+      });
+  }, [matchedFileKeyByReportId, query, reports, sortOrder, typeFilter, yearFilter]);
 
   useEffect(() => {
     setPage(1);
@@ -332,19 +271,14 @@ export default function ReportsGrid({
         </div>
       ) : null}
 
-      {filteredReports.length ? (
+      {fileLoading ? (
+        <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-sm text-slate-500 shadow-sm">
+          Loading available report files...
+        </div>
+      ) : filteredReports.length ? (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {pagedReports.map((report, index) => {
-            const matchedKey = matchKeyForReport(
-              report.title,
-              report.id,
-              keyIndex,
-            );
-            const matchedImageKey = matchKeyForReport(
-              report.title,
-              report.id,
-              imageIndex,
-            );
+          {pagedReports.map((report) => {
+            const matchedKey = matchedFileKeyByReportId.get(report.id) ?? null;
             const isDisabled = !matchedKey || fileLoading || Boolean(fileError);
             const isDownloading = downloadingId === report.id;
             return (
@@ -379,11 +313,7 @@ export default function ReportsGrid({
                       aria-disabled={isDisabled}
                     >
                       <Download className="h-4 w-4" />
-                      {isDisabled
-                        ? "No file"
-                        : isDownloading
-                        ? "Preparing..."
-                        : "Download"}
+                      {isDownloading ? "Preparing..." : "Download"}
                     </button>
                     <button
                       type="button"
@@ -400,11 +330,13 @@ export default function ReportsGrid({
         </div>
       ) : (
         <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-sm text-slate-500 shadow-sm">
-          No reports match your search.
+          {fileError
+            ? "Unable to load report files right now."
+            : "No reports with downloadable files match your search."}
         </div>
       )}
 
-      {filteredReports.length ? (
+      {!fileLoading && filteredReports.length ? (
         <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white/80 px-4 py-3 shadow-sm">
           <div className="text-sm text-slate-600">
             Page {currentPage} of {totalPages}

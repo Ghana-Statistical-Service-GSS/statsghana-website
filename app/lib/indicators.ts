@@ -11,7 +11,7 @@ export const INDICATORS = [
 export type Indicator = (typeof INDICATORS)[number];
 
 export const INDICATOR_LABELS: Record<Indicator, string> = {
-  CPI: "CPI (Inflation)-YoY",
+  CPI: "Inflation(YoY)",
   MIEG: "MIEG",
   PPI: "PPI",
   PBCI: "PBCI",

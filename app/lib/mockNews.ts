@@ -11,38 +11,20 @@ const PLACEHOLDER_IMAGE = "/images/placeholder.png";
 
 export const mockNews: NewsItem[] = [
   {
-    id: "news-2024-agri-launch",
-    title: "2024 Agriculture Census Launched",
-    excerpt:
-      "The Ghana Statistical Service officially launched the 2024 Agriculture Census at the MoFA press briefing, outlining key timelines and field operations.",
-    dateISO: "2024-04-12",
-    imageSrc: PLACEHOLDER_IMAGE,
-    slug: "2024-agriculture-census-launched",
-  },
-  {
-    id: "news-2024-data-forum",
-    title: "GSS Hosts National Data Forum 2024",
+    id: "news-2025-data-forum",
+    title: "GSS Hosts National Data Forum 2025",
     excerpt:
       "Stakeholders convened to discuss priority data gaps and partnerships that will strengthen evidence-based policy planning across Ghana.",
-    dateISO: "2024-04-04",
+    dateISO: "2025-04-04",
     imageSrc: PLACEHOLDER_IMAGE,
-    slug: "gss-hosts-national-data-forum-2024",
-  },
-  {
-    id: "news-2024-demographic-trends",
-    title: "Ghana Demographic Trends 2023 Report Released",
-    excerpt:
-      "The latest demographic trends report provides insights on population growth, age structure, and regional dynamics.",
-    dateISO: "2024-03-25",
-    imageSrc: PLACEHOLDER_IMAGE,
-    slug: "ghana-demographic-trends-2023-report",
+    slug: "gss-hosts-national-data-forum-2025",
   },
   {
     id: "news-2024-cpi-release",
     title: "Monthly Consumer Price Index: January 2028 Release",
     excerpt:
       "The CPI release highlights inflation trends, market basket movements, and key price changes across regions.",
-    dateISO: "2024-05-19",
+    dateISO: "2028-01-31",
     imageSrc: "/images/cpi.png",
     slug: "monthly-cpi-april-2024-release",
   },
@@ -56,12 +38,39 @@ export const mockNews: NewsItem[] = [
     slug: "gss-partners-with-un-for-sdgs",
   },
   {
-    id: "news-2024-phc-briefing",
-    title: "Press Briefing on Preliminary Census Results",
+    id: "news-2026-glss",
+    title: "Ghana Living Standard Survey",
     excerpt:
-      "GSS shared preliminary Population and Housing Census results with media and stakeholders.",
-    dateISO: "2024-03-18",
+      "Coverage and updates from the Ghana Living Standard Survey published by the Ghana Statistical Service.",
+    dateISO: "2026-02-07",
     imageSrc: PLACEHOLDER_IMAGE,
-    slug: "press-briefing-on-preliminary-census-results",
+    slug: "ghana-living-standard-survey",
+  },
+  {
+    id: "news-2026-maintenance-mode",
+    title: "GSS Maintenance Mode",
+    excerpt:
+      "Notice from Ghana Statistical Service on scheduled platform maintenance and temporary service interruption.",
+    dateISO: "2026-02-03",
+    imageSrc: PLACEHOLDER_IMAGE,
+    slug: "gss-maintenance-mode",
+  },
+  {
+    id: "news-2020-phc-fraud-alert",
+    title: "PHC 2020 Fraud Alert",
+    excerpt:
+      "Public advisory from GSS regarding fraudulent activity related to the PHC 2020 exercise.",
+    dateISO: "2020-07-15",
+    imageSrc: PLACEHOLDER_IMAGE,
+    slug: "phc-2020-fraud-alert",
+  },
+  {
+    id: "news-2020-phc-disclaimer",
+    title: "Disclaimer PHC 2020",
+    excerpt:
+      "Official disclaimer issued by the Ghana Statistical Service for PHC 2020 communications.",
+    dateISO: "2020-07-10",
+    imageSrc: PLACEHOLDER_IMAGE,
+    slug: "disclaimer-phc-2020",
   },
 ];

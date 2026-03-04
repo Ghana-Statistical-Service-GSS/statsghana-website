@@ -1,27 +1,58 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CalendarDays, FileText } from "lucide-react";
-import { mockPressReleases } from "@/app/lib/mockPressReleases";
+import { CalendarDays, Download, FileText } from "lucide-react";
+import { pressReleases } from "@/app/lib/pressReleases";
+import { presignGetUrl } from "@/app/lib/minio";
 
 type PressReleaseDetailPageProps = {
   params: Promise<{ slug: string }>;
 };
+
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: PressReleaseDetailPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const decodedSlug = decodeURIComponent(slug);
+  const item = pressReleases.find((release) => release.slug === decodedSlug);
+
+  if (!item) {
+    return {
+      title: "Press Releases",
+      description: "Official statements from the Ghana Statistical Service.",
+    };
+  }
+
+  return {
+    title: item.title,
+    description: item.excerpt,
+  };
+}
 
 export default async function PressReleaseDetailPage({
   params,
 }: PressReleaseDetailPageProps) {
   const { slug } = await params;
   const decodedSlug = decodeURIComponent(slug);
-  const item = mockPressReleases.find((release) => release.slug === decodedSlug);
+  const item = pressReleases.find((release) => release.slug === decodedSlug);
 
   if (!item) {
     notFound();
   }
 
-  const related = mockPressReleases
+  const related = pressReleases
     .filter((release) => release.slug !== item.slug)
     .slice(0, 3);
+
+  let documentUrl: string | null = null;
+  try {
+    documentUrl = await presignGetUrl(item.documentKey, 3600);
+  } catch {
+    documentUrl = null;
+  }
 
   return (
     <div className="bg-white py-10 sm:py-12">
@@ -81,6 +112,23 @@ export default async function PressReleaseDetailPage({
                   Additional technical notes and supporting tables will be
                   published through official channels where applicable.
                 </p>
+                {documentUrl ? (
+                  <p>
+                    <a
+                      href={documentUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full bg-[#241B5A] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#1a1441]"
+                    >
+                      <Download className="h-4 w-4" />
+                      Open full release (PDF)
+                    </a>
+                  </p>
+                ) : (
+                  <p className="text-sm text-slate-500">
+                    PDF document is currently unavailable.
+                  </p>
+                )}
               </div>
             </div>
           </article>

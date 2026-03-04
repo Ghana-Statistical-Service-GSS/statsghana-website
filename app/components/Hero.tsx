@@ -90,7 +90,7 @@ export default function Hero() {
               onClick={() =>
                 setActiveSlide((prev) => (prev - 1 + slides.length) % slides.length)
               }
-              className="absolute left-4 top-1/2 z-30 hidden h-9 w-9 -translate-y-1/2 items-center justify-center rounded-lg border border-white/30 bg-white/20 text-white backdrop-blur-sm transition hover:bg-white/30 lg:flex"
+              className="absolute left-3 top-1/2 z-30 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-lg border border-white/30 bg-white/20 text-white backdrop-blur-sm transition hover:bg-white/30 sm:h-9 sm:w-9"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
@@ -98,7 +98,7 @@ export default function Hero() {
               type="button"
               aria-label="Next"
               onClick={() => setActiveSlide((prev) => (prev + 1) % slides.length)}
-              className="absolute right-4 top-1/2 z-30 hidden h-9 w-9 -translate-y-1/2 items-center justify-center rounded-lg border border-white/30 bg-white/20 text-white backdrop-blur-sm transition hover:bg-white/30 lg:flex"
+              className="absolute right-3 top-1/2 z-30 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-lg border border-white/30 bg-white/20 text-white backdrop-blur-sm transition hover:bg-white/30 sm:h-9 sm:w-9"
             >
               <ChevronRight className="h-4 w-4" />
             </button>

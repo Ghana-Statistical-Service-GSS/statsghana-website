@@ -94,6 +94,10 @@ const sitemapLinks: SitemapSection[] = [
     links: [
       { label: "FAQs", href: "/faqs" },
       { label: "Data Request", href: "/data-request/request-data" },
+      {
+        label: "Dataset Downloads",
+        href: "https://microdata.statsghana.gov.gh/",
+      },
     ],
   },
 ];

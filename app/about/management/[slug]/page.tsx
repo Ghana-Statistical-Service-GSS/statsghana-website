@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -13,6 +14,28 @@ import { getPersonSlug, MANAGEMENT } from "../../../lib/management";
 
 export function generateStaticParams() {
   return MANAGEMENT.map((person) => ({ slug: getPersonSlug(person) }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const decodedSlug = decodeURIComponent(slug);
+  const person = MANAGEMENT.find((item) => getPersonSlug(item) === decodedSlug);
+
+  if (!person) {
+    return {
+      title: "Management",
+      description: "Leadership profiles at the Ghana Statistical Service.",
+    };
+  }
+
+  return {
+    title: `${person.name} - Management`,
+    description: `${person.name}, ${person.position} at the Ghana Statistical Service.`,
+  };
 }
 
 export default async function ManagementProfilePage({

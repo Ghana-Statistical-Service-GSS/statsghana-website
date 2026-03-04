@@ -22,13 +22,13 @@ export async function generateMetadata({
 
   if (!slide) {
     return {
-      title: "Highlight | StatsGhana",
+      title: "Highlight",
       description: "Latest highlights from Ghana Statistical Service.",
     };
   }
 
   return {
-    title: `${slide.title} | StatsGhana`,
+    title: slide.title,
     description: slide.subtitle,
   };
 }

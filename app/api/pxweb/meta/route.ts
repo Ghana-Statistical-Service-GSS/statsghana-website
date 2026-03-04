@@ -1,17 +1,34 @@
 import { NextResponse } from "next/server";
+import { enforceRateLimit } from "@/app/lib/rateLimit";
 
 export async function GET(request: Request) {
+  const rateLimit = enforceRateLimit(request, {
+    key: "api:pxweb:meta",
+    limit: 120,
+    windowMs: 60_000,
+  });
+
+  if (!rateLimit.allowed) {
+    return NextResponse.json(
+      { ok: false, error: "Too many requests. Please try again shortly." },
+      { status: 429, headers: rateLimit.headers },
+    );
+  }
+
   const { searchParams } = new URL(request.url);
   const matrix = searchParams.get("matrix");
   const baseUrl = process.env.PXWEB_BASE_URL;
 
   if (!matrix) {
-    return NextResponse.json({ ok: false, error: "Missing matrix" }, { status: 400 });
+    return NextResponse.json(
+      { ok: false, error: "Missing matrix" },
+      { status: 400, headers: rateLimit.headers },
+    );
   }
   if (!baseUrl) {
     return NextResponse.json(
       { ok: false, error: "PXWEB_BASE_URL is not configured" },
-      { status: 500 },
+      { status: 500, headers: rateLimit.headers },
     );
   }
 
@@ -24,21 +41,11 @@ export async function GET(request: Request) {
     console.error("[pxweb/meta] failed", { matrix, status: response.status, url, text });
     return NextResponse.json(
       { ok: false, error: `Failed to fetch metadata (${response.status})`, details: text },
-      { status: response.status },
+      { status: response.status, headers: rateLimit.headers },
     );
   }
 
   const data = await response.json();
 
-  // Log metadata the right way (variables)
-  console.log("[pxweb/meta] ok", {
-    matrix,
-    url,
-    variableCount: Array.isArray((data as any)?.variables) ? (data as any).variables.length : 0,
-    variableCodes: Array.isArray((data as any)?.variables)
-      ? (data as any).variables.map((v: any) => v.code)
-      : [],
-  });
-
-  return NextResponse.json(data);
+  return NextResponse.json(data, { headers: rateLimit.headers });
 }

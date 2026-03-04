@@ -1,14 +1,6 @@
-const EXTENSIONS = ["png", "jpg", "jpeg", "webp"];
+import { slugify } from "./slugify";
 
-function slugify(value: string) {
-  return value
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/\([^)]*\)/g, "")
-    .replace(/[^a-z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-");
-}
+const EXTENSIONS = ["png", "jpg", "jpeg", "webp"];
 
 export function titleToImageCandidates(title: string): string[] {
   const base = slugify(title);

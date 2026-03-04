@@ -51,6 +51,21 @@ const mandates = [
   },
 ];
 
+const privacyParagraphs = [
+  "Under the Statistical Service Act, 2019 (Act 1003), all information collected by the Ghana Statistical Service for statistical purposes is treated as strictly confidential and used only for official statistics.",
+  "In line with the Data Protection Act, 2012 (Act 843), GSS applies legal, technical, and operational controls to protect respondents and prevent unauthorized disclosure of identifiable data.",
+];
+
+const privacySafeguards = [
+  "Personal identifiers are removed before data are published or shared.",
+  "Results are released in aggregated form to avoid identification of any person, household, or business.",
+  "Staff and field personnel are bound by confidentiality obligations and oath requirements.",
+  "Access to sensitive data is restricted and monitored under approved procedures.",
+];
+
+const privacyClosing =
+  "These protections are central to maintaining public trust and ensuring that respondents can provide information with confidence.";
+
 export default function LegalMandatePage() {
   return (
     <section className="py-10 sm:py-12">
@@ -96,7 +111,17 @@ export default function LegalMandatePage() {
         <h2 className="mt-10 text-xl font-bold text-slate-900">
           Privacy and Confidentiality
         </h2>
-        <p className="mt-4 text-slate-700 leading-relaxed">Content coming soon.</p>
+        {privacyParagraphs.map((paragraph) => (
+          <p key={paragraph} className="mt-4 text-slate-700 leading-relaxed">
+            {paragraph}
+          </p>
+        ))}
+        <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-700">
+          {privacySafeguards.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+        <p className="mt-4 text-slate-700 leading-relaxed">{privacyClosing}</p>
       </div>
     </section>
   );

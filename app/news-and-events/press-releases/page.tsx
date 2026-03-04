@@ -1,30 +1,29 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Megaphone } from "lucide-react";
-import { mockPressReleases } from "@/app/lib/mockPressReleases";
+import { pressReleases } from "@/app/lib/pressReleases";
 
 export default function PressReleasesPage() {
   const [query, setQuery] = useState("");
   const [yearFilter, setYearFilter] = useState<"all" | number>("all");
-  const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
   const [page, setPage] = useState(1);
-  const pageSize = 6;
+  const pageSize = 5;
 
   const years = useMemo(() => {
     const yearSet = new Set(
-      mockPressReleases.map((item) => new Date(item.dateISO).getFullYear()),
+      pressReleases.map((item) => new Date(item.dateISO).getFullYear()),
     );
     return Array.from(yearSet).sort((a, b) => b - a);
   }, []);
 
   const filteredItems = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    const filtered = mockPressReleases.filter((item) => {
+    return pressReleases.filter((item) => {
       const matchesQuery =
         !normalizedQuery ||
-        [item.title, item.excerpt, item.dateISO]
+        [item.title, item.excerpt, item.dateISO, item.documentKey]
           .join(" ")
           .toLowerCase()
           .includes(normalizedQuery);
@@ -35,17 +34,7 @@ export default function PressReleasesPage() {
 
       return matchesQuery && matchesYear;
     });
-
-    return filtered.sort((a, b) => {
-      const aTime = new Date(a.dateISO).getTime();
-      const bTime = new Date(b.dateISO).getTime();
-      return sortOrder === "newest" ? bTime - aTime : aTime - bTime;
-    });
-  }, [query, sortOrder, yearFilter]);
-
-  useEffect(() => {
-    setPage(1);
-  }, [query, yearFilter, sortOrder]);
+  }, [query, yearFilter]);
 
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / pageSize));
   const currentPage = Math.min(page, totalPages);
@@ -78,7 +67,10 @@ export default function PressReleasesPage() {
           <div className="relative w-full max-w-md">
             <input
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              onChange={(event) => {
+                setQuery(event.target.value);
+                setPage(1);
+              }}
               placeholder="Search press releases..."
               className="w-full rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 focus:border-[#241B5A] focus:outline-none focus:ring-2 focus:ring-[#241B5A]/20"
             />
@@ -87,11 +79,14 @@ export default function PressReleasesPage() {
             <select
               value={yearFilter}
               onChange={(event) =>
-                setYearFilter(
-                  event.target.value === "all"
-                    ? "all"
-                    : Number(event.target.value),
-                )
+                {
+                  setYearFilter(
+                    event.target.value === "all"
+                      ? "all"
+                      : Number(event.target.value),
+                  );
+                  setPage(1);
+                }
               }
               className="min-w-[140px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600"
             >
@@ -101,16 +96,6 @@ export default function PressReleasesPage() {
                   {year}
                 </option>
               ))}
-            </select>
-            <select
-              value={sortOrder}
-              onChange={(event) =>
-                setSortOrder(event.target.value as "newest" | "oldest")
-              }
-              className="min-w-[150px] rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600"
-            >
-              <option value="newest">Newest first</option>
-              <option value="oldest">Oldest first</option>
             </select>
           </div>
         </div>

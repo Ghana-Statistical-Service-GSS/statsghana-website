@@ -125,4 +125,10 @@ export const searchIndex: SearchItem[] = [
     href: "/data-request/request-data",
     group: "Data Request",
   },
+  {
+    label: "Dataset Downloads",
+    href: "https://microdata.statsghana.gov.gh/",
+    group: "Data Request",
+    keywords: ["Microdata Catalog", "Microdata Catalogue", "Downloads"],
+  },
 ];

@@ -496,7 +496,7 @@ export default function StatCards() {
   const kpis: KPIEntry[] = [
     {
       key: "CPI",
-      title: "CPI (Inflation)",
+      title: "Inflation(YoY)",
       currentValue: latestCpi?.value ?? null,
       value: latestCpi ? `${latestCpi.value.toFixed(1)}%` : "—",
       periodLabel: latestCpi ? formatMonthWord(latestCpi.month) : undefined,

@@ -1,3 +1,5 @@
+import { slugify } from "./slugify";
+
 export type ManagementPerson = {
   id: string;
   slug: string;
@@ -15,17 +17,8 @@ export type ManagementPerson = {
   }>;
 };
 
-export const slugify = (value: string) =>
-  value
-    .toLowerCase()
-    .trim()
-    .replace(/['’]/g, "")
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-
 export const getPersonSlug = (person: ManagementPerson) =>
-  slugify(person.slug || person.name);
+  slugify(person.slug || person.name, { removeParenthesesContent: false });
 
 const bioBase =
   "Mr. [Name] brings extensive experience in statistical leadership, policy advisory, and national development planning. Their work focuses on data quality, modernization of statistical systems, and strengthening the National Statistical System across sectors.";
@@ -248,7 +241,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     id: "director-3",
     slug: "dr-lucy-twumwaa-afriyie",
     name: "Dr. Lucy Twumwaah Afriyie",
-    position: "Ag.Director",
+    position: "Ag. Director",
     group: "DIRECTOR",
     directorate: "Methods and Standards",
     photo: "/images/management/lucy.jpg",
@@ -268,7 +261,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     id: "director-11",
     slug: "mr-isaac-odoom",
     name: "Mr. Isaac Odoom",
-    position: "Ag.Director",
+    position: "Ag. Director",
     group: "DIRECTOR",
     directorate: "Human Resource",
     photo: "/images/management/odoom.jpg",

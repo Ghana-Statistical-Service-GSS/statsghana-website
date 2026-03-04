@@ -34,7 +34,7 @@ import {
 
 const INDICATOR_CONFIG = {
   CPI: {
-    label: "CPI(Inflation)-YoY",
+    label: "Inflation(YoY)",
     rows: (cpiData as any)?.response?.data ?? [],
     columns: (cpiData as any)?.response?.columns ?? [],
     monthIndex: (cpiData as any)?.response?.columns?.findIndex((c: any) => c.code === "Month") ?? 0,

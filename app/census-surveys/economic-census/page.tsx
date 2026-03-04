@@ -14,25 +14,26 @@ const CTA_BG = "/images/economiccensus/office.jpg";
 const TIMELINE_BG = HERO_BG;
 const INDUSTRIAL_BG = HERO_BG;
 const IBES_BG = HERO_BG;
+const SURVEY_REPORTS_URL = "/publications/survey-reports";
 
 const industrialItems = [
   {
     year: "2004",
     title: "2004 Industrial Census",
     text: "Complete enumerations of Ghana's industries conducted.",
-    downloadUrl: "#",
+    downloadUrl: SURVEY_REPORTS_URL,
   },
   {
     year: "1987",
     title: "1987 Industrial Census",
     text: "Complete enumerations of Ghana's industries conducted.",
-    downloadUrl: "#",
+    downloadUrl: SURVEY_REPORTS_URL,
   },
   {
     year: "1962",
     title: "1962 Industrial Census",
     text: "Complete enumerations of Ghana's industries conducted.",
-    downloadUrl: "#",
+    downloadUrl: SURVEY_REPORTS_URL,
   },
 ];
 
@@ -67,7 +68,7 @@ const ibesCards: IbesCard[] = [
         phaseType: "Census",
         bandTitle: "Listing & Frame Update",
         body: "Full enumeration to update the business register.",
-        downloadUrl: "#",
+        downloadUrl: SURVEY_REPORTS_URL,
       },
       phase2: {
         pill: "Phase 2",
@@ -75,7 +76,7 @@ const ibesCards: IbesCard[] = [
         phaseType: "Survey",
         bandTitle: "Sampled Survey",
         body: "Data collection is still in progress.",
-        downloadUrl: "#",
+        downloadUrl: SURVEY_REPORTS_URL,
         status: { left: "Started late 2025", right: "Data collection ending soon" },
       },
     },
@@ -91,7 +92,7 @@ const ibesCards: IbesCard[] = [
         phaseType: "Census",
         bandTitle: "Listing & Frame Update",
         body: "Full enumeration to update the business register.",
-        downloadUrl: "#",
+        downloadUrl: SURVEY_REPORTS_URL,
       },
       phase2: {
         pill: "Phase 2",
@@ -99,7 +100,7 @@ const ibesCards: IbesCard[] = [
         phaseType: "Survey",
         bandTitle: "Sampled Survey",
         body: "Sample survey module focusing on detailed economic characteristics of establishments.",
-        downloadUrl: "#",
+        downloadUrl: SURVEY_REPORTS_URL,
       },
     },
   },

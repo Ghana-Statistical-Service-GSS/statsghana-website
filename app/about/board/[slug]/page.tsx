@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Container from "../../../components/Container";
@@ -12,6 +13,30 @@ export function generateStaticParams() {
   return BOARD_MEMBERS.map((member) => ({ slug: member.slug }));
 }
 
+export async function generateMetadata({
+  params,
+}: BoardProfilePageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const rawSlug = decodeURIComponent(slug);
+  const member =
+    BOARD_MEMBERS.find((item) => item.slug === rawSlug) ??
+    BOARD_MEMBERS.find(
+      (item) => item.slug.toLowerCase() === rawSlug.toLowerCase(),
+    );
+
+  if (!member) {
+    return {
+      title: "Board",
+      description: "Board profiles at the Ghana Statistical Service.",
+    };
+  }
+
+  return {
+    title: `${member.name} - Board`,
+    description: `${member.role} of the Ghana Statistical Service Board.`,
+  };
+}
+
 export default async function BoardProfilePage({
   params,
 }: BoardProfilePageProps) {
@@ -22,11 +47,6 @@ export default async function BoardProfilePage({
     BOARD_MEMBERS.find(
       (item) => item.slug.toLowerCase() === rawSlug.toLowerCase(),
     );
-
-  if (process.env.NODE_ENV !== "production") {
-    console.log("Board profile slug:", rawSlug);
-    console.log("Found member:", member?.name);
-  }
 
   if (!member) {
     notFound();

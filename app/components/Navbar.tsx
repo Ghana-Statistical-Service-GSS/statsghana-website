@@ -7,6 +7,120 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import Container from "./Container";
 import { NAV, NavItem } from "../lib/nav";
 
+const isExternalHref = (href: string) => /^https?:\/\//i.test(href);
+
+function DesktopDropdownLink({
+  href,
+  label,
+  isActive,
+  onSelect,
+}: {
+  href: string;
+  label: string;
+  isActive: boolean;
+  onSelect: () => void;
+}) {
+  const external = isExternalHref(href);
+
+  if (external) {
+    return (
+      <a
+        href={href}
+        role="menuitem"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block px-4 py-2.5 text-sm transition hover:bg-slate-200"
+        onClick={onSelect}
+      >
+        {label}
+      </a>
+    );
+  }
+
+  return (
+    <Link
+      href={href}
+      role="menuitem"
+      className={`block px-4 py-2.5 text-sm transition hover:bg-slate-200 ${
+        isActive ? "bg-slate-300 text-slate-900" : ""
+      }`}
+      onClick={onSelect}
+    >
+      {label}
+    </Link>
+  );
+}
+
+function MobileLeafLink({
+  href,
+  label,
+  isActive,
+}: {
+  href: string;
+  label: string;
+  isActive: boolean;
+}) {
+  const external = isExternalHref(href);
+
+  if (external) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="py-2 text-white/90"
+      >
+        {label}
+      </a>
+    );
+  }
+
+  return (
+    <Link
+      href={href}
+      className={`py-2 ${isActive ? "text-white" : "text-white/90"}`}
+    >
+      {label}
+    </Link>
+  );
+}
+
+function MobileDropdownLink({
+  href,
+  label,
+  isActive,
+}: {
+  href: string;
+  label: string;
+  isActive: boolean;
+}) {
+  const external = isExternalHref(href);
+
+  if (external) {
+    return (
+      <a
+        href={href}
+        role="menuitem"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block py-1 text-sm text-white/80"
+      >
+        {label}
+      </a>
+    );
+  }
+
+  return (
+    <Link
+      href={href}
+      role="menuitem"
+      className={`block py-1 text-sm ${isActive ? "text-white" : "text-white/80"}`}
+    >
+      {label}
+    </Link>
+  );
+}
+
 function DesktopNavItem({
   item,
   openKey,
@@ -23,7 +137,22 @@ function DesktopNavItem({
   const hasChildren = Boolean(item.children?.length);
 
   if (!hasChildren) {
-    const isActive = pathname === item.href;
+    const external = isExternalHref(item.href);
+    const isActive = !external && pathname === item.href;
+
+    if (external) {
+      return (
+        <a
+          href={item.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-medium text-white/90 transition hover:text-white hover:underline hover:underline-offset-8"
+        >
+          {item.label}
+        </a>
+      );
+    }
+
     return (
       <Link
         href={item.href}
@@ -60,22 +189,13 @@ function DesktopNavItem({
         onMouseLeave={() => setOpenKey(null)}
       >
         {item.children?.map((child) => (
-          (() => {
-            const isActive = pathname === child.href;
-            return (
-          <Link
+          <DesktopDropdownLink
             key={child.href}
             href={child.href}
-            role="menuitem"
-            className={`block px-4 py-2.5 text-sm transition hover:bg-slate-200 ${
-              isActive ? "bg-slate-300 text-slate-900" : ""
-            }`}
-            onClick={() => setOpenKey(null)}
-          >
-            {child.label}
-          </Link>
-            );
-          })()
+            label={child.label}
+            isActive={pathname === child.href}
+            onSelect={() => setOpenKey(null)}
+          />
         ))}
       </div>
     </div>
@@ -170,12 +290,11 @@ export default function Navbar() {
                           />
                         </button>
                       ) : (
-                        <Link
+                        <MobileLeafLink
                           href={item.href}
-                          className={`py-2 ${isActive ? "text-white" : "text-white/90"}`}
-                        >
-                          {item.label}
-                        </Link>
+                          label={item.label}
+                          isActive={isActive}
+                        />
                       )}
                     </div>
                     {hasChildren && isOpen ? (
@@ -183,18 +302,12 @@ export default function Navbar() {
                         {item.children?.map((child) => {
                           const childActive = pathname === child.href;
                           return (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            role="menuitem"
-                            className={`block py-1 text-sm ${
-                              childActive ? "text-white" : "text-white/80"
-                            }`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {child.label}
-                          </Link>
+                            <MobileDropdownLink
+                              key={child.href}
+                              href={child.href}
+                              label={child.label}
+                              isActive={childActive}
+                            />
                           );
                         })}
                       </div>

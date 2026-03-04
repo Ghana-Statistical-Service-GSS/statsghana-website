@@ -6,18 +6,12 @@ export async function GET(request: Request) {
   const prefix = searchParams.get("prefix") ?? "";
 
   try {
-    const objects = await listObjects(prefix);
-    const sampleKeys = objects
-      .map((item) => item.key)
-      .filter(Boolean)
-      .slice(0, 5);
+    await listObjects(prefix);
 
     return NextResponse.json({
       ok: true,
       bucket: bucketName,
-      endpoint: process.env.MINIO_ENDPOINT,
       canList: true,
-      sampleKeys,
     });
   } catch (error) {
     const message =
@@ -26,10 +20,8 @@ export async function GET(request: Request) {
       {
         ok: false,
         bucket: bucketName,
-        endpoint: process.env.MINIO_ENDPOINT,
         canList: false,
         error: message,
-        sampleKeys: [],
       },
       { status: 500 },
     );
