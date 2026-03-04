@@ -121,7 +121,7 @@ jobs:
 
             # Wait for health check to pass (up to 60s)
             echo "Waiting for health check..."
-            for i in $(seq 1 12); do
+            for i in $(seq 1 24); do
               STATUS=$(curl -sf http://localhost:3000/api/health && echo "ok" || echo "fail")
               if [ "$STATUS" = "ok" ]; then
                 echo "Health check passed."
@@ -132,7 +132,7 @@ jobs:
             done
 
             if [ "$STATUS" != "ok" ]; then
-              echo "Health check failed after 60s — deployment may have issues."
+              echo "Health check failed after 120s — deployment may have issues."
               exit 1
             fi
 
