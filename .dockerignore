@@ -34,7 +34,7 @@ coverage
 public/data/publications/*.xlsx
 scripts/
 
-# Docker files themselves
+# Docker / server-side infrastructure (not part of the app image)
 Dockerfile
 docker-compose*.yml
 .dockerignore

@@ -1,10 +1,14 @@
 services:
+  # ---------------------------------------------------------------------------
+  # Next.js application
+  # HestiaCP nginx handles SSL termination and proxies to this container.
+  # ---------------------------------------------------------------------------
   web:
     image: ghcr.io/${GHCR_OWNER}/statsghana-website:latest
     container_name: statsghana-web
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "127.0.0.1:3000:3000"   # loopback only — HestiaCP nginx proxies to this
     environment:
       MINIO_ENDPOINT: ${MINIO_ENDPOINT}
       MINIO_REGION: ${MINIO_REGION:-us-east-1}
