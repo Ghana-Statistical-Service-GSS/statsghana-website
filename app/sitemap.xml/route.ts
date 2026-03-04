@@ -5,7 +5,7 @@ import { pressReleases } from "../lib/pressReleases";
 import { UPCOMING_RELEASES } from "../lib/upcomingReleases";
 import { HERO_SLIDES } from "../lib/heroSlides";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://statsghana.gov.gh";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://statsghana.gov.gh";
 
 const staticRoutes = [
   "/",
