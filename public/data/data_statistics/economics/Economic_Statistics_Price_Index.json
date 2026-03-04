@@ -4080,7 +4080,7 @@
     "sheet": "Consumer Price Index Bulletin"
   },
   {
-    "id": "BD156",
+    "id": "BD1560",
     "program": "Bulletin January 2018",
     "category": "Consumer Price Index Bulletin",
     "type": "",
@@ -4088,5 +4088,49 @@
     "quarter": "",
     "year": "2018",
     "sheet": "Consumer Price Index Bulletin"
+  },
+
+
+
+  {
+    "id": "BDE1516",
+    "program": "06_February 2026 CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+    {
+    "id": "BDE156",
+    "program": "06-2026 February CPI-PPT-GSEdits",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+    {
+    "id": "BDE1567",
+    "program": "06-February 2026 CPI Release-Infographics",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+    {
+    "id": "BDE1656",
+    "program": "06_February 2026 CPI COICOP Annexes",
+    "category": "CPI COICOP Annexes",
+    "type": "",
+    "month": "February",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Consumer Price Index Bulletin"
   }
+
 ]

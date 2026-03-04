@@ -14,7 +14,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     title: "Inflation Rate",
     subtitle: "Check out the latest Inflation rate",
     content: ["Inflation rate stands at 3.3 in February 2026."],
-    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics" }],
+    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
   },
   {
     slug: "asd-2025-governance",
