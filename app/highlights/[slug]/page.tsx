@@ -101,16 +101,16 @@ export default async function HighlightDetailPage({
           </aside>
 
           <article className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-            <div className="relative aspect-[16/8] overflow-hidden rounded-2xl border border-slate-200 bg-slate-100">
+            <div className="overflow-hidden rounded-2xl border border-slate-200">
               <Image
                 src={slide.src}
                 alt={slide.title}
-                fill
-                className="object-cover"
+                width={0}
+                height={0}
                 sizes="(max-width: 1024px) 100vw, 900px"
+                className="w-full h-auto"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/10 to-transparent" />
             </div>
 
             <h1 className="mt-6 text-3xl font-extrabold text-slate-900 sm:text-4xl">
@@ -128,9 +128,9 @@ export default async function HighlightDetailPage({
               <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-4 sm:p-5">
                 <h2 className="text-lg font-bold text-slate-900">Downloads</h2>
                 <div className="mt-3 flex flex-wrap gap-3">
-                  {slide.downloads.map((download) => (
+                  {slide.downloads.map((download, index) => (
                     <a
-                      key={`${slide.slug}-${download.href}`}
+                      key={`${slide.slug}-${index}-${download.href}`}
                       href={download.href}
                       target="_blank"
                       rel="noreferrer"

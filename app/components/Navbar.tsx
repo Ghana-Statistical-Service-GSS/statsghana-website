@@ -184,22 +184,24 @@ function DesktopNavItem({
         />
       </button>
       <div
-        role="menu"
         className={`absolute ${
           alignRight ? "right-0" : "left-0"
-        } top-full z-[200] mt-2 w-72 rounded-xl bg-white py-2 text-slate-800 shadow-lg ring-1 ring-black/10 ${
-          isOpen ? "block" : "hidden"
-        }`}
+        } top-full z-[200] w-72 pt-2 ${isOpen ? "block" : "hidden"}`}
       >
-        {item.children?.map((child) => (
-          <DesktopDropdownLink
-            key={child.href}
-            href={child.href}
-            label={child.label}
-            isActive={pathname === child.href}
-            onSelect={() => setOpenKey(null)}
-          />
-        ))}
+        <div
+          role="menu"
+          className="rounded-xl bg-white py-2 text-slate-800 shadow-lg ring-1 ring-black/10"
+        >
+          {item.children?.map((child) => (
+            <DesktopDropdownLink
+              key={child.href}
+              href={child.href}
+              label={child.label}
+              isActive={pathname === child.href}
+              onSelect={() => setOpenKey(null)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
