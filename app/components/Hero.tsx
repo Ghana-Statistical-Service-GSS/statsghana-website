@@ -74,12 +74,21 @@ export default function Hero() {
     <section className="relative overflow-visible bg-white py-12 sm:py-16">
       <Container>
         <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[1fr_460px] lg:gap-6">
-          <div className={`relative h-[300px] w-full overflow-hidden rounded-2xl bg-slate-100 ${HERO_HEIGHT}`}>
+          <div className={`relative h-[300px] w-full overflow-hidden rounded-2xl ${HERO_HEIGHT}`}>
+            {/* Blurred background fills empty space */}
+            <Image
+              src={active.src}
+              alt=""
+              fill
+              aria-hidden
+              className="object-cover object-center scale-110 blur-lg brightness-75"
+            />
+            {/* Main image: fully visible, no cropping */}
             <Image
               src={active.src}
               alt={active.title}
               fill
-              className="object-cover object-center"
+              className="object-contain"
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/5 to-transparent" />

@@ -1,7 +1,7 @@
 export type BoardMember = {
   slug: string;
   name: string;
-  role: "Board Chair" | "Board Member" | "Ex-Officio Member" | "Board Secretary";
+  role: "Board Chair" | "Board Member" | "Government Statistician, Board Member" | "Board Secretary";
   image: string;
   bio: string[];
   managementHref?: string;
@@ -23,7 +23,7 @@ export const BOARD_MEMBERS: BoardMember[] = [
   {
     slug: "dr-alhassan-iddrisu",
     name: "Dr. Alhassan Iddrisu",
-    role: "Ex-Officio Member",
+    role: "Government Statistician, Board Member",
     image: "/images/board/Dr. Alhassan.jpg",
     managementHref: "/about/management/dr-alhassan-iddrisu",
     bio: [

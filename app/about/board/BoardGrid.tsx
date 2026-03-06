@@ -11,7 +11,7 @@ type BoardGridProps = {
 
 const roleTone: Record<BoardMember["role"], string> = {
   "Board Chair": "bg-emerald-100 text-emerald-800",
-  "Ex-Officio Member": "bg-indigo-100 text-indigo-800",
+  "Government Statistician, Board Member": "bg-indigo-100 text-indigo-800",
   "Board Member": "bg-slate-100 text-slate-700",
   "Board Secretary": "bg-amber-100 text-amber-800",
 };

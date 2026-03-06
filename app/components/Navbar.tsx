@@ -166,7 +166,11 @@ function DesktopNavItem({
   }
 
   return (
-    <div className="relative" onMouseEnter={() => setOpenKey(item.label)}>
+    <div
+      className="relative"
+      onMouseEnter={() => setOpenKey(item.label)}
+      onMouseLeave={() => setOpenKey(null)}
+    >
       <button
         type="button"
         onClick={() => setOpenKey(isOpen ? null : item.label)}
@@ -186,7 +190,6 @@ function DesktopNavItem({
         } top-full z-[200] mt-2 w-72 rounded-xl bg-white py-2 text-slate-800 shadow-lg ring-1 ring-black/10 ${
           isOpen ? "block" : "hidden"
         }`}
-        onMouseLeave={() => setOpenKey(null)}
       >
         {item.children?.map((child) => (
           <DesktopDropdownLink

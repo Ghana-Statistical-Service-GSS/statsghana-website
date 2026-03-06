@@ -9,6 +9,16 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "independence-day-2026",
+    src: "/images/independence website.png",
+    title: "Independence Day 2026",
+    subtitle: "Happy Independence Day, Ghana! Celebrating 69 years of freedom and progress.",
+    content: [
+      "Happy Independence Day, Ghana! Freedom gave us a nation; our hardwork will shape its future. Every effort matters, every number tells our story, and together we can build a stronger, fairer Ghana for the next generation." ,
+      "Forward ever, Ghana"
+    ], 
+  },
+  {
     slug: "inflation-rate",
     src: "/images/newcpi02026.png",
     title: "Inflation Rate",
