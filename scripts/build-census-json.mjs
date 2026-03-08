@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import xlsx from "xlsx";
+import ExcelJS from "exceljs";
 
 const EXCEL_PATH = path.join(
   process.cwd(),
@@ -16,10 +16,22 @@ if (!fs.existsSync(EXCEL_PATH)) {
   process.exit(1);
 }
 
-const workbook = xlsx.readFile(EXCEL_PATH);
-const sheetName = workbook.SheetNames[0];
-const worksheet = workbook.Sheets[sheetName];
-const rows = xlsx.utils.sheet_to_json(worksheet, { header: 1, defval: "" });
+const workbook = new ExcelJS.Workbook();
+await workbook.xlsx.readFile(EXCEL_PATH);
+const worksheet = workbook.worksheets[0];
+
+// Collect rows as flat arrays, resolving formula cells and normalising nulls.
+// row.values is 1-indexed (index 0 is undefined), so we slice from 1.
+const rows = [];
+worksheet.eachRow({ includeEmpty: false }, (row) => {
+  const values = row.values.slice(1).map((v) => {
+    // Formula cells have shape { formula, result }
+    const raw = v && typeof v === "object" && "result" in v ? v.result : v;
+    return raw ?? "";
+  });
+  rows.push(values);
+});
+
 const header = (rows[0] || []).map((h) => String(h).trim());
 
 const findIdx = (name) =>
