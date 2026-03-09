@@ -244,7 +244,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     position: "Ag. Director",
     group: "DIRECTOR",
     directorate: "Programme Monitoring and Evaluation",
-    photo: "/images/management/abaka.jpeg",
+    photo: "/images/management/abakaansah.jpeg",
     bio: bioBase.replace("[Name]", "Kobina Abaka Ansah"),
   },
   {
