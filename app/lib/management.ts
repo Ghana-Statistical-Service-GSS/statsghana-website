@@ -64,6 +64,11 @@ const markBio =
   "He brings over two decades of professional experience in information technology, with expertise in digital transformation, IT governance, cybersecurity, and enterprise systems management. His responsibilities include oversight of survey data collection platforms (CAPI), statistical production systems, dissemination platforms, and native web and mobile applications supporting nationwide data operations.\n\n" +
   "Mr. Abuabu-Dadzie plays a key role in advancing GSS's digital modernization agenda, ensuring scalable, secure, and reliable technology solutions that strengthen official statistics delivery in accordance with the Statistical Service Act, 2019 (Act 1003) and international best practices.";
 
+const johnsonBio =
+  "Dr. Owusu Kagya is a Chief Statistician with nearly three decades of experience in research and statistical production, with expertise in labour statistics. He currently serves as the Director of the Business, Industry and Trade Statistics Directorate (BITD) and as Secretary to the National Statistics Advisory Committee (NSAC).\n\n" +
+  "Dr. Kagya holds a PhD in Migration Studies, a Master's degree in Economic Policy Management, and a Bachelor's degree in Economics and Statistics, all from the University of Ghana.\n\n" +
+  "In his current roles, he oversees and coordinates the production of official statistics that inform national policies and programmes, particularly in labour, industry, trade, and services. Key highlights of his career include serving as Chief Census Methodologist for the Ghana 2021 Population and Housing Census and actively advancing the production and use of official statistics through national and international data-for-development platforms, contributing to evidence-informed policymaking.";
+
 export const MANAGEMENT: ManagementPerson[] = [
   {
     id: "gs",
@@ -161,7 +166,7 @@ export const MANAGEMENT: ManagementPerson[] = [
     group: "DIRECTOR",
     directorate: "Business, Industry and Trade (BIT)",
     photo: "/images/management/kagya.jpg",
-    bio: bioBase.replace("[Name]", "Johnson Owusu Kagya"),
+    bio: johnsonBio,
   },
   {
     id: "director-2",
