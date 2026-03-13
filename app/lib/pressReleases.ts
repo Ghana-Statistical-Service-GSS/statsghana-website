@@ -13,6 +13,19 @@ const PLACEHOLDER_IMAGE = "/images/placeholder.png";
 
 export const pressReleases: PressRelease[] = [
   {
+    id: "press-2026-mou-signing-wth-mdas",
+    title: "Joint MOU Signing between Ghana Statistical Service and Ministries, Departments, and Agencies (MDAs) to Strengthen Data Collaboration",
+    excerpt:
+      "25 MDAs partner with GSS to improve administrative data systems and statistical coordination",
+    dateISO: "2026-02-12",
+    imageSrc: "/images/mourelease.png",
+    slug: "press-2026-mou-signing-wth-mdas",
+    documentKey:
+      "newsevent/pressrelease/MoU Press Release_12.3.26.pdf",
+    sourcePage: 1,
+  }
+  ,
+  {
     id: "press-2025-gits-press-release",
     title:
       "Ghana's Tourism Sector Attracts GHS15.42 billion from International Visitors",
