@@ -13,19 +13,19 @@ export type UpcomingRelease = {
 
 export const UPCOMING_RELEASES: UpcomingRelease[] = [
   {
-    slug: "cpi-release",
-    title: "Consumer Price Index(CPI)",
+    slug: "gdp-release",
+    title: "Gross Domestic Product (GDP)",
     description:
-      "Presents Ghana's February 2026 inflation rate from the Consumer Price Index (CPI), including national and regional price highlights.",
-    image: "/images/upcomingrelease/cpirelease.png",
+      "Presents Ghana's 2025 Q4 GDP results, 2025 Annual GDP Estimates, and 2025 MIEG highlights for tracking overall economic performance.",
+    image: "/images/upcomingrelease/upcominggdp.jpg",
     content: [
-      "This release covers the February 2026 CPI inflation rate for Ghana.",
-      "It includes key year-on-year and month-on-month inflation movements across major divisions.",
+      "This release brings together Ghana's 2025 fourth-quarter GDP results and the 2025 Annual GDP Estimates to provide a fuller view of economic performance across the year.",
+      "It also features the 2025 December MIEG highlights to support month-by-month tracking of economic activity and strengthen short-term economic analysis.",
     ],
     event: {
       status: "Scheduled",
-      expectedRelease: "March 2026",
-      nextUpdate: "Next CPI update expected in April 2026",
+      expectedRelease: "17th March 2026",
+      nextUpdate: "Data will be posted on StatsBank and website.",
     },
   },
   {
