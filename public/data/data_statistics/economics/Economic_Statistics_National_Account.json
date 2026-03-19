@@ -1,4 +1,75 @@
-[
+[ 
+  {
+    "id": "BAS1-2",
+    "program": "Dec 2025_MIEG_Newsletter",
+    "category": "MIEG",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Monthly Indicator of Economic G"
+  },
+{
+    "id": "BAS4-2",
+    "program": "Dec 25 MIEG Bulletin_web",
+    "category": "MIEG",
+    "type": "",
+    "month": "December",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Monthly Indicator of Economic G"
+  },
+
+{
+    "id": "AS5",
+    "program": "2025Q4_quarterly_gdp_newsletter_web",
+    "category": "GDP By Expenditure Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "4",
+    "year": "2025",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "AS4",
+    "program": "GDP_2025_Annual_infographics 2",
+    "category": "GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "AS3",
+    "program": "GDP_2025_Q4_infographics_1",
+    "category": "GDP By Expenditure Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "4",
+    "year": "2025",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "AS2",
+    "program": "Annual_2013_2025_GDP_web",
+    "category": "GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "4",
+    "year": "2025",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "AS1",
+    "program": "Rebased_GDP_quarterly_bullettin_2006_2025Q4_March_2026_web",
+    "category": "GDP By Expenditure Approach",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "4",
+    "year": "2025",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
   {
     "id": "BA1",
     "program": "Annual GDP_Expenditure Approach_September 2025 Edition_GSS",

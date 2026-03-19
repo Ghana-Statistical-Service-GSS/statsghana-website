@@ -46,7 +46,7 @@ export const indicatorSeries: Record<Indicator, Series> = {
     ],
   },
   PPI: {
-    label: "PPI",
+    label: "PPI(YoY)",
     unit: "%",
     data: [
       { period: "Jan", value: 142 },

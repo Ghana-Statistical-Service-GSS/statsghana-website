@@ -46,7 +46,7 @@ const INDICATOR_CONFIG = {
     regionValue: "Ghana",
   },
   PPI: {
-    label: "PPI",
+    label: "PPI(YoY)",
     rows: (ppiData as any)?.response?.data ?? [],
     columns: (ppiData as any)?.response?.columns ?? [],
     monthIndex: (ppiData as any)?.response?.columns?.findIndex((c: any) => c.code === "Month") ?? 0,

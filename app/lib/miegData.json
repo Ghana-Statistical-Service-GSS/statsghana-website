@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-02-12T12:34:15.431Z",
-  "sourceUrl": "https://statsbank.statsghana.gov.gh:443/api/v1/en/Macroeconomic%20Indicators/Monthly%20Indicator%20of%20Economic%20Growth(MIEG)/mieg_px.px",
+  "fetchedAt": "2026-03-19T12:49:13.848Z",
+  "sourceUrl": "https://statsbank.statsghana.gov.gh/api/v1/en/Macroeconomic%20Indicators/Monthly%20Indicator%20of%20Economic%20Growth(MIEG)/December_mieg_px_fixed.px",
   "query": [
     {
       "code": "Month",
@@ -16,7 +16,7 @@
       "selection": {
         "filter": "item",
         "values": [
-          "MIEG Index Growth (year-on-year %)"
+          "1"
         ]
       }
     },
@@ -25,7 +25,7 @@
       "selection": {
         "filter": "item",
         "values": [
-          "Total MIEG"
+          "3"
         ]
       }
     }
@@ -182,7 +182,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.8"
+          "3.9"
         ]
       },
       {
@@ -192,7 +192,7 @@
           "Total MIEG"
         ],
         "values": [
-          "3.6"
+          "4.6"
         ]
       },
       {
@@ -202,7 +202,7 @@
           "Total MIEG"
         ],
         "values": [
-          "3.9"
+          "6.3"
         ]
       },
       {
@@ -212,7 +212,7 @@
           "Total MIEG"
         ],
         "values": [
-          "4.2"
+          "5.1"
         ]
       },
       {
@@ -222,7 +222,7 @@
           "Total MIEG"
         ],
         "values": [
-          "3.2"
+          "7.3"
         ]
       },
       {
@@ -232,7 +232,7 @@
           "Total MIEG"
         ],
         "values": [
-          "7.0"
+          "10.4"
         ]
       },
       {
@@ -242,7 +242,7 @@
           "Total MIEG"
         ],
         "values": [
-          "8.3"
+          "10.8"
         ]
       },
       {
@@ -252,7 +252,7 @@
           "Total MIEG"
         ],
         "values": [
-          "4.9"
+          "4.8"
         ]
       },
       {
@@ -262,7 +262,7 @@
           "Total MIEG"
         ],
         "values": [
-          "8.1"
+          "7.0"
         ]
       },
       {
@@ -272,7 +272,7 @@
           "Total MIEG"
         ],
         "values": [
-          "3.0"
+          "3.8"
         ]
       },
       {
@@ -282,7 +282,7 @@
           "Total MIEG"
         ],
         "values": [
-          "7.1"
+          "2.9"
         ]
       },
       {
@@ -292,7 +292,7 @@
           "Total MIEG"
         ],
         "values": [
-          "4.6"
+          "5.2"
         ]
       },
       {
@@ -302,7 +302,7 @@
           "Total MIEG"
         ],
         "values": [
-          "6.0"
+          "8.2"
         ]
       },
       {
@@ -312,7 +312,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.4"
+          "3.9"
         ]
       },
       {
@@ -322,7 +322,7 @@
           "Total MIEG"
         ],
         "values": [
-          "4.7"
+          "6.3"
         ]
       },
       {
@@ -332,7 +332,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.0"
+          "7.4"
         ]
       },
       {
@@ -342,7 +342,7 @@
           "Total MIEG"
         ],
         "values": [
-          "6.0"
+          "6.6"
         ]
       },
       {
@@ -352,7 +352,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.1"
+          "5.7"
         ]
       },
       {
@@ -362,7 +362,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.7"
+          "5.4"
         ]
       },
       {
@@ -372,7 +372,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.4"
+          "4.8"
         ]
       },
       {
@@ -382,7 +382,7 @@
           "Total MIEG"
         ],
         "values": [
-          "5.3"
+          "5.7"
         ]
       },
       {
@@ -392,7 +392,7 @@
           "Total MIEG"
         ],
         "values": [
-          "3.8"
+          "4.5"
         ]
       },
       {
@@ -402,8 +402,25 @@
           "Total MIEG"
         ],
         "values": [
-          "4.2"
+          "2.7"
         ]
+      },
+      {
+        "key": [
+          "2025-12-01",
+          "MIEG Index Growth (year-on-year %)",
+          "Total MIEG"
+        ],
+        "values": [
+          "10.1"
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "updated": "2026-03-19T12:49:13.847Z",
+        "label": "Monthly Indicator of Economic Growth (MIEG)",
+        "source": "GSS"
       }
     ]
   }

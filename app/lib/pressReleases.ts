@@ -13,11 +13,21 @@ const PLACEHOLDER_IMAGE = "/images/placeholder.png";
 
 export const pressReleases: PressRelease[] = [
   {
+  id: "press-2026-ibes-open-space",
+  title: "GSS Expands Business Data Collection to Include Mobile and Open-Space Enterprises",
+  excerpt: "The survey identified 82,920 mobile business operators nationwide. Women account for 64,237 operators, representing 77.5 percent, while 52,000 operators, representing over 60 percent, are aged between 15 and 35 years.",
+  dateISO: "2026-03-19",
+  imageSrc: "/images/ibesrelease.jpeg",
+  slug: "press-2026-ibes-open-space",
+  documentKey: "newsevent/pressrelease/IBES_18.3.2026 press release pdf.pdf",
+  sourcePage: 1
+},
+  {
     id: "press-2026-mou-signing-wth-mdas",
     title: "Joint MOU Signing between Ghana Statistical Service and Ministries, Departments, and Agencies (MDAs) to Strengthen Data Collaboration",
     excerpt:
       "25 MDAs partner with GSS to improve administrative data systems and statistical coordination",
-    dateISO: "2026-02-12",
+    dateISO: "2026-03-12",
     imageSrc: "/images/mourelease.png",
     slug: "press-2026-mou-signing-wth-mdas",
     documentKey:

@@ -9,6 +9,22 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "gdp-performance",
+    src: "/images/gdpbannerlatest.jpg",
+    title: "2025 Q4 GDP Highlights",
+    subtitle: "Track Ghana’s fourth-quarter growth and the 2025 annual GDP estimates.",
+    content: [
+      "The GDP highlight brings together Ghana's 2025 fourth-quarter results with the 2025 Annual GDP Estimates to show how the economy performed over the full year.",
+      "It supports quick access to sector performance, growth trends, and headline national accounts updates for decision-making and public communication.",
+    ],
+    downloads: [
+      {
+        title: "GDP Highlights",
+        href: "/data-statistics/economic-statistics?tab=national-accounts",
+      },
+    ],
+  },
+  {
     slug: "mou-signing-2026",
     src: "/images/mourelease.png",
     title: "Joint MOU Signing 2026",
@@ -28,22 +44,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     content: ["Inflation rate stands at 3.3 in February 2026."],
     downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
   },
-  {
-    slug: "gdp-performance",
-    src: "/images/GDPBANNER.jpg",
-    title: "2025 Q4 GDP Highlights",
-    subtitle: "Track Ghana’s fourth-quarter growth and the 2025 annual GDP estimates.",
-    content: [
-      "The GDP highlight brings together Ghana's 2025 fourth-quarter results with the 2025 Annual GDP Estimates to show how the economy performed over the full year.",
-      "It supports quick access to sector performance, growth trends, and headline national accounts updates for decision-making and public communication.",
-    ],
-    downloads: [
-      {
-        title: "GDP Highlights",
-        href: "/data-statistics/economic-statistics?tab=national-accounts",
-      },
-    ],
-  },
+  
 ];
 
 export function getHeroSlide(slug: string) {

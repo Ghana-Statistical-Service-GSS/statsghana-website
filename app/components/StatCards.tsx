@@ -114,6 +114,25 @@ function getLatestTwoQuarterValues(
   };
 }
 
+function getLatestTwoYearValues(
+  rows: Array<{ key: string[]; values: string[] }>
+) {
+  const parsed = rows
+    .map((row) => {
+      const year = parseYearValue(row.key?.[0]);
+      const value = Number(row.values?.[0]);
+      if (!Number.isFinite(year) || !Number.isFinite(value)) return null;
+      return { year, value };
+    })
+    .filter(Boolean) as Array<{ year: number; value: number }>;
+
+  parsed.sort((a, b) => b.year - a.year);
+  return {
+    latest: parsed[0] ?? null,
+    previous: parsed[1] ?? null,
+  };
+}
+
 const CARD_LINKS: Record<string, string> = {
   CPI: "/data-statistics/economic-statistics?tab=price-index",
   PPI: "/data-statistics/economic-statistics?tab=price-index",
@@ -238,12 +257,24 @@ type KPIEntry = {
   positiveIsGood?: boolean;
   gdpProductionQuarterlyValue?: string;
   gdpProductionQuarterlyPeriod?: string;
+  gdpProductionQuarterlyCurrent?: number | null;
+  gdpProductionQuarterlyPrev?: number | null;
+  gdpProductionQuarterlyPrevLabel?: string;
   gdpProductionAnnualValue?: string;
   gdpProductionYear?: string;
+  gdpProductionAnnualCurrent?: number | null;
+  gdpProductionAnnualPrev?: number | null;
+  gdpProductionAnnualPrevLabel?: string;
   gdpExpenditureQuarterlyValue?: string;
   gdpExpenditureQuarterlyPeriod?: string;
+  gdpExpenditureQuarterlyCurrent?: number | null;
+  gdpExpenditureQuarterlyPrev?: number | null;
+  gdpExpenditureQuarterlyPrevLabel?: string;
   gdpExpenditureAnnualValue?: string;
   gdpExpenditureYear?: string;
+  gdpExpenditureAnnualCurrent?: number | null;
+  gdpExpenditureAnnualPrev?: number | null;
+  gdpExpenditureAnnualPrevLabel?: string;
 };
 
 function StatsCard({
@@ -443,20 +474,14 @@ export default function StatCards() {
     (gdpData as any)?.annualExpenditure?.response?.data ??
     (gdpData as any)?.annual?.response?.data ??
     [];
-  const annualGdpProductionLatest = annualGdpProductionRows
-    .map((row: any) => {
-      const year = parseYearValue(row.key?.[0]);
-      return { year, value: Number(row.values?.[0]) };
-    })
-    .filter((row: any) => Number.isFinite(row.year) && Number.isFinite(row.value))
-    .sort((a: any, b: any) => b.year - a.year)[0];
-  const annualGdpExpenditureLatest = annualGdpExpenditureRows
-    .map((row: any) => {
-      const year = parseYearValue(row.key?.[0]);
-      return { year, value: Number(row.values?.[0]) };
-    })
-    .filter((row: any) => Number.isFinite(row.year) && Number.isFinite(row.value))
-    .sort((a: any, b: any) => b.year - a.year)[0];
+  const {
+    latest: annualGdpProductionLatest,
+    previous: annualGdpProductionPrevious,
+  } = getLatestTwoYearValues(annualGdpProductionRows as any);
+  const {
+    latest: annualGdpExpenditureLatest,
+    previous: annualGdpExpenditurePrevious,
+  } = getLatestTwoYearValues(annualGdpExpenditureRows as any);
 
   const quarterlyGdpProductionRows =
     (gdpData as any)?.quarterlyProduction?.response?.data ??
@@ -466,32 +491,14 @@ export default function StatCards() {
     (gdpData as any)?.quarterlyExpenditure?.response?.data ??
     (gdpData as any)?.quarterly?.response?.data ??
     [];
-  const quarterlyGdpProductionLatest = quarterlyGdpProductionRows
-    .map((row: any) => {
-      const parsed = parseQuarterValue(row.key?.[0]);
-      return { year: parsed?.year, quarter: parsed?.quarter, value: Number(row.values?.[0]) };
-    })
-    .filter(
-      (row: any) =>
-        Number.isFinite(row.year) && Number.isFinite(row.quarter) && Number.isFinite(row.value)
-    )
-    .sort((a: any, b: any) => {
-      if (a.year !== b.year) return b.year - a.year;
-      return b.quarter - a.quarter;
-    })[0];
-  const quarterlyGdpExpenditureLatest = quarterlyGdpExpenditureRows
-    .map((row: any) => {
-      const parsed = parseQuarterValue(row.key?.[0]);
-      return { year: parsed?.year, quarter: parsed?.quarter, value: Number(row.values?.[0]) };
-    })
-    .filter(
-      (row: any) =>
-        Number.isFinite(row.year) && Number.isFinite(row.quarter) && Number.isFinite(row.value)
-    )
-    .sort((a: any, b: any) => {
-      if (a.year !== b.year) return b.year - a.year;
-      return b.quarter - a.quarter;
-    })[0];
+  const {
+    latest: quarterlyGdpProductionLatest,
+    previous: quarterlyGdpProductionPrevious,
+  } = getLatestTwoQuarterValues(quarterlyGdpProductionRows as any);
+  const {
+    latest: quarterlyGdpExpenditureLatest,
+    previous: quarterlyGdpExpenditurePrevious,
+  } = getLatestTwoQuarterValues(quarterlyGdpExpenditureRows as any);
 
   const kpis: KPIEntry[] = [
     {
@@ -508,7 +515,7 @@ export default function StatCards() {
     },
     {
       key: "PPI",
-      title: "PPI",
+      title: "PPI(YoY)",
       currentValue: latestPpi?.value ?? null,
       value: latestPpi ? `${latestPpi.value.toFixed(1)}%` : "—",
       periodLabel: latestPpi ? formatMonthWord(latestPpi.month) : undefined,
@@ -551,11 +558,21 @@ export default function StatCards() {
       gdpProductionQuarterlyValue: quarterlyGdpProductionLatest
         ? `${quarterlyGdpProductionLatest.value.toFixed(1)}%`
         : "—",
+      gdpProductionQuarterlyCurrent: quarterlyGdpProductionLatest?.value ?? null,
+      gdpProductionQuarterlyPrev: quarterlyGdpProductionPrevious?.value ?? null,
+      gdpProductionQuarterlyPrevLabel: quarterlyGdpProductionPrevious
+        ? `${quarterlyGdpProductionPrevious.year} Q${quarterlyGdpProductionPrevious.q}`
+        : "—",
       gdpProductionQuarterlyPeriod: quarterlyGdpProductionLatest
-        ? `${quarterlyGdpProductionLatest.year} Q${quarterlyGdpProductionLatest.quarter}`
+        ? `${quarterlyGdpProductionLatest.year} Q${quarterlyGdpProductionLatest.q}`
         : "—",
       gdpProductionAnnualValue: annualGdpProductionLatest
         ? `${annualGdpProductionLatest.value.toFixed(1)}%`
+        : "—",
+      gdpProductionAnnualCurrent: annualGdpProductionLatest?.value ?? null,
+      gdpProductionAnnualPrev: annualGdpProductionPrevious?.value ?? null,
+      gdpProductionAnnualPrevLabel: annualGdpProductionPrevious
+        ? String(annualGdpProductionPrevious.year)
         : "—",
       gdpProductionYear: annualGdpProductionLatest
         ? String(annualGdpProductionLatest.year)
@@ -563,11 +580,21 @@ export default function StatCards() {
       gdpExpenditureQuarterlyValue: quarterlyGdpExpenditureLatest
         ? `${quarterlyGdpExpenditureLatest.value.toFixed(1)}%`
         : "—",
+      gdpExpenditureQuarterlyCurrent: quarterlyGdpExpenditureLatest?.value ?? null,
+      gdpExpenditureQuarterlyPrev: quarterlyGdpExpenditurePrevious?.value ?? null,
+      gdpExpenditureQuarterlyPrevLabel: quarterlyGdpExpenditurePrevious
+        ? `${quarterlyGdpExpenditurePrevious.year} Q${quarterlyGdpExpenditurePrevious.q}`
+        : "—",
       gdpExpenditureQuarterlyPeriod: quarterlyGdpExpenditureLatest
-        ? `${quarterlyGdpExpenditureLatest.year} Q${quarterlyGdpExpenditureLatest.quarter}`
+        ? `${quarterlyGdpExpenditureLatest.year} Q${quarterlyGdpExpenditureLatest.q}`
         : "—",
       gdpExpenditureAnnualValue: annualGdpExpenditureLatest
         ? `${annualGdpExpenditureLatest.value.toFixed(1)}%`
+        : "—",
+      gdpExpenditureAnnualCurrent: annualGdpExpenditureLatest?.value ?? null,
+      gdpExpenditureAnnualPrev: annualGdpExpenditurePrevious?.value ?? null,
+      gdpExpenditureAnnualPrevLabel: annualGdpExpenditurePrevious
+        ? String(annualGdpExpenditurePrevious.year)
         : "—",
       gdpExpenditureYear: annualGdpExpenditureLatest
         ? String(annualGdpExpenditureLatest.year)
@@ -702,11 +729,17 @@ export default function StatCards() {
                     period: gdpCard.gdpProductionYear
                       ? `Year ${gdpCard.gdpProductionYear}`
                       : "—",
+                    currentValue: gdpCard.gdpProductionAnnualCurrent,
+                    prevValue: gdpCard.gdpProductionAnnualPrev,
+                    prevLabel: gdpCard.gdpProductionAnnualPrevLabel,
                   }}
                   productionQuarterly={{
                     label: "Quarterly",
                     value: gdpCard.gdpProductionQuarterlyValue ?? "—",
                     period: gdpCard.gdpProductionQuarterlyPeriod ?? "—",
+                    currentValue: gdpCard.gdpProductionQuarterlyCurrent,
+                    prevValue: gdpCard.gdpProductionQuarterlyPrev,
+                    prevLabel: gdpCard.gdpProductionQuarterlyPrevLabel,
                   }}
                   expenditureAnnual={{
                     label: "Annual",
@@ -714,11 +747,17 @@ export default function StatCards() {
                     period: gdpCard.gdpExpenditureYear
                       ? `Year ${gdpCard.gdpExpenditureYear}`
                       : "—",
+                    currentValue: gdpCard.gdpExpenditureAnnualCurrent,
+                    prevValue: gdpCard.gdpExpenditureAnnualPrev,
+                    prevLabel: gdpCard.gdpExpenditureAnnualPrevLabel,
                   }}
                   expenditureQuarterly={{
                     label: "Quarterly",
                     value: gdpCard.gdpExpenditureQuarterlyValue ?? "—",
                     period: gdpCard.gdpExpenditureQuarterlyPeriod ?? "—",
+                    currentValue: gdpCard.gdpExpenditureQuarterlyCurrent,
+                    prevValue: gdpCard.gdpExpenditureQuarterlyPrev,
+                    prevLabel: gdpCard.gdpExpenditureQuarterlyPrevLabel,
                   }}
                 />
               </Link>

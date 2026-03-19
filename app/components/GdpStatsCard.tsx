@@ -5,6 +5,9 @@ type MiniCard = {
   label: string;
   value: string;
   period: string;
+  currentValue?: number | null;
+  prevValue?: number | null;
+  prevLabel?: string;
 };
 
 type GdpStatsCardProps = {
@@ -21,7 +24,11 @@ const GDP_THEME = {
   glowClass: "bg-violet-400/20",
 };
 
-function GdpMiniCard({ label, value, period }: MiniCard) {
+function GdpMiniCard({
+  label,
+  value,
+  period,
+}: MiniCard) {
   return (
     <div className="rounded-lg border border-white/50 bg-white/70 p-2.5 shadow-sm">
       <p className="truncate text-[10px] font-semibold text-slate-500">{label}</p>
