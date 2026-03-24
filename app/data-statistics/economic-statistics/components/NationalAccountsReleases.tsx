@@ -12,13 +12,6 @@ type NationalAccountsReleasesProps = {
   subtitle?: string;
 };
 
-const CATEGORY_PRIORITY = [
-  "GDP by Production Approach",
-  "GDP by Expenditure Approach",
-  "Gross National Income",
-  "GDP Newsletters",
-];
-
 const MONTH_ORDER: Record<string, number> = {
   Jan: 1,
   Feb: 2,
@@ -40,6 +33,50 @@ function normalize(value?: string) {
 
 function unique(values: Array<string | undefined>) {
   return Array.from(new Set(values.filter(Boolean) as string[]));
+}
+
+function getCategoryRank(category?: string) {
+  const normalized = normalize(category);
+
+  if (
+    normalized === "gdp by expenditure approach" ||
+    normalized === "gdp by expenditure"
+  ) {
+    return 0;
+  }
+
+  if (
+    normalized === "gdp by production approach" ||
+    normalized === "gdp by production"
+  ) {
+    return 1;
+  }
+
+  if (normalized.startsWith("gdp")) {
+    return 2;
+  }
+
+  if (
+    normalized === "gross national income" ||
+    normalized === "gni" ||
+    normalized === "national income"
+  ) {
+    return 3;
+  }
+
+  if (normalized === "others") {
+    return 5;
+  }
+
+  return 4;
+}
+
+function compareCategories(a: string, b: string) {
+  const rankDifference = getCategoryRank(a) - getCategoryRank(b);
+  if (rankDifference !== 0) {
+    return rankDifference;
+  }
+  return a.localeCompare(b);
 }
 
 export default function NationalAccountsReleases({
@@ -119,18 +156,8 @@ export default function NationalAccountsReleases({
   }, []);
 
   const categories = useMemo(() => {
-    const items = unique(rows.map((row) => row.category));
-    const priority = CATEGORY_PRIORITY.filter((cat) => items.includes(cat));
-    const remaining = items
-      .filter((cat) => !CATEGORY_PRIORITY.includes(cat) && cat !== "Others")
-      .sort((a, b) => a.localeCompare(b));
-    const hasOthers = items.includes("Others");
-    return [
-      "All Categories",
-      ...priority,
-      ...remaining,
-      ...(hasOthers ? ["Others"] : []),
-    ];
+    const items = unique(rows.map((row) => row.category)).sort(compareCategories);
+    return ["All Categories", ...items];
   }, [rows]);
 
   useEffect(() => {
@@ -203,6 +230,8 @@ export default function NationalAccountsReleases({
 
   const sortedRows = useMemo(() => {
     return [...filteredRows].sort((a, b) => {
+      const categoryDifference = compareCategories(a.category, b.category);
+      if (categoryDifference !== 0) return categoryDifference;
       const yearA = a.year ?? 0;
       const yearB = b.year ?? 0;
       if (yearA !== yearB) return yearB - yearA;
