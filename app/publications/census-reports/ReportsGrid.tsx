@@ -128,13 +128,37 @@ export default function ReportsGrid({
   const matchedFileKeyByReportId = useMemo(() => {
     const matched = new Map<string, string>();
     reports.forEach((report) => {
-      const key = matchKeyForReport(report.title, report.id, keyIndex);
+      let key: string | null = null;
+
+      if (report.fileKey) {
+        if (fileKeys.includes(report.fileKey)) {
+          key = report.fileKey;
+        } else {
+          const normalizedExplicitKey = report.fileKey
+            .split("/")
+            .pop()
+            ?.toLowerCase()
+            .replace(/\.[a-z0-9]+$/i, "")
+            .replace(/[_-]+/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+
+          if (normalizedExplicitKey && keyIndex.map.has(normalizedExplicitKey)) {
+            key = keyIndex.map.get(normalizedExplicitKey) ?? null;
+          }
+        }
+      }
+
+      if (!key) {
+        key = matchKeyForReport(report.title, report.id, keyIndex);
+      }
+
       if (key) {
         matched.set(report.id, key);
       }
     });
     return matched;
-  }, [keyIndex, reports]);
+  }, [fileKeys, keyIndex, reports]);
 
   const filteredReports = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();

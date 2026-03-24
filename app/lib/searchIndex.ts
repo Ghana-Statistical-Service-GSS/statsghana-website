@@ -67,6 +67,12 @@ export const searchIndex: SearchItem[] = [
     group: "Publications",
   },
   {
+    label: "Monthly Wrap & Policy Brief",
+    href: "/publications/monthly-wrap-and-policy-brief",
+    group: "Publications",
+    keywords: ["Monthly Wrap", "Policy Brief"],
+  },
+  {
     label: "Administrative Data Reports",
     href: "/publications/administrative-data-reports",
     group: "Publications",

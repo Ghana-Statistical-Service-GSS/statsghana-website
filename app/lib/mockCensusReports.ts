@@ -6,6 +6,7 @@ export type CensusReport = {
   reportType: string;
   thumbnail: string;
   fileUrl: string;
+  fileKey?: string;
 };
 
 const PLACEHOLDER_THUMB = "/images/publications/census-reports/image.png";

@@ -83,6 +83,7 @@ export const NAV: NavItem[] = [
   withChildren("Publications", [
     "Census Reports",
     "Survey Reports",
+    "Monthly Wrap & Policy Brief",
     "Administrative Data Reports",
     "Statistical Governance",
   ]),
