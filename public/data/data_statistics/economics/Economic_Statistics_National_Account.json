@@ -23,7 +23,7 @@
 {
     "id": "AS5",
     "program": "2025Q4_quarterly_gdp_newsletter_web",
-    "category": "GDP By Expenditure Approach",
+    "category": "GDP By Production Approach",
     "type": "Quarterly",
     "month": "",
     "quarter": "4",
@@ -33,7 +33,7 @@
   {
     "id": "AS4",
     "program": "GDP_2025_Annual_infographics 2",
-    "category": "GDP By Expenditure Approach",
+    "category": "GDP By Production Approach",
     "type": "Annual",
     "month": "",
     "quarter": "",
@@ -43,7 +43,7 @@
   {
     "id": "AS3",
     "program": "GDP_2025_Q4_infographics_1",
-    "category": "GDP By Expenditure Approach",
+    "category": "GDP By Production Approach",
     "type": "Quarterly",
     "month": "",
     "quarter": "4",
@@ -53,7 +53,7 @@
   {
     "id": "AS2",
     "program": "Annual_2013_2025_GDP_web",
-    "category": "GDP By Expenditure Approach",
+    "category": "GDP By Production Approach",
     "type": "Annual",
     "month": "",
     "quarter": "4",
@@ -63,7 +63,7 @@
   {
     "id": "AS1",
     "program": "Rebased_GDP_quarterly_bullettin_2006_2025Q4_March_2026_web",
-    "category": "GDP By Expenditure Approach",
+    "category": "GDP By Production Approach",
     "type": "Quarterly",
     "month": "",
     "quarter": "4",

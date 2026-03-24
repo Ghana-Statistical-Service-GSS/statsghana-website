@@ -12,6 +12,13 @@ type NationalAccountsReleasesProps = {
   subtitle?: string;
 };
 
+const CATEGORY_PRIORITY = [
+  "GDP by Production Approach",
+  "GDP by Expenditure Approach",
+  "Gross National Income",
+  "GDP Newsletters",
+];
+
 const MONTH_ORDER: Record<string, number> = {
   Jan: 1,
   Feb: 2,
@@ -35,25 +42,28 @@ function unique(values: Array<string | undefined>) {
   return Array.from(new Set(values.filter(Boolean) as string[]));
 }
 
-function getCategoryRank(category?: string) {
+function canonicalizeCategory(category?: string) {
   const normalized = normalize(category);
 
   if (
     normalized === "gdp by expenditure approach" ||
     normalized === "gdp by expenditure"
   ) {
-    return 0;
+    return "GDP by Expenditure Approach";
   }
 
   if (
     normalized === "gdp by production approach" ||
     normalized === "gdp by production"
   ) {
-    return 1;
+    return "GDP by Production Approach";
   }
 
-  if (normalized.startsWith("gdp")) {
-    return 2;
+  if (
+    normalized === "gdp newsletters" ||
+    normalized === "gdp news letters"
+  ) {
+    return "GDP Newsletters";
   }
 
   if (
@@ -61,21 +71,31 @@ function getCategoryRank(category?: string) {
     normalized === "gni" ||
     normalized === "national income"
   ) {
-    return 3;
+    return "Gross National Income";
   }
 
   if (normalized === "others") {
-    return 5;
+    return "Others";
   }
+
+  return String(category ?? "").trim() || "Others";
+}
+
+function getCategoryRank(category?: string) {
+  const normalized = normalize(canonicalizeCategory(category));
+
+  if (normalized === "gdp by production approach") return 0;
+  if (normalized === "gdp by expenditure approach") return 1;
+  if (normalized.startsWith("gdp")) return 2;
+  if (normalized === "gross national income") return 3;
+  if (normalized === "others") return 5;
 
   return 4;
 }
 
 function compareCategories(a: string, b: string) {
   const rankDifference = getCategoryRank(a) - getCategoryRank(b);
-  if (rankDifference !== 0) {
-    return rankDifference;
-  }
+  if (rankDifference !== 0) return rankDifference;
   return a.localeCompare(b);
 }
 
@@ -120,8 +140,9 @@ export default function NationalAccountsReleases({
             row.year && !Number.isNaN(Number(row.year))
               ? Number(row.year)
               : parsed.year;
-          const categoryLabel =
-            String(row.category ?? "").trim() || "Others";
+          const categoryLabel = canonicalizeCategory(
+            String(row.category ?? "").trim() || parsed.category,
+          );
 
           return {
             id: row.id ?? parsed.id,
@@ -157,7 +178,9 @@ export default function NationalAccountsReleases({
 
   const categories = useMemo(() => {
     const items = unique(rows.map((row) => row.category)).sort(compareCategories);
-    return ["All Categories", ...items];
+    const priority = CATEGORY_PRIORITY.filter((cat) => items.includes(cat));
+    const remaining = items.filter((cat) => !CATEGORY_PRIORITY.includes(cat));
+    return ["All Categories", ...priority, ...remaining];
   }, [rows]);
 
   useEffect(() => {
