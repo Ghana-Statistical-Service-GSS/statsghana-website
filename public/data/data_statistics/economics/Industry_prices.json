@@ -110,6 +110,36 @@
     "sheet": "Index Of Industrial Production"
   },
   {
+    "id": "BA10",
+    "program": "2025_Q4_IIP_inforgraphics",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "Q4",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA11",
+    "program": "2025_Q4_IIP_PPT",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "Q4",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA12",
+    "program": "2025_Q4_Quarterly_IIP_Newsletter",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "Q4",
+    "year": "2025",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
     "id": "SK10",
     "program": "3rd_quarter_2025_IIP_press_release_Final",
     "category": "Index Of Industrial Production (IIP)",
