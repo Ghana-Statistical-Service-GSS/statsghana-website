@@ -113,7 +113,7 @@ export default async function OpportunityDetailPage({
                 </p>
                 {documentUrl ? (
                   <p>
-                    <a
+                    {/* <a
                       href={documentUrl}
                       target="_blank"
                       rel="noreferrer"
@@ -121,7 +121,7 @@ export default async function OpportunityDetailPage({
                     >
                       <Download className="h-4 w-4" />
                       Open full release (PDF)
-                    </a>
+                    </a> */}
                   </p>
                 ) : (
                   <p className="text-sm text-slate-500">
