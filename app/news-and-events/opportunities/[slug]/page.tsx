@@ -102,7 +102,7 @@ export default async function OpportunityDetailPage({
               <div className="mt-4 space-y-4 text-slate-700 leading-relaxed">
                 <p>{item.excerpt}</p>
                 <p>
-                  To minimize risks while supporting innovation, GSS requires a dedicated Security Consultant to implement a DevSecOps approach. This transition involves replacing traditional "end-of-cycle" testing with continuous security assurance integrated into Agile sprint cycles. During the assignment, the consultant is expected to provide training and knowledge transfer to the GSS development team on the project.
+                  To minimize risks while supporting innovation, GSS requires a dedicated Security Consultant to implement a DevSecOps approach. This transition involves replacing traditional &quot;end-of-cycle&quot; testing with continuous security assurance integrated into Agile sprint cycles. During the assignment, the consultant is expected to provide training and knowledge transfer to the GSS development team on the project.
                 </p>
                 <p>
                   For full details on the Security Consultancy opportunity, please visit the official announcement published on the&nbsp;
