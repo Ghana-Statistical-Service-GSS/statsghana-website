@@ -19,7 +19,7 @@ export const opportunities: Opportunity[] = [
   dateISO: "2026-03-28",
   imageSrc: "/images/security_consultancy.png",
   slug: "website-security-consultancy-2026",
-  documentKey: "",
+  documentKey: "opportunities/website-security-consultancy-2026-tor.pdf",
   sourcePage: 1
   },
 ];
