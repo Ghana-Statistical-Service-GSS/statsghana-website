@@ -1,5 +1,11 @@
 [
-
+  {
+    "id": "BSDA2",
+    "title": "Food Insecurity-Main Report 2025Q3",
+    "description": "Labour Force Survey (Q3 2025).",
+    "year": 2025,
+    "reportType": "PDF"
+  },
   {
     "id": "BSD2",
     "title": "IBES Open Space and Mobile Businesses Presentation",
