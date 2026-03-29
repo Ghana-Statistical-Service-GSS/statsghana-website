@@ -8,6 +8,23 @@ export type HeroSlide = {
 };
 
 export const HERO_SLIDES: HeroSlide[] = [
+  
+  {
+    slug: "website-security-consultancy-2026",
+    src: "/images/security_consultancy.png",
+    title: "Website Security Consultancy",
+    subtitle: "Consultancy Services for Secure Code Review, Penetration Testing, and Patch Support for the In-House Redevelopment of the GSS Website.",
+    content: [
+      "The Ghana Statistical Service (GSS) is currently revamping its official website and data dissemination platform using an internal development team. As the primary repository for national data, the platform's integrity, availability, and confidentiality are paramount.",
+      "To ensure the security of the new website, GSS is seeking consultancy services for secure code review, penetration testing, and patch support. The consultancy will help identify and mitigate potential vulnerabilities in the website's codebase, conduct thorough penetration testing to simulate real-world attacks, and provide ongoing patch support to address any security issues that arise.",
+    ],
+    downloads: [
+      {
+        title: "Website Security Consultancy TOR (PDF)",
+        href: "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?fi=8519113833011&fo=0&ext=intconsult",
+      },
+    ],
+  },
   {
     slug: "gdp-performance",
     src: "/images/gdpbannerlatest.jpg",
