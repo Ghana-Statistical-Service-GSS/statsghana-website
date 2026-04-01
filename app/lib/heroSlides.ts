@@ -8,7 +8,14 @@ export type HeroSlide = {
 };
 
 export const HERO_SLIDES: HeroSlide[] = [
-  
+  {
+    slug: "inflation-rate",
+    src: "/images/newcpi03026.png",
+    title: "Inflation Rate",
+    subtitle: "Check out the latest Inflation rate",
+    content: ["Inflation rate stands at 3.2 in March 2026."],
+    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
+  },
   {
     slug: "website-security-consultancy-2026",
     src: "/images/security_consultancy.png",
@@ -52,14 +59,6 @@ export const HERO_SLIDES: HeroSlide[] = [
       "The agreement, signed during a one-day ceremony held at the Movenpick Hotel in Accra, marks an important step toward strengthening coordination within Ghana's National Statistical System and improving the use of administrative data to support national development.",
       "The collaboration will focus on strengthening administrative data systems, improving data sharing across institutions, promoting adherence to national statistical standards, and enhancing the capacity of MDAs to produce and use quality data for planning, monitoring, and evaluation."
     ],
-  },
-  {
-    slug: "inflation-rate",
-    src: "/images/newcpi03026.png",
-    title: "Inflation Rate",
-    subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 3.2 in March 2026."],
-    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
   },
   
 ];
