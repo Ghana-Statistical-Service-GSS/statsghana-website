@@ -1,5 +1,35 @@
 [ 
   {
+    "id": "BAS1-3",
+    "program": "JAN_MIEG_Newsletter",
+    "category": "MIEG",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Monthly Indicator of Economic G"
+  },
+  {
+    "id": "BAS4-3",
+    "program": "04_ MIEG Bulletin Jan2026",
+    "category": "MIEG",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Monthly Indicator of Economic G"
+  },
+  {
+    "id": "BAS4-4",
+    "program": "02_MIEG_PPT_JAN 2026",
+    "category": "MIEG",
+    "type": "",
+    "month": "January",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Monthly Indicator of Economic G"
+  },
+  {
     "id": "BAS1-2",
     "program": "Dec 2025_MIEG_Newsletter",
     "category": "MIEG",
@@ -9,7 +39,7 @@
     "year": "2025",
     "sheet": "Monthly Indicator of Economic G"
   },
-{
+  {
     "id": "BAS4-2",
     "program": "Dec 25 MIEG Bulletin_web",
     "category": "MIEG",
