@@ -8,6 +8,14 @@ export type HeroSlide = {
 };
 
 export const HERO_SLIDES: HeroSlide[] = [
+   {
+    slug: "mieg-rate",
+    src: "/images/MIEG0126.png",
+    title: "MIEG",
+    subtitle: "Check out the latest Inflation rate",
+    content: ["Inflation rate stands at 7.5 in January 2026."],
+    downloads: [{ title: "Latest MIEG Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=national-accounts" }],
+  },
   {
     slug: "inflation-rate",
     src: "/images/newcpi03026.png",
