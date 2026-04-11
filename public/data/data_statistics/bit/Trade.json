@@ -130,11 +130,33 @@
     "sheet": "Quarterly Newsletters"
   },
   {
-    "id": "BD2-2",
-    "program": "Quarterly Trade Newsletter Q2 2025",
+    "id": "BDD2-2",
+    "program": "Trade Newsletter Q2 2025",
     "category": "Quarterly Newsletters",
     "type": "Quarterly",
-    "month": "September",
+    "month": "",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Quarterly Newsletters"
+  },
+
+  {
+    "id": "BDD3-2",
+    "program": "Trade_Newsletter_2025_Q4",
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "",
+    "year": "2025",
+    "sheet": "Quarterly Newsletters"
+  },
+
+  {
+    "id": "BD2-2",
+    "program": "Trade Newsletter_2025_Q3", 
+    "category": "Quarterly Newsletters",
+    "type": "Quarterly",
+    "month": "",
     "quarter": "",
     "year": "2025",
     "sheet": "Quarterly Newsletters"
@@ -144,7 +166,7 @@
     "program": "Quarterly Trade Newsletter Q1 2025",
     "category": "Quarterly Newsletters",
     "type": "Quarterly",
-    "month": "September",
+    "month": "",
     "quarter": "",
     "year": "2025",
     "sheet": "Quarterly Newsletters"
@@ -154,7 +176,7 @@
     "program": "Quarterly Trade Newsletter Q4 2024",
     "category": "Quarterly Newsletters",
     "type": "Quarterly",
-    "month": "Feburary",
+    "month": "",
     "quarter": "",
     "year": "2024",
     "sheet": "Quarterly Newsletters"
@@ -164,7 +186,7 @@
     "program": "Quarterly Trade Newsletter Q3 2024",
     "category": "Quarterly Newsletters",
     "type": "Quarterly",
-    "month": "December",
+    "month": "",
     "quarter": "",
     "year": "2024",
     "sheet": "Quarterly Newsletters"
@@ -174,7 +196,7 @@
     "program": "Quarterly Trade Newsletter Q2 2024",
     "category": "Quarterly Newsletters",
     "type": "Quarterly",
-    "month": "October",
+    "month": "",
     "quarter": "",
     "year": "2024",
     "sheet": "Quarterly Newsletters"
@@ -184,7 +206,7 @@
     "program": "Quarterly Trade Newsletter Q1 2024",
     "category": "Quarterly Newsletters",
     "type": "Quarterly",
-    "month": "May",
+    "month": "",
     "quarter": "",
     "year": "2024",
     "sheet": "Quarterly Newsletters"
