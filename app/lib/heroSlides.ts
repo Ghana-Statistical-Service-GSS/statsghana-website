@@ -8,7 +8,15 @@ export type HeroSlide = {
 };
 
 export const HERO_SLIDES: HeroSlide[] = [
-   {
+  {
+    slug: "trade",
+    src: "/images/tradeq3_42025.png",
+    title: "Trade Newsletter",
+    subtitle: "Check out the latest Trade Newsletter quarterly 3 and 4 2025.",
+    content: ["Quarterly trade newsletter provides insights into Ghana's trade performance, trends, and key indicators for Q3 and Q4 of 2025."],
+    downloads: [{ title: "Latest Trade Newsletter (PDF)", href: "/data-statistics/business-industry-and-trade-statistics?tab=trade" }],
+  },
+  {
     slug: "mieg-rate",
     src: "/images/MIEG0126.png",
     title: "MIEG",
