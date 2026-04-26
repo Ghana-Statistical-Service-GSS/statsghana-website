@@ -9,6 +9,16 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "mvam",
+    src: "/images/mVAM web 2 copy.png",
+    title: "MVAM",
+    subtitle: "Report release for the October 2025 to December 2025 period.",
+    content: [
+      "The MVAM report release presents findings from the Mobile Vulnerability Analysis and Mapping survey for the October 2025 to December 2025 period.",
+    ],
+    downloads: [{ title: "Surveys Report", href: "/publications/survey-reports" }],
+  },
+  {
     slug: "trade",
     src: "/images/tradeq3_42025.png",
     title: "Trade Newsletter",
@@ -32,22 +42,22 @@ export const HERO_SLIDES: HeroSlide[] = [
     content: ["Inflation rate stands at 3.2 in March 2026."],
     downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
   },
-  {
-    slug: "website-security-consultancy-2026",
-    src: "/images/security_consultancy.png",
-    title: "Website Security Consultancy",
-    subtitle: "Consultancy Services for Secure Code Review, Penetration Testing, and Patch Support for the In-House Redevelopment of the GSS Website.",
-    content: [
-      "The Ghana Statistical Service (GSS) is currently revamping its official website and data dissemination platform using an internal development team. As the primary repository for national data, the platform's integrity, availability, and confidentiality are paramount.",
-      "To ensure the security of the new website, GSS is seeking consultancy services for secure code review, penetration testing, and patch support. The consultancy will help identify and mitigate potential vulnerabilities in the website's codebase, conduct thorough penetration testing to simulate real-world attacks, and provide ongoing patch support to address any security issues that arise.",
-    ],
-    downloads: [
-      {
-        title: "Website Security Consultancy TOR (PDF)",
-        href: "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?fi=8519113833011&fo=0&ext=intconsult",
-      },
-    ],
-  },
+  // {
+  //   slug: "website-security-consultancy-2026",
+  //   src: "/images/security_consultancy.png",
+  //   title: "Website Security Consultancy",
+  //   subtitle: "Consultancy Services for Secure Code Review, Penetration Testing, and Patch Support for the In-House Redevelopment of the GSS Website.",
+  //   content: [
+  //     "The Ghana Statistical Service (GSS) is currently revamping its official website and data dissemination platform using an internal development team. As the primary repository for national data, the platform's integrity, availability, and confidentiality are paramount.",
+  //     "To ensure the security of the new website, GSS is seeking consultancy services for secure code review, penetration testing, and patch support. The consultancy will help identify and mitigate potential vulnerabilities in the website's codebase, conduct thorough penetration testing to simulate real-world attacks, and provide ongoing patch support to address any security issues that arise.",
+  //   ],
+  //   downloads: [
+  //     {
+  //       title: "Website Security Consultancy TOR (PDF)",
+  //       href: "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?fi=8519113833011&fo=0&ext=intconsult",
+  //     },
+  //   ],
+  // },
   {
     slug: "gdp-performance",
     src: "/images/gdpbannerlatest.jpg",
@@ -64,18 +74,18 @@ export const HERO_SLIDES: HeroSlide[] = [
       },
     ],
   },
-  {
-    slug: "mou-signing-2026",
-    src: "/images/mourelease.png",
-    title: "Joint MOU Signing 2026",
-    subtitle: "Strengthening data collaboration between GSS and MDAs.",
-    content: [
-      "25 MDAs partner with GSS to improve administrative data systems and statistical coordination.",
-      "The Ghana Statistical Service (GSS) has signed a Memorandum of Understanding (MoU) with 25 Ministries, Departments and Agencies (MDAs) to strengthen collaboration in the production and use of official statistics in Ghana.",
-      "The agreement, signed during a one-day ceremony held at the Movenpick Hotel in Accra, marks an important step toward strengthening coordination within Ghana's National Statistical System and improving the use of administrative data to support national development.",
-      "The collaboration will focus on strengthening administrative data systems, improving data sharing across institutions, promoting adherence to national statistical standards, and enhancing the capacity of MDAs to produce and use quality data for planning, monitoring, and evaluation."
-    ],
-  },
+  // {
+  //   slug: "mou-signing-2026",
+  //   src: "/images/mourelease.png",
+  //   title: "Joint MOU Signing 2026",
+  //   subtitle: "Strengthening data collaboration between GSS and MDAs.",
+  //   content: [
+  //     "25 MDAs partner with GSS to improve administrative data systems and statistical coordination.",
+  //     "The Ghana Statistical Service (GSS) has signed a Memorandum of Understanding (MoU) with 25 Ministries, Departments and Agencies (MDAs) to strengthen collaboration in the production and use of official statistics in Ghana.",
+  //     "The agreement, signed during a one-day ceremony held at the Movenpick Hotel in Accra, marks an important step toward strengthening coordination within Ghana's National Statistical System and improving the use of administrative data to support national development.",
+  //     "The collaboration will focus on strengthening administrative data systems, improving data sharing across institutions, promoting adherence to national statistical standards, and enhancing the capacity of MDAs to produce and use quality data for planning, monitoring, and evaluation."
+  //   ],
+  // },
   
 ];
 
