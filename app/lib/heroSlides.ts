@@ -9,6 +9,33 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "pbci-march-2026-release",
+    src: "/images/PBCI INVITE.png",
+    title: "March 2026 PBCI Release",
+    subtitle: "Prime Building Cost Index bulletin and supporting documents for March 2026.",
+    content: [
+      "Access the March 2026 Prime Building Cost Index release materials, including the bulletin, annexes, presentation, and infographics.",
+    ],
+    downloads: [
+      {
+        title: "PBCI Bulletin",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=March%202026_PBCI-Bulletin",
+      },
+      {
+        title: "PBCI Annexes",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_ANNEXES_March_2026",
+      },
+      {
+        title: "PBCI Presentation",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_PPT_March_2026",
+      },
+      {
+        title: "PBCI Infographics",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_INFOGRAPHICS_March_2026",
+      },
+    ],
+  },
+  {
     slug: "mvam",
     src: "/images/mVAM web 2 copy.png",
     title: "MVAM",

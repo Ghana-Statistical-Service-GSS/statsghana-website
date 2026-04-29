@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import CategoryTabs from "./CategoryTabs";
 import ReleaseFilters from "./ReleaseFilters";
 import ReleasesTable from "./ReleasesTable";
@@ -46,11 +47,12 @@ export default function PriceIndicesReleases({
   title,
   subtitle,
 }: PriceIndicesReleasesProps) {
+  const searchParams = useSearchParams();
   const [rows, setRows] = useState<ReleaseItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [typeFilter, setTypeFilter] = useState("all");
   const [monthFilter, setMonthFilter] = useState("all");
@@ -114,6 +116,10 @@ export default function PriceIndicesReleases({
       isActive = false;
     };
   }, []);
+
+  useEffect(() => {
+    setQuery(searchParams.get("q") ?? "");
+  }, [searchParams]);
 
   const categories = useMemo(() => {
     const items = unique(rows.map((row) => row.category));
