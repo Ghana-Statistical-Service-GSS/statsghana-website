@@ -13,35 +13,35 @@ export type UpcomingRelease = {
 
 export const UPCOMING_RELEASES: UpcomingRelease[] = [
   {
-    slug: "gdp-release",
-    title: "Gross Domestic Product (GDP)",
+    slug: "pbci-march-2026-release",
+    title: "Prime Building Cost Index (PBCI)",
     description:
-      "Presents Ghana's 2025 Q4 GDP results, 2025 Annual GDP Estimates, and 2025 MIEG highlights for tracking overall economic performance.",
-    image: "/images/upcomingrelease/upcominggdp.jpg",
+      "Presents the March 2026 Prime Building Cost Index bulletin and supporting release materials.",
+    image: "/images/PBCI INVITE.png",
     content: [
-      "This release brings together Ghana's 2025 fourth-quarter GDP results and the 2025 Annual GDP Estimates to provide a fuller view of economic performance across the year.",
-      "It also features the 2025 December MIEG highlights to support month-by-month tracking of economic activity and strengthen short-term economic analysis.",
+      "This release provides the March 2026 Prime Building Cost Index update, including the bulletin, annexes, presentation, and infographics.",
+      "The PBCI tracks changes in prices of building materials and supports monitoring of construction cost movements in Ghana.",
     ],
     event: {
-      status: "Scheduled",
-      expectedRelease: "17th March 2026",
-      nextUpdate: "Data will be posted on StatsBank and website.",
+      status: "Released",
+      expectedRelease: "March 2026",
+      nextUpdate: "Documents are available under Price Indices releases.",
     },
   },
   {
-    slug: "producer-price-index-release-ppi",
-    title: "Producer Price Index Release (PPI)",
+    slug: "mvam-october-december-2025-release",
+    title: "MVAM Report Release",
     description:
-      "Tracks changes in prices received by domestic producers, offering key indicators on inflationary pressures at the production level.",
-    image: "/images/upcomingrelease/ppirelease.png",
+      "Presents the MVAM report release for the October 2025 to December 2025 period.",
+    image: "/images/mVAM web 2 copy.png",
     content: [
-      "This release presents Ghana's Producer Price Index (PPI) for February 2026 and is scheduled for publication in March 2026.",
-      "It highlights month-on-month and year-on-year producer price changes, with key movements across major industrial sectors.",
+      "This release presents findings from the Mobile Vulnerability Analysis and Mapping survey for the October 2025 to December 2025 period.",
+      "The MVAM report supports timely reporting and evidence use on food security conditions.",
     ],
     event: {
-      status: "In preparation",
-      expectedRelease: "March 2026",
-      nextUpdate: "Next PPI update expected in April 2026",
+      status: "Released",
+      expectedRelease: "April 2026",
+      nextUpdate: "Report is available under survey reports.",
     },
   },
   {
