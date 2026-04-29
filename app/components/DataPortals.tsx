@@ -42,12 +42,12 @@ const portals = [
 ];
 
 const portalImages: Record<string, string> = {
-  "StatsBank": "/images/statsbank.png",
-  "Microdata Catalogue": "/images/microdata copy.png",
-  "National Reporting Platform": "/images/nrp.png",
-  "CPI Inflation Calculator": "/images/cpi_calculator.png",
-  "Open Data for Africa": "/images/open_data.png",
-  "Ghana Gridded Data Portal": "/images/ghana_gridded_data.png",
+  "StatsBank": "/images/data-portals/statsbank.png",
+  "Microdata Catalogue": "/images/data-portals/microdata copy.png",
+  "National Reporting Platform": "/images/data-portals/nrp.png",
+  "CPI Inflation Calculator": "/images/data-portals/cpi_calculator.png",
+  "Open Data for Africa": "/images/data-portals/open_data.png",
+  "Ghana Gridded Data Portal": "/images/data-portals/ghana_gridded_data.png",
 };
 
 const placeholder = "/images/placeholder.png";

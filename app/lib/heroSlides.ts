@@ -10,7 +10,7 @@ export type HeroSlide = {
 export const HERO_SLIDES: HeroSlide[] = [
   {
     slug: "pbci-march-2026-release",
-    src: "/images/PBCI INVITE.png",
+    src: "/images/banner/PBCI INVITE.png",
     title: "March 2026 PBCI Release",
     subtitle: "Prime Building Cost Index bulletin and supporting documents for March 2026.",
     content: [
@@ -37,7 +37,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     slug: "mvam",
-    src: "/images/mVAM web 2 copy.png",
+    src: "/images/banner/mVAM web 2 copy.png",
     title: "MVAM",
     subtitle: "Report release for the October 2025 to December 2025 period.",
     content: [
@@ -47,7 +47,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     slug: "trade",
-    src: "/images/tradeq3_42025.png",
+    src: "/images/banner/tradeq3_42025.png",
     title: "Trade Newsletter",
     subtitle: "Check out the latest Trade Newsletter quarterly 3 and 4 2025.",
     content: ["Quarterly trade newsletter provides insights into Ghana's trade performance, trends, and key indicators for Q3 and Q4 of 2025."],
@@ -55,7 +55,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     slug: "mieg-rate",
-    src: "/images/MIEG0126.png",
+    src: "/images/banner/MIEG0126.png",
     title: "MIEG",
     subtitle: "Check out the latest Inflation rate",
     content: ["Inflation rate stands at 7.5 in January 2026."],
@@ -63,7 +63,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     slug: "inflation-rate",
-    src: "/images/newcpi03026.png",
+    src: "/images/banner/newcpi03026.png",
     title: "Inflation Rate",
     subtitle: "Check out the latest Inflation rate",
     content: ["Inflation rate stands at 3.2 in March 2026."],
@@ -87,7 +87,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   // },
   {
     slug: "gdp-performance",
-    src: "/images/gdpbannerlatest.jpg",
+    src: "/images/banner/gdpbannerlatest.jpg",
     title: "2025 Q4 GDP Highlights",
     subtitle: "Track Ghana’s fourth-quarter growth and the 2025 annual GDP estimates.",
     content: [

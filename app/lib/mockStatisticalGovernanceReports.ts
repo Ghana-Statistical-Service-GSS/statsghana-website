@@ -1,6 +1,6 @@
 import { CensusReport } from "./mockCensusReports";
 
-const MISSING_THUMB = "/images/publications/census-reports/missing.png";
+const MISSING_THUMB = "/images/publications/census-reports/image.png";
 
 export const mockStatisticalGovernanceReports: CensusReport[] = [
   {
