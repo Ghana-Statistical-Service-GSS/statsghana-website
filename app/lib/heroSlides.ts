@@ -9,6 +9,22 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "annual-inflation-report-2025",
+    src: "/images/banner/annualinflation2025.png",
+    title: "2025 Annual Inflation Report",
+    subtitle: "A clear view of the price movements that shaped 2025.",
+    content: [
+      "The 2025 Annual Inflation Report brings together the year's inflation trends, key drivers, and price movements in one accessible release.",
+      "Use the report to explore how consumer prices changed across the year and what the patterns mean for households, businesses, and policy.",
+    ],
+    downloads: [
+      {
+        title: "View Annual Inflation Report 2025",
+        href: "/publications/survey-reports?q=Annual%20Inflation%20Report%202025",
+      },
+    ],
+  },
+  {
     slug: "pbci-march-2026-release",
     src: "/images/banner/PBCI INVITE.png",
     title: "March 2026 PBCI Release",

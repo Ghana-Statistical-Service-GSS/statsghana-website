@@ -1,5 +1,12 @@
 [
   {
+    "id": "AIR2025",
+    "title": "Annual Inflation Report 2025",
+    "description": "Annual Inflation Report 2025.",
+    "year": 2025,
+    "reportType": "PDF"
+  },
+  {
     "id": "Bmv1",
     "title": "mVAMoct2026",
     "description": "Mobile Vulnerability Analysis and Mapping (mVAM)-October : December 2026.",
