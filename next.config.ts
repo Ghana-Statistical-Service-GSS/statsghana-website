@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+
 const minioEndpoint = process.env.MINIO_ENDPOINT;
 let minioPattern:
   | { protocol: "http" | "https"; hostname: string; port?: string }
@@ -67,6 +68,7 @@ const nextConfig: NextConfig = {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+          { key: 'Strict-Transport-Security', value: 'max-age=31536000; includeSubDomains'},
         ],
       },
     ];
