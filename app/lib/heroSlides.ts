@@ -8,6 +8,14 @@ export type HeroSlide = {
 };
 
 export const HERO_SLIDES: HeroSlide[] = [
+   {
+    slug: "inflation-rate",
+    src: "/images/banner/newcpi0426.png",
+    title: "Inflation Rate",
+    subtitle: "Check out the latest Inflation rate",
+    content: ["Inflation rate stands at 3.4 in April 2026."],
+    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
+  },
   {
     slug: "annual-inflation-report-2025",
     src: "/images/banner/annualinflation2025.png",
@@ -76,14 +84,6 @@ export const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Check out the latest Inflation rate",
     content: ["Inflation rate stands at 7.5 in January 2026."],
     downloads: [{ title: "Latest MIEG Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=national-accounts" }],
-  },
-  {
-    slug: "inflation-rate",
-    src: "/images/banner/newcpi0426.png",
-    title: "Inflation Rate",
-    subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 3.4 in April 2026."],
-    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
   },
   // {
   //   slug: "website-security-consultancy-2026",
