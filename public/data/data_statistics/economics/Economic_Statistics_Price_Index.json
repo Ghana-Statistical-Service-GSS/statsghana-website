@@ -4251,6 +4251,46 @@
     "quarter": "",
     "year": "2026",
     "sheet": "CPI COICOP Annexes"
-  }
+  },
 
+  {
+    "id": "BDE1518",
+    "program": "April 2026 CPI-Bulletin",
+    "category": "Consumer Price Index Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Consumer Price Index Bulletin"
+  },
+  {
+    "id": "BDE158",
+    "program": "06-April 2026 CPI-PPT-5May26-GSEdits-Final2",
+    "category": "CPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "CPI Presentation"
+  },
+  {
+    "id": "BDE1569",
+    "program": "April 2026 CPI-Infographics",
+    "category": "CPI Infographics",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "CPI Infographics"
+  },
+  {
+    "id": "BDE1658",
+    "program": "April 2026 CPI COICOP Annexes",
+    "category": "CPI COICOP Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "CPI COICOP Annexes"
+  }
 ]

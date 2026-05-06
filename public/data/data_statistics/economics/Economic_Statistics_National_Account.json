@@ -98,7 +98,7 @@
     "month": "",
     "quarter": "4",
     "year": "2025",
-    "sheet": "QuarterlyGDP byExpenditureApproach"
+    "sheet": "QuarterlyGDPbyExpenditure Ap"
   },
   {
     "id": "BA1",
@@ -506,9 +506,9 @@
     "program": "QGDPE_Expenditure Approach_April 2026_GSS_web",
     "category": "GDP By Expenditure Approach",
     "type": "Quarterly",
-    "month": "December",
+    "month": "April",
     "quarter": "",
-    "year": "2025",
+    "year": "2026",
     "sheet": "QuarterlyGDPbyExpenditure Ap"
   },
   {
