@@ -1,8 +1,27 @@
 import { Suspense } from "react";
 import ReportsGrid from "../census-reports/ReportsGrid";
+import statsGovernance from "@/app/lib/statisticalGovernance.json";
 import { mockStatisticalGovernanceReports } from "@/app/lib/mockStatisticalGovernanceReports";
+import { CensusReport } from "@/app/lib/mockCensusReports";
 
 export default function StatisticalGovernancePage() {
+
+  const reports: CensusReport[] = (statsGovernance as Array<{
+    id: string;
+    title: string;
+    description: string;
+    year?: number;
+    reportType: CensusReport["reportType"];
+  }>).map((row) => ({
+    id: row.id,
+    title: row.title,
+    description: row.description,
+    year: row.year ?? 0,
+    reportType: row.reportType,
+    thumbnail: "/images/publications/census-reports/image.png",
+    fileUrl: "#",
+  }));
+
   return (
     <div className="bg-white">
       <section className="relative overflow-hidden py-10 sm:py-12">

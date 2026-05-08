@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AIR2025",
+    "title": "Annual Inflation Report 2025",
+    "description": "Annual Inflation Report 2025.",
+    "year": 2025,
+    "reportType": "PDF"
+  },
+  {
+    "id": "Bmv1",
+    "title": "mVAMoct2026",
+    "description": "Mobile Vulnerability Analysis and Mapping (mVAM)-October : December 2026.",
+    "year": 2026,
+    "reportType": "PDF"
+  },
+  {
+    "id": "BSDA2",
+    "title": "Food Insecurity-Main Report 2025Q3",
+    "description": "Labour Force Survey (Q3 2025).",
+    "year": 2025,
+    "reportType": "PDF"
+  },
+  {
+    "id": "SAE1",
+    "title": "Breast and Cervical Cancer Screening Among Women in Ghana_Small Area Estimation_Thematic Brief",
+    "description": "Breast and Cervical Cancer Screening Among Women in Ghana_Small Area Estimation_Thematic Brief.pdf",
+    "year": 2025,
+    "reportType": "PDF"
+  },
+  {
+    "id": "SAE2",
+    "title": "Exclusive Breastfeeding_Small Area Estimation_Thematic Brief",
+    "description": "Exclusive Breastfeeding_Small Area Estimation_Thematic Brief.pdf",
+    "year": 2025,
+    "reportType": "PDF"
+  },
+  {
+    "id": "SAE3",
+    "title": "Childhood Immunisation_Small Area Estimation_Thematic Brief",
+    "description": "Childhood Immunisation_Small Area Estimation_Thematic Brief.pdf",
+    "year": 2025,
+    "reportType": "PDF"
+  }
+]
