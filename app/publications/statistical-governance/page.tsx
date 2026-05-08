@@ -55,7 +55,7 @@ export default function StatisticalGovernancePage() {
             <ReportsGrid
               reports={reports}
               fallbackSrc="/images/publications/census-reports/image.png"
-              filePrefix="publications/statistical-governance"
+              filePrefix="publications/statistical_governance"
             />
           </Suspense>
         </div>
