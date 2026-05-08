@@ -6,7 +6,7 @@ import { CensusReport } from "@/app/lib/mockCensusReports";
 
 export default function StatisticalGovernancePage() {
 
-  const reports: CensusReport[] = (statsGovernance as Array<{
+  const statsGov: CensusReport[] = (statsGovernance as Array<{
     id: string;
     title: string;
     description: string;
@@ -53,8 +53,9 @@ export default function StatisticalGovernancePage() {
             }
           >
             <ReportsGrid
-              reports={mockStatisticalGovernanceReports}
+              reports={statsGov}
               fallbackSrc="/images/publications/census-reports/image.png"
+              filePrefix="publications/statistical-governance"
             />
           </Suspense>
         </div>
