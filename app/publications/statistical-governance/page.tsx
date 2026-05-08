@@ -1,12 +1,12 @@
 import { Suspense } from "react";
 import ReportsGrid from "../census-reports/ReportsGrid";
 import statsGovernance from "@/app/lib/statisticalGovernance.json";
-import { mockStatisticalGovernanceReports } from "@/app/lib/mockStatisticalGovernanceReports";
+// import { mockStatisticalGovernanceReports } from "@/app/lib/mockStatisticalGovernanceReports";
 import { CensusReport } from "@/app/lib/mockCensusReports";
 
 export default function StatisticalGovernancePage() {
 
-  const statsGov: CensusReport[] = (statsGovernance as Array<{
+  const reports: CensusReport[] = (statsGovernance as Array<{
     id: string;
     title: string;
     description: string;
@@ -53,7 +53,7 @@ export default function StatisticalGovernancePage() {
             }
           >
             <ReportsGrid
-              reports={statsGov}
+              reports={reports}
               fallbackSrc="/images/publications/census-reports/image.png"
               filePrefix="publications/statistical-governance"
             />
