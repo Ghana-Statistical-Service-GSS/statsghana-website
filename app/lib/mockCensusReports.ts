@@ -7,6 +7,7 @@ export type CensusReport = {
   thumbnail: string;
   fileUrl: string;
   fileKey?: string;
+  downloadable?: boolean;
 };
 
 const PLACEHOLDER_THUMB = "/images/publications/census-reports/image.png";
@@ -21,6 +22,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2021-thematic-urban",
@@ -31,6 +33,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Thematic Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2010-analytical",
@@ -41,6 +44,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Analytical Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2010-main",
@@ -51,6 +55,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2000-main",
@@ -61,6 +66,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2021-technical",
@@ -71,6 +77,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Technical Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2021-atlas",
@@ -81,6 +88,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Atlas",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "agc-2017-main",
@@ -91,6 +99,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "agc-2017-summary",
@@ -101,6 +110,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2010-thematic-disability",
@@ -111,6 +121,7 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Thematic Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "phc-2021-thematic-youth",
@@ -121,5 +132,6 @@ export const mockCensusReports: CensusReport[] = [
     reportType: "Analytical Report",
     thumbnail: PLACEHOLDER_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
 ];

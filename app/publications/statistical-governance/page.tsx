@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import ReportsGrid from "../census-reports/ReportsGrid";
 import statsGovernance from "@/app/lib/statisticalGovernance.json";
-// import { mockStatisticalGovernanceReports } from "@/app/lib/mockStatisticalGovernanceReports";
 import { CensusReport } from "@/app/lib/mockCensusReports";
 
 export default function StatisticalGovernancePage() {
@@ -12,6 +11,7 @@ export default function StatisticalGovernancePage() {
     description: string;
     year?: number;
     reportType: CensusReport["reportType"];
+    downloadable?: boolean;
   }>).map((row) => ({
     id: row.id,
     title: row.title,
@@ -20,6 +20,7 @@ export default function StatisticalGovernancePage() {
     reportType: row.reportType,
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: row.downloadable,
   }));
 
   return (

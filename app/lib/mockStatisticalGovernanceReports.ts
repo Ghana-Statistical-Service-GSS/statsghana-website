@@ -12,6 +12,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-standards-2021",
@@ -22,6 +23,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Technical Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-data-quality-2022",
@@ -32,6 +34,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Technical Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-ethics-2023",
@@ -42,6 +45,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Analytical Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-coordination-2024",
@@ -52,6 +56,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-open-data-2022",
@@ -62,6 +67,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-audit-2021",
@@ -72,6 +78,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Analytical Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-capacity-2023",
@@ -82,6 +89,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-risk-2024",
@@ -92,6 +100,7 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Technical Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "governance-strategy-2025",
@@ -102,5 +111,6 @@ export const mockStatisticalGovernanceReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: MISSING_THUMB,
     fileUrl: "#",
+    downloadable: true,
   },
 ];

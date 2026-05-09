@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Download, Lock } from "lucide-react";
 import { CensusReport } from "@/app/lib/mockCensusReports";
 import {
   buildKeyIndex,
@@ -203,7 +203,7 @@ export default function ReportsGrid({
   );
 
   const handleDownload = async (report: CensusReport, key: string | null) => {
-    if (!key) return;
+    if (!key || report.downloadable === false) return;
     setDownloadingId(report.id);
     try {
       const res = await fetch(
@@ -324,21 +324,28 @@ export default function ReportsGrid({
                     {report.year} • {report.reportType}
                   </div>
                   <div className="mt-5 flex flex-wrap gap-3">
-                    <button
-                      type="button"
-                      onClick={() => handleDownload(report, matchedKey)}
-                      disabled={isDisabled || isDownloading}
-                      className={[
-                        "inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold shadow-sm transition",
-                        isDisabled
-                          ? "cursor-not-allowed bg-slate-200 text-slate-400"
-                          : "bg-emerald-700 text-white hover:bg-emerald-800",
-                      ].join(" ")}
-                      aria-disabled={isDisabled}
-                    >
-                      <Download className="h-4 w-4" />
-                      {isDownloading ? "Preparing..." : "Download"}
-                    </button>
+                     {report.downloadable !== false ? (
+                      <button
+                        type="button"
+                        onClick={() => handleDownload(report, matchedKey)}
+                        disabled={isDisabled || isDownloading}
+                        className={[
+                          "inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold shadow-sm transition",
+                          isDisabled
+                            ? "cursor-not-allowed bg-slate-200 text-slate-400"
+                            : "bg-emerald-700 text-white hover:bg-emerald-800",
+                        ].join(" ")}
+                        aria-disabled={isDisabled}
+                      >
+                        <Download className="h-4 w-4" />
+                        {isDownloading ? "Preparing..." : "Download"}
+                      </button>
+                    ) : (
+                      <div className="inline-flex items-center gap-2 rounded-xl bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-500">
+                        <Lock className="h-4 w-4" />
+                        Read Only
+                      </div>
+                    )}
                     <button
                       type="button"
                       className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 hover:text-emerald-800"

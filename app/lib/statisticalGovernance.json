@@ -1,16 +1,58 @@
 [
   {
     "id": "SG1",
-    "title": "Methodology for Estimating Regional and District Level MPI Using SAE",
-    "description": "Methodology for Estimating Regional and District Level MPI Using SAE.",
+    "title": "Contracts for Data Collaboration",
+    "description": "Contracts for Data Collaboration.",
     "year": 2026,
-    "reportType": "PDF"
+    "reportType": "PDF",
+    "downloadable": false
   },
   {
     "id": "SG2",
-    "title": "mVAMoct2026",
-    "description": "Mobile Vulnerability Analysis and Mapping (mVAM)-October : December 2026.",
+    "title": "Data Science Roadmap",
+    "description": "Data Science Roadmap for statistical office.",
     "year": 2026,
-    "reportType": "PDF"
+    "reportType": "PDF",
+    "downloadable": false
+  },
+  {
+    "id": "SG3",
+    "title": "Environment Statistics Compendium",
+    "description": "Environment Statistics Compendium",
+    "year": 2026,
+    "reportType": "PDF",
+    "downloadable": false
+  },
+  {
+    "id": "SG4",
+    "title": "Harmonising and Improving Statistics in West Africa Project",
+    "description": "Harmonising and Improving Statistics in West Africa Project",
+    "year": 2026,
+    "reportType": "PDF",
+    "downloadable": false
+  },
+  {
+    "id": "SG5",
+    "title": "Partnership_agreement",
+    "description": "Partnership_agreement.",
+    "year": 2026,
+    "reportType": "PDF",
+    "downloadable": false
+  },
+  {
+    "id": "SG6",
+    "title": "Writing Style Guide",
+    "description": "Writing Style Guide",
+    "year": 2026,
+    "reportType": "PDF",
+    "downloadable": false
+  },
+  {
+    "id": "SG7",
+    "title": "Methodology for Estimating Regional and District Level MPI Using SAE",
+    "description": "Methodology for Estimating Regional and District Level MPI Using SAE.",
+    "year": 2025,
+    "reportType": "PDF",
+    "downloadable": true
   }
 ]

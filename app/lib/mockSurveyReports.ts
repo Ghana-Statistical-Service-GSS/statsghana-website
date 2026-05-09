@@ -10,6 +10,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "glss-7-summary",
@@ -20,6 +21,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "mics-2017-main",
@@ -30,6 +32,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Main Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "dhs-2014-analytical",
@@ -40,6 +43,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Analytical Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "ibes-2024-technical",
@@ -50,6 +54,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Technical Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "labour-2022-summary",
@@ -60,6 +65,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "education-2023-thematic",
@@ -70,6 +76,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Thematic Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "health-2021-summary",
@@ -80,6 +87,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Summary",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "food-security-2020-analytical",
@@ -90,6 +98,7 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Analytical Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
   {
     id: "housing-2018-thematic",
@@ -100,5 +109,6 @@ export const mockSurveyReports: CensusReport[] = [
     reportType: "Thematic Report",
     thumbnail: "/images/publications/census-reports/image.png",
     fileUrl: "#",
+    downloadable: true,
   },
 ];

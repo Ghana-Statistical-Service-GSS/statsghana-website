@@ -1,8 +1,38 @@
 [
-   {
+  {
+    "id": "ASK6",
+    "program": "PPI_PPT_March 2026_08042026_rev_kg1-Rev",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "ASK5",
+    "program": "PPI Infographic_March 2026_08042026-Rev",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "ASK4",
+    "program": "PPI Newsletter_March 2026_08042026_rev_kg1-Rev",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Producer Price Index News letter"
+  },
+  {
     "id": "ASK3",
     "program": "PPI Infographic_February 2026_17032026",
-    "category": "PPI Presentation",
+    "category": "PPI Infographics",
     "type": "",
     "month": "February",
     "quarter": "",
