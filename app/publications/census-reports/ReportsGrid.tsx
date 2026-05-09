@@ -207,7 +207,7 @@ export default function ReportsGrid({
     setDownloadingId(report.id);
     try {
       const res = await fetch(
-        `/api/minio/presign?key=${encodeURIComponent(key)}&expires=900`,
+        `/api/minio/presign?key=${encodeURIComponent(key)}&expires=900&disposition=inline`,
       );
       if (!res.ok) throw new Error("Failed to presign");
       const data = await res.json();
