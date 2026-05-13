@@ -8,7 +8,15 @@ export type HeroSlide = {
 };
 
 export const HERO_SLIDES: HeroSlide[] = [
-   {
+  {
+    slug: "mieg-rate",
+    src: "/images/banner/MIEG0226.png",
+    title: "MIEG",
+    subtitle: "Check out the latest Inflation rate",
+    content: ["Inflation rate stands at 7.7 in February 2026."],
+    downloads: [{ title: "Latest MIEG Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=national-accounts" }],
+  },
+  {
     slug: "inflation-rate",
     src: "/images/banner/newcpi0426.png",
     title: "Inflation Rate",
@@ -76,14 +84,6 @@ export const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Check out the latest Trade Newsletter quarterly 3 and 4 2025.",
     content: ["Quarterly trade newsletter provides insights into Ghana's trade performance, trends, and key indicators for Q3 and Q4 of 2025."],
     downloads: [{ title: "Latest Trade Newsletter (PDF)", href: "/data-statistics/business-industry-and-trade-statistics?tab=trade" }],
-  },
-  {
-    slug: "mieg-rate",
-    src: "/images/banner/MIEG0126.png",
-    title: "MIEG",
-    subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 7.5 in January 2026."],
-    downloads: [{ title: "Latest MIEG Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=national-accounts" }],
   },
   // {
   //   slug: "website-security-consultancy-2026",

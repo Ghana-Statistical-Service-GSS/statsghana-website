@@ -424,6 +424,16 @@
         "values": [
           "7.5"
         ]
+      },
+      {
+        "key": [
+          "2026-02-01",
+          "MIEG Index Growth (year-on-year %)",
+          "Total MIEG"
+        ],
+        "values": [
+          "7.7"
+        ]
       }
     ],
     "metadata": [
