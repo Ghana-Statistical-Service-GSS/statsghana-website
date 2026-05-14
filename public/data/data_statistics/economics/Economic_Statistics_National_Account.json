@@ -130,6 +130,16 @@
     "year": "2025",
     "sheet": "QuarterlyGDPbyExpenditure Ap"
   },
+   {
+    "id": "AS6",
+    "program": "Annual GDP_Expenditure Approach_April 2026 Edition_web",
+    "category": "GDP By Expenditure Approach",
+    "type": "Annual",
+    "month": "",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
   {
     "id": "BA1",
     "program": "Annual GDP_Expenditure Approach_September 2025 Edition_GSS",
