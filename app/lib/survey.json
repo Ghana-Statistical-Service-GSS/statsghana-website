@@ -157,22 +157,43 @@
   {
     "id": "BD2",
     "title": "Domestic Visitors factsheet",
-    "description": "",
-    "year": 2025,
+    "description": "Domestic and Outbound Tourism Survey (Domestic Same-day & Overnight visitors’ Fact Sheet)",
+    "year": 2023,
     "reportType": ""
   },
   {
     "id": "BD3",
     "title": "Domestic Same-day Visitors",
-    "description": "",
-    "year": 2025,
+    "description": "Domestic and Outbound Tourism Survey (Domestic Same-day visitors’ Report 2023)",
+    "year": 2023,
     "reportType": ""
   },
   {
     "id": "BD4",
     "title": "Domestic Overnight Visitors",
-    "description": "",
-    "year": 2025,
+    "description": "Domestic and Outbound Tourism Survey (Domestic Overnight visitors’ Report 2023)",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD77",
+    "title": "2023 Outbound Visitors' Factsheet",
+    "description": "Domestic and Outbound Tourism Survey (Outbound Same-day & Overnight visitors’ Fact Sheet)",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD78",
+    "title": "2023 Outbound Same-day Visitors' Report",
+    "description": "Domestic and Outbound Tourism Survey (Outbound Same-day visitors’ Report 2023)",
+    "year": 2023,
+    "reportType": ""
+  },
+  {
+    "id": "BD79",
+    "title": "2023 Outbound Overnight Visitors' Report",
+    "description": "Domestic and Outbound Tourism Survey (Outbound Overnight visitors’ Report 2023)",
+    "year": 2023,
     "reportType": ""
   },
   {
@@ -199,22 +220,22 @@
   {
     "id": "BD8",
     "title": "Inbound Same-day & Overnight Visitors’ Fact Sheet",
-    "description": "",
-    "year": 2025,
+    "description": "Ghana International Travellers' Survey (Inbound Same-day & Overnight Visitors’ Fact Sheet)",
+    "year": 2023,
     "reportType": ""
   },
   {
     "id": "BD9",
-    "title": "Inbound Same-Day Visitors' Report 2023",
-    "description": "",
-    "year": 2025,
+    "title": "2023 Inbound Same-day Vistors' Report",
+    "description": "Ghana International Travellers' Survey (Inbound Same-Day Visitors’ Report 2023)",
+    "year": 2023,
     "reportType": ""
   },
   {
     "id": "BD10",
-    "title": "Inbound Overnight Visitors Report 2023",
-    "description": "",
-    "year": 2025,
+    "title": "2023 Inbound Overnight Visitors' Report",
+    "description": "Ghana International Travellers' Survey (Inbound Overnight Visitors’ Report 2023)",
+    "year": 2023,
     "reportType": ""
   },
   {
