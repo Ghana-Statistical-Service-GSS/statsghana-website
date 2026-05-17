@@ -1,273 +1,1827 @@
 [
   {
-    "id": "IAM64",
-    "title": "District Multidimensional poverty 2025 West Gonja",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM63",
-    "title": "District Multidimensional poverty 2025 Sawla Tuna Kalba",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM62",
-    "title": "District Multidimensional poverty 2025 North Gonja",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM61",
-    "title": "District Multidimensional poverty 2025 North East Gonja",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM60",
-    "title": "District Multidimensional poverty 2025 East Gonja Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM59",
-    "title": "District Multidimensional poverty 2025 Central Gonja",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM58",
-    "title": "District Multidimensional poverty 2025 Bole",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM57",
-    "title": "District Multidimensional poverty 2025 Yunyoo Nasuan",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM56",
-    "title": "District Multidimensional poverty 2025 West Mamprusi Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM55",
-    "title": "District Multidimensional poverty 2025 Mamprugu Moagduri",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM54",
-    "title": "District Multidimensional poverty 2025 East Mamprusi Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM53",
-    "title": "District Multidimensional poverty 2025 Chereponi",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM52",
-    "title": "District Multidimensional poverty 2025 Bunkpurugu Nakpanduri",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM51",
-    "title": "District Multidimensional poverty 2025 Tempane",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM50",
-    "title": "District Multidimensional poverty 2025 Talensi",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM49",
-    "title": "District Multidimensional poverty 2025 Pusiga",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM48",
-    "title": "District Multidimensional poverty 2025 Nabdam",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM47",
-    "title": "District Multidimensional poverty 2025 Kasena Nankana West",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM46",
-    "title": "District Multidimensional poverty 2025 Kasena Nankana Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM45",
-    "title": "District Multidimensional poverty 2025 Garu",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM44",
-    "title": "District Multidimensional poverty 2025 Builsa South",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM43",
-    "title": "District Multidimensional poverty 2025 Builsa North Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM42",
-    "title": "District Multidimensional poverty 2025 Bongo",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM41",
-    "title": "District Multidimensional poverty 2025 Bolgatanga Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM40",
-    "title": "District Multidimensional poverty 2025 Bolgatanga East",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM39",
-    "title": "District Multidimensional poverty 2025 Binduri",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM38",
-    "title": "District Multidimensional poverty 2025 Bawku West",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM37",
-    "title": "District Multidimensional poverty 2025 Bawku Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM36",
-    "title": "District Multidimensional poverty 2025 Wa West",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM35",
-    "title": "District Multidimensional poverty 2025 Wa Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM34",
-    "title": "District Multidimensional poverty 2025 Wa East",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM33",
-    "title": "District Multidimensional poverty 2025 Sissala West",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM32",
-    "title": "District Multidimensional poverty 2025 Sissala East Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM31",
-    "title": "District Multidimensional poverty 2025 Nandom",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM30",
-    "title": "District Multidimensional poverty 2025 Nadowli Kaleo",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM29",
-    "title": "District Multidimensional poverty 2025 Lawra Municipal",
-    "description": "MPI Distict Fact Sheet 2025",
-    "year": 2026,
-    "reportType": "Admin Data"
-  },
-  {
-    "id": "IAM28",
-    "title": "District Multidimensional poverty 2025 Lambussie Karni",
+    "id": "IAM26",
+    "title": "District Multidimensional poverty 2025 Asunafo North Municipal",
     "description": "MPI Distict Fact Sheet 2025",
     "year": 2026,
     "reportType": "Admin Data"
   },
   {
     "id": "IAM27",
+    "title": "District Multidimensional poverty 2025 Asunafo South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM28",
+    "title": "District Multidimensional poverty 2025 Asutifi North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM29",
+    "title": "District Multidimensional poverty 2025 Asutifi South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM30",
+    "title": "District Multidimensional poverty 2025 Tano North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM31",
+    "title": "District Multidimensional poverty 2025 Tano South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM32",
+    "title": "District Multidimensional poverty 2025 Adansi Asokwa",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM33",
+    "title": "District Multidimensional poverty 2025 Adansi North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM34",
+    "title": "District Multidimensional poverty 2025 Adansi South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM35",
+    "title": "District Multidimensional poverty 2025 Afigya Kwabre North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM36",
+    "title": "District Multidimensional poverty 2025 Afigya Kwabre South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM37",
+    "title": "District Multidimensional poverty 2025 Ahafo Ano North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM38",
+    "title": "District Multidimensional poverty 2025 Ahafo Ano South East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM39",
+    "title": "District Multidimensional poverty 2025 Ahafo Ano South West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM40",
+    "title": "District Multidimensional poverty 2025 Akrofuom",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM41",
+    "title": "District Multidimensional poverty 2025 Amansie Central",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM42",
+    "title": "District Multidimensional poverty 2025 Amansie South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM43",
+    "title": "District Multidimensional poverty 2025 Amansie West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM44",
+    "title": "District Multidimensional poverty 2025 Asante Akim Central Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM45",
+    "title": "District Multidimensional poverty 2025 Asante Akim North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM46",
+    "title": "District Multidimensional poverty 2025 Asante Akim South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM47",
+    "title": "District Multidimensional poverty 2025 Asokore Mampong Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM48",
+    "title": "District Multidimensional poverty 2025 Asokwa Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM49",
+    "title": "District Multidimensional poverty 2025 Atwima Kwanwoma",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM50",
+    "title": "District Multidimensional poverty 2025 Atwima Mponua",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM51",
+    "title": "District Multidimensional poverty 2025 Atwima Nwabiagya North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM52",
+    "title": "District Multidimensional poverty 2025 Atwima Nwabiagya South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM53",
+    "title": "District Multidimensional poverty 2025 Bekwai Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM54",
+    "title": "District Multidimensional poverty 2025 Bosome Freho",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM55",
+    "title": "District Multidimensional poverty 2025 Bosomtwi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM56",
+    "title": "District Multidimensional poverty 2025 Ejisu Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM57",
+    "title": "District Multidimensional poverty 2025 Ejura Sekyedumase Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM58",
+    "title": "District Multidimensional poverty 2025 Juaben Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM59",
+    "title": "District Multidimensional poverty 2025 Kumasi Metropolitan Area (KMA)",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM60",
+    "title": "District Multidimensional poverty 2025 Kwabre East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM61",
+    "title": "District Multidimensional poverty 2025 Kwadaso Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM62",
+    "title": "District Multidimensional poverty 2025 Mampong Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM63",
+    "title": "District Multidimensional poverty 2025 Obuasi East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM64",
+    "title": "District Multidimensional poverty 2025 Obuasi Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM65",
+    "title": "District Multidimensional poverty 2025 Offinso Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM66",
+    "title": "District Multidimensional poverty 2025 Offinso North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM67",
+    "title": "District Multidimensional poverty 2025 Oforikrom Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM68",
+    "title": "District Multidimensional poverty 2025 Old Tafo Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM69",
+    "title": "District Multidimensional poverty 2025 Sekyere Afram Plains",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM70",
+    "title": "District Multidimensional poverty 2025 Sekyere Central",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM71",
+    "title": "District Multidimensional poverty 2025 Sekyere East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM72",
+    "title": "District Multidimensional poverty 2025 Sekyere Kumawu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM73",
+    "title": "District Multidimensional poverty 2025 Sekyere South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM74",
+    "title": "District Multidimensional poverty 2025 Suame Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM75",
+    "title": "District Multidimensional poverty 2025 Atebubu Amantin Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM76",
+    "title": "District Multidimensional poverty 2025 Kintampo North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM77",
+    "title": "District Multidimensional poverty 2025 Kintampo South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM78",
+    "title": "District Multidimensional poverty 2025 Nkoranza North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM79",
+    "title": "District Multidimensional poverty 2025 Nkoranza South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM80",
+    "title": "District Multidimensional poverty 2025 Pru East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM81",
+    "title": "District Multidimensional poverty 2025 Pru West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM82",
+    "title": "District Multidimensional poverty 2025 Sene East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM83",
+    "title": "District Multidimensional poverty 2025 Sene West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM84",
+    "title": "District Multidimensional poverty 2025 Techiman Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM85",
+    "title": "District Multidimensional poverty 2025 Techiman North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM86",
+    "title": "District Multidimensional poverty 2025 Banda",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM87",
+    "title": "District Multidimensional poverty 2025 Berekum East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM88",
+    "title": "District Multidimensional poverty 2025 Berekum West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM89",
+    "title": "District Multidimensional poverty 2025 Dormaa Central Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM90",
+    "title": "District Multidimensional poverty 2025 Dormaa East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM91",
+    "title": "District Multidimensional poverty 2025 Dormaa West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM92",
+    "title": "District Multidimensional poverty 2025 Jaman North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM93",
+    "title": "District Multidimensional poverty 2025 Jaman South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM94",
+    "title": "District Multidimensional poverty 2025 Sunyani Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM95",
+    "title": "District Multidimensional poverty 2025 Sunyani West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM96",
+    "title": "District Multidimensional poverty 2025 Tain",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM97",
+    "title": "District Multidimensional poverty 2025 Wenchi Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM98",
+    "title": "District Multidimensional poverty 2025 Abura Asebu Kwamankese",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM99",
+    "title": "District Multidimensional poverty 2025 Agona East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM100",
+    "title": "District Multidimensional poverty 2025 Agona West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM101",
+    "title": "District Multidimensional poverty 2025 Ajumako Enyan Essiam",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM102",
+    "title": "District Multidimensional poverty 2025 Asikuma Odoben Brakwa",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM103",
+    "title": "District Multidimensional poverty 2025 Assin Fosu Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM104",
+    "title": "District Multidimensional poverty 2025 Assin North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM105",
+    "title": "District Multidimensional poverty 2025 Assin South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM106",
+    "title": "District Multidimensional poverty 2025 Awutu Senya East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM107",
+    "title": "District Multidimensional poverty 2025 Awutu Senya",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM108",
+    "title": "District Multidimensional poverty 2025 Cape Coast Metropolitan Area (CCMA)",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM109",
+    "title": "District Multidimensional poverty 2025 Effutu Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM110",
+    "title": "District Multidimensional poverty 2025 Ekumfi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM111",
+    "title": "District Multidimensional poverty 2025 Gomoa Central",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM112",
+    "title": "District Multidimensional poverty 2025 Gomoa East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM113",
+    "title": "District Multidimensional poverty 2025 Gomoa West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM114",
+    "title": "District Multidimensional poverty 2025 Komenda Edina Eguafo Abirem Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM115",
+    "title": "District Multidimensional poverty 2025 Mfantsiman Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM116",
+    "title": "District Multidimensional poverty 2025 Twifo Ati Morkwa",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM117",
+    "title": "District Multidimensional poverty 2025 Twifo Heman Lower Denkyira",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM118",
+    "title": "District Multidimensional poverty 2025 Upper Denkyira East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM119",
+    "title": "District Multidimensional poverty 2025 Upper Denkyira West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM120",
+    "title": "District Multidimensional poverty 2025 Abuakwa North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM121",
+    "title": "District Multidimensional poverty 2025 Abuakwa South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM122",
+    "title": "District Multidimensional poverty 2025 Achiase",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM123",
+    "title": "District Multidimensional poverty 2025 Akwapim North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM124",
+    "title": "District Multidimensional poverty 2025 Akwapim South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM125",
+    "title": "District Multidimensional poverty 2025 Akyemansa",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM126",
+    "title": "District Multidimensional poverty 2025 Asene Manso Akroso",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM127",
+    "title": "District Multidimensional poverty 2025 Asuogyaman",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM128",
+    "title": "District Multidimensional poverty 2025 Atiwa East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM129",
+    "title": "District Multidimensional poverty 2025 Atiwa West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM130",
+    "title": "District Multidimensional poverty 2025 Ayensuano",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM131",
+    "title": "District Multidimensional poverty 2025 Birim Central Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM132",
+    "title": "District Multidimensional poverty 2025 Birim North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM133",
+    "title": "District Multidimensional poverty 2025 Birim South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM134",
+    "title": "District Multidimensional poverty 2025 Denkyembuor",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM135",
+    "title": "District Multidimensional poverty 2025 Fanteakwa North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM136",
+    "title": "District Multidimensional poverty 2025 Fanteakwa South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM137",
+    "title": "District Multidimensional poverty 2025 Kwaebibirem Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM138",
+    "title": "District Multidimensional poverty 2025 Kwahu Afram Plains North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM139",
+    "title": "District Multidimensional poverty 2025 Kwahu Afram Plains South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM140",
+    "title": "District Multidimensional poverty 2025 Kwahu East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM141",
+    "title": "District Multidimensional poverty 2025 Kwahu South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM142",
+    "title": "District Multidimensional poverty 2025 Kwahu West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM143",
+    "title": "District Multidimensional poverty 2025 Lower Manya Krobo Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM144",
+    "title": "District Multidimensional poverty 2025 New Juaben North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM145",
+    "title": "District Multidimensional poverty 2025 New Juaben South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM146",
+    "title": "District Multidimensional poverty 2025 Nsawam Adoagyiri Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM147",
+    "title": "District Multidimensional poverty 2025 Okere",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM148",
+    "title": "District Multidimensional poverty 2025 Suhum Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM149",
+    "title": "District Multidimensional poverty 2025 Upper Manya Krobo",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM150",
+    "title": "District Multidimensional poverty 2025 Upper West Akim",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM151",
+    "title": "District Multidimensional poverty 2025 West Akim Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM152",
+    "title": "District Multidimensional poverty 2025 Yilo Krobo Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM153",
+    "title": "District Multidimensional poverty 2025 Ablekuma Central Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM154",
+    "title": "District Multidimensional poverty 2025 Ablekuma North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM155",
+    "title": "District Multidimensional poverty 2025 Ablekuma West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM156",
+    "title": "District Multidimensional poverty 2025 Accra Metropolitan Area (AMA)",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM157",
+    "title": "District Multidimensional poverty 2025 Ada East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM158",
+    "title": "District Multidimensional poverty 2025 Ada West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM159",
+    "title": "District Multidimensional poverty 2025 Adentan Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM160",
+    "title": "District Multidimensional poverty 2025 Ashaiman Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM161",
+    "title": "District Multidimensional poverty 2025 Ayawaso Central Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM162",
+    "title": "District Multidimensional poverty 2025 Ayawaso East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM163",
+    "title": "District Multidimensional poverty 2025 Ayawaso North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM164",
+    "title": "District Multidimensional poverty 2025 Ayawaso West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM165",
+    "title": "District Multidimensional poverty 2025 Ga Central Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM166",
+    "title": "District Multidimensional poverty 2025 Ga East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM167",
+    "title": "District Multidimensional poverty 2025 Ga North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM168",
+    "title": "District Multidimensional poverty 2025 Ga South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM169",
+    "title": "District Multidimensional poverty 2025 Ga West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM170",
+    "title": "District Multidimensional poverty 2025 Korle Klottey Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM171",
+    "title": "District Multidimensional poverty 2025 Kpone Katamanso Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM172",
+    "title": "District Multidimensional poverty 2025 Krowor Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM173",
+    "title": "District Multidimensional poverty 2025 La Dade-Kotopon Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM174",
+    "title": "District Multidimensional poverty 2025 La Nkwantanang Madina Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM175",
+    "title": "District Multidimensional poverty 2025 Ledzokuku Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM176",
+    "title": "District Multidimensional poverty 2025 Ningo-Prampram",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM177",
+    "title": "District Multidimensional poverty 2025 Okaikoi North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM178",
+    "title": "District Multidimensional poverty 2025 Shai-Osudoku",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM179",
+    "title": "District Multidimensional poverty 2025 Tema Metropolitan Area (TMA)",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM180",
+    "title": "District Multidimensional poverty 2025 Tema West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM181",
+    "title": "District Multidimensional poverty 2025 Weija Gbawe Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM182",
+    "title": "District Multidimensional poverty 2025 Bunkpurugu Nakpanduri",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM183",
+    "title": "District Multidimensional poverty 2025 Chereponi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM184",
+    "title": "District Multidimensional poverty 2025 East Mamprusi Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM185",
+    "title": "District Multidimensional poverty 2025 Mamprugu Moagduri",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM186",
+    "title": "District Multidimensional poverty 2025 West Mamprusi Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM187",
+    "title": "District Multidimensional poverty 2025 Yunyoo Nasuan",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM188",
+    "title": "District Multidimensional poverty 2025 Gushegu Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM189",
+    "title": "District Multidimensional poverty 2025 Karaga",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM190",
+    "title": "District Multidimensional poverty 2025 Kpandai",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM191",
+    "title": "District Multidimensional poverty 2025 Kumbungu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM192",
+    "title": "District Multidimensional poverty 2025 Mion",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM193",
+    "title": "District Multidimensional poverty 2025 Nanton",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM194",
+    "title": "District Multidimensional poverty 2025 Nanumba North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM195",
+    "title": "District Multidimensional poverty 2025 Nanumba South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM196",
+    "title": "District Multidimensional poverty 2025 Saboba",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM197",
+    "title": "District Multidimensional poverty 2025 Sagnarigu Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM198",
+    "title": "District Multidimensional poverty 2025 Savelugu Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM199",
+    "title": "District Multidimensional poverty 2025 Tamale Metropolitan Area (TMA)",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM200",
+    "title": "District Multidimensional poverty 2025 Tatale Sanguli",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM201",
+    "title": "District Multidimensional poverty 2025 Tolon",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM202",
+    "title": "District Multidimensional poverty 2025 Yendi Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM203",
+    "title": "District Multidimensional poverty 2025 Zabzugu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM204",
+    "title": "District Multidimensional poverty 2025 Biakoye",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM205",
+    "title": "District Multidimensional poverty 2025 Guan",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM206",
+    "title": "District Multidimensional poverty 2025 Jasikan Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM207",
+    "title": "District Multidimensional poverty 2025 Kadjebi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM208",
+    "title": "District Multidimensional poverty 2025 Krachi East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM209",
+    "title": "District Multidimensional poverty 2025 Krachi Nchumuru",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM210",
+    "title": "District Multidimensional poverty 2025 Krachi West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM211",
+    "title": "District Multidimensional poverty 2025 Nkwanta North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM212",
+    "title": "District Multidimensional poverty 2025 Nkwanta South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM213",
+    "title": "District Multidimensional poverty 2025 Bole",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM214",
+    "title": "District Multidimensional poverty 2025 Central Gonja",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM215",
+    "title": "District Multidimensional poverty 2025 East Gonja Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM216",
+    "title": "District Multidimensional poverty 2025 North East Gonja",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM217",
+    "title": "District Multidimensional poverty 2025 North Gonja",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM218",
+    "title": "District Multidimensional poverty 2025 Sawla Tuna Kalba",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM219",
+    "title": "District Multidimensional poverty 2025 West Gonja",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM220",
+    "title": "District Multidimensional poverty 2025 Bawku Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM221",
+    "title": "District Multidimensional poverty 2025 Bawku West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM222",
+    "title": "District Multidimensional poverty 2025 Binduri",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM223",
+    "title": "District Multidimensional poverty 2025 Bolgatanga East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM224",
+    "title": "District Multidimensional poverty 2025 Bolgatanga Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM225",
+    "title": "District Multidimensional poverty 2025 Bongo",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM226",
+    "title": "District Multidimensional poverty 2025 Builsa North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM227",
+    "title": "District Multidimensional poverty 2025 Builsa South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM228",
+    "title": "District Multidimensional poverty 2025 Garu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM229",
+    "title": "District Multidimensional poverty 2025 Kasena Nankana Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM230",
+    "title": "District Multidimensional poverty 2025 Kasena Nankana West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM231",
+    "title": "District Multidimensional poverty 2025 Nabdam",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM232",
+    "title": "District Multidimensional poverty 2025 Pusiga",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM233",
+    "title": "District Multidimensional poverty 2025 Talensi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM234",
+    "title": "District Multidimensional poverty 2025 Tempane",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM235",
+    "title": "District Multidimensional poverty 2025 Daffiama Bussie Issa",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM236",
     "title": "District Multidimensional poverty 2025 Jirapa Municipal",
     "description": "MPI Distict Fact Sheet 2025",
     "year": 2026,
     "reportType": "Admin Data"
   },
   {
-    "id": "IAM26",
-    "title": "District Multidimensional poverty 2025 Daffiama Bussie Issa",
+    "id": "IAM237",
+    "title": "District Multidimensional poverty 2025 Lambussie Karni",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM238",
+    "title": "District Multidimensional poverty 2025 Lawra Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM239",
+    "title": "District Multidimensional poverty 2025 Nadowli Kaleo",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM240",
+    "title": "District Multidimensional poverty 2025 Nandom",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM241",
+    "title": "District Multidimensional poverty 2025 Sissala East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM242",
+    "title": "District Multidimensional poverty 2025 Sissala West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM243",
+    "title": "District Multidimensional poverty 2025 Wa East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM244",
+    "title": "District Multidimensional poverty 2025 Wa Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM245",
+    "title": "District Multidimensional poverty 2025 Wa West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM246",
+    "title": "District Multidimensional poverty 2025 Adaklu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM247",
+    "title": "District Multidimensional poverty 2025 Afadzato South",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM248",
+    "title": "District Multidimensional poverty 2025 Agortime-Ziope",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM249",
+    "title": "District Multidimensional poverty 2025 Akatsi North",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM250",
+    "title": "District Multidimensional poverty 2025 Akatsi South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM251",
+    "title": "District Multidimensional poverty 2025 Anloga",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM252",
+    "title": "District Multidimensional poverty 2025 Central Tongu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM253",
+    "title": "District Multidimensional poverty 2025 Ho Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM254",
+    "title": "District Multidimensional poverty 2025 Ho West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM255",
+    "title": "District Multidimensional poverty 2025 Hohoe Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM256",
+    "title": "District Multidimensional poverty 2025 Keta Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM257",
+    "title": "District Multidimensional poverty 2025 Ketu North Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM258",
+    "title": "District Multidimensional poverty 2025 Ketu South Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM259",
+    "title": "District Multidimensional poverty 2025 Kpando Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM260",
+    "title": "District Multidimensional poverty 2025 North Dayi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM261",
+    "title": "District Multidimensional poverty 2025 North Tongu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM262",
+    "title": "District Multidimensional poverty 2025 South Dayi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM263",
+    "title": "District Multidimensional poverty 2025 South Tongu",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM264",
+    "title": "District Multidimensional poverty 2025 Aowin Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM265",
+    "title": "District Multidimensional poverty 2025 Bia East",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM266",
+    "title": "District Multidimensional poverty 2025 Bia West",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM267",
+    "title": "District Multidimensional poverty 2025 Bibiani Anhwiaso Bekwai Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM268",
+    "title": "District Multidimensional poverty 2025 Bodi",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM269",
+    "title": "District Multidimensional poverty 2025 Juaboso",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM270",
+    "title": "District Multidimensional poverty 2025 Sefwi Akontombra",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM271",
+    "title": "District Multidimensional poverty 2025 Sefwi Wiawso Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM272",
+    "title": "District Multidimensional poverty 2025 Suaman",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM273",
+    "title": "District Multidimensional poverty 2025 Ahanta West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM274",
+    "title": "District Multidimensional poverty 2025 Effia Kwesimintsim Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM275",
+    "title": "District Multidimensional poverty 2025 Ellembelle",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM276",
+    "title": "District Multidimensional poverty 2025 Jomoro Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM277",
+    "title": "District Multidimensional poverty 2025 Mpohor",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM278",
+    "title": "District Multidimensional poverty 2025 Nzema East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM279",
+    "title": "District Multidimensional poverty 2025 Prestea-Huni Valley Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM280",
+    "title": "District Multidimensional poverty 2025 Sekondi Takoradi Metropolitan Area (STMA)",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM281",
+    "title": "District Multidimensional poverty 2025 Shama",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM282",
+    "title": "District Multidimensional poverty 2025 Tarkwa-Nsuaem Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM283",
+    "title": "District Multidimensional poverty 2025 Wassa Amenfi Central",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM284",
+    "title": "District Multidimensional poverty 2025 Wassa Amenfi East Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM285",
+    "title": "District Multidimensional poverty 2025 Wassa Amenfi West Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM286",
+    "title": "District Multidimensional poverty 2025 Wassa East",
     "description": "MPI Distict Fact Sheet 2025",
     "year": 2026,
     "reportType": "Admin Data"

@@ -195,11 +195,33 @@ export default function ReportsGrid({
     setPage(1);
   }, [query, yearFilter, typeFilter, sortOrder]);
 
+
+  // Pagination calculations
+
   const totalPages = Math.max(1, Math.ceil(filteredReports.length / pageSize));
   const currentPage = Math.min(page, totalPages);
   const pagedReports = filteredReports.slice(
     (currentPage - 1) * pageSize,
     currentPage * pageSize,
+  );
+
+  const maxVisiblePageButtons = 5;
+
+  let startPage = Math.max(
+    1,
+    currentPage - Math.floor(maxVisiblePageButtons / 2),
+  );
+
+  let endPage = startPage + maxVisiblePageButtons - 1;
+
+  if (endPage > totalPages) {
+    endPage = totalPages;
+    startPage = Math.max(1, endPage - maxVisiblePageButtons + 1);
+  }
+
+  const visiblePages = Array.from(
+    { length: endPage - startPage + 1 },
+    (_, index) => startPage + index,
   );
 
   const handleDownload = async (report: CensusReport, key: string | null) => {
@@ -381,7 +403,7 @@ export default function ReportsGrid({
             >
               Previous
             </button>
-            {Array.from({ length: totalPages }, (_, index) => index + 1).map(
+            {visiblePages.map(
               (pageNumber) => (
                 <button
                   key={pageNumber}
