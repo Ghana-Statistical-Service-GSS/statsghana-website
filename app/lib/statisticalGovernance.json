@@ -13,7 +13,7 @@
     "description": "Data Science Roadmap for statistical office.",
     "year": 2026,
     "reportType": "PDF",
-    "downloadable": false
+    "downloadable": true
   },
   {
     "id": "SG3",
@@ -49,8 +49,8 @@
   },
   {
     "id": "SG7",
-    "title": "Methodology for Estimating Regional and District Level MPI Using SAE",
-    "description": "Methodology for Estimating Regional and District Level MPI Using SAE.",
+    "title": "Methodology for Estimating Multidimensional Poverty (2021-2025)",
+    "description": "Methodological Framework for Estimating the Multidimensional Poverty Index (MPI) at District Level using Small Area Estimation (SAE).",
     "year": 2025,
     "reportType": "PDF",
     "downloadable": true

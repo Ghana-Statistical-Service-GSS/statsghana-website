@@ -1,8 +1,50 @@
 [
   {
+    "id": "IAM30",
+    "title": "District Multidimensional poverty 2025 Nadowli Kaleo",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM29",
+    "title": "District Multidimensional poverty 2025 Lawra Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM28",
+    "title": "District Multidimensional poverty 2025 Lambussie Karni",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM27",
+    "title": "District Multidimensional poverty 2025 Jirapa Municipal",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM26",
+    "title": "District Multidimensional poverty 2025 Daffiama Bussie Issa",
+    "description": "MPI Distict Fact Sheet 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
+    "id": "IAM25",
+    "title": "Multidimensional Poverty National Ranking 2025",
+    "description": "MPI National Ranking 2025",
+    "year": 2026,
+    "reportType": "Admin Data"
+  },
+  {
     "id": "IAM24",
     "title": "Multidimensional Poverty_inforgraphics_2024Q1-2025Q3",
-    "description": "",
+    "description": "Infographics",
     "year": 2026,
     "reportType": "Admin Data"
   },
