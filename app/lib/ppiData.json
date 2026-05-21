@@ -42,6 +42,15 @@
     "data": [
       {
         "key": [
+          "2026M04",
+          "Year-on-year PPI change (%)"
+        ],
+        "values": [
+          "2.7"
+        ]
+      },
+      {
+        "key": [
           "2026M03",
           "Year-on-year PPI change (%)"
         ],

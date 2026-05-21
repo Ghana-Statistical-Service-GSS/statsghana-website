@@ -9,6 +9,27 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "ppi-rate",
+    src: "/images/banner/NEWPPI0426.png",
+    title: "Producer Price Index (PPI)",
+    subtitle: "Check out the latest Producer Price Index inflation rate",
+    content: ["PPI inflation rate stands at 2.7 in April 2026."],
+    downloads: [
+      { 
+        title: "Latest PPI Infographic (PDF)", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PPI Infographic_April 2026_19052026_BSU" 
+      },
+      { 
+        title: "Latest PPI Newsletter (PDF)", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PPI Newsletter_April 2026_19052026_BSU" 
+      },
+      { 
+        title: "Latest PPI Presentation (PDF)", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PPI_PPT_April 2026_19052026_BSU" 
+      },
+    ],
+  },
+  {
     slug: "mieg-rate",
     src: "/images/banner/MIEG0226.png",
     title: "MIEG",
@@ -77,14 +98,16 @@ export const HERO_SLIDES: HeroSlide[] = [
     ],
     downloads: [{ title: "Surveys Report", href: "/publications/survey-reports" }],
   },
-  {
-    slug: "trade",
-    src: "/images/banner/tradeq3_42025.png",
-    title: "Trade Newsletter",
-    subtitle: "Check out the latest Trade Newsletter quarterly 3 and 4 2025.",
-    content: ["Quarterly trade newsletter provides insights into Ghana's trade performance, trends, and key indicators for Q3 and Q4 of 2025."],
-    downloads: [{ title: "Latest Trade Newsletter (PDF)", href: "/data-statistics/business-industry-and-trade-statistics?tab=trade" }],
-  },
+
+  // {
+  //   slug: "trade",
+  //   src: "/images/banner/tradeq3_42025.png",
+  //   title: "Trade Newsletter",
+  //   subtitle: "Check out the latest Trade Newsletter quarterly 3 and 4 2025.",
+  //   content: ["Quarterly trade newsletter provides insights into Ghana's trade performance, trends, and key indicators for Q3 and Q4 of 2025."],
+  //   downloads: [{ title: "Latest Trade Newsletter (PDF)", href: "/data-statistics/business-industry-and-trade-statistics?tab=trade" }],
+  // },
+  
   // {
   //   slug: "website-security-consultancy-2026",
   //   src: "/images/security_consultancy.png",

@@ -1,5 +1,35 @@
 [
   {
+    "id": "ASK9",
+    "program": "PPI_PPT_April 2026_19052026_BSU",
+    "category": "PPI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PPI Presentation"
+  },
+  {
+    "id": "ASK8",
+    "program": "PPI Infographic_April 2026_19052026_BSU",
+    "category": "PPI Infographics",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PPI Infographics"
+  },
+  {
+    "id": "ASK7",
+    "program": "PPI Newsletter_April 2026_19052026_BSU",
+    "category": "PPI Newsletter",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Producer Price Index News letter"
+  },
+  {
     "id": "ASK6",
     "program": "PPI_PPT_March 2026_08042026_rev_kg1-Rev",
     "category": "PPI Presentation",
