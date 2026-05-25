@@ -105,13 +105,6 @@
     "reportType": "Thematic Report"
   },
   {
-    "id": "BA16",
-    "title": "Slums and Informal Settlements in Ghana",
-    "description": "",
-    "year": 2021,
-    "reportType": "Thematic Report"
-  },
-  {
     "id": "BA17",
     "title": "Maternal Motality in Ghana",
     "description": "",
@@ -788,7 +781,7 @@
     "title": "Slum Factsheet",
     "description": "",
     "year": 2025,
-    "reportType": "Thematic Report"
+    "reportType": "Factsheet"
   },
   {
     "id": " SK112",
