@@ -939,6 +939,46 @@
     "year": "2026",
     "sheet": "PBCI Bulletin"
   },
+   {
+    "id": "SK1-13",
+    "program": "03_PBCI_PPT_April_2026",
+    "category": "PBCI Presentation",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Presentation"
+  },
+  {
+    "id": "SK1-14",
+    "program": "PBCI_INFOGRAPHICS_April_2026",
+    "category": "PBCI Infographics",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Infographics"
+  },
+  {
+    "id": "SK1-15",
+    "program": "PBCI_ANNEXES_April_2026",
+    "category": "PBCI Annexes",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Annexes"
+  },
+  {
+    "id": "SK1-16",
+    "program": "April 2026_PBCI-Bulletin",
+    "category": "PBCI Bulletin",
+    "type": "",
+    "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Bulletin"
+  },
   {
     "id": "BD1-5",
     "program": "CPI COICOP back cast 1997_2021_2018 base year",

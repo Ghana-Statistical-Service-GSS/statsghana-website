@@ -32,15 +32,15 @@ export const UPCOMING_RELEASES: UpcomingRelease[] = [
     slug: "pbci-march-2026-release",
     title: "Prime Building Cost Index (PBCI)",
     description:
-      "Presents the March 2026 Prime Building Cost Index bulletin and supporting release materials.",
-    image: "/images/upcomingrelease/PBCI INVITE.png",
+      "Presents the April 2026 Prime Building Cost Index bulletin and supporting release materials.",
+    image: "/images/upcomingrelease/PBCIINVITE0426.png",
     content: [
-      "This release provides the March 2026 Prime Building Cost Index update, including the bulletin, annexes, presentation, and infographics.",
+      "This release provides the April 2026 Prime Building Cost Index update, including the bulletin, annexes, presentation, and infographics.",
       "The PBCI tracks changes in prices of building materials and supports monitoring of construction cost movements in Ghana.",
     ],
     event: {
       status: "Released",
-      expectedRelease: "March 2026",
+      expectedRelease: "April 2026",
       nextUpdate: "Documents are available under Price Indices releases.",
     },
   },
