@@ -9,6 +9,33 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "pbci-april-2026-release",
+    src: "/images/banner/PBCIINVITE0426.png",
+    title: "April 2026 PBCI Release",
+    subtitle: "Prime Building Cost Index bulletin and supporting documents for April 2026.",
+    content: [
+      "Access the April 2026 Prime Building Cost Index release materials, including the bulletin, annexes, presentation, and infographics.",
+    ],
+    downloads: [
+      {
+        title: "PBCI Bulletin",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=April%202026_PBCI-Bulletin",
+      },
+      {
+        title: "PBCI Annexes",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_ANNEXES_April_2026",
+      },
+      {
+        title: "PBCI Presentation",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=03_PBCI_PPT_April_2026",
+      },
+      {
+        title: "PBCI Infographics",
+        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_INFOGRAPHICS_April_2026",
+      },
+    ],
+  },
+  {
     slug: "ppi-rate",
     src: "/images/banner/NEWPPI0426.png",
     title: "Producer Price Index (PPI)",
@@ -58,33 +85,6 @@ export const HERO_SLIDES: HeroSlide[] = [
       {
         title: "View Annual Inflation Report 2025",
         href: "/publications/survey-reports?q=Annual%20Inflation%20Report%202025",
-      },
-    ],
-  },
-  {
-    slug: "pbci-april-2026-release",
-    src: "/images/banner/PBCIINVITE0426.png",
-    title: "April 2026 PBCI Release",
-    subtitle: "Prime Building Cost Index bulletin and supporting documents for April 2026.",
-    content: [
-      "Access the April 2026 Prime Building Cost Index release materials, including the bulletin, annexes, presentation, and infographics.",
-    ],
-    downloads: [
-      {
-        title: "PBCI Bulletin",
-        href: "/data-statistics/economic-statistics?tab=price-index&q=April%202026_PBCI-Bulletin",
-      },
-      {
-        title: "PBCI Annexes",
-        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_ANNEXES_April_2026",
-      },
-      {
-        title: "PBCI Presentation",
-        href: "/data-statistics/economic-statistics?tab=price-index&q=03_PBCI_PPT_April_2026",
-      },
-      {
-        title: "PBCI Infographics",
-        href: "/data-statistics/economic-statistics?tab=price-index&q=PBCI_INFOGRAPHICS_April_2026",
       },
     ],
   },
