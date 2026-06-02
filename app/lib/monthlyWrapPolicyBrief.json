@@ -28,7 +28,15 @@
     "reportType": "Monthly Wrap Up",
     "fileKey": "publications/monthlywrap_policybrief/March 2026_Monthly Wrap up.pdf"
   },
-  
+  {
+    "id": "mwpb-2026-04-monthly-wrap-up",
+    "title": "Monthly Wrap Up - April 2026",
+    "description": "Monthly wrap up publication for April 2026.",
+    "month": "April",
+    "year": 2026,
+    "reportType": "Monthly Wrap Up",
+    "fileKey": "publications/monthlywrap_policybrief/April 2026 Monthly Wrap Up.pdf"
+  },
   {
     "id": "pb-2026-quarter-1",
     "title": "Policy Brief - Quarter 1",
