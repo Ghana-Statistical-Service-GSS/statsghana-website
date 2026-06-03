@@ -9,6 +9,31 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "inflation-rate",
+    src: "/images/banner/newcpi0526.png",
+    title: "Inflation Rate",
+    subtitle: "Check out the latest Inflation rate",
+    content: ["Inflation rate stands at 3.7 in April 2026."],
+    downloads: [
+      { 
+        title: "Latest CPI Bulletin (PDF)", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=May 2026 CPI-Bulletin" 
+      },
+      { 
+        title: "Latest CPI Infographic (PDF)", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=May 2026 CPI-Infographics" 
+      },
+      { 
+        title: "Latest CPI Presentation (PDF)", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=03-May 2026 CPI-PPT-Final" 
+      },
+      { 
+        title: "Latest CPI COICOP Annexes", 
+        href: "/data-statistics/economic-statistics?tab=price-index&q=May 2026 CPI COICOP Annexes" 
+      },
+    ],
+  },
+  {
     slug: "pbci-april-2026-release",
     src: "/images/banner/PBCIINVITE0426.png",
     title: "April 2026 PBCI Release",
@@ -63,14 +88,6 @@ export const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Check out the latest Inflation rate",
     content: ["Inflation rate stands at 7.7 in February 2026."],
     downloads: [{ title: "Latest MIEG Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=national-accounts" }],
-  },
-  {
-    slug: "inflation-rate",
-    src: "/images/banner/newcpi0426.png",
-    title: "Inflation Rate",
-    subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 3.4 in April 2026."],
-    downloads: [{ title: "Latest CPI Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=price-index" }],
   },
   {
     slug: "annual-inflation-report-2025",

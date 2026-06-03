@@ -939,7 +939,7 @@
     "year": "2026",
     "sheet": "PBCI Bulletin"
   },
-   {
+  {
     "id": "SK1-13",
     "program": "03_PBCI_PPT_April_2026",
     "category": "PBCI Presentation",
@@ -975,6 +975,46 @@
     "category": "PBCI Bulletin",
     "type": "",
     "month": "April",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Bulletin"
+  },
+   {
+    "id": "SK1-17",
+    "program": "03-May 2026 CPI-PPT-Final",
+    "category": "PBCI Presentation",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Presentation"
+  },
+  {
+    "id": "SK1-18",
+    "program": "May 2026 CPI-Infographics",
+    "category": "PBCI Infographics",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Infographics"
+  },
+  {
+    "id": "SK1-19",
+    "program": "May 2026 CPI COICOP Annexes",
+    "category": "PBCI Annexes",
+    "type": "",
+    "month": "May",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "PBCI Annexes"
+  },
+  {
+    "id": "SK1-20",
+    "program": "May 2026 CPI-Bulletin",
+    "category": "PBCI Bulletin",
+    "type": "",
+    "month": "May",
     "quarter": "",
     "year": "2026",
     "sheet": "PBCI Bulletin"
