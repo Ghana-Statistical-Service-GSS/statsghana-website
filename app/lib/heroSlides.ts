@@ -13,7 +13,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     src: "/images/banner/newcpi0526.png",
     title: "Inflation Rate",
     subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 3.7 in April 2026."],
+    content: ["Inflation rate stands at 3.7 in May 2026."],
     downloads: [
       { 
         title: "Latest CPI Bulletin (PDF)", 
