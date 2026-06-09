@@ -86,6 +86,7 @@ export const NAV: NavItem[] = [
     "Monthly Wrap & Policy Brief",
     "Administrative Data Reports",
     "Statistical Governance",
+    "Newsletters",
   ]),
   {
     label: "News & Events",

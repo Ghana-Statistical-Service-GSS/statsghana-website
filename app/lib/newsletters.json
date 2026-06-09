@@ -1,0 +1,19 @@
+[
+  {
+    "id": "NL1",
+    "title": "Q3 GSSDP Newsletter 2025",
+    "description": "Ghana Statistical Service Development Partners Platform Newsletter",
+    "year": 2026,
+    "reportType": "PDF",
+    "downloadable": true
+  },
+  {
+    "id": "NL2",
+    "title": "Data Science Roadmap",
+    "description": "Data Science Roadmap for statistical office.",
+    "year": 2026,
+    "reportType": "PDF",
+    "downloadable": false
+  }
+
+]
