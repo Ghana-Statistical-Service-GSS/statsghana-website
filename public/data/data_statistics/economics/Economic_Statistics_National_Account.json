@@ -1,5 +1,15 @@
 [ 
   {
+    "id": "BAS4-7",
+    "program": "MIEG Bulletin March2026 Edition",
+    "category": "MIEG",
+    "type": "",
+    "month": "March",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "Monthly Indicator of Economic G"
+  },
+  {
     "id": "BAS1-4",
     "program": "02_Feb_2026_MIEG_Newsletter",
     "category": "MIEG",
@@ -80,7 +90,27 @@
     "sheet": "Monthly Indicator of Economic G"
   },
 
-{
+  {
+    "id": "AS7",
+    "program": "QGDPE_Expenditure Approach_June 2026_GSS_web",
+    "category": "GDP By Expenditure Approach",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
+    "id": "AS8",
+    "program": "Rebased_GDP_quarterly_bullettin_2006_2026Q1_June_2026 Edition",
+    "category": "GDP Buttleins",
+    "type": "Quarterly",
+    "month": "",
+    "quarter": "1",
+    "year": "2026",
+    "sheet": "AnnualGDPbyExpenditureApproach"
+  },
+  {
     "id": "AS5",
     "program": "2025Q4_quarterly_gdp_newsletter_web",
     "category": "GDP By Production Approach",
