@@ -9,11 +9,11 @@
   },
   {
     "id": "NL2",
-    "title": "Data Science Roadmap",
-    "description": "Data Science Roadmap for statistical office.",
+    "title": "2026Q1 Quarterly GDP Newsletter",
+    "description": "2026Q1 Quarterly GDP Newsletter",
     "year": 2026,
     "reportType": "PDF",
-    "downloadable": false
+    "downloadable": true
   }
 
 ]

@@ -1162,6 +1162,15 @@
           "values": [
             "5.8"
           ]
+        },
+        {
+          "key": [
+            "2026Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.4"
+          ]
         }
       ],
       "metadata": [
@@ -1933,6 +1942,15 @@
           ],
           "values": [
             "5.8"
+          ]
+        },
+        {
+          "key": [
+            "2026Q1",
+            "Real GDP growth rate (year-on-year %)"
+          ],
+          "values": [
+            "6.4"
           ]
         }
       ],

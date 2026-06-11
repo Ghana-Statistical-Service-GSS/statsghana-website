@@ -9,6 +9,22 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
+    slug: "gdp-performance",
+    src: "/images/banner/gdpbannerq226.png",
+    title: "2026 Q1 GDP Highlights",
+    subtitle: "Track Ghana’s first-quarter growth of 2026 GDP estimates.",
+    content: [
+      "The GDP Highlight presents Ghana's Q1 2026 economic performance, recording a growth rate of 6.4%.",
+      "It serves as a consolidated reference for sector performance, growth trends, and national accounts updates to inform decision-making and public communication.",
+    ],
+    downloads: [
+      {
+        title: "GDP Highlights",
+        href: "/data-statistics/economic-statistics?tab=national-accounts",
+      },
+    ],
+  },
+  {
     slug: "inflation-rate",
     src: "/images/banner/newcpi0526.png",
     title: "Inflation Rate",
@@ -81,14 +97,19 @@ export const HERO_SLIDES: HeroSlide[] = [
       },
     ],
   },
-  {
-    slug: "mieg-rate",
-    src: "/images/banner/MIEG0226.png",
-    title: "MIEG",
-    subtitle: "Check out the latest Inflation rate",
-    content: ["Inflation rate stands at 7.7 in February 2026."],
-    downloads: [{ title: "Latest MIEG Bulletin (PDF)", href: "/data-statistics/economic-statistics?tab=national-accounts" }],
-  },
+  // {
+  //   slug: "mieg-rate",
+  //   src: "/images/banner/MIEG0226.png",
+  //   title: "MIEG",
+  //   subtitle: "Check out the latest Inflation rate",
+  //   content: ["Inflation rate stands at 7.7 in February 2026."],
+  //   downloads: [
+  //     { 
+  //       title: "Latest MIEG Bulletin (PDF)", 
+  //       href: "/data-statistics/economic-statistics?tab=national-accounts" 
+  //     }
+  //   ],
+  // },
   {
     slug: "annual-inflation-report-2025",
     src: "/images/banner/annualinflation2025.png",
@@ -141,22 +162,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   //     },
   //   ],
   // },
-  {
-    slug: "gdp-performance",
-    src: "/images/banner/gdpbannerlatest.jpg",
-    title: "2025 Q4 GDP Highlights",
-    subtitle: "Track Ghana’s fourth-quarter growth and the 2025 annual GDP estimates.",
-    content: [
-      "The GDP highlight brings together Ghana's 2025 fourth-quarter results with the 2025 Annual GDP Estimates to show how the economy performed over the full year.",
-      "It supports quick access to sector performance, growth trends, and headline national accounts updates for decision-making and public communication.",
-    ],
-    downloads: [
-      {
-        title: "GDP Highlights",
-        href: "/data-statistics/economic-statistics?tab=national-accounts",
-      },
-    ],
-  },
+
   // {
   //   slug: "mou-signing-2026",
   //   src: "/images/mourelease.png",
