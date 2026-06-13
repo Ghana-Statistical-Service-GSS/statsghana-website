@@ -111,6 +111,16 @@
     "sheet": "AnnualGDPbyExpenditureApproach"
   },
   {
+    "id": "AS9",
+    "program": "2026Q1 Quarterly GDP Newsletter",
+    "category": "GDP Newsletters",
+    "type": "Quarterly",
+    "month": "June",
+    "quarter": "",
+    "year": "2026",
+    "sheet": "QuarterlyGDPbyExpenditureApproach"
+  },
+  {
     "id": "AS5",
     "program": "2025Q4_quarterly_gdp_newsletter_web",
     "category": "GDP By Production Approach",

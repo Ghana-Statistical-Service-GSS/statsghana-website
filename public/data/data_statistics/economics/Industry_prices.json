@@ -80,6 +80,36 @@
     "sheet": "PPI Activity Summary"
   },
   {
+    "id": "BA13",
+    "program": "2026_Q1_IIP_inforgraphics_06062026",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "Q1",
+    "year": "2026",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA14",
+    "program": "2026_Q1_IIP_PPT_corrected",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "Q1",
+    "year": "2026",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
+    "id": "BA15",
+    "program": "2026_Q1_Quarterly_IIP_Newsletter_Corrected",
+    "category": "Index Of Industrial Production (IIP)",
+    "type": "",
+    "month": "",
+    "quarter": "Q1",
+    "year": "2026",
+    "sheet": "Index Of Industrial Production"
+  },
+  {
     "id": "BA1",
     "program": "Press Release. Ghana Index Of Industrial Production (IIP), 2025 – Q",
     "category": "Index Of Industrial Production (IIP)",
